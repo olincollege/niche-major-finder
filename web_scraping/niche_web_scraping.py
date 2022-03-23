@@ -1,19 +1,23 @@
+from types import AsyncGeneratorType
 import requests
 import math
 import pandas as pd
 
 from bs4 import BeautifulSoup as BS
 
-agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
+agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
+    AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
 
 # Create pandas dataframe
 df = pd.DataFrame()
+
 
 states_list = ["alabama"]
 
 for i in states_list:
     # Find text from the college listings for each state
-    url = f"https://www.niche.com/colleges/search/all-colleges/s/{i}/?type=private&type=communityCollege&type=public"
+    url = f"https://www.niche.com/colleges/search/all-colleges/s/{i}/\
+        ?type=private&type=communityCollege&type=public"
     page = requests.get(url, headers=agent)
     html = BS(page.text, "html.parser")
     print(html)
@@ -38,7 +42,8 @@ for i in states_list:
         print(college_name)
 
         # Access each college website
-        college_url = f"http://webcache.googleusercontent.com/search?q=cache:https://www.niche.com/colleges/{college_name}/"
+        college_url = f"http://webcache.googleusercontent.com/search?q=cache:\
+            https://www.niche.com/colleges/{college_name}/"
         college_page = requests.get(college_url, headers=agent)
         college_html = BS(college_page.text, "html.parser")
 
@@ -47,8 +52,10 @@ for i in states_list:
 
         for major in top_majors:
             if major.select(".popular-entity-descriptor"):
-                df["Major"] = major.select('.popular-entity__name')[0].get_text()
-                df["Students"] = major.select('.popular-entity-descriptor')[0].get_text()
+                df["Major"] = major.select('.popular-entity__name')[0].\
+                    get_text()
+                df["Students"] = major.select('.popular-entity-descriptor')[0].\
+                    get_text()
                 df["State"] = i
                 df["Name"] = college["aria-label"]
 
