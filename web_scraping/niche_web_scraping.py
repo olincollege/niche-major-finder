@@ -26,9 +26,15 @@ def getHTMLdocument(url):
 html_document = getHTMLdocument(state_url)
 soup = BS(html_document, 'html.parser')
 data_states = soup.find("div", class_="panel-body")
+# putting state names into a list as all lowercase
 states_uppercase = str(data_states.ul.get_text())
 states = states_uppercase.lower()
 state_list = states.split("\n")
+#adding "-" for state names with space
+for i, state in enumerate(state_list):
+    if " " in state:
+        new_state = state.replace(" ", "-")
+        state_list[i] = new_state
 
 # Rucha's agent
 #agent = {"User-Agent":'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
@@ -43,6 +49,7 @@ agent = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14;\
 # Create pandas dataframe
 df = pd.DataFrame()
 
+
 states_list = ["alabama"]
 
 for i in states_list:
@@ -51,6 +58,7 @@ for i in states_list:
     page = requests.get(url, headers=agent)
     html = BS(page.text, "html.parser")
     print(html)
+
     # Get the total number of colleges in the state from the text
     #number_of_colleges = html.select('.search-result-counter')[0].get_text()
     #number_of_colleges = int(number_of_colleges[:-8])
