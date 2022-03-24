@@ -1,26 +1,22 @@
-from types import AsyncGeneratorType
 import requests
 import math
 import pandas as pd
+import time
 
 from bs4 import BeautifulSoup as BS
 
 agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
     AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
 
-# Create pandas dataframe
-df = pd.DataFrame()
-
-
-states_list = ["alabama"]
+# Create data list
+data = []
+states_list = ["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", "wyoming"]
 
 for i in states_list:
     # Find text from the college listings for each state
-    url = f"https://www.niche.com/colleges/search/all-colleges/s/{i}/\
-        ?type=private&type=communityCollege&type=public"
+    url = f"https://www.niche.com/colleges/search/all-colleges/s/{i}/?type=private&type=communityCollege&type=public"
     page = requests.get(url, headers=agent)
     html = BS(page.text, "html.parser")
-    print(html)
 
     # Get the total number of colleges in the state from the text
     number_of_colleges = html.select('.search-result-counter')[0].get_text()
@@ -28,7 +24,6 @@ for i in states_list:
 
     # Find the number of colleges in the top 10% for each state
     top_ten_percent_of_colleges = math.ceil(0.1 * number_of_colleges)
-    #top_ten_percent_of_colleges = 10
 
     # Loop through all colleges on first page while total < 10% number
     colleges = html.find_all(attrs={'class':"search-result"})
@@ -39,11 +34,9 @@ for i in states_list:
         college_name = college["aria-label"]
         college_name = college_name.lower()
         college_name = college_name.replace(" ", "-")
-        print(college_name)
 
         # Access each college website
-        college_url = f"http://webcache.googleusercontent.com/search?q=cache:\
-            https://www.niche.com/colleges/{college_name}/"
+        college_url = f"https://www.niche.com/colleges/{college_name}/"
         college_page = requests.get(college_url, headers=agent)
         college_html = BS(college_page.text, "html.parser")
 
@@ -51,13 +44,15 @@ for i in states_list:
         top_majors = college_html.select("div.popular-entity")
 
         for major in top_majors:
+            # Filter out results that aren't actually majors
             if major.select(".popular-entity-descriptor"):
-                df["Major"] = major.select('.popular-entity__name')[0].\
-                    get_text()
-                df["Students"] = major.select('.popular-entity-descriptor')[0].\
-                    get_text()
-                df["State"] = i
-                df["Name"] = college["aria-label"]
+                major_name = major.select('.popular-entity__name')[0].get_text()
+                major_students = major.select('.popular-entity-descriptor')[0].get_text()
+                major_students = int(major_students[:-10])
+                data.append([i, college_name, major_name, major_students])
 
         total_colleges_yet += 1
-    print(df)
+        time.sleep(3.6)
+    print(data)
+
+df = pd.DataFrame(data, columns=["State", "College", "Major", "Students"])
