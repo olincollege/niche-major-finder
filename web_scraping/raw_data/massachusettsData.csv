@@ -1,0 +1,142 @@
+State,College,Major,Students
+massachusetts,massachusetts-institute-of-technology,Computer Science,408
+massachusetts,massachusetts-institute-of-technology,Mechanical Engineering,185
+massachusetts,massachusetts-institute-of-technology,Mathematics,111
+massachusetts,massachusetts-institute-of-technology,Physics,86
+massachusetts,massachusetts-institute-of-technology,Chemical Engineering,51
+massachusetts,massachusetts-institute-of-technology,Electrical Engineering,51
+massachusetts,massachusetts-institute-of-technology,Aerospace Engineering,48
+massachusetts,massachusetts-institute-of-technology,Computational and Applied Mathematics,47
+massachusetts,massachusetts-institute-of-technology,Bioengineering and Biomedical Engineering,46
+massachusetts,massachusetts-institute-of-technology,Materials Engineering,39
+massachusetts,harvard-university,Economics,334
+massachusetts,harvard-university,Computer Science,227
+massachusetts,harvard-university,Political Science and Government,196
+massachusetts,harvard-university,History,181
+massachusetts,harvard-university,Social Science Research Methods,178
+massachusetts,harvard-university,Public Health,107
+massachusetts,harvard-university,Computational and Applied Mathematics,103
+massachusetts,harvard-university,Statistics,97
+massachusetts,harvard-university,Research and Experimental Psychology,89
+massachusetts,harvard-university,English,82
+massachusetts,tufts-university,Computer Science,183
+massachusetts,tufts-university,Economics,174
+massachusetts,tufts-university,Biology,171
+massachusetts,tufts-university,International Relations,156
+massachusetts,tufts-university,Political Science and Government,85
+massachusetts,tufts-university,English,60
+massachusetts,tufts-university,Public Health,60
+massachusetts,tufts-university,Research and Experimental Psychology,57
+massachusetts,tufts-university,History,55
+massachusetts,tufts-university,Mechanical Engineering,53
+massachusetts,wellesley-college,Economics,89
+massachusetts,wellesley-college,Political Science and Government,67
+massachusetts,wellesley-college,Research and Experimental Psychology,50
+massachusetts,wellesley-college,Biology,44
+massachusetts,wellesley-college,Information Science,44
+massachusetts,wellesley-college,English,32
+massachusetts,wellesley-college,Mathematics,30
+massachusetts,wellesley-college,Neuroscience and Neurobiology,28
+massachusetts,wellesley-college,Computer Software Engineering,23
+massachusetts,wellesley-college,Chemistry,20
+massachusetts,williams-college,Economics,115
+massachusetts,williams-college,English,60
+massachusetts,williams-college,Political Science and Government,56
+massachusetts,williams-college,Biology,53
+massachusetts,williams-college,History,49
+massachusetts,williams-college,Psychology,47
+massachusetts,williams-college,Mathematics,45
+massachusetts,williams-college,Computer Science,42
+massachusetts,williams-college,Chemistry,34
+massachusetts,williams-college,Arts,26
+massachusetts,boston-college,Economics,397
+massachusetts,boston-college,Psychology,310
+massachusetts,boston-college,Finance,303
+massachusetts,boston-college,Communications,221
+massachusetts,boston-college,Biology,208
+massachusetts,boston-college,Political Science and Government,194
+massachusetts,boston-college,Marketing,127
+massachusetts,boston-college,English,111
+massachusetts,boston-college,Nursing,102
+massachusetts,boston-college,Accounting,96
+massachusetts,northeastern-university,Business,900
+massachusetts,northeastern-university,Information Science,256
+massachusetts,northeastern-university,Mechanical Engineering,222
+massachusetts,northeastern-university,Economics,203
+massachusetts,northeastern-university,Chemical Engineering,154
+massachusetts,northeastern-university,Communications,152
+massachusetts,northeastern-university,Biology,139
+massachusetts,northeastern-university,Neuroscience and Neurobiology,134
+massachusetts,northeastern-university,Research and Experimental Psychology,128
+massachusetts,northeastern-university,Political Science and Government,122
+massachusetts,boston-university,Business,842
+massachusetts,boston-university,Communications,432
+massachusetts,boston-university,Economics,289
+massachusetts,boston-university,Psychology,229
+massachusetts,boston-university,Computer Science,211
+massachusetts,boston-university,International Relations,208
+massachusetts,boston-university,Radio and Television,190
+massachusetts,boston-university,Health Service Preparatory Studies,186
+massachusetts,boston-university,Mechanical Engineering,143
+massachusetts,boston-university,Bioengineering and Biomedical Engineering,129
+massachusetts,amherst-college,Mathematics,74
+massachusetts,amherst-college,Economics,73
+massachusetts,amherst-college,Research and Experimental Psychology,54
+massachusetts,amherst-college,Computer Science,52
+massachusetts,amherst-college,English,41
+massachusetts,amherst-college,History,37
+massachusetts,amherst-college,Political Science and Government,34
+massachusetts,amherst-college,Environmental Science,30
+massachusetts,amherst-college,French Language and Literature,26
+massachusetts,amherst-college,Neuroscience and Neurobiology,26
+massachusetts,babson-college,Business,548
+massachusetts,smith-college,Political Science and Government,67
+massachusetts,smith-college,Economics,55
+massachusetts,smith-college,English,42
+massachusetts,smith-college,Research and Experimental Psychology,41
+massachusetts,smith-college,Engineering,39
+massachusetts,smith-college,Computer Science,38
+massachusetts,smith-college,Sociology,34
+massachusetts,smith-college,History,31
+massachusetts,smith-college,Biology,30
+massachusetts,smith-college,Environmental Science,30
+massachusetts,college-of-the-holy-cross,Economics,120
+massachusetts,college-of-the-holy-cross,Psychology,107
+massachusetts,college-of-the-holy-cross,Political Science and Government,82
+massachusetts,college-of-the-holy-cross,English,67
+massachusetts,college-of-the-holy-cross,Biology,60
+massachusetts,college-of-the-holy-cross,Mathematics,48
+massachusetts,college-of-the-holy-cross,History,44
+massachusetts,college-of-the-holy-cross,Sociology,34
+massachusetts,college-of-the-holy-cross,Chemistry,33
+massachusetts,college-of-the-holy-cross,International Studies,26
+massachusetts,mount-holyoke-college,Computer Science,52
+massachusetts,mount-holyoke-college,Research and Experimental Psychology,45
+massachusetts,mount-holyoke-college,Biology,41
+massachusetts,mount-holyoke-college,Economics,41
+massachusetts,mount-holyoke-college,Political Science and Government,41
+massachusetts,mount-holyoke-college,English,39
+massachusetts,mount-holyoke-college,International Relations,30
+massachusetts,mount-holyoke-college,Mathematics,29
+massachusetts,mount-holyoke-college,History,26
+massachusetts,mount-holyoke-college,Environmental Science,24
+massachusetts,worcester-polytechnic-institute,Mechanical Engineering,248
+massachusetts,worcester-polytechnic-institute,Computer Science,172
+massachusetts,worcester-polytechnic-institute,Electrical Engineering,101
+massachusetts,worcester-polytechnic-institute,Robotics and Automation Engineering,83
+massachusetts,worcester-polytechnic-institute,Bioengineering and Biomedical Engineering,79
+massachusetts,worcester-polytechnic-institute,Chemical Engineering,78
+massachusetts,worcester-polytechnic-institute,Aerospace Engineering,55
+massachusetts,worcester-polytechnic-institute,Civil Engineering,53
+massachusetts,worcester-polytechnic-institute,Industrial Engineering,36
+massachusetts,worcester-polytechnic-institute,Biology,32
+massachusetts,brandeis-university,Economics,188
+massachusetts,brandeis-university,Biology,137
+massachusetts,brandeis-university,Business,133
+massachusetts,brandeis-university,Research and Experimental Psychology,98
+massachusetts,brandeis-university,Public Policy Analysis,96
+massachusetts,brandeis-university,Computer Science,88
+massachusetts,brandeis-university,Mathematics,83
+massachusetts,brandeis-university,Political Science and Government,63
+massachusetts,brandeis-university,International Studies,57
+massachusetts,brandeis-university,Neuroscience and Neurobiology,51
