@@ -18,8 +18,8 @@ def get_html_for_url(url):
 agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
 
 # Find top 10% of colleges for each state
-states_list = ["illinois"]
-#["indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", "wyoming"]
+states_list = ["iowa"]
+#["kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", "wyoming"]
 
 for i in states_list:
     data = []
@@ -38,10 +38,10 @@ for i in states_list:
     # Loop through all colleges on first page while total < 10% number
     colleges = html.find_all(attrs={'class':"search-result"})
     total_colleges_yet = 0
-    index_on_page = 10
+    index_on_page = 3
     current_page = 1
     
-    while total_colleges_yet < 13:
+    while total_colleges_yet < 9:
     #while total_colleges_yet < top_ten_percent_of_colleges:
         # Pause for 20 sec to allow scraping
         time.sleep(20)
