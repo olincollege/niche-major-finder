@@ -1,0 +1,238 @@
+State,College,Major,Students
+california,william-jessup-university,Business,66
+california,william-jessup-university,Psychology,65
+california,william-jessup-university,Elementary Education,34
+california,william-jessup-university,Kinesiology and Exercise Science,19
+california,william-jessup-university,Theological and Ministerial Studies,17
+california,william-jessup-university,English,12
+california,william-jessup-university,Organizational Behavior Studies,10
+california,william-jessup-university,Arts,8
+california,william-jessup-university,Biblical Studies,8
+california,william-jessup-university,Religious Vocations,8
+california,university-of-la-verne,Business,465
+california,university-of-la-verne,Liberal Arts and Humanities,147
+california,university-of-la-verne,Psychology,113
+california,university-of-la-verne,Physical Education Teaching and Coaching,74
+california,university-of-la-verne,Criminology,54
+california,university-of-la-verne,Child Development,53
+california,university-of-la-verne,Biology,43
+california,university-of-la-verne,Information Science,39
+california,university-of-la-verne,Accounting,37
+california,university-of-la-verne,Communications,35
+california,westmont-college,Kinesiology and Exercise Science,46
+california,westmont-college,Managerial Economics,46
+california,westmont-college,Biology,34
+california,westmont-college,Psychology,25
+california,westmont-college,Communications,24
+california,westmont-college,English,20
+california,westmont-college,Chemistry,15
+california,westmont-college,Information Science,13
+california,westmont-college,Liberal Arts and Humanities,13
+california,westmont-college,Sociology,12
+california,california-baptist-university,Business,181
+california,california-baptist-university,Nursing,157
+california,california-baptist-university,Psychology,156
+california,california-baptist-university,Kinesiology and Exercise Science,109
+california,california-baptist-university,Liberal Arts and Humanities,91
+california,california-baptist-university,Criminal Justice and Law Enforcement Administration,63
+california,california-baptist-university,Early Childhood Education,56
+california,california-baptist-university,Accounting,49
+california,california-baptist-university,Sociology,47
+california,california-baptist-university,Graphic Design,45
+california,california-state-university---fullerton,Business,2462
+california,california-state-university---fullerton,Communications,868
+california,california-state-university---fullerton,Psychology,728
+california,california-state-university---fullerton,Early Childhood Education,531
+california,california-state-university---fullerton,Health Service Preparatory Studies,501
+california,california-state-university---fullerton,Physical Education Teaching and Coaching,478
+california,california-state-university---fullerton,Sociology,390
+california,california-state-university---fullerton,Criminal Justice and Safety Studies,366
+california,california-state-university---fullerton,Nursing,285
+california,california-state-university---fullerton,Human Services,282
+california,azusa-pacific-university,Nursing,495
+california,azusa-pacific-university,Psychology,191
+california,azusa-pacific-university,Business,136
+california,azusa-pacific-university,Liberal Arts and Humanities,93
+california,azusa-pacific-university,Communications,69
+california,azusa-pacific-university,Visual and Performing Arts,61
+california,azusa-pacific-university,Physical Education Teaching and Coaching,60
+california,azusa-pacific-university,Marketing,40
+california,azusa-pacific-university,Social Work and Youth Services,39
+california,azusa-pacific-university,Biology,38
+california,university-of-california---santa-cruz,Computer Science,559
+california,university-of-california---santa-cruz,Psychology,443
+california,university-of-california---santa-cruz,Managerial Economics,339
+california,university-of-california---santa-cruz,Cellular Biology,244
+california,university-of-california---santa-cruz,Sociology,237
+california,university-of-california---santa-cruz,Environmental Science,222
+california,university-of-california---santa-cruz,Political Science and Government,166
+california,university-of-california---santa-cruz,Economics,148
+california,university-of-california---santa-cruz,Literature,145
+california,university-of-california---santa-cruz,Cinematography and Video Production,140
+california,lake-tahoe-community-college,Natural Sciences,33
+california,lake-tahoe-community-college,Social Science Research Methods,26
+california,lake-tahoe-community-college,Business,23
+california,lake-tahoe-community-college,Police and Criminal Science,23
+california,lake-tahoe-community-college,Fire Science and Fire Fighting,22
+california,lake-tahoe-community-college,Psychology,22
+california,lake-tahoe-community-college,"Parks, Recreation and Leisure Studies",12
+california,lake-tahoe-community-college,Child Care Provider,8
+california,lake-tahoe-community-college,Sociology,7
+california,lake-tahoe-community-college,Mathematics,6
+california,whittier-college,Business,73
+california,whittier-college,Kinesiology and Exercise Science,41
+california,whittier-college,Psychology,33
+california,whittier-college,Biology,31
+california,whittier-college,Child Development,27
+california,whittier-college,English,27
+california,whittier-college,Political Science and Government,26
+california,whittier-college,Social Science Research Methods,22
+california,whittier-college,Spanish Language and Literature,17
+california,whittier-college,Art History,11
+california,california-institute-of-the-arts,Cinematography and Video Production,52
+california,california-institute-of-the-arts,Acting,32
+california,california-institute-of-the-arts,Studio Arts,29
+california,california-institute-of-the-arts,Theatre Design,22
+california,california-institute-of-the-arts,Dance,19
+california,california-institute-of-the-arts,Photography,19
+california,california-institute-of-the-arts,Music Theory and Composition,12
+california,california-institute-of-the-arts,Graphic Design,9
+california,california-institute-of-the-arts,Computer Software Engineering,7
+california,california-institute-of-the-arts,Music,6
+california,california-state-university---chico,Business,720
+california,california-state-university---chico,Psychology,266
+california,california-state-university---chico,Criminal Justice and Safety Studies,195
+california,california-state-university---chico,Liberal Arts and Humanities,190
+california,california-state-university---chico,Health Service Preparatory Studies,143
+california,california-state-university---chico,Sociology,136
+california,california-state-university---chico,Kinesiology and Exercise Science,126
+california,california-state-university---chico,"Parks, Recreation and Leisure Studies",124
+california,california-state-university---chico,Communications,114
+california,california-state-university---chico,Early Childhood Education,111
+california,santa-barbara-city-college,Liberal Arts and Humanities,2183
+california,santa-barbara-city-college,Natural Sciences,492
+california,santa-barbara-city-college,Communications,158
+california,santa-barbara-city-college,Economics,155
+california,santa-barbara-city-college,Business,127
+california,santa-barbara-city-college,Psychology,102
+california,santa-barbara-city-college,Sociology,95
+california,santa-barbara-city-college,Mathematics,81
+california,santa-barbara-city-college,Medical Records Technician,78
+california,santa-barbara-city-college,Police and Criminal Science,74
+california,california-lutheran-university,Business,130
+california,california-lutheran-university,Psychology,109
+california,california-lutheran-university,Communications,104
+california,california-lutheran-university,Kinesiology and Exercise Science,58
+california,california-lutheran-university,Liberal Arts and Humanities,58
+california,california-lutheran-university,Biology,53
+california,california-lutheran-university,Criminology,40
+california,california-lutheran-university,Accounting,39
+california,california-lutheran-university,Political Science and Government,37
+california,california-lutheran-university,Management Sciences and Information Systems,35
+california,las-positas-college,Liberal Arts and Humanities,361
+california,las-positas-college,Business,138
+california,las-positas-college,Child Care Provider,102
+california,las-positas-college,Psychology,78
+california,las-positas-college,Biology,41
+california,las-positas-college,Police and Criminal Science,33
+california,las-positas-college,Emergency Medical Technician (EMT Paramedic),17
+california,las-positas-college,Fire Protection and Prevention,16
+california,las-positas-college,Kinesiology and Exercise Science,15
+california,las-positas-college,Sociology,15
+california,mt.-san-antonio-college,Business,657
+california,mt.-san-antonio-college,Physical Education Teaching and Coaching,582
+california,mt.-san-antonio-college,Social Science Research Methods,349
+california,mt.-san-antonio-college,Psychology,313
+california,mt.-san-antonio-college,Sociology,220
+california,mt.-san-antonio-college,Child Care Provider,184
+california,mt.-san-antonio-college,Accounting Technician and Bookkeeping,173
+california,mt.-san-antonio-college,Natural Sciences,163
+california,mt.-san-antonio-college,Computer Programming,117
+california,mt.-san-antonio-college,Fire Protection and Prevention,117
+california,university-of-california---merced,Biology,320
+california,university-of-california---merced,Psychology,221
+california,university-of-california---merced,Business,159
+california,university-of-california---merced,Computer Hardware Engineering,129
+california,university-of-california---merced,Mechanical Engineering,113
+california,university-of-california---merced,Public Health,91
+california,university-of-california---merced,Political Science and Government,71
+california,university-of-california---merced,Cognitive Science,65
+california,university-of-california---merced,Sociology,59
+california,university-of-california---merced,Economics,27
+california,california-state-polytechnic-university---pomona,Business,1192
+california,california-state-polytechnic-university---pomona,Hospitality and Tourism Management,291
+california,california-state-polytechnic-university---pomona,Civil Engineering,201
+california,california-state-polytechnic-university---pomona,Mechanical Engineering,201
+california,california-state-polytechnic-university---pomona,Computer Science,186
+california,california-state-polytechnic-university---pomona,Liberal Arts and Humanities,185
+california,california-state-polytechnic-university---pomona,Biology,182
+california,california-state-polytechnic-university---pomona,Psychology,133
+california,california-state-polytechnic-university---pomona,Sociology,119
+california,california-state-polytechnic-university---pomona,Communications,114
+california,vanguard-university-of-southern-california,Psychology,82
+california,vanguard-university-of-southern-california,Business,71
+california,vanguard-university-of-southern-california,Nursing Administration,47
+california,vanguard-university-of-southern-california,Communications,33
+california,vanguard-university-of-southern-california,Religious Studies,30
+california,vanguard-university-of-southern-california,Education,28
+california,vanguard-university-of-southern-california,Kinesiology and Exercise Science,27
+california,vanguard-university-of-southern-california,Biology,19
+california,vanguard-university-of-southern-california,Sociology,18
+california,vanguard-university-of-southern-california,Early Childhood Education,15
+california,california-state-university---maritime-academy,Marine Science,81
+california,california-state-university---maritime-academy,Business,48
+california,california-state-university---maritime-academy,Mechanical Engineering Technician,41
+california,california-state-university---maritime-academy,International Studies,38
+california,california-state-university---maritime-academy,Mechanical Engineering,36
+california,california-state-university---maritime-academy,Engineering Technician,13
+california,california-state-university---maritime-academy,International Relations,0
+california,california-state-university---northridge,Psychology,885
+california,california-state-university---northridge,Business,684
+california,california-state-university---northridge,Sociology,539
+california,california-state-university---northridge,Physical Education Teaching and Coaching,479
+california,california-state-university---northridge,Radio and Television,399
+california,california-state-university---northridge,Marketing,395
+california,california-state-university---northridge,Finance,365
+california,california-state-university---northridge,Liberal Arts and Humanities,363
+california,california-state-university---northridge,Communications,354
+california,california-state-university---northridge,Early Childhood Education,349
+california,cuesta-college,Liberal Arts and Humanities,2218
+california,cuesta-college,Emergency Medical Technician (EMT Paramedic),160
+california,cuesta-college,Business,134
+california,cuesta-college,Health Service Preparatory Studies,98
+california,cuesta-college,Nursing Assistant,61
+california,cuesta-college,Psychiatric and Mental Health Services,56
+california,cuesta-college,Welding,55
+california,cuesta-college,Psychology,52
+california,cuesta-college,Child Care Provider,46
+california,cuesta-college,Nursing,44
+california,hope-international-university,Theological and Ministerial Studies,62
+california,hope-international-university,Business,52
+california,hope-international-university,Education,23
+california,hope-international-university,Psychology,22
+california,hope-international-university,Human Development,21
+california,hope-international-university,Social Science Research Methods,12
+california,hope-international-university,Liberal Arts and Humanities,11
+california,hope-international-university,English,6
+california,hope-international-university,Religious Vocations,3
+california,hope-international-university,Biblical Studies,2
+california,california-state-university---fresno,Business,723
+california,california-state-university---fresno,Liberal Arts and Humanities,491
+california,california-state-university---fresno,Criminology,415
+california,california-state-university---fresno,Psychology,368
+california,california-state-university---fresno,Physical Education Teaching and Coaching,204
+california,california-state-university---fresno,Health Service Preparatory Studies,182
+california,california-state-university---fresno,Agricultural Business,135
+california,california-state-university---fresno,Social Work and Youth Services,130
+california,california-state-university---fresno,Nursing,129
+california,california-state-university---fresno,Sociology,129
+california,west-valley-college,Liberal Arts and Humanities,239
+california,west-valley-college,Business,124
+california,west-valley-college,Communications,55
+california,west-valley-college,Psychology,48
+california,west-valley-college,Police and Criminal Science,45
+california,west-valley-college,Child Care Provider,42
+california,west-valley-college,Paralegal,41
+california,west-valley-college,Sociology,40
+california,west-valley-college,Economics,39
+california,west-valley-college,Natural Resources Conservation and Management,29
