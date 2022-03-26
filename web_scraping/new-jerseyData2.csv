@@ -1,0 +1,151 @@
+State,College,Major,Students
+new-jersey,princeton-university,Computer Science,146
+new-jersey,princeton-university,Economics,144
+new-jersey,princeton-university,Public Policy Analysis,122
+new-jersey,princeton-university,Political Science and Government,72
+new-jersey,princeton-university,Engineering,66
+new-jersey,princeton-university,History,66
+new-jersey,princeton-university,Ecology and Evolutionary Biology,59
+new-jersey,princeton-university,Biochemistry and Molecular Biology,49
+new-jersey,princeton-university,Mechanical Engineering,48
+new-jersey,princeton-university,Electrical Engineering,44
+new-jersey,stevens-institute-of-technology,Mechanical Engineering,183
+new-jersey,stevens-institute-of-technology,Business,82
+new-jersey,stevens-institute-of-technology,Computer Science,80
+new-jersey,stevens-institute-of-technology,Computer Hardware Engineering,64
+new-jersey,stevens-institute-of-technology,Chemical Engineering,59
+new-jersey,stevens-institute-of-technology,Electrical Engineering,51
+new-jersey,stevens-institute-of-technology,Civil Engineering,50
+new-jersey,stevens-institute-of-technology,Bioengineering and Biomedical Engineering,41
+new-jersey,stevens-institute-of-technology,Computational and Applied Mathematics,35
+new-jersey,stevens-institute-of-technology,Engineering,24
+new-jersey,rutgers-university---new-brunswick,Information Science,833
+new-jersey,rutgers-university---new-brunswick,Psychology,495
+new-jersey,rutgers-university---new-brunswick,Biology,409
+new-jersey,rutgers-university---new-brunswick,Human Resources,378
+new-jersey,rutgers-university---new-brunswick,Communications,362
+new-jersey,rutgers-university---new-brunswick,Nursing,362
+new-jersey,rutgers-university---new-brunswick,Finance,358
+new-jersey,rutgers-university---new-brunswick,Economics,344
+new-jersey,rutgers-university---new-brunswick,Public Health,275
+new-jersey,rutgers-university---new-brunswick,Kinesiology and Exercise Science,269
+new-jersey,the-college-of-new-jersey,Business,323
+new-jersey,the-college-of-new-jersey,Biology,104
+new-jersey,the-college-of-new-jersey,Psychology,103
+new-jersey,the-college-of-new-jersey,Elementary Education,91
+new-jersey,the-college-of-new-jersey,Nursing,90
+new-jersey,the-college-of-new-jersey,Communications,80
+new-jersey,the-college-of-new-jersey,English,78
+new-jersey,the-college-of-new-jersey,Mathematics,60
+new-jersey,the-college-of-new-jersey,Special Education and Teaching,57
+new-jersey,the-college-of-new-jersey,History,56
+new-jersey,rutgers-university---newark,Psychology,203
+new-jersey,rutgers-university---newark,Criminal Justice and Safety Studies,198
+new-jersey,rutgers-university---newark,Accounting,180
+new-jersey,rutgers-university---newark,Finance,166
+new-jersey,rutgers-university---newark,Biology,159
+new-jersey,rutgers-university---newark,Logistics and Supply Chain Management,134
+new-jersey,rutgers-university---newark,Social Work and Youth Services,104
+new-jersey,rutgers-university---newark,Marketing,74
+new-jersey,rutgers-university---newark,Public Administration,72
+new-jersey,rutgers-university---newark,Business,57
+new-jersey,seton-hall-university,Liberal Arts and Humanities,186
+new-jersey,seton-hall-university,Biology,142
+new-jersey,seton-hall-university,Finance,141
+new-jersey,seton-hall-university,Nursing,126
+new-jersey,seton-hall-university,Marketing,97
+new-jersey,seton-hall-university,Accounting,75
+new-jersey,seton-hall-university,International Relations,73
+new-jersey,seton-hall-university,Management Sciences and Information Systems,71
+new-jersey,seton-hall-university,Psychology,56
+new-jersey,seton-hall-university,Elementary Education,46
+new-jersey,new-jersey-institute-of-technology,Engineering Technician,228
+new-jersey,new-jersey-institute-of-technology,Mechanical Engineering,219
+new-jersey,new-jersey-institute-of-technology,Information Technology,200
+new-jersey,new-jersey-institute-of-technology,Information Science,191
+new-jersey,new-jersey-institute-of-technology,Civil Engineering,125
+new-jersey,new-jersey-institute-of-technology,Electrical Engineering,95
+new-jersey,new-jersey-institute-of-technology,Chemical Engineering,92
+new-jersey,new-jersey-institute-of-technology,Business,91
+new-jersey,new-jersey-institute-of-technology,Architecture,86
+new-jersey,new-jersey-institute-of-technology,Biology,81
+new-jersey,monmouth-university,Business,339
+new-jersey,monmouth-university,Communications,106
+new-jersey,monmouth-university,Health Service Preparatory Studies,88
+new-jersey,monmouth-university,Education,65
+new-jersey,monmouth-university,Psychology,58
+new-jersey,monmouth-university,English,46
+new-jersey,monmouth-university,Information Science,45
+new-jersey,monmouth-university,Social Work and Youth Services,45
+new-jersey,monmouth-university,Biology,42
+new-jersey,monmouth-university,Political Science and Government,41
+new-jersey,stockton-university,Business,340
+new-jersey,stockton-university,Health Service Preparatory Studies,296
+new-jersey,stockton-university,Psychology,185
+new-jersey,stockton-university,Criminology,161
+new-jersey,stockton-university,Biology,121
+new-jersey,stockton-university,Social Work and Youth Services,103
+new-jersey,stockton-university,Liberal Arts and Humanities,84
+new-jersey,stockton-university,Information Science,83
+new-jersey,stockton-university,Communications,65
+new-jersey,stockton-university,Environmental Science,61
+new-jersey,montclair-state-university,Business,731
+new-jersey,montclair-state-university,Psychology,453
+new-jersey,montclair-state-university,Liberal Arts and Humanities,288
+new-jersey,montclair-state-university,Human Development,270
+new-jersey,montclair-state-university,Biology,192
+new-jersey,montclair-state-university,"Foods, Nutrition, and Wellness Studies",145
+new-jersey,montclair-state-university,English,140
+new-jersey,montclair-state-university,Accounting,113
+new-jersey,montclair-state-university,Social Work and Youth Services,112
+new-jersey,montclair-state-university,Communications,111
+new-jersey,rowan-university,Psychology,337
+new-jersey,rowan-university,Business,303
+new-jersey,rowan-university,Biology,237
+new-jersey,rowan-university,Police and Criminal Science,218
+new-jersey,rowan-university,Music Teacher Education,165
+new-jersey,rowan-university,Liberal Arts and Humanities,158
+new-jersey,rowan-university,Finance,151
+new-jersey,rowan-university,Accounting Technician and Bookkeeping,146
+new-jersey,rowan-university,Radio and Television Broadcasting Technician,124
+new-jersey,rowan-university,Information Science,121
+new-jersey,rutgers-university---camden,Nursing,248
+new-jersey,rutgers-university---camden,Business,209
+new-jersey,rutgers-university---camden,Health Service Preparatory Studies,115
+new-jersey,rutgers-university---camden,Psychology,105
+new-jersey,rutgers-university---camden,Criminal Justice and Safety Studies,84
+new-jersey,rutgers-university---camden,Liberal Arts and Humanities,82
+new-jersey,rutgers-university---camden,Social Work and Youth Services,76
+new-jersey,rutgers-university---camden,Accounting,73
+new-jersey,rutgers-university---camden,Finance,69
+new-jersey,rutgers-university---camden,Biology,61
+new-jersey,drew-university,Business,49
+new-jersey,drew-university,Psychology,33
+new-jersey,drew-university,Economics,26
+new-jersey,drew-university,Drama and Theatre Production,21
+new-jersey,drew-university,English,21
+new-jersey,drew-university,Neuroscience and Neurobiology,21
+new-jersey,drew-university,Biology,19
+new-jersey,drew-university,Biochemistry and Molecular Biology,16
+new-jersey,drew-university,Computer Science,14
+new-jersey,drew-university,Political Science and Government,14
+new-jersey,ramapo-college-of-new-jersey,Business,226
+new-jersey,ramapo-college-of-new-jersey,"Nursing Science, Education, and Practice",121
+new-jersey,ramapo-college-of-new-jersey,Psychology,120
+new-jersey,ramapo-college-of-new-jersey,Communications,115
+new-jersey,ramapo-college-of-new-jersey,Biology,88
+new-jersey,ramapo-college-of-new-jersey,Social Science Research Methods,84
+new-jersey,ramapo-college-of-new-jersey,Social Work and Youth Services,65
+new-jersey,ramapo-college-of-new-jersey,Accounting,64
+new-jersey,ramapo-college-of-new-jersey,Information Science,57
+new-jersey,ramapo-college-of-new-jersey,Multimedia,37
+new-jersey,william-paterson-university-of-new-jersey,Psychology,195
+new-jersey,william-paterson-university-of-new-jersey,Communications,190
+new-jersey,william-paterson-university-of-new-jersey,Criminal Justice and Safety Studies,123
+new-jersey,william-paterson-university-of-new-jersey,Accounting,95
+new-jersey,william-paterson-university-of-new-jersey,Management Sciences and Information Systems,93
+new-jersey,william-paterson-university-of-new-jersey,Marketing,74
+new-jersey,william-paterson-university-of-new-jersey,Nursing,73
+new-jersey,william-paterson-university-of-new-jersey,Biology,70
+new-jersey,william-paterson-university-of-new-jersey,Sociology,69
+new-jersey,william-paterson-university-of-new-jersey,Finance,62
