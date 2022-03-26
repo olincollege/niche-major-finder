@@ -1,0 +1,134 @@
+State,College,Major,Students
+new-york,university-of-rochester,Nursing,216
+new-york,university-of-rochester,Biology,191
+new-york,university-of-rochester,Computer Science,133
+new-york,university-of-rochester,Economics,132
+new-york,university-of-rochester,Management Sciences and Information Systems,124
+new-york,university-of-rochester,Psychology,90
+new-york,university-of-rochester,Music Performance,87
+new-york,university-of-rochester,Electrical Engineering,76
+new-york,university-of-rochester,Mechanical Engineering,76
+new-york,university-of-rochester,Bioengineering and Biomedical Engineering,62
+new-york,vassar-college,Research and Experimental Psychology,56
+new-york,vassar-college,Economics,55
+new-york,vassar-college,Political Science and Government,49
+new-york,vassar-college,Biology,48
+new-york,vassar-college,Mathematics,36
+new-york,vassar-college,Liberal Arts and Humanities,35
+new-york,vassar-college,English,33
+new-york,vassar-college,Neuroscience and Neurobiology,31
+new-york,vassar-college,Information Science,30
+new-york,vassar-college,Drama and Theatre Production,27
+new-york,skidmore-college,Business,93
+new-york,skidmore-college,Psychology,73
+new-york,skidmore-college,English,49
+new-york,skidmore-college,Economics,44
+new-york,skidmore-college,Political Science and Government,37
+new-york,skidmore-college,Fine Arts,33
+new-york,skidmore-college,International Relations,29
+new-york,skidmore-college,Sociology,26
+new-york,skidmore-college,Mathematics,24
+new-york,skidmore-college,Neuroscience and Neurobiology,23
+new-york,rensselaer-polytechnic-institute,Computer Science,197
+new-york,rensselaer-polytechnic-institute,Mechanical Engineering,191
+new-york,rensselaer-polytechnic-institute,Chemical Engineering,115
+new-york,rensselaer-polytechnic-institute,Bioengineering and Biomedical Engineering,85
+new-york,rensselaer-polytechnic-institute,Electrical Engineering,83
+new-york,rensselaer-polytechnic-institute,Aerospace Engineering,77
+new-york,rensselaer-polytechnic-institute,Business,76
+new-york,rensselaer-polytechnic-institute,Computer Systems Technician,72
+new-york,rensselaer-polytechnic-institute,Architecture,61
+new-york,rensselaer-polytechnic-institute,Civil Engineering,52
+new-york,yeshiva-university,Religious Studies,524
+new-york,yeshiva-university,Biology,110
+new-york,yeshiva-university,Accounting,75
+new-york,yeshiva-university,Psychology,69
+new-york,yeshiva-university,Business,58
+new-york,yeshiva-university,Finance,58
+new-york,yeshiva-university,Marketing,36
+new-york,yeshiva-university,Liberal Arts and Humanities,26
+new-york,yeshiva-university,Political Science and Government,20
+new-york,yeshiva-university,Mathematics,16
+new-york,union-college---new-york,Economics,68
+new-york,union-college---new-york,Mechanical Engineering,57
+new-york,union-college---new-york,Political Science and Government,42
+new-york,union-college---new-york,Biology,39
+new-york,union-college---new-york,Research and Experimental Psychology,38
+new-york,union-college---new-york,Liberal Arts and Humanities,30
+new-york,union-college---new-york,Neuroscience and Neurobiology,29
+new-york,union-college---new-york,Bioengineering and Biomedical Engineering,26
+new-york,union-college---new-york,English,26
+new-york,union-college---new-york,Electrical Engineering,17
+new-york,syracuse-university,Information Science,290
+new-york,syracuse-university,Psychology,245
+new-york,syracuse-university,Economics,229
+new-york,syracuse-university,Political Science and Government,170
+new-york,syracuse-university,Finance,160
+new-york,syracuse-university,Radio and Television,152
+new-york,syracuse-university,Marketing,127
+new-york,syracuse-university,Public Relations,114
+new-york,syracuse-university,Architecture,111
+new-york,syracuse-university,Accounting,107
+new-york,st.-lawrence-university,Economics,97
+new-york,st.-lawrence-university,Business,95
+new-york,st.-lawrence-university,Psychology,85
+new-york,st.-lawrence-university,Political Science and Government,55
+new-york,st.-lawrence-university,Biology,53
+new-york,st.-lawrence-university,Social Sciences,41
+new-york,st.-lawrence-university,English,40
+new-york,st.-lawrence-university,Communications,37
+new-york,st.-lawrence-university,Mathematics,31
+new-york,st.-lawrence-university,Information Science,26
+new-york,united-states-merchant-marine-academy,Marine Science,111
+new-york,united-states-merchant-marine-academy,Engineering,56
+new-york,united-states-merchant-marine-academy,Systems Engineering,33
+new-york,cuny-baruch-college,Finance,937
+new-york,cuny-baruch-college,Accounting,651
+new-york,cuny-baruch-college,Merchandising and Buying Operations,421
+new-york,cuny-baruch-college,Corporate Communications,292
+new-york,cuny-baruch-college,Information Science,248
+new-york,cuny-baruch-college,Business,208
+new-york,cuny-baruch-college,Psychology,107
+new-york,cuny-baruch-college,Entrepreneurship,87
+new-york,cuny-baruch-college,Managerial Economics,82
+new-york,cuny-baruch-college,Political Science and Government,75
+new-york,fordham-university,Business,211
+new-york,fordham-university,Economics,169
+new-york,fordham-university,Communications,159
+new-york,fordham-university,Finance,150
+new-york,fordham-university,Psychology,144
+new-york,fordham-university,Accounting,139
+new-york,fordham-university,Political Science and Government,123
+new-york,fordham-university,Information Science,122
+new-york,fordham-university,International Relations,105
+new-york,fordham-university,English,98
+new-york,rochester-institute-of-technology,Liberal Arts and Humanities,179
+new-york,rochester-institute-of-technology,Mechanical Engineering,166
+new-york,rochester-institute-of-technology,Computer Science,135
+new-york,rochester-institute-of-technology,Computer Graphics,128
+new-york,rochester-institute-of-technology,Electrical Engineering,118
+new-york,rochester-institute-of-technology,Mechanical Engineering Technician,108
+new-york,rochester-institute-of-technology,Computer Software Engineering,96
+new-york,rochester-institute-of-technology,Biomedical Sciences and Molecular Medicine,85
+new-york,rochester-institute-of-technology,Industrial Engineering,78
+new-york,rochester-institute-of-technology,Computer and Information Systems Security,74
+new-york,hobart-and-william-smith-colleges,Economics,69
+new-york,hobart-and-william-smith-colleges,Communications,59
+new-york,hobart-and-william-smith-colleges,Biology,44
+new-york,hobart-and-william-smith-colleges,Political Science and Government,36
+new-york,hobart-and-william-smith-colleges,Psychology,33
+new-york,hobart-and-william-smith-colleges,Environmental Science,31
+new-york,hobart-and-william-smith-colleges,History,27
+new-york,hobart-and-william-smith-colleges,Information Science,24
+new-york,hobart-and-william-smith-colleges,Architecture,22
+new-york,hobart-and-william-smith-colleges,International Relations,20
+new-york,st.-bonaventure-university,Accounting,43
+new-york,st.-bonaventure-university,Finance,43
+new-york,st.-bonaventure-university,Marketing,35
+new-york,st.-bonaventure-university,Sport and Fitness Management,28
+new-york,st.-bonaventure-university,Digital Communication and Media/Multimedia,26
+new-york,st.-bonaventure-university,Business,25
+new-york,st.-bonaventure-university,Biology,24
+new-york,st.-bonaventure-university,Special Education and Teaching,22
+new-york,st.-bonaventure-university,Journalism,19
+new-york,st.-bonaventure-university,Psychology,19
