@@ -25,8 +25,8 @@ for i in states_list:
     data = []
 
     # Find text from the college listings for each state
-    html = get_html_for_url(f"http://webcache.googleusercontent.com/search?q=cache:https://www.niche.com/colleges/search/all-colleges/s/{i}/?page=2/")
-    #html = get_html_for_url(f"https://www.niche.com/colleges/search/all-colleges/s/{i}/")
+    #html = get_html_for_url(f"http://webcache.googleusercontent.com/search?q=cache:https://www.niche.com/colleges/search/all-colleges/s/{i}/?page=2/")
+    html = get_html_for_url(f"https://www.niche.com/colleges/search/all-colleges/s/{i}/?page=2")
 
     # Get the total number of colleges in the state from the text
     number_of_colleges = html.select('.search-result-counter')[0].get_text()
@@ -34,14 +34,15 @@ for i in states_list:
 
     # Find the number of colleges in the top 10% for each state
     top_ten_percent_of_colleges = math.ceil(0.1 * number_of_colleges)
+    print(top_ten_percent_of_colleges)
 
     # Loop through all colleges on first page while total < 10% number
     colleges = html.find_all(attrs={'class':"search-result"})
-    total_colleges_yet = 25
-    index_on_page = 0
+    total_colleges_yet = 0
+    index_on_page = 8
     current_page = 2
     
-    while total_colleges_yet < (top_ten_percent_of_colleges - 25):
+    while total_colleges_yet < 8:
         # Pause for 20 sec to allow scraping
         time.sleep(20)
 
@@ -53,8 +54,8 @@ for i in states_list:
         college_name = college_name.replace(" ", "-")
 
         # Access each college website
-        #college_html = get_html_for_url(f"https://www.niche.com/colleges/{college_name}/")
-        college_html = get_html_for_url(f"http://webcache.googleusercontent.com/search?q=cache:https://www.niche.com/colleges/{college_name}/")
+        college_html = get_html_for_url(f"https://www.niche.com/colleges/{college_name}/")
+        #college_html = get_html_for_url(f"http://webcache.googleusercontent.com/search?q=cache:https://www.niche.com/colleges/{college_name}/")
         print(college_html)
 
         # Loop through information for each major on the website and add to data
@@ -75,8 +76,8 @@ for i in states_list:
         # Move to next page if needed
         if index_on_page == 25:
             current_page += 1
-            html = get_html_for_url(f"http://webcache.googleusercontent.com/search?q=cache:https://www.niche.com/colleges/search/all-colleges/s/{i}/?page={current_page}")
-            #html = get_html_for_url(f"https://www.niche.com/colleges/search/all-colleges/s/{i}/?page={current_page}")
+            #html = get_html_for_url(f"http://webcache.googleusercontent.com/search?q=cache:https://www.niche.com/colleges/search/all-colleges/s/{i}/?page={current_page}")
+            html = get_html_for_url(f"https://www.niche.com/colleges/search/all-colleges/s/{i}/?page={current_page}")
             colleges = html.find_all(attrs={'class':"search-result"})
 
             # Reset page index
@@ -85,7 +86,7 @@ for i in states_list:
 
         # Create csv for each state's data
         df = pd.DataFrame(data, columns=["State", "College", "Major", "Students"])
-        df.to_csv(f"{i}Data3.csv", index=False)
+        df.to_csv(f"{i}Data4.csv", index=False)
         print(data)
 
         
