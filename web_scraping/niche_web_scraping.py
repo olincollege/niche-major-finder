@@ -10,6 +10,14 @@ This file
 """
 
 def get_html_for_url(url):
+    """
+
+    Args: 
+        url:
+
+    Returns:
+
+    """
     page = requests.get(url, headers=agent, timeout=7)
     html = BS(page.text, "html.parser")
     return html
@@ -17,8 +25,9 @@ def get_html_for_url(url):
 # Agent for scraping header
 agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
 
-# Find top 10% of colleges for each state
-states_list = ["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", "wyoming"]
+# Find top 10% of colleges for each state in the list
+states_list = ["alabama"]
+# states_list = ["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", "wyoming"]
 
 for i in states_list:
     data = []
@@ -74,13 +83,11 @@ for i in states_list:
             html = get_html_for_url(f"https://www.niche.com/colleges/search/all-colleges/s/{i}/?page={current_page}")
             colleges = html.find_all(attrs={'class':"search-result"})
 
-            # Reset page index
+            # Reset page index on next page
             index_on_page = 0
+
         total_colleges_yet += 1
 
         # Create csv for each state's data
         df = pd.DataFrame(data, columns=["State", "College", "Major", "Students"])
         df.to_csv(f"{i}Data.csv", index=False)
-
-        
-    
