@@ -131,9 +131,15 @@ def sum_common_broad_major_for_all_states(df):
 def sum_common_broad_major_for_country(df):
     """
     """
-    all_majors = df[""]
+    all_majors = df["Major"].unique()
 
+    country_summed = []
 
+    for major in all_majors:
+        this_major_df = df.loc[df["Major"] == major]
+        country_summed.append([major, this_major_df['Students'].sum()])
+    
+    return country_summed
 
 os.chdir("raw_data")
 # files_to_df() --> to create combined_data.csv
@@ -146,7 +152,11 @@ broader_df = replace_major_with_broader_major(df)
 broader_df.to_csv("broader_major_combined_data.csv", index=False, encoding="utf-8-sig")
 
 broader_summed = sum_common_broad_major_for_all_states(broader_df)
-broader_summed_df = pd.DataFrame.from_dict(broader_summed)
-broader_summed_df.columns["Major", "Students", "State"]
+broader_summed_df = pd.DataFrame.from_dict(broader_summed, orient='columns')
+broader_summed_df.columns=["Major","Students","State"]
 broader_summed_df.to_csv("broader_major_summed_data.csv", index=False, encoding="utf-8-sig")
 
+country_summed = sum_common_broad_major_for_country(broader_df)
+country_summed_df = pd.DataFrame.from_dict(country_summed, orient='columns')
+country_summed_df.columns=["Major", "Students"]
+country_summed_df.to_csv("broader_major_whole_country.csv", index=False, encoding="utf-8-sig")
