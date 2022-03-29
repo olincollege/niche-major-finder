@@ -56,3 +56,22 @@ while total_colleges_yet < top_ten_percent_of_colleges:
     time.sleep(5)
 print(data)
 
+import pandas as pd
+import os
+import glob
+
+def files_to_df():
+    """
+    This function __FINISH__
+    Args:
+        folder_name:
+
+    Returns:
+
+    """
+    os.chdir("raw_data")
+    all_filenames = sorted([i for i in glob.glob("*.{}".format("csv"))])
+    print(all_filenames)
+    print([pd.read_csv(f) for f in all_filenames])
+
+files_to_df()
