@@ -30,6 +30,7 @@ def find_broader_major(major_entered):
     """
     """
     # Dictionary that maps majors to broader categories
+    # This was hand sorted from the results of the unique majors
     broader_major_dict = {
         "Bioengineering": ['Bioengineering and Biomedical Engineering', 'Biotechnology', 'Environmental Engineering'],
         "Chemical Engineering": ['Chemical Engineering', 'Materials Engineering'], 
@@ -102,11 +103,16 @@ def sum_common_broad_major_for_state(df, state_name):
     """
 
     """
-    this_state_df = df.loc(df['State'] == state_name)
+    this_state_df = df.loc[df['State'] == state_name]
     this_state_broad_majors = this_state_df['Major'].unique()
-    for broad_major in this_state_broad_majors:
-        summed_majors = this_state_df.groupby('Major')['Students'].sum()[broad_major]
-        print(summed_majors)
+
+    this_state_summed = {}
+
+    for broad_major in this_state_broad_majors:        
+        this_major_df = this_state_df.loc[this_state_df['Major'] == broad_major]
+        this_state_summed.update({broad_major: this_major_df['Students'].sum()})
+
+    return this_state_summed
 
 
 # files_to_df() --> to create combined_data.csv
@@ -119,4 +125,6 @@ os.chdir('..')
 broader_df = replace_major_with_broader_major(df)
 broader_df.to_csv("broader_major_combined_data.csv", index=False, encoding="utf-8-sig")
 
-sum_common_broad_major_for_state(df, "Alabama")
+all_states = df["State"].unique()
+for state in all_states:
+    sum_common_broad_major_for_state(broader_df, state)
