@@ -108,12 +108,24 @@ def sum_common_broad_major_for_state(df, state_name):
 
     this_state_summed = {}
 
-    for broad_major in this_state_broad_majors:        
+    for broad_major in this_state_broad_majors:
         this_major_df = this_state_df.loc[this_state_df['Major'] == broad_major]
         this_state_summed.update({broad_major: this_major_df['Students'].sum()})
 
     return this_state_summed
 
+def sum_common_broad_major_for_all_states(df):
+    """
+    """
+    all_states = df["State"].unique()
+
+    all_state_summed = {}
+    for state in all_states:
+        this_state_summed = sum_common_broad_major_for_state(broader_df, state)
+        all_state_summed.update({state: this_state_summed})
+
+    broader_major_summed_data = pd.DataFrame.from_dict(all_state_summed)
+    print(broader_major_summed_data)
 
 # files_to_df() --> to create combined_data.csv
 os.chdir("raw_data")
@@ -125,6 +137,4 @@ os.chdir('..')
 broader_df = replace_major_with_broader_major(df)
 broader_df.to_csv("broader_major_combined_data.csv", index=False, encoding="utf-8-sig")
 
-all_states = df["State"].unique()
-for state in all_states:
-    sum_common_broad_major_for_state(broader_df, state)
+sum_common_broad_major_for_all_states(broader_df)
