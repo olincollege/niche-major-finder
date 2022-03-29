@@ -53,7 +53,7 @@ def find_broader_major(major_entered):
         "Dental": ['Dental Hygiene', 'Dental Assisting'], 
         "Medical Technicians": ['Radiologic Technician', 'Sonographer and Ultrasound Technician', 'Respiratory Care Therapy', 'Emergency Medical Technician (EMT Paramedic)', 'Phlebotomy Technician', 'Medical Assistant', 'Radiation Therapy', 'Medical Technician', 'Cardiovascular Technician', 'Medical Laboratory Technician', 'Emergency Care Attendant (EMT)', 'Occupational Safety and Health Technician', 'Health Aides and Attendants', 'Surgical Technologist', 'Lab Technician'], 
         "Medical Recording": ['Medical Records Technician', 'Medical Insurance Coding'], 
-        "Pharmacy": ['Pharmacy Technician', 'Pharmacy and Pharmaceutical Sciences'], 
+        "Pharmacy": ['Pharmacy Technician', 'Pharmacy and Pharmaceutical Sciences', 'Pharmacology and Toxicology'], 
         "Trade Mechanical Engineering": ['HVAC and Refrigeration Engineering Technician', 'Welding', 'Mining and Petroleum Engineering', 'General Construction Trades', 'Heavy Equipment Maintenance Technician', 'Machine and Metal Working', 'Construction Engineering Technician', 'Carpentry', 'Mechanical Engineering Technician', 'Engineering Technician', 'Mechanics and Repair', 'Civil Engineering Technician', 'Manufacturing Engineering Technician', 'Automotive Mechanics', 'Construction and Heavy Equipment Operation', 'Diesel Mechanics'], 
         "Trade Electrical": ['Electrician', 'Electrical Engineering Technician', 'Electronics Equipment Installation and Repair', 'Computer Systems Technician', 'Instrumentation Technician'], 
         "Trade Aerospace": ['Air Transportation', 'Professional Pilot', 'Aerospace Engineering Technician', 'Aircraft Maintenance'], 
@@ -99,18 +99,18 @@ def replace_major_with_broader_major(df):
         i += 1
     return df
 
-def sum_common_broad_major_for_state(df, state_name):
+def sum_common_broad_major_for_each_state(df, state_name):
     """
 
     """
     this_state_df = df.loc[df['State'] == state_name]
     this_state_broad_majors = this_state_df['Major'].unique()
 
-    this_state_summed = {}
+    this_state_summed = []
 
     for broad_major in this_state_broad_majors:
         this_major_df = this_state_df.loc[this_state_df['Major'] == broad_major]
-        this_state_summed.update({broad_major: this_major_df['Students'].sum()})
+        this_state_summed.append([broad_major, this_major_df['Students'].sum()])
 
     return this_state_summed
 
@@ -118,17 +118,25 @@ def sum_common_broad_major_for_all_states(df):
     """
     """
     all_states = df["State"].unique()
+    all_state_summed = []
 
-    all_state_summed = {}
     for state in all_states:
-        this_state_summed = sum_common_broad_major_for_state(broader_df, state)
-        all_state_summed.update({state: this_state_summed})
+        this_state_summed = sum_common_broad_major_for_each_state(broader_df, state)
+        for major_list in this_state_summed:
+            major_list.append(state)
+            all_state_summed.append(major_list)
 
-    broader_major_summed_data = pd.DataFrame.from_dict(all_state_summed)
-    print(broader_major_summed_data)
+    return all_state_summed
 
-# files_to_df() --> to create combined_data.csv
+def sum_common_broad_major_for_country(df):
+    """
+    """
+    all_majors = df[""]
+
+
+
 os.chdir("raw_data")
+# files_to_df() --> to create combined_data.csv
 df = pd.read_csv("combined_data.csv")
 
 # unique_majors = df['Major'].unique() --> to find majors for categories - manually sort
@@ -137,4 +145,8 @@ os.chdir('..')
 broader_df = replace_major_with_broader_major(df)
 broader_df.to_csv("broader_major_combined_data.csv", index=False, encoding="utf-8-sig")
 
-sum_common_broad_major_for_all_states(broader_df)
+broader_summed = sum_common_broad_major_for_all_states(broader_df)
+broader_summed_df = pd.DataFrame.from_dict(broader_summed)
+broader_summed_df.columns["Major", "Students", "State"]
+broader_summed_df.to_csv("broader_major_summed_data.csv", index=False, encoding="utf-8-sig")
+
