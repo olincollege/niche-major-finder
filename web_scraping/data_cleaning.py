@@ -17,7 +17,16 @@ def files_to_df():
     combined_data = pd.concat([pd.read_csv(f) for f in all_filenames])
     combined_csv = combined_data.to_csv("combined_data.csv", index=False, encoding="utf-8-sig")
 
-    df = pd.read_csv("combined_data.csv")
-    return df
+def find_condensed_major(major_entered):
+    """
+    """
+    condensed_major_dic = {"Bioengineering": ['Bioengineering and Biomedical Engineering', 'Biotechnology', 'Environmental Engineering'
+]}
 
-df = files_to_df()
+
+# files_to_df()
+df = pd.read_csv("combined_data.csv")
+unique_majors = df['Major'].unique()
+
+for major_entry in df['Major']:
+
