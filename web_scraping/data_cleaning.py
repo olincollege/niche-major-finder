@@ -41,7 +41,7 @@ def find_broader_major(major_entered):
 
     Args:
         major_entered: A string representing the name of a specific major for
-        which the broader category is to be found.
+                        which the broader category is to be found.
 
     Returns:
     A string representing the condensed category of the input major.
@@ -227,50 +227,65 @@ def find_broader_major(major_entered):
         'Divinity, Ministry, and Pre-Theology', \
         'Pastoral Counseling and Specialized Ministries']}
     
+    # Loop through each dict entry to find the major
     for this_major_list in broader_major_dict.values():
         if major_entered in this_major_list:
             return get_key(this_major_list, broader_major_dict)
 
 def replace_major_with_broader_major(df):
     """
-    This function loops through a list and replaces all the elements which are
-    specific major names with the condensed major names.
+    This function replaces all the specific major names with the broader
+    major names in a dataframe
 
-    Arg:
-    df: A list of major names before being modified.
+    Args:
+        df: A Pandas DataFrame containing a column called 'Major' that has
+            specific names for majors.
 
-    Return:
-    df: A list of major names with each name being replaced by the condensed
-    version of major name.
-
+    Returns:
+    A Pandas DataFrame where all specific major names in the column 'Major' have
+    been replaced with the broader version of the name.
     """
-    i = 0
-    while i < len(df):
-        df['Major'][i] = find_broader_major(df['Major'][i])
-        i += 1
+    index = 0
+
+    # Replace specific major with broader major for all values in df
+
+    while index < len(df):
+        df['Major'][index] = find_broader_major(df['Major'][index])
+        index += 1
     return df
 
-def sum_common_broad_major_for_each_state(df, state_name):
+def sum_broad_major_per_state(df, state_name):
     """
-    This function takes a state name and look for it in the combined .csv file.
-    It returns a list of different majors in this state and the number of
-    students enrolled in that major.
+    This function sums the number of students in each college for unique majors
+    for a single state
+    
+    This function requires that the Pandas DataFrame entered has columns
+    named 'State', 'Major', 'Students' with the correct types.
     
     Args: 
-    df: The .csv file that contains all states, colleges, majors, and number of
-    students enrolled in that major.
-    state_name: A string that is a state name.
+        df: A Pandas DataFrame containing columns with the state name, college
+            name, broad major name, and number of students enrolled in that
+            major.
+        state_name: A string representing a state name.
     
     Return:
-    this_state_summed: A list that contains all major names that show up in the
-    input state and the number of student enrolled in these majors.
+    A list that contains nested lists containing the state name, the name of
+    the major and the number of student enrolled in it. This will only return
+    values for a single state.
+
+        Example:
+        [['alabama', 'science', 54], ['alabama', 'math', 32]]
 
     """
+    # Create df with data from state entered
     this_state_df = df.loc[df['State'] == state_name]
+
+    # Find all majors in the state
     this_state_broad_majors = this_state_df['Major'].unique()
 
     this_state_summed = []
 
+    # Create list with summed number of students in each major for the state
     for broad_major in this_state_broad_majors:
         this_major_df = this_state_df.loc[this_state_df['Major'] == broad_major]
         this_state_summed.append([state_name, broad_major,\
@@ -278,55 +293,64 @@ def sum_common_broad_major_for_each_state(df, state_name):
 
     return this_state_summed
 
-def sum_common_broad_major_for_all_states(df):
+def sum_broad_major_all_states(df):
     """
-    This function loops through all the states and produces lists of majors and
-    number of students enrolled in that major for each state.
+    This function provides the sum of number of students that major in a
+    certain subject for all states in the DataFrame entered.
     
     Args:
-    df: The .csv file that contains all states, colleges, majors, and number of
-    students enrolled that major.
-    all_state_summed: A list of lists with condenced major names, number of
-    students enrolled in each major in each state, and each state name.
+        df: The Pandas DataFrame that contains columns with the state names,
+            college names, major names, and number of students enrolled in that
+            major.
 
-    Return:
-    all_state_summed: a list with lists of majors and number of students
-    enrolled in that major for each state.
+    Returns:
+    A list that contains nested lists containing the state name, the name of
+    the major and the number of student enrolled in it. This will return values
+    for all states in the DataFrame entered.
+
+        Example:
+        [['alabama', 'science', 54], ['alaska', 'math', 23]]
 
     """
+    # Find all states in df
     all_states = df["State"].unique()
+
     all_state_summed = []
 
+    # Create list with summed number of students in a major for every state
     for state in all_states:
-        this_state_summed = sum_common_broad_major_for_each_state(df, state)
+        this_state_summed = sum_broad_major_per_state(df, state)
         all_state_summed = all_state_summed + this_state_summed
 
     return all_state_summed
 
-def sum_common_broad_major_for_country(df):
+def sum_broad_major_country(df):
     """
-    This function loops through all majors in the .csv file, and creates a list
-    with lists of majors and the total number of students enrolled in each major
-    in the whole nation. 
+    This function sums the total number of students in all states that chose
+    a specific major.  
     
     Args:
-    df: The .csv file that contains all states, colleges, majors, and number of
-    students enrolled that major.
+        df: A Pandas DataFrame that contains columns with state names, major
+        names, and the number of student in the state enrolled in the major.
     
-    Return:
-    country_summed: A list with lists of major names and student enrolled in
-    each major.
+    Returns:
+    A list containing nested lists with the name of majors and the total number
+    of student in the DataFrame enrolled in the major.
 
     """
+    # Find all majors in df
     all_majors = df["Major"].unique()
 
     country_summed = []
 
+    # Create list with total students across all states majoring in each major
     for major in all_majors:
         this_major_df = df.loc[df["Major"] == major]
         country_summed.append([major, this_major_df['Students'].sum()])
     
     return country_summed
+    
+##RUNNER##
 
 os.chdir("raw_data")
 os.remove('combined_data.csv')
@@ -349,13 +373,13 @@ broader_df = replace_major_with_broader_major(df)
 broader_df.to_csv("broader_major_combined_data.csv", index=False, \
     encoding="utf-8-sig")
 
-broader_summed = sum_common_broad_major_for_all_states(broader_df)
+broader_summed = sum_broad_major_all_states(broader_df)
 broader_summed_df = pd.DataFrame(broader_summed, columns=['State', 'Major', \
     'Students'])
 broader_summed_df.to_csv("broader_major_summed_data.csv", index=False,\
      encoding="utf-8-sig")
 
-country_summed = sum_common_broad_major_for_country(broader_df)
+country_summed = sum_broad_major_country(broader_df)
 country_summed_df = pd.DataFrame.from_dict(country_summed, orient='columns')
 country_summed_df.columns=["Major", "Students"]
 country_summed_df.to_csv("broader_major_whole_country.csv", index=False, \
