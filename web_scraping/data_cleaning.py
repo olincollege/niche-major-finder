@@ -2,7 +2,7 @@ from dataclasses import replace
 import pandas as pd
 import os
 import glob
-+
+
 def files_to_df():
     """
     This function __FINISH__
@@ -110,7 +110,7 @@ def sum_common_broad_major_for_each_state(df, state_name):
 
     for broad_major in this_state_broad_majors:
         this_major_df = this_state_df.loc[this_state_df['Major'] == broad_major]
-        this_state_summed.append([broad_major, this_major_df['Students'].sum()])
+        this_state_summed.append([state_name, broad_major, this_major_df['Students'].sum()])
 
     return this_state_summed
 
@@ -121,10 +121,8 @@ def sum_common_broad_major_for_all_states(df):
     all_state_summed = []
 
     for state in all_states:
-        this_state_summed = sum_common_broad_major_for_each_state(broader_df, state)
-        for major_list in this_state_summed:
-            major_list.append(state)
-            all_state_summed.append(major_list)
+        this_state_summed = sum_common_broad_major_for_each_state(df, state)
+        all_state_summed = all_state_summed + this_state_summed
 
     return all_state_summed
 
@@ -147,13 +145,14 @@ df = pd.read_csv("combined_data.csv")
 
 # unique_majors = df['Major'].unique() --> to find majors for categories - manually sort
 os.chdir('..')
+os.makedirs('cleaned_data')
+os.chdir('cleaned_data')
 
 broader_df = replace_major_with_broader_major(df)
 broader_df.to_csv("broader_major_combined_data.csv", index=False, encoding="utf-8-sig")
 
 broader_summed = sum_common_broad_major_for_all_states(broader_df)
-broader_summed_df = pd.DataFrame.from_dict(broader_summed, orient='columns')
-broader_summed_df.columns=["Major","Students","State"]
+broader_summed_df = pd.DataFrame(broader_summed, columns=['State', 'Major', 'Students'])
 broader_summed_df.to_csv("broader_major_summed_data.csv", index=False, encoding="utf-8-sig")
 
 country_summed = sum_common_broad_major_for_country(broader_df)
