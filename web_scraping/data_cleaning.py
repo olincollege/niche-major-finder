@@ -47,18 +47,17 @@ def find_broader_major(major_entered):
     # Dictionary that maps majors to broader categories
     # This was hand sorted from the results of the unique majors
     broader_major_dict = {
-        'Bioengineering': ['Bioengineering and Biomedical Engineering', \
-        'Biotechnology', 'Environmental Engineering'],
-        'Chemical Engineering': ['Chemical Engineering', \
-        'Materials Engineering'], 
-        'Mechanical Engineering': ['Mechanical Engineering', 'Engineering',\
-        'Civil Engineering', 'Drafting and Design (CAD/CADD)',\
+        'Engineering': ['Bioengineering and Biomedical Engineering', \
+        'Biotechnology', 'Environmental Engineering', 'Chemical Engineering', \
+        'Materials Engineering', 'Mechanical Engineering', 'Engineering', \
+        'Drafting and Design (CAD/CADD)',\
         'Engineering Science', 'Industrial Engineering',\
         'Systems Engineering', 'Industrial and Product Design',\
-        'Robotics and Automation Engineering Technician'], 
-        'Electrical Engineering': ['Electrical Engineering',\
-        'Computer Hardware Engineering', 'Robotics and Automation Engineering'], 
-        'Computer Engineering': ['Computer Science',\
+        'Robotics and Automation Engineering Technician', \
+        'Electrical Engineering', 'Computer Hardware Engineering', \
+        'Robotics and Automation Engineering', 'Aerospace Engineering', \
+        'Aeronautics and Aviation Technology', 'Military Systems Technology'], 
+        'Computer Science': ['Computer Science',\
         'Computer Software Engineering', 'Information Technology', \
         'Computer Programming', 'Data Processing', \
         'Computer and Information Sciences', 'Human Computer Interaction', \
@@ -66,18 +65,14 @@ def find_broader_major(major_entered):
         'Network, Database, and System Administration', \
         'Computer and Information Systems Security', \
         'Computer Engineering Technician', 'Systems Science and Theory'], 
-        'Aerospace Engineering': ['Aerospace Engineering', \
-        'Aeronautics and Aviation Technology'], 
-        'Physics': ['Physics', 'Engineering Physics', 'Physical Sciences'], 
-        'Chemistry': ['Chemistry', 'Apparel and Textile Science'], 
+        'Physical Sciences': ['Physics', 'Engineering Physics', \
+        'Physical Sciences', 'Chemistry', 'Apparel and Textile Science', \
+        'Pharmacology and Toxicology'], 
         'Math': ['Mathematics', 'Computational and Applied Mathematics', \
         'Statistics'], 
         'Biology': ['Bioinformatics', 'Cellular Biology', 'Biology',\
         'Biochemistry and Molecular Biology', \
         'Ecology and Evolutionary Biology', 'Microbiology'], 
-        'Earth and Space': ['Atmospheric Sciences and Meteorology', \
-        'Geology and Earth Science', 'Geography', \
-        'Marine Biology and Oceanography', 'Natural Sciences'], 
         'Psychology': ['Psychology', 'Physiological Psychology', \
         'Research and Experimental Psychology', 'Counseling Psychology', \
         'Psychiatric and Mental Health Services', \
@@ -85,18 +80,21 @@ def find_broader_major(major_entered):
         'Human Development', 'Mental and Social Health Services',\
         'Community Health Services and Counseling',\
         'Marriage and Family Therapy and Counseling', 'Cognitive Science'], 
-        'Agriculture and Animal Sciences': ['Agricultural Business',\
+        'Agriculture and Environment': ['Agricultural Business',\
         'Animal Sciences and Husbandry', 'Horticulture', 'Agriculture', \
         'Veterinary Technician and Assistant', 'Equine Studies', \
         'Plant Science', 'Agricultural Production Operations',\
         'Crop and Soil Sciences', 'Agricultural Teacher Education', \
         'Agricultural and Food Products Processing', \
-        'Agricultural Engineering', 'Agricultural Mechanics and Machinery'], 
-        'Environmental Science': ['Sustainability Studies', \
-        'Environmental Science', 'Wildlife and Fisheries Management', \
+        'Agricultural Engineering', 'Agricultural Mechanics and Machinery', \
+        'Sustainability Studies', 'Environmental Science', \
+        'Wildlife and Fisheries Management', \
         'Natural Resources Conservation and Management', \
-        'Zoology and Entomology', 'Marine Science'], 
-        'Health Science': ['Biomedical Sciences and Molecular Medicine',\
+        'Zoology and Entomology', 'Marine Science', \
+        'Atmospheric Sciences and Meteorology', 'Geology and Earth Science', \
+        'Geography', 'Marine Biology and Oceanography', 'Natural Sciences', \
+        'Landscaping and Groundskeeping'], 
+        'Health Science': ['Biomedical Sciences and Molecular Medicine', \
         'Public Health', 'Health Service Preparatory Studies', \
         'Physiology and Pathology', 'Neuroscience and Neurobiology', \
         'Anatomy', 'Health Professions', 'Pre-Medicine Studies', \
@@ -109,23 +107,21 @@ def find_broader_major(major_entered):
         'Occupational Therapy', 'Rehabilitation and Therapy'], 
         'Nursing': ['Nursing', 'Licensed Practical Nurse Training (LPN)', \
         'Nursing Assistant', 'Nursing Science, Education, and Practice',\
-        'Adult Health Nursing', 'Family Practice and Pediatric Nursing'], 
-        'Physician\'s Assistant': ['Physician Assistant'], 
-        'Dental': ['Dental Hygiene', 'Dental Assisting'], 
-        'Medical Technicians': ['Radiologic Technician', \
+        'Adult Health Nursing', 'Family Practice and Pediatric Nursing', \
+        'Emergency Care Attendant (EMT)', 'Medical Assistant', \
+        'Health Aides and Attendants', 'Physician Assistant', \
+        'Dental Assisting'], 
+        'Medical Applied': ['Radiologic Technician', \
         'Sonographer and Ultrasound Technician', 'Respiratory Care Therapy', \
         'Emergency Medical Technician (EMT Paramedic)', \
-        'Phlebotomy Technician', 'Medical Assistant', 'Radiation Therapy',\
+        'Phlebotomy Technician', 'Radiation Therapy',\
         'Medical Technician', 'Cardiovascular Technician', \
-        'Medical Laboratory Technician', 'Emergency Care Attendant (EMT)', \
-        'Occupational Safety and Health Technician', \
-        'Health Aides and Attendants', 'Surgical Technologist', \
-        'Lab Technician'], 
-        'Medical Recording': ['Medical Records Technician',\
-        'Medical Insurance Coding'], 
-        'Pharmacy': ['Pharmacy Technician', \
-        'Pharmacy and Pharmaceutical Sciences'], 
-        'Trade Mechanical Engineering': \
+        'Medical Laboratory Technician', \
+        'Occupational Safety and Health Technician', 'Surgical Technologist', \
+        'Lab Technician', 'Dental Hygiene', 'Medical Records Technician', \
+        'Medical Insurance Coding', \
+        'Pharmacy Technician', 'Pharmacy and Pharmaceutical Sciences'], 
+        'Trade Engineering': \
         ['HVAC and Refrigeration Engineering Technician', 'Welding', \
         'Mining and Petroleum Engineering', 'General Construction Trades',\
         'Heavy Equipment Maintenance Technician', 'Machine and Metal Working',\
@@ -133,57 +129,52 @@ def find_broader_major(major_entered):
         'Mechanical Engineering Technician', 'Engineering Technician', \
         'Mechanics and Repair', 'Civil Engineering Technician', \
         'Manufacturing Engineering Technician', 'Automotive Mechanics', \
-        'Construction and Heavy Equipment Operation', 'Diesel Mechanics'], 
-        'Trade Electrical': ['Electrician', \
-        'Electrical Engineering Technician',\
+        'Construction and Heavy Equipment Operation', 'Diesel Mechanics', \
+        'Electrician', 'Electrical Engineering Technician',\
         'Electronics Equipment Installation and Repair',\
-        'Computer Systems Technician', 'Instrumentation Technician'], 
-        'Trade Aerospace': ['Air Transportation', 'Professional Pilot',\
+        'Computer Systems Technician', 'Instrumentation Technician', 
         'Aerospace Engineering Technician', 'Aircraft Maintenance'], 
-        'Trade Cosmetics': ['Cosmetology', 'Esthetician and Skin Care', \
-        'Massage Therapy and Bodywork'], 
-        'Trade Transportation': \
-        ['Truck,  Bus, and Commercial Vehicle Operation',\
-        'Ground Transportation'], 
-        'Visual Arts': ['Arts', 'Studio Arts', 'Visual and Performing Arts', \
+        'Trade Other': ['Cosmetology', 'Esthetician and Skin Care', \
+        'Massage Therapy and Bodywork', 'Air Transportation', \
+        'Professional Pilot', 'Truck,  Bus, and Commercial Vehicle Operation',\
+        'Ground Transportation', 'Child Development', 'Child Care Provider'], 
+        'Arts': ['Arts', 'Studio Arts', 'Visual and Performing Arts', \
         'Art History', 'Photography', 'Illustration', 'Fine Arts',\
         'Commercial and Advertising Art', 'Commercial Photography', 'Painting',\
-        'Sculpture', 'Fashion and Apparel Design'], 
-        'Media Arts': ['Multimedia', 'Computer Graphics', \
+        'Sculpture', 'Fashion and Apparel Design', 'Multimedia', \
+        'Computer Graphics', 'Music Theory and Composition', 'Music', \
+        'Music History and Literature', 'Music Teacher Education',\
+        'Music Management', 'Musical Instruments', \
         'Animation, Video Graphics and Special Effects', \
         'Digital Communication and Media/Multimedia', 'Film and Video Studies',\
         'Graphic Design', 'Web Page and Digital Design', \
-        'Game Design and Interactive Media'], 
-        'Performance Arts': ['Acting', \
+        'Game Design and Interactive Media', 'Acting', \
         'Theatre Design', 'Dance', 'Drama and Theatre Production', \
         'Voice and Opera', 'Conducting', 'Music Performance',\
         'Cinematography and Video Production'], 
-        'Music': ['Music Theory and Composition', 'Music', \
-        'Music History and Literature', 'Music Teacher Education',\
-        'Music Management', 'Musical Instruments'], 
         'Culinary': ['Culinary Arts and Food Service', \
         'Family Studies and Consumer Sciences', 'Baking and Pastry Arts'], 
         'Architecture': ['Architectural Engineering', 'Interior Architecture',\
         'Architectural Engineering Technician', 'Architecture', \
-        'Interior Design'],
-        'Business': ['Business', 'Finance', 'Business Support Services',\
-        'International Business', 'Entrepreneurship', 'Banking and Finance', \
-        'Real Estate', 'Actuarial Science'], 
+        'Interior Design', 'Surveying Technician', \
+        'Urban, Community and Regional Planning', 'Civil Engineering'],
+        'Business': ['Business', 'Business Support Services',\
+        'International Business', 'Entrepreneurship', 'Real Estate'], 
+        'Finance': ['Finance', 'Banking and Finance', 'Actuarial Science'],
         'Economics': ['Economics', 'Managerial Economics'], 
         'Marketing': ['Marketing', 'Merchandising and Buying Operations', \
         'Advertising', 'Fashion and Apparel Merchandising', 'Insurance'], 
         'Accounting': ['Accounting', 'Accounting Technician and Bookkeeping'], 
         'Law': ['Paralegal', 'Legal Studies', \
         'Political Science and Government', 'Public Policy Analysis'], 
-        'Criminal Justice': ['Police and Criminal Science', \
+        'Crime and Military': ['Police and Criminal Science', \
         'Cyber/Computer Forensics and Counterterrorism', \
         'Criminal Justice and Law Enforcement Administration', \
         'Criminal Justice and Safety Studies', 'Criminology', \
         'Criminal Justice and Corrections', 'Forensic Science and Technology',\
-        'Intelligence'], 
-        'Military': ['Homeland Security and Disaster Management', \
+        'Intelligence', 'Homeland Security and Disaster Management', \
         'Fire Science and Fire Fighting', 'Military Science', \
-        'Fire Protection and Prevention', 'Military Systems Technology'], 
+        'Fire Protection and Prevention'], 
         'International Relations': ['International Relations', \
         'International Studies', 'Peace Studies and Conflict Resolution'], 
         'Education': ['Physical Education Teaching and Coaching', \
@@ -194,7 +185,6 @@ def find_broader_major(major_entered):
         'English and Speech Teacher Education', 'Art Teacher Education', \
         'Education Research and Evaluation', 'Public Health Education',\
         'Athletic Training'], 
-        'Child Development': ['Child Development', 'Child Care Provider'],
         'Management': ['Logistics and Supply Chain Management', \
         'Healthcare Management', 'Management Sciences and Information Systems',\
         'Hospitality and Tourism Management', 'Small Business Management', \
@@ -204,9 +194,6 @@ def find_broader_major(major_entered):
         'Property Management', 'Hospital Management', \
         'Fine and Studio Arts Management', \
         'Aviation Management and Operations'],
-        'Landscaping': ['Surveying Technician', \
-        'Urban, Community and Regional Planning', \
-        'Landscaping and Groundskeeping'],
         'Social Work': ['Social Work and Youth Services', \
         'Medical Social Work', 'Family and Community Services',\
         'Human Services', 'Parks, Recreation and Leisure Studies',\
@@ -224,18 +211,18 @@ def find_broader_major(major_entered):
         'Behavioral Sciences'],
         'Humanities': ['Women\'s Studies', 'Minority and Ethnic Studies', \
         'Philosophy', 'Liberal Arts and Humanities'],
-        'English': ['English', 'Literature', 'Creative Writing',\
+        'Language and Writing': ['English', 'Literature', 'Creative Writing',\
         'Playwriting and Screenwriting', 'Rhetoric and Composition', \
-        'Professional and Technical Writing'],
+        'Professional and Technical Writing', \
+        'Spanish Language and Literature', 'Foreign Languages and Literatures',\
+        'French Language and Literature',\
+        'Linguistics, Interpretation, and Translation',\
+        'Teaching English as a Second Language'],
         'Religion': ['Religious Studies', 'Religious Vocations', \
         'Biblical Studies', 'Theological and Ministerial Studies', \
         'Religious Education', 'Missionary Studies', \
         'Divinity, Ministry, and Pre-Theology', \
-        'Pastoral Counseling and Specialized Ministries'], 
-        'Foreign Languages': ['Spanish Language and Literature', \
-        'Foreign Languages and Literatures', 'French Language and Literature',\
-        'Linguistics, Interpretation, and Translation',\
-        'Teaching English as a Second Language']}
+        'Pastoral Counseling and Specialized Ministries']}
     
     for this_major_list in broader_major_dict.values():
         if major_entered in this_major_list:
@@ -345,7 +332,7 @@ df = pd.read_csv("combined_data.csv")
 # unique_majors = df['Major'].unique() --> to find majors for categories - 
 # manually sort
 os.chdir('..')
-#os.makedirs('cleaned_data')
+os.makedirs('cleaned_data')
 os.chdir('cleaned_data')
 
 broader_df = replace_major_with_broader_major(df)
