@@ -326,12 +326,19 @@ def sum_common_broad_major_for_country(df):
     return country_summed
 
 os.chdir("raw_data")
-# files_to_df() --> to create combined_data.csv
+os.remove('combined_data.csv')
+files_to_df() # --> to create combined_data.csv
 df = pd.read_csv("combined_data.csv")
 
 # unique_majors = df['Major'].unique() --> to find majors for categories - 
 # manually sort
 os.chdir('..')
+os.chdir('cleaned_data')
+#os.remove('broader_major_combined_data.csv')
+#os.remove('broader_major_summed_data.csv')
+#os.remove('broader_major_whole_country.csv')
+os.chdir('..')
+os.rmdir('cleaned_data')
 os.makedirs('cleaned_data')
 os.chdir('cleaned_data')
 
