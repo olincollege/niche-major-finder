@@ -1,5 +1,3 @@
-import matplotlib as mpl
-mpl.use('TkAgg')
 import matplotlib.pyplot as plt
 #import geopandas
 import pandas as pd
