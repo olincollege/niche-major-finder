@@ -14,7 +14,7 @@ alabama,university-of-alabama---birmingham,Psychology,176
 alabama,university-of-alabama---birmingham,Business,164
 alabama,university-of-alabama---birmingham,Management,113
 alabama,university-of-alabama---birmingham,Education,113
-alabama,university-of-alabama---birmingham,Biology,110
+alabama,university-of-alabama---birmingham,Science,110
 alabama,university-of-alabama---birmingham,Accounting,104
 alabama,university-of-alabama---birmingham,Communication,101
 alabama,university-of-alabama---birmingham,Humanities,99
@@ -42,7 +42,7 @@ alabama,samford-university,Education,28
 alabama,the-university-of-alabama-in-huntsville,Nursing,208
 alabama,the-university-of-alabama-in-huntsville,Engineering,106
 alabama,the-university-of-alabama-in-huntsville,Communication,100
-alabama,the-university-of-alabama-in-huntsville,Biology,87
+alabama,the-university-of-alabama-in-huntsville,Science,87
 alabama,the-university-of-alabama-in-huntsville,Business,85
 alabama,the-university-of-alabama-in-huntsville,Engineering,73
 alabama,the-university-of-alabama-in-huntsville,Engineering,61
@@ -50,7 +50,7 @@ alabama,the-university-of-alabama-in-huntsville,Management,60
 alabama,the-university-of-alabama-in-huntsville,Arts,44
 alabama,the-university-of-alabama-in-huntsville,Engineering,42
 alabama,birmingham-southern-college,Business,70
-alabama,birmingham-southern-college,Biology,39
+alabama,birmingham-southern-college,Science,39
 alabama,birmingham-southern-college,Psychology,37
 alabama,birmingham-southern-college,Accounting,24
 alabama,birmingham-southern-college,Education,19
@@ -58,7 +58,7 @@ alabama,birmingham-southern-college,History and World Studies,19
 alabama,birmingham-southern-college,Math,18
 alabama,birmingham-southern-college,Language and Writing,14
 alabama,birmingham-southern-college,Communication,12
-alabama,birmingham-southern-college,Physical Sciences,11
+alabama,birmingham-southern-college,Science,11
 alabama,university-of-mobile,Business,30
 alabama,university-of-mobile,Nursing,30
 alabama,university-of-mobile,Physical Therapy,21
@@ -67,7 +67,7 @@ alabama,university-of-mobile,Education,18
 alabama,university-of-mobile,Humanities,18
 alabama,university-of-mobile,Religion,17
 alabama,university-of-mobile,Psychology,13
-alabama,university-of-mobile,Biology,12
+alabama,university-of-mobile,Science,12
 alabama,university-of-mobile,Communication,11
 alabama,wallace-community-college---dothan,Humanities,447
 alabama,wallace-community-college---dothan,Nursing,177
@@ -91,7 +91,7 @@ alaska,university-of-alaska-southeast,Anthropology,17
 alaska,university-of-alaska-southeast,Accounting,13
 arizona,arizona-state-university,Business,791
 arizona,arizona-state-university,Business,644
-arizona,arizona-state-university,Biology,597
+arizona,arizona-state-university,Science,597
 arizona,arizona-state-university,Psychology,465
 arizona,arizona-state-university,Finance,455
 arizona,arizona-state-university,Humanities,449
@@ -131,12 +131,12 @@ arizona,arizona-state-university---downtown-phoenix-campus,Management,133
 arizona,arizona-state-university---downtown-phoenix-campus,Law,95
 arizona,arizona-state-university---west-campus,Business,176
 arizona,arizona-state-university---west-campus,Psychology,137
-arizona,arizona-state-university---west-campus,Biology,94
+arizona,arizona-state-university---west-campus,Science,94
 arizona,arizona-state-university---west-campus,Education,66
 arizona,arizona-state-university---west-campus,Communication,60
 arizona,arizona-state-university---west-campus,Social Work,45
 arizona,arizona-state-university---west-campus,Business,41
-arizona,arizona-state-university---west-campus,Physical Sciences,33
+arizona,arizona-state-university---west-campus,Science,33
 arizona,arizona-state-university---west-campus,Humanities,33
 arizona,arizona-state-university---west-campus,Crime and Military,32
 arizona,northern-arizona-university,Humanities,652
@@ -172,7 +172,7 @@ arizona,eastern-arizona-college,Nursing,54
 arizona,arizona-state-university---polytechnic-campus,Engineering,207
 arizona,arizona-state-university---polytechnic-campus,Business,136
 arizona,arizona-state-university---polytechnic-campus,Humanities,123
-arizona,arizona-state-university---polytechnic-campus,Biology,98
+arizona,arizona-state-university---polytechnic-campus,Science,98
 arizona,arizona-state-university---polytechnic-campus,Engineering,70
 arizona,arizona-state-university---polytechnic-campus,Business,64
 arizona,arizona-state-university---polytechnic-campus,Computer Science,64
@@ -184,7 +184,7 @@ arizona,scottsdale-community-college,Arts,387
 arizona,scottsdale-community-college,Business,183
 arizona,scottsdale-community-college,Nursing,112
 arizona,scottsdale-community-college,Arts,78
-arizona,scottsdale-community-college,Physical Sciences,69
+arizona,scottsdale-community-college,Science,69
 arizona,scottsdale-community-college,Agriculture and Environment,59
 arizona,scottsdale-community-college,Culinary,32
 arizona,scottsdale-community-college,Communication,24
@@ -194,14 +194,14 @@ arizona,paradise-valley-community-college,Humanities,539
 arizona,paradise-valley-community-college,Medical Applied,230
 arizona,paradise-valley-community-college,Business,151
 arizona,paradise-valley-community-college,Agriculture and Environment,84
-arizona,paradise-valley-community-college,Physical Sciences,84
+arizona,paradise-valley-community-college,Science,84
 arizona,paradise-valley-community-college,Crime and Military,67
 arizona,paradise-valley-community-college,Nursing,53
 arizona,paradise-valley-community-college,Management,16
 arizona,paradise-valley-community-college,Education,14
 arkansas,hendrix-college,Psychology,47
-arkansas,hendrix-college,Biology,34
-arkansas,hendrix-college,Biology,32
+arkansas,hendrix-college,Science,34
+arkansas,hendrix-college,Science,32
 arkansas,hendrix-college,Economics,24
 arkansas,hendrix-college,Language and Writing,24
 arkansas,hendrix-college,Health Science,18
@@ -212,7 +212,7 @@ arkansas,hendrix-college,Law,13
 arkansas,university-of-arkansas,Marketing,345
 arkansas,university-of-arkansas,Finance,327
 arkansas,university-of-arkansas,Nursing,292
-arkansas,university-of-arkansas,Biology,233
+arkansas,university-of-arkansas,Science,233
 arkansas,university-of-arkansas,Management,227
 arkansas,university-of-arkansas,Business,206
 arkansas,university-of-arkansas,Accounting,183
@@ -220,7 +220,7 @@ arkansas,university-of-arkansas,Communication,179
 arkansas,university-of-arkansas,Education,175
 arkansas,university-of-arkansas,Psychology,167
 arkansas,ouachita-baptist-university,Finance,32
-arkansas,ouachita-baptist-university,Biology,30
+arkansas,ouachita-baptist-university,Science,30
 arkansas,ouachita-baptist-university,Communication,25
 arkansas,ouachita-baptist-university,Education,19
 arkansas,ouachita-baptist-university,Humanities,19
@@ -245,13 +245,13 @@ arkansas,john-brown-university,Social Work,29
 arkansas,john-brown-university,Engineering,27
 arkansas,john-brown-university,Nursing,21
 arkansas,john-brown-university,Humanities,20
-arkansas,john-brown-university,Biology,18
+arkansas,john-brown-university,Science,18
 arkansas,john-brown-university,Education,18
 arkansas,john-brown-university,Arts,15
 arkansas,john-brown-university,Accounting,14
 arkansas,lyon-college,Psychology,30
 arkansas,lyon-college,Business,20
-arkansas,lyon-college,Biology,19
+arkansas,lyon-college,Science,19
 arkansas,lyon-college,Economics,15
 arkansas,lyon-college,Math,14
 arkansas,lyon-college,Law,12
@@ -273,7 +273,7 @@ arkansas,arkansas-state-university,Humanities,542
 arkansas,arkansas-state-university,Nursing,314
 arkansas,arkansas-state-university,Business,109
 arkansas,arkansas-state-university,Education,94
-arkansas,arkansas-state-university,Biology,80
+arkansas,arkansas-state-university,Science,80
 arkansas,arkansas-state-university,Psychology,67
 arkansas,arkansas-state-university,Agriculture and Environment,62
 arkansas,arkansas-state-university,Physical Therapy,60
@@ -281,7 +281,7 @@ arkansas,arkansas-state-university,Crime and Military,59
 arkansas,arkansas-state-university,Finance,59
 california,stanford-university,Computer Science,330
 california,stanford-university,Engineering,216
-california,stanford-university,Biology,197
+california,stanford-university,Science,197
 california,stanford-university,Economics,86
 california,stanford-university,Psychology,80
 california,stanford-university,Engineering,79
@@ -290,7 +290,7 @@ california,stanford-university,Engineering,63
 california,stanford-university,Law,57
 california,stanford-university,International Relations,54
 california,university-of-southern-california,Business,1022
-california,university-of-southern-california,Biology,282
+california,university-of-southern-california,Science,282
 california,university-of-southern-california,Communication,270
 california,university-of-southern-california,Computer Science,228
 california,university-of-southern-california,International Relations,223
@@ -305,25 +305,25 @@ california,pomona-college,Computer Science,36
 california,pomona-college,Health Science,32
 california,pomona-college,Law,23
 california,pomona-college,Law,20
-california,pomona-college,Biology,19
+california,pomona-college,Science,19
 california,pomona-college,Language and Writing,19
 california,pomona-college,Communication,16
 california,pomona-college,International Relations,16
 california,california-institute-of-technology,Computer Science,64
 california,california-institute-of-technology,Engineering,30
 california,california-institute-of-technology,Engineering,24
-california,california-institute-of-technology,Physical Sciences,23
+california,california-institute-of-technology,Science,23
 california,california-institute-of-technology,Engineering,13
-california,california-institute-of-technology,Physical Sciences,13
+california,california-institute-of-technology,Science,13
 california,california-institute-of-technology,Math,13
 california,california-institute-of-technology,Math,12
 california,california-institute-of-technology,Engineering,11
-california,california-institute-of-technology,Biology,10
+california,california-institute-of-technology,Science,10
 california,university-of-california---los-angeles,Economics,683
 california,university-of-california---los-angeles,Anthropology,658
 california,university-of-california---los-angeles,Law,647
 california,university-of-california---los-angeles,Psychology,635
-california,university-of-california---los-angeles,Biology,584
+california,university-of-california---los-angeles,Science,584
 california,university-of-california---los-angeles,Psychology,366
 california,university-of-california---los-angeles,History and World Studies,332
 california,university-of-california---los-angeles,Math,328
@@ -336,22 +336,22 @@ california,claremont-mckenna-college,Humanities,32
 california,claremont-mckenna-college,International Relations,31
 california,claremont-mckenna-college,Accounting,25
 california,claremont-mckenna-college,Math,23
-california,claremont-mckenna-college,Biology,19
+california,claremont-mckenna-college,Science,19
 california,claremont-mckenna-college,History and World Studies,17
 california,claremont-mckenna-college,Computer Science,15
 california,harvey-mudd-college,Engineering,83
 california,harvey-mudd-college,Math,44
 california,harvey-mudd-college,Computer Science,42
-california,harvey-mudd-college,Physical Sciences,15
-california,harvey-mudd-college,Physical Sciences,9
+california,harvey-mudd-college,Science,15
+california,harvey-mudd-college,Science,9
 california,harvey-mudd-college,Math,8
-california,harvey-mudd-college,Biology,4
+california,harvey-mudd-college,Science,4
 california,harvey-mudd-college,Humanities,3
-california,harvey-mudd-college,Biology,2
-california,harvey-mudd-college,Biology,1
+california,harvey-mudd-college,Science,2
+california,harvey-mudd-college,Science,1
 california,university-of-california---berkeley,Economics,719
 california,university-of-california---berkeley,Computer Science,701
-california,university-of-california---berkeley,Biology,687
+california,university-of-california---berkeley,Science,687
 california,university-of-california---berkeley,Law,478
 california,university-of-california---berkeley,Engineering,442
 california,university-of-california---berkeley,Agriculture and Environment,401
@@ -363,13 +363,13 @@ california,university-of-california---santa-barbara,Anthropology,627
 california,university-of-california---santa-barbara,Economics,582
 california,university-of-california---santa-barbara,Psychology,523
 california,university-of-california---santa-barbara,Communication,445
-california,university-of-california---santa-barbara,Biology,352
+california,university-of-california---santa-barbara,Science,352
 california,university-of-california---santa-barbara,International Relations,333
 california,university-of-california---santa-barbara,Agriculture and Environment,329
 california,university-of-california---santa-barbara,Law,273
 california,university-of-california---santa-barbara,Psychology,173
 california,university-of-california---santa-barbara,Math,158
-california,university-of-california---irvine,Biology,747
+california,university-of-california---irvine,Science,747
 california,university-of-california---irvine,Economics,666
 california,university-of-california---irvine,Psychology,664
 california,university-of-california---irvine,Computer Science,568
@@ -388,7 +388,7 @@ california,university-of-california---davis,Computer Science,301
 california,university-of-california---davis,Psychology,298
 california,university-of-california---davis,Agriculture and Environment,283
 california,university-of-california---davis,Anthropology,276
-california,university-of-california---davis,Biology,271
+california,university-of-california---davis,Science,271
 california,santa-clara-university,Finance,141
 california,santa-clara-university,Communication,130
 california,santa-clara-university,Economics,123
@@ -398,28 +398,28 @@ california,santa-clara-university,Law,80
 california,santa-clara-university,Engineering,74
 california,santa-clara-university,Math,73
 california,santa-clara-university,Accounting,71
-california,santa-clara-university,Biology,60
+california,santa-clara-university,Science,60
 california,university-of-california---san-diego,Math,564
 california,university-of-california---san-diego,International Relations,500
-california,university-of-california---san-diego,Biology,490
+california,university-of-california---san-diego,Science,490
 california,university-of-california---san-diego,Psychology,479
 california,university-of-california---san-diego,Economics,451
 california,university-of-california---san-diego,Computer Science,412
 california,university-of-california---san-diego,Health Science,376
 california,university-of-california---san-diego,Law,313
 california,university-of-california---san-diego,Communication,305
-california,university-of-california---san-diego,Biology,276
+california,university-of-california---san-diego,Science,276
 california,occidental-college,Economics,82
-california,occidental-college,Biology,44
+california,occidental-college,Science,44
 california,occidental-college,International Relations,43
 california,occidental-college,Psychology,31
 california,occidental-college,Anthropology,30
 california,occidental-college,Computer Science,20
 california,occidental-college,Law,20
 california,occidental-college,Agriculture and Environment,19
-california,occidental-college,Biology,17
+california,occidental-college,Science,17
 california,occidental-college,Psychology,17
-california,scripps-college,Biology,36
+california,scripps-college,Science,36
 california,scripps-college,Psychology,25
 california,scripps-college,Law,21
 california,scripps-college,Communication,18
@@ -437,13 +437,13 @@ california,pepperdine-university,Physical Therapy,39
 california,pepperdine-university,International Relations,38
 california,pepperdine-university,Law,37
 california,pepperdine-university,Marketing,34
-california,pepperdine-university,Biology,30
+california,pepperdine-university,Science,30
 california,pepperdine-university,Communication,25
 california,pitzer-college,Agriculture and Environment,31
 california,pitzer-college,Economics,24
 california,pitzer-college,Anthropology,24
 california,pitzer-college,Psychology,24
-california,pitzer-college,Biology,17
+california,pitzer-college,Science,17
 california,pitzer-college,Communication,16
 california,pitzer-college,Math,16
 california,pitzer-college,Law,16
@@ -495,7 +495,7 @@ california,point-loma-nazarene-university,Psychology,56
 california,point-loma-nazarene-university,Health Science,48
 california,point-loma-nazarene-university,Management,42
 california,point-loma-nazarene-university,Anthropology,39
-california,point-loma-nazarene-university,Biology,35
+california,point-loma-nazarene-university,Science,35
 california,point-loma-nazarene-university,Business,33
 california,point-loma-nazarene-university,Education,33
 california,point-loma-nazarene-university,Communication,21
@@ -505,7 +505,7 @@ california,san-diego-state-university,Humanities,493
 california,san-diego-state-university,Crime and Military,386
 california,san-diego-state-university,Education,374
 california,san-diego-state-university,Communication,283
-california,san-diego-state-university,Biology,277
+california,san-diego-state-university,Science,277
 california,san-diego-state-university,Engineering,268
 california,san-diego-state-university,Economics,205
 california,san-diego-state-university,Arts,193
@@ -516,7 +516,7 @@ california,university-of-san-francisco,Psychology,112
 california,university-of-san-francisco,Communication,104
 california,university-of-san-francisco,Marketing,93
 california,university-of-san-francisco,Accounting,67
-california,university-of-san-francisco,Biology,54
+california,university-of-san-francisco,Science,54
 california,university-of-san-francisco,Computer Science,52
 california,university-of-san-francisco,Business,46
 california,biola-university,Business,113
@@ -531,7 +531,7 @@ california,biola-university,Accounting,33
 california,biola-university,Humanities,33
 california,university-of-california---riverside,Business,621
 california,university-of-california---riverside,Psychology,453
-california,university-of-california---riverside,Biology,414
+california,university-of-california---riverside,Science,414
 california,university-of-california---riverside,Anthropology,279
 california,university-of-california---riverside,Economics,227
 california,university-of-california---riverside,Law,216
@@ -540,7 +540,7 @@ california,university-of-california---riverside,Computer Science,135
 california,university-of-california---riverside,Language and Writing,135
 california,university-of-california---riverside,Anthropology,121
 california,university-of-the-pacific,Business,146
-california,university-of-the-pacific,Biology,104
+california,university-of-the-pacific,Science,104
 california,university-of-the-pacific,Humanities,66
 california,university-of-the-pacific,Psychology,37
 california,university-of-the-pacific,Education,36
@@ -548,7 +548,7 @@ california,university-of-the-pacific,Computer Science,34
 california,university-of-the-pacific,Medical Applied,27
 california,university-of-the-pacific,Engineering,27
 california,university-of-the-pacific,Communication,25
-california,university-of-the-pacific,Biology,23
+california,university-of-the-pacific,Science,23
 california,william-jessup-university,Business,66
 california,william-jessup-university,Psychology,65
 california,william-jessup-university,Education,34
@@ -565,17 +565,17 @@ california,university-of-la-verne,Psychology,113
 california,university-of-la-verne,Education,74
 california,university-of-la-verne,Crime and Military,54
 california,university-of-la-verne,Trade Other,53
-california,university-of-la-verne,Biology,43
+california,university-of-la-verne,Science,43
 california,university-of-la-verne,Communication,39
 california,university-of-la-verne,Accounting,37
 california,university-of-la-verne,Communication,35
 california,westmont-college,Physical Therapy,46
 california,westmont-college,Economics,46
-california,westmont-college,Biology,34
+california,westmont-college,Science,34
 california,westmont-college,Psychology,25
 california,westmont-college,Communication,24
 california,westmont-college,Language and Writing,20
-california,westmont-college,Physical Sciences,15
+california,westmont-college,Science,15
 california,westmont-college,Communication,13
 california,westmont-college,Humanities,13
 california,westmont-college,Anthropology,12
@@ -608,11 +608,11 @@ california,azusa-pacific-university,Arts,61
 california,azusa-pacific-university,Education,60
 california,azusa-pacific-university,Marketing,40
 california,azusa-pacific-university,Social Work,39
-california,azusa-pacific-university,Biology,38
+california,azusa-pacific-university,Science,38
 california,university-of-california---santa-cruz,Computer Science,559
 california,university-of-california---santa-cruz,Psychology,443
 california,university-of-california---santa-cruz,Economics,339
-california,university-of-california---santa-cruz,Biology,244
+california,university-of-california---santa-cruz,Science,244
 california,university-of-california---santa-cruz,Anthropology,237
 california,university-of-california---santa-cruz,Agriculture and Environment,222
 california,university-of-california---santa-cruz,Law,166
@@ -632,7 +632,7 @@ california,lake-tahoe-community-college,Math,6
 california,whittier-college,Business,73
 california,whittier-college,Physical Therapy,41
 california,whittier-college,Psychology,33
-california,whittier-college,Biology,31
+california,whittier-college,Science,31
 california,whittier-college,Trade Other,27
 california,whittier-college,Language and Writing,27
 california,whittier-college,Law,26
@@ -674,7 +674,7 @@ california,california-lutheran-university,Psychology,109
 california,california-lutheran-university,Communication,104
 california,california-lutheran-university,Physical Therapy,58
 california,california-lutheran-university,Humanities,58
-california,california-lutheran-university,Biology,53
+california,california-lutheran-university,Science,53
 california,california-lutheran-university,Crime and Military,40
 california,california-lutheran-university,Accounting,39
 california,california-lutheran-university,Law,37
@@ -683,7 +683,7 @@ california,las-positas-college,Humanities,361
 california,las-positas-college,Business,138
 california,las-positas-college,Trade Other,102
 california,las-positas-college,Psychology,78
-california,las-positas-college,Biology,41
+california,las-positas-college,Science,41
 california,las-positas-college,Crime and Military,33
 california,las-positas-college,Medical Applied,17
 california,las-positas-college,Crime and Military,16
@@ -699,7 +699,7 @@ california,mt.-san-antonio-college,Accounting,173
 california,mt.-san-antonio-college,Agriculture and Environment,163
 california,mt.-san-antonio-college,Computer Science,117
 california,mt.-san-antonio-college,Crime and Military,117
-california,university-of-california---merced,Biology,320
+california,university-of-california---merced,Science,320
 california,university-of-california---merced,Psychology,221
 california,university-of-california---merced,Business,159
 california,university-of-california---merced,Engineering,129
@@ -715,7 +715,7 @@ california,california-state-polytechnic-university---pomona,Architecture,201
 california,california-state-polytechnic-university---pomona,Engineering,201
 california,california-state-polytechnic-university---pomona,Computer Science,186
 california,california-state-polytechnic-university---pomona,Humanities,185
-california,california-state-polytechnic-university---pomona,Biology,182
+california,california-state-polytechnic-university---pomona,Science,182
 california,california-state-polytechnic-university---pomona,Psychology,133
 california,california-state-polytechnic-university---pomona,Anthropology,119
 california,california-state-polytechnic-university---pomona,Communication,114
@@ -726,7 +726,7 @@ california,vanguard-university-of-southern-california,Communication,33
 california,vanguard-university-of-southern-california,Religion,30
 california,vanguard-university-of-southern-california,Education,28
 california,vanguard-university-of-southern-california,Physical Therapy,27
-california,vanguard-university-of-southern-california,Biology,19
+california,vanguard-university-of-southern-california,Science,19
 california,vanguard-university-of-southern-california,Anthropology,18
 california,vanguard-university-of-southern-california,Education,15
 california,california-state-university---maritime-academy,Agriculture and Environment,81
@@ -814,7 +814,7 @@ california,california-state-university---san-marcos,Crime and Military,233
 california,california-state-university---san-marcos,Communication,229
 california,california-state-university---san-marcos,Anthropology,204
 california,california-state-university---san-marcos,Education,192
-california,california-state-university---san-marcos,Biology,140
+california,california-state-university---san-marcos,Science,140
 california,california-state-university---san-marcos,Humanities,139
 california,fresno-pacific-university,Humanities,268
 california,fresno-pacific-university,Trade Other,150
@@ -835,7 +835,7 @@ california,california-state-university---sacramento,Education,305
 california,california-state-university---sacramento,Anthropology,252
 california,california-state-university---sacramento,Nursing,239
 california,california-state-university---sacramento,Computer Science,236
-california,california-state-university---sacramento,Biology,232
+california,california-state-university---sacramento,Science,232
 california,cerritos-college,Humanities,429
 california,cerritos-college,Business,307
 california,cerritos-college,Trade Other,209
@@ -853,26 +853,26 @@ colorado,colorado-school-of-mines,Engineering,90
 colorado,colorado-school-of-mines,Engineering,84
 colorado,colorado-school-of-mines,Engineering,74
 colorado,colorado-school-of-mines,Engineering,73
-colorado,colorado-school-of-mines,Physical Sciences,59
+colorado,colorado-school-of-mines,Science,59
 colorado,colorado-school-of-mines,Architecture,54
 colorado,colorado-school-of-mines,Engineering,46
 colorado,colorado-college,Economics,73
-colorado,colorado-college,Biology,42
+colorado,colorado-college,Science,42
 colorado,colorado-college,Agriculture and Environment,40
 colorado,colorado-college,Anthropology,36
 colorado,colorado-college,Humanities,35
 colorado,colorado-college,Law,30
-colorado,colorado-college,Biology,28
+colorado,colorado-college,Science,28
 colorado,colorado-college,Psychology,28
 colorado,colorado-college,Computer Science,23
-colorado,colorado-college,Physical Sciences,21
+colorado,colorado-college,Science,21
 colorado,university-of-denver,Finance,148
 colorado,university-of-denver,Psychology,147
 colorado,university-of-denver,Marketing,102
 colorado,university-of-denver,Communication,99
 colorado,university-of-denver,International Relations,89
-colorado,university-of-denver,Biology,68
-colorado,university-of-denver,Biology,67
+colorado,university-of-denver,Science,68
+colorado,university-of-denver,Science,67
 colorado,university-of-denver,Law,52
 colorado,university-of-denver,Business,51
 colorado,university-of-denver,Management,48
@@ -883,7 +883,7 @@ colorado,university-of-colorado---boulder,Health Science,343
 colorado,university-of-colorado---boulder,Computer Science,332
 colorado,university-of-colorado---boulder,Economics,285
 colorado,university-of-colorado---boulder,Engineering,260
-colorado,university-of-colorado---boulder,Biology,219
+colorado,university-of-colorado---boulder,Science,219
 colorado,university-of-colorado---boulder,Communication,197
 colorado,university-of-colorado---boulder,Agriculture and Environment,193
 colorado,colorado-state-university,Business,702
@@ -894,11 +894,11 @@ colorado,colorado-state-university,Psychology,239
 colorado,colorado-state-university,Economics,195
 colorado,colorado-state-university,Communication,189
 colorado,colorado-state-university,Communication,181
-colorado,colorado-state-university,Biology,170
+colorado,colorado-state-university,Science,170
 colorado,colorado-state-university,Trade Engineering,158
 colorado,university-of-colorado-denver,Business,435
 colorado,university-of-colorado-denver,Nursing,313
-colorado,university-of-colorado-denver,Biology,205
+colorado,university-of-colorado-denver,Science,205
 colorado,university-of-colorado-denver,Economics,174
 colorado,university-of-colorado-denver,Psychology,158
 colorado,university-of-colorado-denver,Communication,150
@@ -912,7 +912,7 @@ colorado,regis-university,Humanities,114
 colorado,regis-university,Computer Science,57
 colorado,regis-university,Accounting,54
 colorado,regis-university,Communication,36
-colorado,regis-university,Biology,32
+colorado,regis-university,Science,32
 colorado,regis-university,Psychology,26
 colorado,regis-university,Education,25
 colorado,regis-university,Health Science,23
@@ -939,7 +939,7 @@ colorado,colorado-christian-university,Accounting,32
 connecticut,yale-university,Economics,179
 connecticut,yale-university,Law,141
 connecticut,yale-university,History and World Studies,131
-connecticut,yale-university,Biology,97
+connecticut,yale-university,Science,97
 connecticut,yale-university,Humanities,88
 connecticut,yale-university,Communication,78
 connecticut,yale-university,Psychology,71
@@ -955,12 +955,12 @@ connecticut,wesleyan-university,History and World Studies,55
 connecticut,wesleyan-university,History and World Studies,49
 connecticut,wesleyan-university,Arts,49
 connecticut,wesleyan-university,Humanities,41
-connecticut,wesleyan-university,Biology,40
+connecticut,wesleyan-university,Science,40
 connecticut,university-of-connecticut,Psychology,434
 connecticut,university-of-connecticut,Economics,404
 connecticut,university-of-connecticut,Communication,279
 connecticut,university-of-connecticut,Nursing,271
-connecticut,university-of-connecticut,Biology,237
+connecticut,university-of-connecticut,Science,237
 connecticut,university-of-connecticut,Finance,226
 connecticut,university-of-connecticut,Humanities,206
 connecticut,university-of-connecticut,Nursing,202
@@ -975,27 +975,27 @@ connecticut,fairfield-university,Psychology,62
 connecticut,fairfield-university,Economics,39
 connecticut,fairfield-university,Language and Writing,37
 connecticut,fairfield-university,Business,36
-connecticut,fairfield-university,Biology,34
+connecticut,fairfield-university,Science,34
 connecticut,trinity-college---connecticut,Economics,88
 connecticut,trinity-college---connecticut,Law,77
 connecticut,trinity-college---connecticut,Language and Writing,38
 connecticut,trinity-college---connecticut,Law,34
 connecticut,trinity-college---connecticut,Psychology,31
 connecticut,trinity-college---connecticut,Math,30
-connecticut,trinity-college---connecticut,Biology,28
+connecticut,trinity-college---connecticut,Science,28
 connecticut,trinity-college---connecticut,History and World Studies,28
 connecticut,trinity-college---connecticut,Health Science,23
 connecticut,trinity-college---connecticut,Agriculture and Environment,21
 connecticut,connecticut-college,Psychology,52
 connecticut,connecticut-college,Economics,51
 connecticut,connecticut-college,Law,35
-connecticut,connecticut-college,Biology,29
+connecticut,connecticut-college,Science,29
 connecticut,connecticut-college,International Relations,26
 connecticut,connecticut-college,Language and Writing,25
 connecticut,connecticut-college,Computer Science,23
-connecticut,connecticut-college,Biology,21
+connecticut,connecticut-college,Science,21
 connecticut,connecticut-college,History and World Studies,20
-connecticut,connecticut-college,Biology,19
+connecticut,connecticut-college,Science,19
 connecticut,quinnipiac-university,Health Science,413
 connecticut,quinnipiac-university,Nursing,235
 connecticut,quinnipiac-university,Finance,111
@@ -1009,10 +1009,10 @@ connecticut,quinnipiac-university,Communication,51
 connecticut,university-of-saint-joseph,Nursing,73
 connecticut,university-of-saint-joseph,Social Work,26
 connecticut,university-of-saint-joseph,Psychology,21
-connecticut,university-of-saint-joseph,Biology,20
+connecticut,university-of-saint-joseph,Science,20
 connecticut,university-of-saint-joseph,Health Science,19
 connecticut,university-of-saint-joseph,Health Science,14
-connecticut,university-of-saint-joseph,Physical Sciences,7
+connecticut,university-of-saint-joseph,Science,7
 connecticut,university-of-saint-joseph,Accounting,5
 connecticut,university-of-saint-joseph,Education,5
 connecticut,university-of-saint-joseph,Arts,2
@@ -1025,7 +1025,7 @@ delaware,university-of-delaware,Physical Therapy,173
 delaware,university-of-delaware,Education,160
 delaware,university-of-delaware,Psychology,160
 delaware,university-of-delaware,Engineering,159
-delaware,university-of-delaware,Biology,145
+delaware,university-of-delaware,Science,145
 delaware,goldey-beacom-college,Business,51
 delaware,goldey-beacom-college,Accounting,30
 delaware,goldey-beacom-college,Finance,23
@@ -1036,7 +1036,7 @@ delaware,goldey-beacom-college,Humanities,9
 delaware,goldey-beacom-college,Law,8
 delaware,goldey-beacom-college,Management,7
 delaware,goldey-beacom-college,Business,6
-florida,university-of-florida,Biology,565
+florida,university-of-florida,Science,565
 florida,university-of-florida,Psychology,473
 florida,university-of-florida,Law,415
 florida,university-of-florida,Business,389
@@ -1051,7 +1051,7 @@ florida,university-of-miami,Finance,256
 florida,university-of-miami,Psychology,148
 florida,university-of-miami,Business,136
 florida,university-of-miami,Economics,135
-florida,university-of-miami,Biology,125
+florida,university-of-miami,Science,125
 florida,university-of-miami,Marketing,118
 florida,university-of-miami,Law,100
 florida,university-of-miami,Marketing,78
@@ -1063,7 +1063,7 @@ florida,florida-state-university,Marketing,494
 florida,florida-state-university,Language and Writing,420
 florida,florida-state-university,Law,411
 florida,florida-state-university,International Relations,366
-florida,florida-state-university,Biology,342
+florida,florida-state-university,Science,342
 florida,florida-state-university,Economics,317
 florida,florida-state-university,Anthropology,316
 florida,university-of-south-florida,Health Science,933
@@ -1075,7 +1075,7 @@ florida,university-of-south-florida,Communication,494
 florida,university-of-south-florida,Finance,352
 florida,university-of-south-florida,Marketing,328
 florida,university-of-south-florida,Crime and Military,289
-florida,university-of-south-florida,Biology,281
+florida,university-of-south-florida,Science,281
 florida,university-of-central-florida,Psychology,1182
 florida,university-of-central-florida,Humanities,1076
 florida,university-of-central-florida,Health Science,860
@@ -1093,12 +1093,12 @@ florida,university-of-south-florida---sarasota-manatee,Health Science,48
 florida,university-of-south-florida---sarasota-manatee,Education,43
 florida,university-of-south-florida---sarasota-manatee,Accounting,42
 florida,university-of-south-florida---sarasota-manatee,Management,41
-florida,university-of-south-florida---sarasota-manatee,Biology,32
+florida,university-of-south-florida---sarasota-manatee,Science,32
 florida,university-of-south-florida---sarasota-manatee,Computer Science,32
 florida,university-of-south-florida---sarasota-manatee,Crime and Military,31
 florida,florida-international-university,Humanities,1522
 florida,florida-international-university,Psychology,1402
-florida,florida-international-university,Biology,755
+florida,florida-international-university,Science,755
 florida,florida-international-university,Communication,690
 florida,florida-international-university,Management,634
 florida,florida-international-university,Finance,564
@@ -1114,7 +1114,7 @@ florida,embry-riddle-aeronautical-university---daytona-beach,Crime and Military,
 florida,embry-riddle-aeronautical-university---daytona-beach,Psychology,40
 florida,embry-riddle-aeronautical-university---daytona-beach,Trade Other,30
 florida,embry-riddle-aeronautical-university---daytona-beach,Engineering,20
-florida,embry-riddle-aeronautical-university---daytona-beach,Physical Sciences,18
+florida,embry-riddle-aeronautical-university---daytona-beach,Science,18
 florida,embry-riddle-aeronautical-university---daytona-beach,Computer Science,17
 florida,florida-institute-of-technology,Engineering,100
 florida,florida-institute-of-technology,Management,80
@@ -1144,7 +1144,7 @@ florida,university-of-west-florida,Education,127
 florida,university-of-west-florida,Communication,124
 florida,university-of-west-florida,Business,79
 florida,university-of-west-florida,Crime and Military,74
-florida,university-of-west-florida,Biology,56
+florida,university-of-west-florida,Science,56
 florida,university-of-west-florida,Computer Science,53
 florida,marion-technical-college---florida,Crime and Military,64
 florida,marion-technical-college---florida,Nursing,57
@@ -1163,7 +1163,7 @@ florida,university-of-north-florida,Nursing,231
 florida,university-of-north-florida,Health Science,194
 florida,university-of-north-florida,Business,184
 florida,university-of-north-florida,Crime and Military,150
-florida,university-of-north-florida,Biology,140
+florida,university-of-north-florida,Science,140
 florida,university-of-north-florida,Communication,140
 florida,university-of-north-florida,Finance,134
 florida,charlotte-technical-center---adult-education,Nursing,56
@@ -1177,7 +1177,7 @@ florida,charlotte-technical-center---adult-education,Communication,17
 florida,charlotte-technical-center---adult-education,Trade Other,14
 florida,charlotte-technical-center---adult-education,Culinary,11
 florida,florida-atlantic-university,Humanities,833
-florida,florida-atlantic-university,Biology,437
+florida,florida-atlantic-university,Science,437
 florida,florida-atlantic-university,Psychology,386
 florida,florida-atlantic-university,Crime and Military,326
 florida,florida-atlantic-university,Accounting,279
@@ -1194,7 +1194,7 @@ florida,university-of-tampa,Crime and Military,99
 florida,university-of-tampa,Communication,88
 florida,university-of-tampa,Psychology,81
 florida,university-of-tampa,Communication,78
-florida,university-of-tampa,Biology,76
+florida,university-of-tampa,Science,76
 florida,university-of-tampa,Education,67
 florida,florida-gulf-coast-university,Humanities,447
 florida,florida-gulf-coast-university,Communication,233
@@ -1203,7 +1203,7 @@ florida,florida-gulf-coast-university,Psychology,212
 florida,florida-gulf-coast-university,Business,199
 florida,florida-gulf-coast-university,Crime and Military,169
 florida,florida-gulf-coast-university,Health Science,165
-florida,florida-gulf-coast-university,Biology,155
+florida,florida-gulf-coast-university,Science,155
 florida,florida-gulf-coast-university,Marketing,145
 florida,florida-gulf-coast-university,Accounting,96
 florida,keiser-university---fort-lauderdale,Nursing,742
@@ -1224,7 +1224,7 @@ florida,stetson-university,Law,44
 florida,stetson-university,Marketing,38
 florida,stetson-university,Accounting,33
 florida,stetson-university,Communication,31
-florida,stetson-university,Biology,28
+florida,stetson-university,Science,28
 florida,stetson-university,Arts,22
 florida,florida-panhandle-technical-college,Crime and Military,36
 florida,florida-panhandle-technical-college,Nursing,36
@@ -1237,7 +1237,7 @@ florida,florida-panhandle-technical-college,Trade Other,14
 florida,florida-panhandle-technical-college,Medical Applied,14
 florida,florida-panhandle-technical-college,Medical Applied,11
 florida,eckerd-college,Agriculture and Environment,65
-florida,eckerd-college,Biology,61
+florida,eckerd-college,Science,61
 florida,eckerd-college,Agriculture and Environment,45
 florida,eckerd-college,Business,44
 florida,eckerd-college,Psychology,38
@@ -1282,7 +1282,7 @@ florida,florida-college,Education,3
 florida,florida-college,Arts,3
 florida,florida-college,Arts,3
 florida,nova-southeastern-university,Nursing,360
-florida,nova-southeastern-university,Biology,186
+florida,nova-southeastern-university,Science,186
 florida,nova-southeastern-university,Health Science,72
 florida,nova-southeastern-university,Business,66
 florida,nova-southeastern-university,Psychology,53
@@ -1339,13 +1339,13 @@ florida,jacksonville-university,Finance,22
 florida,jacksonville-university,Anthropology,22
 florida,jacksonville-university,Marketing,21
 florida,jacksonville-university,Psychology,19
-florida,jacksonville-university,Biology,16
+florida,jacksonville-university,Science,16
 florida,jacksonville-university,Arts,16
 florida,florida-southern-college,Business,127
 florida,florida-southern-college,Nursing,65
 florida,florida-southern-college,Psychology,45
 florida,florida-southern-college,Accounting,44
-florida,florida-southern-college,Biology,37
+florida,florida-southern-college,Science,37
 florida,florida-southern-college,Education,33
 florida,florida-southern-college,Communication,31
 florida,florida-southern-college,Communication,29
@@ -1373,17 +1373,17 @@ georgia,georgia-institute-of-technology,Engineering,151
 georgia,georgia-institute-of-technology,Architecture,129
 georgia,emory-university,Business,350
 georgia,emory-university,Nursing,272
-georgia,emory-university,Biology,213
+georgia,emory-university,Science,213
 georgia,emory-university,Economics,163
 georgia,emory-university,Health Science,144
 georgia,emory-university,Psychology,129
-georgia,emory-university,Physical Sciences,106
+georgia,emory-university,Science,106
 georgia,emory-university,Law,106
 georgia,emory-university,Education,80
 georgia,emory-university,Humanities,76
 georgia,university-of-georgia,Finance,617
 georgia,university-of-georgia,Psychology,447
-georgia,university-of-georgia,Biology,421
+georgia,university-of-georgia,Science,421
 georgia,university-of-georgia,Marketing,329
 georgia,university-of-georgia,Business,327
 georgia,university-of-georgia,International Relations,248
@@ -1393,7 +1393,7 @@ georgia,university-of-georgia,Law,218
 georgia,university-of-georgia,Computer Science,215
 georgia,mercer-university,Nursing,143
 georgia,mercer-university,Engineering,133
-georgia,mercer-university,Biology,70
+georgia,mercer-university,Science,70
 georgia,mercer-university,Psychology,62
 georgia,mercer-university,Marketing,59
 georgia,mercer-university,Business,51
@@ -1406,14 +1406,14 @@ georgia,agnes-scott-college,Health Science,18
 georgia,agnes-scott-college,Business,15
 georgia,agnes-scott-college,Psychology,15
 georgia,agnes-scott-college,Anthropology,15
-georgia,agnes-scott-college,Biology,13
+georgia,agnes-scott-college,Science,13
 georgia,agnes-scott-college,History and World Studies,13
 georgia,agnes-scott-college,Law,13
 georgia,agnes-scott-college,Language and Writing,11
 georgia,agnes-scott-college,Economics,10
 georgia,spelman-college,Psychology,60
 georgia,spelman-college,Law,58
-georgia,spelman-college,Biology,55
+georgia,spelman-college,Science,55
 georgia,spelman-college,Economics,49
 georgia,spelman-college,Language and Writing,35
 georgia,spelman-college,Health Science,31
@@ -1430,10 +1430,10 @@ georgia,berry-college,Nursing,26
 georgia,berry-college,Marketing,23
 georgia,berry-college,Business,22
 georgia,berry-college,Agriculture and Environment,21
-georgia,berry-college,Biology,20
+georgia,berry-college,Science,20
 georgia,georgia-southern-university,Nursing,312
 georgia,georgia-southern-university,Humanities,269
-georgia,georgia-southern-university,Biology,244
+georgia,georgia-southern-university,Science,244
 georgia,georgia-southern-university,Psychology,230
 georgia,georgia-southern-university,Communication,198
 georgia,georgia-southern-university,Marketing,195
@@ -1462,7 +1462,7 @@ georgia,ogeechee-technical-college,Accounting,59
 georgia,ogeechee-technical-college,Trade Other,55
 georgia,ogeechee-technical-college,Trade Other,45
 georgia,georgia-state-university,Psychology,477
-georgia,georgia-state-university,Biology,307
+georgia,georgia-state-university,Science,307
 georgia,georgia-state-university,Marketing,253
 georgia,georgia-state-university,Finance,250
 georgia,georgia-state-university,Humanities,239
@@ -1475,7 +1475,7 @@ georgia,piedmont-university,Nursing,78
 georgia,piedmont-university,Education,26
 georgia,piedmont-university,Business,19
 georgia,piedmont-university,Psychology,14
-georgia,piedmont-university,Biology,10
+georgia,piedmont-university,Science,10
 georgia,piedmont-university,Marketing,10
 georgia,piedmont-university,Crime and Military,9
 georgia,piedmont-university,Law,9
@@ -1484,18 +1484,18 @@ georgia,piedmont-university,Medical Applied,7
 georgia,augusta-university,Nursing,184
 georgia,augusta-university,Psychology,85
 georgia,augusta-university,Physical Therapy,67
-georgia,augusta-university,Biology,65
+georgia,augusta-university,Science,65
 georgia,augusta-university,Computer Science,64
 georgia,augusta-university,Business,48
 georgia,augusta-university,Communication,45
-georgia,augusta-university,Biology,43
+georgia,augusta-university,Science,43
 georgia,augusta-university,Accounting,38
 georgia,augusta-university,Computer Science,35
 georgia,covenant-college,Psychology,21
 georgia,covenant-college,Economics,19
 georgia,covenant-college,Humanities,19
 georgia,covenant-college,Religion,18
-georgia,covenant-college,Biology,18
+georgia,covenant-college,Science,18
 georgia,covenant-college,Communication,17
 georgia,covenant-college,Arts,15
 georgia,covenant-college,Business,14
@@ -1520,7 +1520,7 @@ hawaii,university-of-hawaii-at-manoa,Psychology,184
 hawaii,university-of-hawaii-at-manoa,Physical Therapy,144
 hawaii,university-of-hawaii-at-manoa,Communication,136
 hawaii,university-of-hawaii-at-manoa,Finance,136
-hawaii,university-of-hawaii-at-manoa,Biology,127
+hawaii,university-of-hawaii-at-manoa,Science,127
 hawaii,university-of-hawaii-at-manoa,Nursing,122
 hawaii,university-of-hawaii-at-manoa,Marketing,116
 hawaii,university-of-hawaii-at-manoa,Engineering,115
@@ -1538,7 +1538,7 @@ idaho,university-of-idaho,Physical Therapy,53
 idaho,university-of-idaho,Accounting,46
 idaho,the-college-of-idaho,Business,31
 idaho,the-college-of-idaho,Psychology,21
-idaho,the-college-of-idaho,Biology,18
+idaho,the-college-of-idaho,Science,18
 idaho,the-college-of-idaho,Health Science,17
 idaho,the-college-of-idaho,Health Science,15
 idaho,the-college-of-idaho,History and World Studies,9
@@ -1563,7 +1563,7 @@ idaho,boise-state-university,Communication,259
 idaho,boise-state-university,Health Science,191
 idaho,boise-state-university,Medical Applied,171
 idaho,boise-state-university,Psychology,149
-idaho,boise-state-university,Biology,132
+idaho,boise-state-university,Science,132
 idaho,boise-state-university,Accounting,128
 idaho,boise-state-university,Crime and Military,123
 illinois,northwestern-university,Economics,369
@@ -1571,7 +1571,7 @@ illinois,northwestern-university,Psychology,194
 illinois,northwestern-university,Communication,178
 illinois,northwestern-university,Law,123
 illinois,northwestern-university,Health Science,112
-illinois,northwestern-university,Biology,111
+illinois,northwestern-university,Science,111
 illinois,northwestern-university,Arts,104
 illinois,northwestern-university,Communication,96
 illinois,northwestern-university,Engineering,83
@@ -1579,7 +1579,7 @@ illinois,northwestern-university,Engineering,83
 illinois,university-of-chicago,Economics,404
 illinois,university-of-chicago,Math,185
 illinois,university-of-chicago,Law,141
-illinois,university-of-chicago,Biology,127
+illinois,university-of-chicago,Science,127
 illinois,university-of-chicago,Law,113
 illinois,university-of-chicago,Computer Science,96
 illinois,university-of-chicago,Humanities,82
@@ -1589,7 +1589,7 @@ illinois,university-of-chicago,Psychology,71
 illinois,university-of-illinois-urbana-champaign,Psychology,490
 illinois,university-of-illinois-urbana-champaign,Economics,450
 illinois,university-of-illinois-urbana-champaign,Accounting,370
-illinois,university-of-illinois-urbana-champaign,Biology,357
+illinois,university-of-illinois-urbana-champaign,Science,357
 illinois,university-of-illinois-urbana-champaign,Engineering,355
 illinois,university-of-illinois-urbana-champaign,Computer Science,348
 illinois,university-of-illinois-urbana-champaign,Math,315
@@ -1604,7 +1604,7 @@ illinois,wheaton-college---illinois,International Relations,43
 illinois,wheaton-college---illinois,Economics,42
 illinois,wheaton-college---illinois,Language and Writing,36
 illinois,wheaton-college---illinois,Religion,31
-illinois,wheaton-college---illinois,Biology,28
+illinois,wheaton-college---illinois,Science,28
 illinois,wheaton-college---illinois,Law,23
 illinois,moody-bible-institute,Religion,138
 illinois,moody-bible-institute,Religion,108
@@ -1626,7 +1626,7 @@ illinois,depaul-university,Marketing,175
 illinois,depaul-university,Arts,170
 illinois,depaul-university,Communication,162
 illinois,illinois-wesleyan-university,Accounting,49
-illinois,illinois-wesleyan-university,Biology,40
+illinois,illinois-wesleyan-university,Science,40
 illinois,illinois-wesleyan-university,Business,37
 illinois,illinois-wesleyan-university,Nursing,35
 illinois,illinois-wesleyan-university,Psychology,28
@@ -1634,19 +1634,19 @@ illinois,illinois-wesleyan-university,Finance,22
 illinois,illinois-wesleyan-university,Law,17
 illinois,illinois-wesleyan-university,Computer Science,13
 illinois,illinois-wesleyan-university,Math,12
-illinois,illinois-wesleyan-university,Physical Sciences,12
+illinois,illinois-wesleyan-university,Science,12
 illinois,lake-forest-college,Business,46
 illinois,lake-forest-college,Psychology,41
 illinois,lake-forest-college,Communication,34
 illinois,lake-forest-college,Finance,32
-illinois,lake-forest-college,Biology,26
+illinois,lake-forest-college,Science,26
 illinois,lake-forest-college,Economics,26
 illinois,lake-forest-college,Language and Writing,25
 illinois,lake-forest-college,Anthropology,22
 illinois,lake-forest-college,Law,20
 illinois,lake-forest-college,Computer Science,19
 illinois,augustana-college---illinois,Business,138
-illinois,augustana-college---illinois,Biology,110
+illinois,augustana-college---illinois,Science,110
 illinois,augustana-college---illinois,Communication,57
 illinois,augustana-college---illinois,Psychology,53
 illinois,augustana-college---illinois,Accounting,51
@@ -1665,7 +1665,7 @@ illinois,illinois-institute-of-technology,Engineering,36
 illinois,illinois-institute-of-technology,Engineering,30
 illinois,illinois-institute-of-technology,Engineering,30
 illinois,illinois-institute-of-technology,Business,27
-illinois,loyola-university-chicago,Biology,311
+illinois,loyola-university-chicago,Science,311
 illinois,loyola-university-chicago,Nursing,295
 illinois,loyola-university-chicago,Psychology,245
 illinois,loyola-university-chicago,Marketing,112
@@ -1685,7 +1685,7 @@ illinois,bradley-university,Business,40
 illinois,bradley-university,Health Science,37
 illinois,bradley-university,Computer Science,30
 illinois,bradley-university,Finance,29
-illinois,university-of-illinois-at-chicago,Biology,448
+illinois,university-of-illinois-at-chicago,Science,448
 illinois,university-of-illinois-at-chicago,Psychology,441
 illinois,university-of-illinois-at-chicago,Nursing,245
 illinois,university-of-illinois-at-chicago,Finance,221
@@ -1695,7 +1695,7 @@ illinois,university-of-illinois-at-chicago,Accounting,174
 illinois,university-of-illinois-at-chicago,Physical Therapy,165
 illinois,university-of-illinois-at-chicago,Marketing,163
 illinois,university-of-illinois-at-chicago,Engineering,161
-illinois,knox-college,Biology,39
+illinois,knox-college,Science,39
 illinois,knox-college,Economics,38
 illinois,knox-college,Language and Writing,34
 illinois,knox-college,Anthropology,26
@@ -1703,7 +1703,7 @@ illinois,knox-college,Psychology,24
 illinois,knox-college,Computer Science,22
 illinois,knox-college,Education,18
 illinois,knox-college,Law,18
-illinois,knox-college,Biology,14
+illinois,knox-college,Science,14
 illinois,knox-college,Language and Writing,14
 illinois,illinois-state-university,Marketing,291
 illinois,illinois-state-university,Finance,247
@@ -1731,25 +1731,25 @@ illinois,trinity-christian-college,Education,36
 illinois,trinity-christian-college,Education,20
 illinois,trinity-christian-college,Business,15
 illinois,trinity-christian-college,Social Work,15
-illinois,trinity-christian-college,Biology,14
+illinois,trinity-christian-college,Science,14
 illinois,trinity-christian-college,Crime and Military,12
 illinois,trinity-christian-college,Accounting,11
 illinois,trinity-christian-college,Marketing,10
 illinois,north-park-university,Nursing,93
 illinois,north-park-university,Business,87
 illinois,north-park-university,Psychology,53
-illinois,north-park-university,Biology,35
+illinois,north-park-university,Science,35
 illinois,north-park-university,Education,23
 illinois,north-park-university,Psychology,18
 illinois,north-park-university,Crime and Military,14
 illinois,north-park-university,Language and Writing,12
-illinois,north-park-university,Biology,11
+illinois,north-park-university,Science,11
 illinois,north-park-university,Marketing,10
 illinois,elmhurst-university,Psychology,102
 illinois,elmhurst-university,Business,83
 illinois,elmhurst-university,Nursing,62
 illinois,elmhurst-university,Finance,39
-illinois,elmhurst-university,Biology,38
+illinois,elmhurst-university,Science,38
 illinois,elmhurst-university,Physical Therapy,36
 illinois,elmhurst-university,Marketing,32
 illinois,elmhurst-university,Health Science,30
@@ -1761,7 +1761,7 @@ illinois,dominican-university,Anthropology,37
 illinois,dominican-university,Psychology,35
 illinois,dominican-university,Crime and Military,31
 illinois,dominican-university,Agriculture and Environment,31
-illinois,dominican-university,Biology,30
+illinois,dominican-university,Science,30
 illinois,dominican-university,Health Science,23
 illinois,dominican-university,Accounting,22
 illinois,dominican-university,Computer Science,20
@@ -1779,7 +1779,7 @@ illinois,western-illinois-university,Crime and Military,341
 illinois,western-illinois-university,Humanities,178
 illinois,western-illinois-university,Agriculture and Environment,109
 illinois,western-illinois-university,Psychology,73
-illinois,western-illinois-university,Biology,63
+illinois,western-illinois-university,Science,63
 illinois,western-illinois-university,Communication,62
 illinois,western-illinois-university,Social Work,56
 illinois,western-illinois-university,Accounting,50
@@ -1820,7 +1820,7 @@ indiana,indiana-university---bloomington,Social Work,614
 indiana,indiana-university---bloomington,Computer Science,501
 indiana,indiana-university---bloomington,Communication,432
 indiana,indiana-university---bloomington,Physical Therapy,374
-indiana,indiana-university---bloomington,Biology,363
+indiana,indiana-university---bloomington,Science,363
 indiana,indiana-university---bloomington,Psychology,301
 indiana,indiana-university---bloomington,Humanities,228
 indiana,indiana-university---bloomington,Social Work,182
@@ -1831,10 +1831,10 @@ indiana,wabash-college,History and World Studies,19
 indiana,wabash-college,Law,19
 indiana,wabash-college,Language and Writing,16
 indiana,wabash-college,Religion,16
-indiana,wabash-college,Biology,15
+indiana,wabash-college,Science,15
 indiana,wabash-college,Math,14
 indiana,wabash-college,Psychology,14
-indiana,wabash-college,Physical Sciences,10
+indiana,wabash-college,Science,10
 indiana,depauw-university,Economics,95
 indiana,depauw-university,Communication,89
 indiana,depauw-university,Computer Science,50
@@ -1843,17 +1843,17 @@ indiana,depauw-university,Law,23
 indiana,depauw-university,Psychology,23
 indiana,depauw-university,Health Science,22
 indiana,depauw-university,Physical Therapy,21
-indiana,depauw-university,Biology,19
-indiana,depauw-university,Biology,19
+indiana,depauw-university,Science,19
+indiana,depauw-university,Science,19
 indiana,butler-university,Marketing,107
 indiana,butler-university,Finance,95
-indiana,butler-university,Biology,47
+indiana,butler-university,Science,47
 indiana,butler-university,Psychology,43
 indiana,butler-university,Accounting,42
 indiana,butler-university,Language and Writing,41
 indiana,butler-university,Education,38
 indiana,butler-university,Health Science,35
-indiana,butler-university,Physical Sciences,33
+indiana,butler-university,Science,33
 indiana,butler-university,Communication,33
 indiana,valparaiso-university,Nursing,150
 indiana,valparaiso-university,Engineering,49
@@ -1864,12 +1864,12 @@ indiana,valparaiso-university,Business,32
 indiana,valparaiso-university,Architecture,29
 indiana,valparaiso-university,Computer Science,28
 indiana,valparaiso-university,Engineering,27
-indiana,valparaiso-university,Biology,23
+indiana,valparaiso-university,Science,23
 indiana,taylor-university,Physical Therapy,37
 indiana,taylor-university,Business,36
 indiana,taylor-university,Psychology,32
 indiana,taylor-university,Education,30
-indiana,taylor-university,Biology,26
+indiana,taylor-university,Science,26
 indiana,taylor-university,Marketing,26
 indiana,taylor-university,Computer Science,24
 indiana,taylor-university,Accounting,18
@@ -1880,7 +1880,7 @@ indiana,university-of-evansville,Nursing,28
 indiana,university-of-evansville,Engineering,27
 indiana,university-of-evansville,Finance,26
 indiana,university-of-evansville,Accounting,20
-indiana,university-of-evansville,Biology,20
+indiana,university-of-evansville,Science,20
 indiana,university-of-evansville,Arts,18
 indiana,university-of-evansville,Education,16
 indiana,university-of-evansville,Engineering,15
@@ -1889,32 +1889,32 @@ indiana,earlham-college,Computer Science,22
 indiana,earlham-college,Psychology,22
 indiana,earlham-college,Business,21
 indiana,earlham-college,Humanities,14
-indiana,earlham-college,Biology,13
-indiana,earlham-college,Biology,10
+indiana,earlham-college,Science,13
+indiana,earlham-college,Science,10
 indiana,earlham-college,International Relations,10
 indiana,earlham-college,Economics,8
 indiana,earlham-college,Agriculture and Environment,8
 indiana,earlham-college,Health Science,8
 indiana,hanover-college,Communication,26
-indiana,hanover-college,Biology,21
+indiana,hanover-college,Science,21
 indiana,hanover-college,Economics,20
 indiana,hanover-college,Psychology,20
 indiana,hanover-college,Physical Therapy,19
 indiana,hanover-college,History and World Studies,13
 indiana,hanover-college,Anthropology,13
-indiana,hanover-college,Biology,11
+indiana,hanover-college,Science,11
 indiana,hanover-college,Computer Science,11
 indiana,hanover-college,Law,11
 iowa,grinnell-college,Computer Science,56
-iowa,grinnell-college,Biology,46
+iowa,grinnell-college,Science,46
 iowa,grinnell-college,Law,41
 iowa,grinnell-college,Psychology,37
 iowa,grinnell-college,Math,35
 iowa,grinnell-college,Economics,33
-iowa,grinnell-college,Biology,29
+iowa,grinnell-college,Science,29
 iowa,grinnell-college,History and World Studies,27
 iowa,grinnell-college,Language and Writing,26
-iowa,grinnell-college,Physical Sciences,24
+iowa,grinnell-college,Science,24
 iowa,iowa-state-university,Engineering,473
 iowa,iowa-state-university,Marketing,348
 iowa,iowa-state-university,Agriculture and Environment,276
@@ -1924,7 +1924,7 @@ iowa,iowa-state-university,Agriculture and Environment,230
 iowa,iowa-state-university,Computer Science,214
 iowa,iowa-state-university,Education,205
 iowa,iowa-state-university,Psychology,198
-iowa,iowa-state-university,Biology,188
+iowa,iowa-state-university,Science,188
 iowa,university-of-iowa,Physical Therapy,508
 iowa,university-of-iowa,Finance,408
 iowa,university-of-iowa,Humanities,347
@@ -1946,7 +1946,7 @@ iowa,drake-university,Communication,36
 iowa,drake-university,Medical Applied,36
 iowa,drake-university,Psychology,35
 iowa,luther-college,Business,60
-iowa,luther-college,Biology,50
+iowa,luther-college,Science,50
 iowa,luther-college,Arts,50
 iowa,luther-college,Psychology,44
 iowa,luther-college,Nursing,34
@@ -1966,13 +1966,13 @@ iowa,loras-college,Finance,19
 iowa,loras-college,Social Work,19
 iowa,loras-college,Management,17
 iowa,cornell-college,Physical Therapy,19
-iowa,cornell-college,Biology,18
+iowa,cornell-college,Science,18
 iowa,cornell-college,History and World Studies,16
 iowa,cornell-college,Computer Science,15
 iowa,cornell-college,Education,15
 iowa,cornell-college,Language and Writing,14
 iowa,cornell-college,Humanities,14
-iowa,cornell-college,Biology,12
+iowa,cornell-college,Science,12
 iowa,cornell-college,Agriculture and Environment,10
 iowa,cornell-college,International Relations,10
 iowa,dordt-university,Education,58
@@ -1983,7 +1983,7 @@ iowa,dordt-university,Architecture,14
 iowa,dordt-university,Psychology,14
 iowa,dordt-university,Education,13
 iowa,dordt-university,Marketing,13
-iowa,dordt-university,Biology,12
+iowa,dordt-university,Science,12
 iowa,dordt-university,Language and Writing,12
 iowa,university-of-northern-iowa,Education,277
 iowa,university-of-northern-iowa,Business,114
@@ -1993,7 +1993,7 @@ iowa,university-of-northern-iowa,Education,111
 iowa,university-of-northern-iowa,Psychology,110
 iowa,university-of-northern-iowa,Humanities,75
 iowa,university-of-northern-iowa,Social Work,75
-iowa,university-of-northern-iowa,Biology,74
+iowa,university-of-northern-iowa,Science,74
 iowa,university-of-northern-iowa,Accounting,73
 iowa,western-iowa-tech-community-college,Nursing,362
 iowa,western-iowa-tech-community-college,Humanities,148
@@ -2008,7 +2008,7 @@ iowa,western-iowa-tech-community-college,Computer Science,61
 iowa,northwestern-college---iowa,Business,39
 iowa,northwestern-college---iowa,Education,34
 iowa,northwestern-college---iowa,Nursing,29
-iowa,northwestern-college---iowa,Biology,20
+iowa,northwestern-college---iowa,Science,20
 iowa,northwestern-college---iowa,Psychology,14
 iowa,northwestern-college---iowa,Accounting,13
 iowa,northwestern-college---iowa,Social Work,9
@@ -2017,8 +2017,8 @@ iowa,northwestern-college---iowa,Economics,7
 iowa,northwestern-college---iowa,Management,7
 iowa,coe-college,Business,50
 iowa,coe-college,Psychology,32
-iowa,coe-college,Biology,20
-iowa,coe-college,Physical Sciences,20
+iowa,coe-college,Science,20
+iowa,coe-college,Science,20
 iowa,coe-college,Economics,18
 iowa,coe-college,Health Science,18
 iowa,coe-college,Nursing,18
@@ -2040,7 +2040,7 @@ kansas,university-of-kansas,Psychology,239
 kansas,university-of-kansas,Finance,232
 kansas,university-of-kansas,Nursing,194
 kansas,university-of-kansas,Business,192
-kansas,university-of-kansas,Biology,185
+kansas,university-of-kansas,Science,185
 kansas,university-of-kansas,Accounting,181
 kansas,university-of-kansas,Marketing,159
 kansas,university-of-kansas,Communication,131
@@ -2050,7 +2050,7 @@ kansas,pittsburg-state-university,Psychology,78
 kansas,pittsburg-state-university,Education,68
 kansas,pittsburg-state-university,Management,67
 kansas,pittsburg-state-university,Business,63
-kansas,pittsburg-state-university,Biology,45
+kansas,pittsburg-state-university,Science,45
 kansas,pittsburg-state-university,Humanities,45
 kansas,pittsburg-state-university,Marketing,45
 kansas,pittsburg-state-university,Communication,44
@@ -2064,7 +2064,7 @@ kansas,emporia-state-university,Accounting,41
 kansas,emporia-state-university,Nursing,40
 kansas,emporia-state-university,Marketing,34
 kansas,emporia-state-university,Education,32
-kansas,emporia-state-university,Biology,25
+kansas,emporia-state-university,Science,25
 kansas,north-central-kansas-technical-college,Nursing,95
 kansas,north-central-kansas-technical-college,Nursing,57
 kansas,north-central-kansas-technical-college,Trade Engineering,37
@@ -2087,7 +2087,7 @@ kansas,johnson-county-community-college,Arts,39
 kansas,johnson-county-community-college,Business,37
 kansas,newman-university,Education,60
 kansas,newman-university,Nursing,41
-kansas,newman-university,Biology,31
+kansas,newman-university,Science,31
 kansas,newman-university,Business,21
 kansas,newman-university,Humanities,20
 kansas,newman-university,Medical Applied,19
@@ -2109,7 +2109,7 @@ kentucky,university-of-kentucky,Marketing,362
 kentucky,university-of-kentucky,Business,319
 kentucky,university-of-kentucky,Nursing,272
 kentucky,university-of-kentucky,Psychology,263
-kentucky,university-of-kentucky,Biology,245
+kentucky,university-of-kentucky,Science,245
 kentucky,university-of-kentucky,Communication,234
 kentucky,university-of-kentucky,Finance,215
 kentucky,university-of-kentucky,Engineering,184
@@ -2123,7 +2123,7 @@ kentucky,university-of-louisville,Education,163
 kentucky,university-of-louisville,Marketing,160
 kentucky,university-of-louisville,Management,129
 kentucky,university-of-louisville,Education,129
-kentucky,university-of-louisville,Biology,126
+kentucky,university-of-louisville,Science,126
 kentucky,university-of-louisville,Engineering,120
 kentucky,centre-college,Economics,76
 kentucky,centre-college,International Relations,32
@@ -2132,22 +2132,22 @@ kentucky,centre-college,Math,24
 kentucky,centre-college,Anthropology,23
 kentucky,centre-college,Psychology,21
 kentucky,centre-college,Law,21
-kentucky,centre-college,Biology,18
-kentucky,centre-college,Biology,17
+kentucky,centre-college,Science,18
+kentucky,centre-college,Science,17
 kentucky,centre-college,History and World Studies,16
 kentucky,berea-college,Communication,30
 kentucky,berea-college,Business,29
 kentucky,berea-college,Communication,22
 kentucky,berea-college,Psychology,20
 kentucky,berea-college,Psychology,19
-kentucky,berea-college,Physical Sciences,17
-kentucky,berea-college,Biology,15
+kentucky,berea-college,Science,17
+kentucky,berea-college,Science,15
 kentucky,berea-college,Trade Engineering,15
 kentucky,berea-college,Agriculture and Environment,12
 kentucky,berea-college,History and World Studies,12
 kentucky,bellarmine-university,Nursing,128
 kentucky,bellarmine-university,Psychology,65
-kentucky,bellarmine-university,Biology,51
+kentucky,bellarmine-university,Science,51
 kentucky,bellarmine-university,Communication,46
 kentucky,bellarmine-university,Physical Therapy,46
 kentucky,bellarmine-university,Business,41
@@ -2165,7 +2165,7 @@ kentucky,spalding-university,Agriculture and Environment,13
 kentucky,spalding-university,Social Work,9
 kentucky,spalding-university,Communication,8
 kentucky,spalding-university,Education,7
-kentucky,transylvania-university,Biology,32
+kentucky,transylvania-university,Science,32
 kentucky,transylvania-university,Business,27
 kentucky,transylvania-university,Physical Therapy,24
 kentucky,transylvania-university,Psychology,23
@@ -2205,7 +2205,7 @@ louisiana,tulane-university,Economics,117
 louisiana,tulane-university,Law,116
 louisiana,tulane-university,Communication,84
 louisiana,tulane-university,Language and Writing,70
-louisiana,louisiana-tech-university,Biology,93
+louisiana,louisiana-tech-university,Science,93
 louisiana,louisiana-tech-university,Engineering,84
 louisiana,louisiana-tech-university,Business,70
 louisiana,louisiana-tech-university,Humanities,68
@@ -2217,7 +2217,7 @@ louisiana,louisiana-tech-university,Nursing,53
 louisiana,louisiana-tech-university,Psychology,50
 louisiana,louisiana-state-university,Education,352
 louisiana,louisiana-state-university,Communication,283
-louisiana,louisiana-state-university,Biology,272
+louisiana,louisiana-state-university,Science,272
 louisiana,louisiana-state-university,Business,248
 louisiana,louisiana-state-university,Marketing,203
 louisiana,louisiana-state-university,Management,184
@@ -2229,7 +2229,7 @@ louisiana,loyola-university-new-orleans,Arts,62
 louisiana,loyola-university-new-orleans,Psychology,45
 louisiana,loyola-university-new-orleans,Communication,36
 louisiana,loyola-university-new-orleans,Marketing,34
-louisiana,loyola-university-new-orleans,Biology,29
+louisiana,loyola-university-new-orleans,Science,29
 louisiana,loyola-university-new-orleans,Crime and Military,29
 louisiana,loyola-university-new-orleans,Law,18
 louisiana,loyola-university-new-orleans,Business,17
@@ -2251,12 +2251,12 @@ louisiana,university-of-louisiana---lafayette,Education,156
 louisiana,university-of-louisiana---lafayette,Business,131
 louisiana,university-of-louisiana---lafayette,Trade Engineering,116
 louisiana,university-of-louisiana---lafayette,Engineering,113
-louisiana,university-of-louisiana---lafayette,Biology,110
+louisiana,university-of-louisiana---lafayette,Science,110
 louisiana,university-of-louisiana---lafayette,Psychology,105
 louisiana,university-of-louisiana---lafayette,Trade Engineering,99
 louisiana,university-of-louisiana---lafayette,Accounting,77
 louisiana,university-of-new-orleans,Business,110
-louisiana,university-of-new-orleans,Biology,109
+louisiana,university-of-new-orleans,Science,109
 louisiana,university-of-new-orleans,Humanities,95
 louisiana,university-of-new-orleans,Accounting,93
 louisiana,university-of-new-orleans,Psychology,70
@@ -2265,8 +2265,8 @@ louisiana,university-of-new-orleans,Arts,50
 louisiana,university-of-new-orleans,Computer Science,42
 louisiana,university-of-new-orleans,Finance,42
 louisiana,university-of-new-orleans,Engineering,38
-louisiana,xavier-university-of-louisiana,Biology,133
-louisiana,xavier-university-of-louisiana,Physical Sciences,38
+louisiana,xavier-university-of-louisiana,Science,133
+louisiana,xavier-university-of-louisiana,Science,38
 louisiana,xavier-university-of-louisiana,Psychology,36
 louisiana,xavier-university-of-louisiana,Health Science,15
 louisiana,xavier-university-of-louisiana,Law,13
@@ -2289,7 +2289,7 @@ louisiana,northwestern-state-university-of-louisiana,Humanities,372
 louisiana,northwestern-state-university-of-louisiana,Nursing,343
 louisiana,northwestern-state-university-of-louisiana,Psychology,114
 louisiana,northwestern-state-university-of-louisiana,Business,109
-louisiana,northwestern-state-university-of-louisiana,Biology,78
+louisiana,northwestern-state-university-of-louisiana,Science,78
 louisiana,northwestern-state-university-of-louisiana,Medical Applied,67
 louisiana,northwestern-state-university-of-louisiana,Crime and Military,55
 louisiana,northwestern-state-university-of-louisiana,Social Work,45
@@ -2303,7 +2303,7 @@ louisiana,university-of-louisiana---monroe,Physical Therapy,86
 louisiana,university-of-louisiana---monroe,Medical Applied,82
 louisiana,university-of-louisiana---monroe,Health Science,48
 louisiana,university-of-louisiana---monroe,Communication,46
-louisiana,university-of-louisiana---monroe,Biology,40
+louisiana,university-of-louisiana---monroe,Science,40
 louisiana,university-of-louisiana---monroe,Education,37
 maine,bowdoin-college,Law,108
 maine,bowdoin-college,Economics,69
@@ -2311,7 +2311,7 @@ maine,bowdoin-college,Math,54
 maine,bowdoin-college,History and World Studies,34
 maine,bowdoin-college,Computer Science,30
 maine,bowdoin-college,Agriculture and Environment,30
-maine,bowdoin-college,Biology,27
+maine,bowdoin-college,Science,27
 maine,bowdoin-college,History and World Studies,27
 maine,bowdoin-college,Health Science,27
 maine,bowdoin-college,Psychology,26
@@ -2323,37 +2323,37 @@ maine,colby-college,Computer Science,34
 maine,colby-college,Math,31
 maine,colby-college,Psychology,31
 maine,colby-college,History and World Studies,24
-maine,colby-college,Biology,18
+maine,colby-college,Science,18
 maine,colby-college,History and World Studies,18
 maine,bates-college,Law,74
 maine,bates-college,Economics,63
 maine,bates-college,Psychology,52
 maine,bates-college,Language and Writing,36
 maine,bates-college,Agriculture and Environment,33
-maine,bates-college,Biology,29
+maine,bates-college,Science,29
 maine,bates-college,Math,29
 maine,bates-college,Anthropology,21
 maine,bates-college,Arts,20
-maine,bates-college,Biology,19
+maine,bates-college,Science,19
 maine,maine-maritime-academy,Engineering,85
 maine,maine-maritime-academy,Agriculture and Environment,51
 maine,maine-maritime-academy,Trade Engineering,25
 maine,maine-maritime-academy,Business,23
-maine,maine-maritime-academy,Biology,15
+maine,maine-maritime-academy,Science,15
 maine,maine-maritime-academy,Engineering,8
 maine,maine-maritime-academy,Humanities,4
 maryland,johns-hopkins-university,Health Science,165
 maryland,johns-hopkins-university,Health Science,143
-maryland,johns-hopkins-university,Biology,121
+maryland,johns-hopkins-university,Science,121
 maryland,johns-hopkins-university,Economics,113
 maryland,johns-hopkins-university,Engineering,99
 maryland,johns-hopkins-university,Math,92
 maryland,johns-hopkins-university,Communication,88
 maryland,johns-hopkins-university,Engineering,87
 maryland,johns-hopkins-university,International Relations,86
-maryland,johns-hopkins-university,Biology,81
+maryland,johns-hopkins-university,Science,81
 maryland,university-of-maryland---college-park,Computer Science,670
-maryland,university-of-maryland---college-park,Biology,502
+maryland,university-of-maryland---college-park,Science,502
 maryland,university-of-maryland---college-park,Economics,491
 maryland,university-of-maryland---college-park,Communication,416
 maryland,university-of-maryland---college-park,Health Science,372
@@ -2366,7 +2366,7 @@ maryland,loyola-university-maryland,Business,291
 maryland,loyola-university-maryland,Communication,97
 maryland,loyola-university-maryland,Accounting,71
 maryland,loyola-university-maryland,Psychology,66
-maryland,loyola-university-maryland,Biology,56
+maryland,loyola-university-maryland,Science,56
 maryland,loyola-university-maryland,Health Science,40
 maryland,loyola-university-maryland,Humanities,38
 maryland,loyola-university-maryland,Law,38
@@ -2387,7 +2387,7 @@ maryland,towson-university,Psychology,376
 maryland,towson-university,Communication,341
 maryland,towson-university,Nursing,271
 maryland,towson-university,Anthropology,233
-maryland,towson-university,Biology,200
+maryland,towson-university,Science,200
 maryland,towson-university,Physical Therapy,180
 maryland,towson-university,Computer Science,157
 maryland,towson-university,Accounting,151
@@ -2398,14 +2398,14 @@ maryland,salisbury-university,Social Work,131
 maryland,salisbury-university,Physical Therapy,126
 maryland,salisbury-university,Communication,108
 maryland,salisbury-university,Business,107
-maryland,salisbury-university,Biology,104
+maryland,salisbury-university,Science,104
 maryland,salisbury-university,Education,95
 maryland,salisbury-university,Marketing,92
 maryland,salisbury-university,Nursing,89
 massachusetts,massachusetts-institute-of-technology,Computer Science,408
 massachusetts,massachusetts-institute-of-technology,Engineering,185
 massachusetts,massachusetts-institute-of-technology,Math,111
-massachusetts,massachusetts-institute-of-technology,Physical Sciences,86
+massachusetts,massachusetts-institute-of-technology,Science,86
 massachusetts,massachusetts-institute-of-technology,Engineering,51
 massachusetts,massachusetts-institute-of-technology,Engineering,51
 massachusetts,massachusetts-institute-of-technology,Engineering,48
@@ -2424,7 +2424,7 @@ massachusetts,harvard-university,Psychology,89
 massachusetts,harvard-university,Language and Writing,82
 massachusetts,tufts-university,Computer Science,183
 massachusetts,tufts-university,Economics,174
-massachusetts,tufts-university,Biology,171
+massachusetts,tufts-university,Science,171
 massachusetts,tufts-university,International Relations,156
 massachusetts,tufts-university,Law,85
 massachusetts,tufts-university,Language and Writing,60
@@ -2435,28 +2435,28 @@ massachusetts,tufts-university,Engineering,53
 massachusetts,wellesley-college,Economics,89
 massachusetts,wellesley-college,Law,67
 massachusetts,wellesley-college,Psychology,50
-massachusetts,wellesley-college,Biology,44
+massachusetts,wellesley-college,Science,44
 massachusetts,wellesley-college,Communication,44
 massachusetts,wellesley-college,Language and Writing,32
 massachusetts,wellesley-college,Math,30
 massachusetts,wellesley-college,Health Science,28
 massachusetts,wellesley-college,Computer Science,23
-massachusetts,wellesley-college,Physical Sciences,20
+massachusetts,wellesley-college,Science,20
 massachusetts,williams-college,Economics,115
 massachusetts,williams-college,Language and Writing,60
 massachusetts,williams-college,Law,56
-massachusetts,williams-college,Biology,53
+massachusetts,williams-college,Science,53
 massachusetts,williams-college,History and World Studies,49
 massachusetts,williams-college,Psychology,47
 massachusetts,williams-college,Math,45
 massachusetts,williams-college,Computer Science,42
-massachusetts,williams-college,Physical Sciences,34
+massachusetts,williams-college,Science,34
 massachusetts,williams-college,Arts,26
 massachusetts,boston-college,Economics,397
 massachusetts,boston-college,Psychology,310
 massachusetts,boston-college,Finance,303
 massachusetts,boston-college,Communication,221
-massachusetts,boston-college,Biology,208
+massachusetts,boston-college,Science,208
 massachusetts,boston-college,Law,194
 massachusetts,boston-college,Marketing,127
 massachusetts,boston-college,Language and Writing,111
@@ -2468,7 +2468,7 @@ massachusetts,northeastern-university,Engineering,222
 massachusetts,northeastern-university,Economics,203
 massachusetts,northeastern-university,Engineering,154
 massachusetts,northeastern-university,Communication,152
-massachusetts,northeastern-university,Biology,139
+massachusetts,northeastern-university,Science,139
 massachusetts,northeastern-university,Health Science,134
 massachusetts,northeastern-university,Psychology,128
 massachusetts,northeastern-university,Law,122
@@ -2501,21 +2501,21 @@ massachusetts,smith-college,Engineering,39
 massachusetts,smith-college,Computer Science,38
 massachusetts,smith-college,Anthropology,34
 massachusetts,smith-college,History and World Studies,31
-massachusetts,smith-college,Biology,30
+massachusetts,smith-college,Science,30
 massachusetts,smith-college,Agriculture and Environment,30
 massachusetts,college-of-the-holy-cross,Economics,120
 massachusetts,college-of-the-holy-cross,Psychology,107
 massachusetts,college-of-the-holy-cross,Law,82
 massachusetts,college-of-the-holy-cross,Language and Writing,67
-massachusetts,college-of-the-holy-cross,Biology,60
+massachusetts,college-of-the-holy-cross,Science,60
 massachusetts,college-of-the-holy-cross,Math,48
 massachusetts,college-of-the-holy-cross,History and World Studies,44
 massachusetts,college-of-the-holy-cross,Anthropology,34
-massachusetts,college-of-the-holy-cross,Physical Sciences,33
+massachusetts,college-of-the-holy-cross,Science,33
 massachusetts,college-of-the-holy-cross,International Relations,26
 massachusetts,mount-holyoke-college,Computer Science,52
 massachusetts,mount-holyoke-college,Psychology,45
-massachusetts,mount-holyoke-college,Biology,41
+massachusetts,mount-holyoke-college,Science,41
 massachusetts,mount-holyoke-college,Economics,41
 massachusetts,mount-holyoke-college,Law,41
 massachusetts,mount-holyoke-college,Language and Writing,39
@@ -2532,9 +2532,9 @@ massachusetts,worcester-polytechnic-institute,Engineering,78
 massachusetts,worcester-polytechnic-institute,Engineering,55
 massachusetts,worcester-polytechnic-institute,Architecture,53
 massachusetts,worcester-polytechnic-institute,Engineering,36
-massachusetts,worcester-polytechnic-institute,Biology,32
+massachusetts,worcester-polytechnic-institute,Science,32
 massachusetts,brandeis-university,Economics,188
-massachusetts,brandeis-university,Biology,137
+massachusetts,brandeis-university,Science,137
 massachusetts,brandeis-university,Business,133
 massachusetts,brandeis-university,Psychology,98
 massachusetts,brandeis-university,Law,96
@@ -2551,10 +2551,10 @@ michigan,university-of-michigan---ann-arbor,Engineering,309
 michigan,university-of-michigan---ann-arbor,Psychology,294
 michigan,university-of-michigan---ann-arbor,Law,283
 michigan,university-of-michigan---ann-arbor,Communication,236
-michigan,university-of-michigan---ann-arbor,Biology,209
+michigan,university-of-michigan---ann-arbor,Science,209
 michigan,university-of-michigan---ann-arbor,International Relations,195
 michigan,michigan-state-university,Marketing,496
-michigan,michigan-state-university,Biology,471
+michigan,michigan-state-university,Science,471
 michigan,michigan-state-university,Communication,464
 michigan,michigan-state-university,Management,388
 michigan,michigan-state-university,Physical Therapy,373
@@ -2576,7 +2576,7 @@ michigan,michigan-technological-university,Trade Engineering,38
 michigan,hope-college,Business,98
 michigan,hope-college,Psychology,84
 michigan,hope-college,Nursing,49
-michigan,hope-college,Biology,47
+michigan,hope-college,Science,47
 michigan,hope-college,Engineering,42
 michigan,hope-college,Communication,39
 michigan,hope-college,Language and Writing,38
@@ -2587,25 +2587,25 @@ michigan,calvin-university,Engineering,114
 michigan,calvin-university,Business,69
 michigan,calvin-university,Nursing,65
 michigan,calvin-university,Psychology,49
-michigan,calvin-university,Biology,39
+michigan,calvin-university,Science,39
 michigan,calvin-university,Education,39
 michigan,calvin-university,Religion,39
 michigan,calvin-university,Health Science,38
 michigan,calvin-university,Education,36
 michigan,calvin-university,Language and Writing,32
-michigan,kalamazoo-college,Biology,51
+michigan,kalamazoo-college,Science,51
 michigan,kalamazoo-college,Psychology,37
 michigan,kalamazoo-college,Business,29
 michigan,kalamazoo-college,Language and Writing,23
 michigan,kalamazoo-college,Law,23
-michigan,kalamazoo-college,Physical Sciences,22
-michigan,kalamazoo-college,Physical Sciences,22
+michigan,kalamazoo-college,Science,22
+michigan,kalamazoo-college,Science,22
 michigan,kalamazoo-college,Economics,21
 michigan,kalamazoo-college,Language and Writing,20
 michigan,kalamazoo-college,History and World Studies,16
 michigan,university-of-michigan---dearborn,Engineering,124
 michigan,university-of-michigan---dearborn,Psychology,112
-michigan,university-of-michigan---dearborn,Biology,109
+michigan,university-of-michigan---dearborn,Science,109
 michigan,university-of-michigan---dearborn,Engineering,82
 michigan,university-of-michigan---dearborn,Finance,69
 michigan,university-of-michigan---dearborn,Crime and Military,66
@@ -2614,7 +2614,7 @@ michigan,university-of-michigan---dearborn,Accounting,65
 michigan,university-of-michigan---dearborn,Communication,65
 michigan,university-of-michigan---dearborn,Management,60
 michigan,wayne-state-university,Psychology,314
-michigan,wayne-state-university,Biology,207
+michigan,wayne-state-university,Science,207
 michigan,wayne-state-university,Business,184
 michigan,wayne-state-university,Social Work,155
 michigan,wayne-state-university,Anthropology,146
@@ -2654,7 +2654,7 @@ michigan,college-for-creative-studies,Arts,11
 michigan,college-for-creative-studies,Architecture,10
 michigan,college-for-creative-studies,Education,6
 michigan,andrews-university,Psychology,19
-michigan,andrews-university,Biology,18
+michigan,andrews-university,Science,18
 michigan,andrews-university,Architecture,17
 michigan,andrews-university,Social Work,17
 michigan,andrews-university,Engineering,16
@@ -2674,7 +2674,7 @@ michigan,lawrence-technological-university,Trade Engineering,15
 michigan,lawrence-technological-university,Business,10
 michigan,lawrence-technological-university,Arts,10
 michigan,albion-college,Economics,38
-michigan,albion-college,Biology,36
+michigan,albion-college,Science,36
 michigan,albion-college,Physical Therapy,32
 michigan,albion-college,Psychology,31
 michigan,albion-college,Accounting,26
@@ -2710,51 +2710,51 @@ michigan,kettering-university,Engineering,24
 michigan,kettering-university,Computer Science,22
 michigan,kettering-university,Engineering,20
 michigan,kettering-university,Math,14
-michigan,kettering-university,Biology,11
+michigan,kettering-university,Science,11
 michigan,kettering-university,Business,11
-michigan,kettering-university,Biology,6
+michigan,kettering-university,Science,6
 minnesota,carleton-college,International Relations,55
 minnesota,carleton-college,Computer Science,53
-minnesota,carleton-college,Biology,46
+minnesota,carleton-college,Science,46
 minnesota,carleton-college,Psychology,39
 minnesota,carleton-college,Math,32
-minnesota,carleton-college,Physical Sciences,27
+minnesota,carleton-college,Science,27
 minnesota,carleton-college,Economics,24
 minnesota,carleton-college,Language and Writing,24
-minnesota,carleton-college,Physical Sciences,24
+minnesota,carleton-college,Science,24
 minnesota,carleton-college,Agriculture and Environment,21
 minnesota,macalester-college,Economics,69
 minnesota,macalester-college,Law,64
 minnesota,macalester-college,Communication,58
 minnesota,macalester-college,Math,52
 minnesota,macalester-college,International Relations,43
-minnesota,macalester-college,Biology,41
+minnesota,macalester-college,Science,41
 minnesota,macalester-college,Psychology,39
 minnesota,macalester-college,Agriculture and Environment,36
-minnesota,macalester-college,Physical Sciences,25
+minnesota,macalester-college,Science,25
 minnesota,macalester-college,Agriculture and Environment,21
 minnesota,university-of-minnesota-twin-cities,Psychology,524
 minnesota,university-of-minnesota-twin-cities,Computer Science,403
 minnesota,university-of-minnesota-twin-cities,Economics,392
 minnesota,university-of-minnesota-twin-cities,Communication,331
-minnesota,university-of-minnesota-twin-cities,Biology,330
+minnesota,university-of-minnesota-twin-cities,Science,330
 minnesota,university-of-minnesota-twin-cities,Finance,327
 minnesota,university-of-minnesota-twin-cities,Education,242
 minnesota,university-of-minnesota-twin-cities,Law,237
 minnesota,university-of-minnesota-twin-cities,Math,223
 minnesota,university-of-minnesota-twin-cities,Engineering,212
 minnesota,st.-olaf-college,Economics,92
-minnesota,st.-olaf-college,Biology,90
+minnesota,st.-olaf-college,Science,90
 minnesota,st.-olaf-college,Math,73
 minnesota,st.-olaf-college,Psychology,63
 minnesota,st.-olaf-college,Law,56
-minnesota,st.-olaf-college,Physical Sciences,49
+minnesota,st.-olaf-college,Science,49
 minnesota,st.-olaf-college,Language and Writing,43
 minnesota,st.-olaf-college,Agriculture and Environment,31
 minnesota,st.-olaf-college,Anthropology,29
 minnesota,st.-olaf-college,Arts,27
 minnesota,gustavus-adolphus-college,Psychology,58
-minnesota,gustavus-adolphus-college,Biology,48
+minnesota,gustavus-adolphus-college,Science,48
 minnesota,gustavus-adolphus-college,Business,43
 minnesota,gustavus-adolphus-college,Communication,39
 minnesota,gustavus-adolphus-college,Economics,39
@@ -2774,7 +2774,7 @@ minnesota,university-of-minnesota-crookston,Agriculture and Environment,18
 minnesota,university-of-minnesota-crookston,Agriculture and Environment,17
 minnesota,university-of-minnesota-crookston,Agriculture and Environment,17
 minnesota,concordia-college,Business,66
-minnesota,concordia-college,Biology,62
+minnesota,concordia-college,Science,62
 minnesota,concordia-college,Psychology,31
 minnesota,concordia-college,Nursing,27
 minnesota,concordia-college,Education,26
@@ -2787,7 +2787,7 @@ minnesota,university-of-minnesota-duluth,Psychology,142
 minnesota,university-of-minnesota-duluth,Marketing,132
 minnesota,university-of-minnesota-duluth,Engineering,122
 minnesota,university-of-minnesota-duluth,Finance,119
-minnesota,university-of-minnesota-duluth,Biology,111
+minnesota,university-of-minnesota-duluth,Science,111
 minnesota,university-of-minnesota-duluth,Communication,94
 minnesota,university-of-minnesota-duluth,Business,87
 minnesota,university-of-minnesota-duluth,Computer Science,82
@@ -2798,7 +2798,7 @@ mississippi,mississippi-state-university,Physical Therapy,271
 mississippi,mississippi-state-university,Business,248
 mississippi,mississippi-state-university,Engineering,179
 mississippi,mississippi-state-university,Communication,159
-mississippi,mississippi-state-university,Biology,140
+mississippi,mississippi-state-university,Science,140
 mississippi,mississippi-state-university,Psychology,140
 mississippi,mississippi-state-university,Education,131
 mississippi,mississippi-state-university,Marketing,128
@@ -2818,7 +2818,7 @@ mississippi,william-carey-university,Business,60
 mississippi,william-carey-university,Humanities,60
 mississippi,william-carey-university,Education,51
 mississippi,william-carey-university,Psychology,51
-mississippi,william-carey-university,Biology,50
+mississippi,william-carey-university,Science,50
 mississippi,william-carey-university,Education,49
 mississippi,william-carey-university,Health Science,29
 mississippi,william-carey-university,Education,25
@@ -2826,10 +2826,10 @@ mississippi,william-carey-university,Crime and Military,20
 mississippi,millsaps-college,Business,33
 mississippi,millsaps-college,Accounting,21
 mississippi,millsaps-college,Psychology,20
-mississippi,millsaps-college,Biology,16
+mississippi,millsaps-college,Science,16
 mississippi,millsaps-college,Anthropology,10
 mississippi,millsaps-college,Health Science,9
-mississippi,millsaps-college,Biology,8
+mississippi,millsaps-college,Science,8
 mississippi,millsaps-college,History and World Studies,8
 mississippi,millsaps-college,Economics,7
 mississippi,millsaps-college,Law,7
@@ -2842,20 +2842,20 @@ mississippi,mississippi-college,Education,36
 mississippi,mississippi-college,Communication,30
 mississippi,mississippi-college,Accounting,27
 mississippi,mississippi-college,Crime and Military,24
-mississippi,mississippi-college,Biology,19
+mississippi,mississippi-college,Science,19
 mississippi,university-of-southern-mississippi,Business,193
 mississippi,university-of-southern-mississippi,Nursing,190
 mississippi,university-of-southern-mississippi,Humanities,180
 mississippi,university-of-southern-mississippi,Psychology,153
 mississippi,university-of-southern-mississippi,Education,141
-mississippi,university-of-southern-mississippi,Biology,105
+mississippi,university-of-southern-mississippi,Science,105
 mississippi,university-of-southern-mississippi,Marketing,95
 mississippi,university-of-southern-mississippi,Accounting,91
 mississippi,university-of-southern-mississippi,Physical Therapy,74
 mississippi,university-of-southern-mississippi,Architecture,71
 missouri,washington-university-in-st.-louis,Computer Science,166
 missouri,washington-university-in-st.-louis,Finance,148
-missouri,washington-university-in-st.-louis,Biology,140
+missouri,washington-university-in-st.-louis,Science,140
 missouri,washington-university-in-st.-louis,Psychology,137
 missouri,washington-university-in-st.-louis,Anthropology,117
 missouri,washington-university-in-st.-louis,Economics,112
@@ -2865,7 +2865,7 @@ missouri,washington-university-in-st.-louis,Law,88
 missouri,washington-university-in-st.-louis,Economics,72
 missouri,saint-louis-university,Nursing,192
 missouri,saint-louis-university,Physical Therapy,106
-missouri,saint-louis-university,Biology,87
+missouri,saint-louis-university,Science,87
 missouri,saint-louis-university,Marketing,69
 missouri,saint-louis-university,Finance,68
 missouri,saint-louis-university,Psychology,66
@@ -2878,7 +2878,7 @@ missouri,university-of-missouri,Business,765
 missouri,university-of-missouri,Health Science,624
 missouri,university-of-missouri,Communication,537
 missouri,university-of-missouri,Psychology,285
-missouri,university-of-missouri,Biology,278
+missouri,university-of-missouri,Science,278
 missouri,university-of-missouri,Humanities,215
 missouri,university-of-missouri,Nursing,204
 missouri,university-of-missouri,Engineering,200
@@ -2892,25 +2892,25 @@ missouri,college-of-the-ozarks,Education,15
 missouri,college-of-the-ozarks,Agriculture and Environment,14
 missouri,college-of-the-ozarks,Agriculture and Environment,13
 missouri,college-of-the-ozarks,Communication,12
-missouri,college-of-the-ozarks,Biology,11
+missouri,college-of-the-ozarks,Science,11
 missouri,rockhurst-university,Nursing,120
 missouri,rockhurst-university,Business,87
 missouri,rockhurst-university,Psychology,41
 missouri,rockhurst-university,Physical Therapy,36
-missouri,rockhurst-university,Biology,22
+missouri,rockhurst-university,Science,22
 missouri,rockhurst-university,Language and Writing,17
 missouri,rockhurst-university,Health Science,13
 missouri,rockhurst-university,Language and Writing,11
-missouri,rockhurst-university,Physical Sciences,11
-missouri,rockhurst-university,Physical Sciences,10
+missouri,rockhurst-university,Science,11
+missouri,rockhurst-university,Science,10
 missouri,university-of-missouri---kansas-city,Business,259
-missouri,university-of-missouri---kansas-city,Biology,158
+missouri,university-of-missouri---kansas-city,Science,158
 missouri,university-of-missouri---kansas-city,Humanities,144
 missouri,university-of-missouri---kansas-city,Nursing,120
 missouri,university-of-missouri---kansas-city,Health Science,106
 missouri,university-of-missouri---kansas-city,Communication,99
 missouri,university-of-missouri---kansas-city,Psychology,96
-missouri,university-of-missouri---kansas-city,Physical Sciences,93
+missouri,university-of-missouri---kansas-city,Science,93
 missouri,university-of-missouri---kansas-city,Computer Science,66
 missouri,university-of-missouri---kansas-city,Accounting,61
 missouri,maryville-university,Nursing,158
@@ -2921,11 +2921,11 @@ missouri,maryville-university,Crime and Military,41
 missouri,maryville-university,Accounting,27
 missouri,maryville-university,Management,25
 missouri,maryville-university,Finance,22
-missouri,maryville-university,Biology,22
+missouri,maryville-university,Science,22
 missouri,maryville-university,Health Science,15
 missouri,truman-state-university,Business,147
 missouri,truman-state-university,Physical Therapy,108
-missouri,truman-state-university,Biology,103
+missouri,truman-state-university,Science,103
 missouri,truman-state-university,Psychology,103
 missouri,truman-state-university,Education,79
 missouri,truman-state-university,Language and Writing,76
@@ -2949,7 +2949,7 @@ missouri,avila-university,Business,23
 missouri,avila-university,Communication,19
 missouri,avila-university,Medical Applied,19
 missouri,avila-university,Communication,16
-missouri,avila-university,Biology,15
+missouri,avila-university,Science,15
 missouri,avila-university,Arts,9
 missouri,avila-university,Arts,8
 missouri,avila-university,Management,8
@@ -2961,7 +2961,7 @@ missouri,northwest-missouri-state-university,Business,69
 missouri,northwest-missouri-state-university,Psychology,59
 missouri,northwest-missouri-state-university,Marketing,51
 missouri,northwest-missouri-state-university,Psychology,43
-missouri,northwest-missouri-state-university,Biology,38
+missouri,northwest-missouri-state-university,Science,38
 missouri,northwest-missouri-state-university,Communication,34
 missouri,william-jewell-college,Nursing,73
 missouri,william-jewell-college,Business,56
@@ -2974,13 +2974,13 @@ missouri,william-jewell-college,Communication,10
 missouri,william-jewell-college,Language and Writing,9
 missouri,william-jewell-college,Math,8
 missouri,drury-university,Architecture,28
-missouri,drury-university,Biology,25
+missouri,drury-university,Science,25
 missouri,drury-university,Psychology,23
 missouri,drury-university,Finance,22
 missouri,drury-university,Accounting,19
-missouri,drury-university,Biology,16
+missouri,drury-university,Science,16
 missouri,drury-university,Business,15
-missouri,drury-university,Physical Sciences,15
+missouri,drury-university,Science,15
 missouri,drury-university,Crime and Military,12
 missouri,drury-university,Marketing,11
 missouri,fontbonne-university,Business,29
@@ -2989,14 +2989,14 @@ missouri,fontbonne-university,Education,19
 missouri,fontbonne-university,Humanities,17
 missouri,fontbonne-university,Social Work,16
 missouri,fontbonne-university,Communication,13
-missouri,fontbonne-university,Biology,12
+missouri,fontbonne-university,Science,12
 missouri,fontbonne-university,Crime and Military,11
 missouri,fontbonne-university,Psychology,11
 missouri,fontbonne-university,Health Science,11
 missouri,missouri-state-university,Business,293
 missouri,missouri-state-university,Psychology,291
 missouri,missouri-state-university,Education,174
-missouri,missouri-state-university,Biology,156
+missouri,missouri-state-university,Science,156
 missouri,missouri-state-university,Finance,152
 missouri,missouri-state-university,Communication,151
 missouri,missouri-state-university,Marketing,151
@@ -3007,7 +3007,7 @@ missouri,webster-university,Business,160
 missouri,webster-university,Arts,50
 missouri,webster-university,Computer Science,43
 missouri,webster-university,Communication,34
-missouri,webster-university,Biology,29
+missouri,webster-university,Science,29
 missouri,webster-university,Education,29
 missouri,webster-university,Arts,29
 missouri,webster-university,Psychology,28
@@ -3022,7 +3022,7 @@ montana,montana-state-university,Engineering,112
 montana,montana-state-university,Education,94
 montana,montana-state-university,Architecture,89
 montana,montana-state-university,Computer Science,87
-montana,montana-state-university,Biology,83
+montana,montana-state-university,Science,83
 montana,montana-technological-university,Engineering,103
 montana,montana-technological-university,Trade Engineering,65
 montana,montana-technological-university,Engineering,59
@@ -3031,21 +3031,21 @@ montana,montana-technological-university,Nursing,45
 montana,montana-technological-university,Health Science,25
 montana,montana-technological-university,Engineering,18
 montana,montana-technological-university,Architecture,17
-montana,montana-technological-university,Biology,13
+montana,montana-technological-university,Science,13
 montana,montana-technological-university,Engineering,12
 montana,carroll-college,Nursing,46
 montana,carroll-college,Health Science,27
-montana,carroll-college,Biology,26
+montana,carroll-college,Science,26
 montana,carroll-college,Business,25
 montana,carroll-college,Education,20
 montana,carroll-college,Accounting,18
 montana,carroll-college,Education,18
 montana,carroll-college,Psychology,16
 montana,carroll-college,Finance,15
-montana,carroll-college,Biology,13
+montana,carroll-college,Science,13
 nebraska,creighton-university,Nursing,208
 nebraska,creighton-university,Finance,112
-nebraska,creighton-university,Biology,104
+nebraska,creighton-university,Science,104
 nebraska,creighton-university,Marketing,79
 nebraska,creighton-university,Psychology,74
 nebraska,creighton-university,Management,72
@@ -3059,13 +3059,13 @@ nebraska,university-of-nebraska---lincoln,Communication,231
 nebraska,university-of-nebraska---lincoln,Finance,207
 nebraska,university-of-nebraska---lincoln,Marketing,168
 nebraska,university-of-nebraska---lincoln,Health Science,161
-nebraska,university-of-nebraska---lincoln,Biology,149
+nebraska,university-of-nebraska---lincoln,Science,149
 nebraska,university-of-nebraska---lincoln,Culinary,148
 nebraska,university-of-nebraska---lincoln,Accounting,145
 nebraska,university-of-nebraska---lincoln,Engineering,133
 nebraska,nebraska-wesleyan-university,Business,59
 nebraska,nebraska-wesleyan-university,Nursing,59
-nebraska,nebraska-wesleyan-university,Biology,51
+nebraska,nebraska-wesleyan-university,Science,51
 nebraska,nebraska-wesleyan-university,Social Work,28
 nebraska,nebraska-wesleyan-university,Communication,26
 nebraska,nebraska-wesleyan-university,Psychology,19
@@ -3079,7 +3079,7 @@ nebraska,university-of-nebraska-at-kearney,Management,57
 nebraska,university-of-nebraska-at-kearney,Social Work,52
 nebraska,university-of-nebraska-at-kearney,Culinary,47
 nebraska,university-of-nebraska-at-kearney,Psychology,39
-nebraska,university-of-nebraska-at-kearney,Biology,30
+nebraska,university-of-nebraska-at-kearney,Science,30
 nebraska,university-of-nebraska-at-kearney,Education,30
 nebraska,university-of-nebraska-at-kearney,Social Work,29
 nebraska,university-of-nebraska-at-kearney,Health Science,28
@@ -3087,7 +3087,7 @@ nebraska,university-of-nebraska-at-omaha,Humanities,306
 nebraska,university-of-nebraska-at-omaha,Crime and Military,209
 nebraska,university-of-nebraska-at-omaha,Psychology,105
 nebraska,university-of-nebraska-at-omaha,Business,103
-nebraska,university-of-nebraska-at-omaha,Biology,94
+nebraska,university-of-nebraska-at-omaha,Science,94
 nebraska,university-of-nebraska-at-omaha,Marketing,93
 nebraska,university-of-nebraska-at-omaha,Communication,89
 nebraska,university-of-nebraska-at-omaha,Finance,72
@@ -3096,7 +3096,7 @@ nebraska,university-of-nebraska-at-omaha,Physical Therapy,71
 nevada,university-of-nevada---reno,Health Science,434
 nevada,university-of-nevada---reno,Psychology,236
 nevada,university-of-nevada---reno,Business,198
-nevada,university-of-nevada---reno,Biology,197
+nevada,university-of-nevada---reno,Science,197
 nevada,university-of-nevada---reno,Marketing,187
 nevada,university-of-nevada---reno,Engineering,168
 nevada,university-of-nevada---reno,Crime and Military,161
@@ -3107,7 +3107,7 @@ nevada,nevada-state-college,Nursing,254
 nevada,nevada-state-college,Psychology,65
 nevada,nevada-state-college,Business,52
 nevada,nevada-state-college,Education,32
-nevada,nevada-state-college,Biology,28
+nevada,nevada-state-college,Science,28
 nevada,nevada-state-college,Crime and Military,27
 nevada,nevada-state-college,History and World Studies,25
 nevada,nevada-state-college,Health Science,22
@@ -3116,7 +3116,7 @@ nevada,nevada-state-college,Language and Writing,13
 nevada,university-of-nevada-las-vegas,Management,577
 nevada,university-of-nevada-las-vegas,Psychology,337
 nevada,university-of-nevada-las-vegas,Crime and Military,283
-nevada,university-of-nevada-las-vegas,Biology,244
+nevada,university-of-nevada-las-vegas,Science,244
 nevada,university-of-nevada-las-vegas,Physical Therapy,239
 nevada,university-of-nevada-las-vegas,Communication,190
 nevada,university-of-nevada-las-vegas,Accounting,182
@@ -3139,7 +3139,7 @@ new-hampshire,dartmouth-college,Engineering,109
 new-hampshire,dartmouth-college,Computer Science,87
 new-hampshire,dartmouth-college,Math,76
 new-hampshire,dartmouth-college,Psychology,61
-new-hampshire,dartmouth-college,Biology,54
+new-hampshire,dartmouth-college,Science,54
 new-hampshire,dartmouth-college,History and World Studies,54
 new-hampshire,dartmouth-college,Health Science,46
 new-hampshire,dartmouth-college,Anthropology,44
@@ -3164,7 +3164,7 @@ new-hampshire,white-mountains-community-college,Education,9
 new-hampshire,white-mountains-community-college,Crime and Military,8
 new-hampshire,white-mountains-community-college,Trade Engineering,6
 new-hampshire,university-of-new-hampshire-at-manchester,Business,33
-new-hampshire,university-of-new-hampshire-at-manchester,Biology,20
+new-hampshire,university-of-new-hampshire-at-manchester,Science,20
 new-hampshire,university-of-new-hampshire-at-manchester,Engineering,17
 new-hampshire,university-of-new-hampshire-at-manchester,Language and Writing,17
 new-hampshire,university-of-new-hampshire-at-manchester,Psychology,17
@@ -3179,8 +3179,8 @@ new-jersey,princeton-university,Law,122
 new-jersey,princeton-university,Law,72
 new-jersey,princeton-university,Engineering,66
 new-jersey,princeton-university,History and World Studies,66
-new-jersey,princeton-university,Biology,59
-new-jersey,princeton-university,Biology,49
+new-jersey,princeton-university,Science,59
+new-jersey,princeton-university,Science,49
 new-jersey,princeton-university,Engineering,48
 new-jersey,princeton-university,Engineering,44
 new-jersey,stevens-institute-of-technology,Engineering,183
@@ -3195,7 +3195,7 @@ new-jersey,stevens-institute-of-technology,Math,35
 new-jersey,stevens-institute-of-technology,Engineering,24
 new-jersey,rutgers-university---new-brunswick,Communication,833
 new-jersey,rutgers-university---new-brunswick,Psychology,495
-new-jersey,rutgers-university---new-brunswick,Biology,409
+new-jersey,rutgers-university---new-brunswick,Science,409
 new-jersey,rutgers-university---new-brunswick,Management,378
 new-jersey,rutgers-university---new-brunswick,Communication,362
 new-jersey,rutgers-university---new-brunswick,Nursing,362
@@ -3204,7 +3204,7 @@ new-jersey,rutgers-university---new-brunswick,Economics,344
 new-jersey,rutgers-university---new-brunswick,Health Science,275
 new-jersey,rutgers-university---new-brunswick,Physical Therapy,269
 new-jersey,the-college-of-new-jersey,Business,323
-new-jersey,the-college-of-new-jersey,Biology,104
+new-jersey,the-college-of-new-jersey,Science,104
 new-jersey,the-college-of-new-jersey,Psychology,103
 new-jersey,the-college-of-new-jersey,Education,91
 new-jersey,the-college-of-new-jersey,Nursing,90
@@ -3217,14 +3217,14 @@ new-jersey,rutgers-university---newark,Psychology,203
 new-jersey,rutgers-university---newark,Crime and Military,198
 new-jersey,rutgers-university---newark,Accounting,180
 new-jersey,rutgers-university---newark,Finance,166
-new-jersey,rutgers-university---newark,Biology,159
+new-jersey,rutgers-university---newark,Science,159
 new-jersey,rutgers-university---newark,Management,134
 new-jersey,rutgers-university---newark,Social Work,104
 new-jersey,rutgers-university---newark,Marketing,74
 new-jersey,rutgers-university---newark,Social Work,72
 new-jersey,rutgers-university---newark,Business,57
 new-jersey,seton-hall-university,Humanities,186
-new-jersey,seton-hall-university,Biology,142
+new-jersey,seton-hall-university,Science,142
 new-jersey,seton-hall-university,Finance,141
 new-jersey,seton-hall-university,Nursing,126
 new-jersey,seton-hall-university,Marketing,97
@@ -3242,7 +3242,7 @@ new-jersey,new-jersey-institute-of-technology,Engineering,95
 new-jersey,new-jersey-institute-of-technology,Engineering,92
 new-jersey,new-jersey-institute-of-technology,Business,91
 new-jersey,new-jersey-institute-of-technology,Architecture,86
-new-jersey,new-jersey-institute-of-technology,Biology,81
+new-jersey,new-jersey-institute-of-technology,Science,81
 new-jersey,monmouth-university,Business,339
 new-jersey,monmouth-university,Communication,106
 new-jersey,monmouth-university,Health Science,88
@@ -3251,13 +3251,13 @@ new-jersey,monmouth-university,Psychology,58
 new-jersey,monmouth-university,Language and Writing,46
 new-jersey,monmouth-university,Communication,45
 new-jersey,monmouth-university,Social Work,45
-new-jersey,monmouth-university,Biology,42
+new-jersey,monmouth-university,Science,42
 new-jersey,monmouth-university,Law,41
 new-jersey,stockton-university,Business,340
 new-jersey,stockton-university,Health Science,296
 new-jersey,stockton-university,Psychology,185
 new-jersey,stockton-university,Crime and Military,161
-new-jersey,stockton-university,Biology,121
+new-jersey,stockton-university,Science,121
 new-jersey,stockton-university,Social Work,103
 new-jersey,stockton-university,Humanities,84
 new-jersey,stockton-university,Communication,83
@@ -3267,7 +3267,7 @@ new-jersey,montclair-state-university,Business,731
 new-jersey,montclair-state-university,Psychology,453
 new-jersey,montclair-state-university,Humanities,288
 new-jersey,montclair-state-university,Psychology,270
-new-jersey,montclair-state-university,Biology,192
+new-jersey,montclair-state-university,Science,192
 new-jersey,montclair-state-university,Health Science,145
 new-jersey,montclair-state-university,Language and Writing,140
 new-jersey,montclair-state-university,Accounting,113
@@ -3275,7 +3275,7 @@ new-jersey,montclair-state-university,Social Work,112
 new-jersey,montclair-state-university,Communication,111
 new-jersey,rowan-university,Psychology,337
 new-jersey,rowan-university,Business,303
-new-jersey,rowan-university,Biology,237
+new-jersey,rowan-university,Science,237
 new-jersey,rowan-university,Crime and Military,218
 new-jersey,rowan-university,Arts,165
 new-jersey,rowan-university,Humanities,158
@@ -3292,22 +3292,22 @@ new-jersey,rutgers-university---camden,Humanities,82
 new-jersey,rutgers-university---camden,Social Work,76
 new-jersey,rutgers-university---camden,Accounting,73
 new-jersey,rutgers-university---camden,Finance,69
-new-jersey,rutgers-university---camden,Biology,61
+new-jersey,rutgers-university---camden,Science,61
 new-jersey,drew-university,Business,49
 new-jersey,drew-university,Psychology,33
 new-jersey,drew-university,Economics,26
 new-jersey,drew-university,Arts,21
 new-jersey,drew-university,Language and Writing,21
 new-jersey,drew-university,Health Science,21
-new-jersey,drew-university,Biology,19
-new-jersey,drew-university,Biology,16
+new-jersey,drew-university,Science,19
+new-jersey,drew-university,Science,16
 new-jersey,drew-university,Computer Science,14
 new-jersey,drew-university,Law,14
 new-jersey,ramapo-college-of-new-jersey,Business,226
 new-jersey,ramapo-college-of-new-jersey,Nursing,121
 new-jersey,ramapo-college-of-new-jersey,Psychology,120
 new-jersey,ramapo-college-of-new-jersey,Communication,115
-new-jersey,ramapo-college-of-new-jersey,Biology,88
+new-jersey,ramapo-college-of-new-jersey,Science,88
 new-jersey,ramapo-college-of-new-jersey,Anthropology,84
 new-jersey,ramapo-college-of-new-jersey,Social Work,65
 new-jersey,ramapo-college-of-new-jersey,Accounting,64
@@ -3320,7 +3320,7 @@ new-jersey,william-paterson-university-of-new-jersey,Accounting,95
 new-jersey,william-paterson-university-of-new-jersey,Management,93
 new-jersey,william-paterson-university-of-new-jersey,Marketing,74
 new-jersey,william-paterson-university-of-new-jersey,Nursing,73
-new-jersey,william-paterson-university-of-new-jersey,Biology,70
+new-jersey,william-paterson-university-of-new-jersey,Science,70
 new-jersey,william-paterson-university-of-new-jersey,Anthropology,69
 new-jersey,william-paterson-university-of-new-jersey,Finance,62
 new-mexico,new-mexico-military-institute,Humanities,121
@@ -3329,10 +3329,10 @@ new-mexico,new-mexico-tech,Engineering,37
 new-mexico,new-mexico-tech,Trade Engineering,27
 new-mexico,new-mexico-tech,Computer Science,25
 new-mexico,new-mexico-tech,Engineering,18
-new-mexico,new-mexico-tech,Physical Sciences,14
+new-mexico,new-mexico-tech,Science,14
 new-mexico,new-mexico-tech,Engineering,13
 new-mexico,new-mexico-tech,Architecture,11
-new-mexico,new-mexico-tech,Biology,10
+new-mexico,new-mexico-tech,Science,10
 new-mexico,new-mexico-tech,Math,10
 new-mexico,new-mexico-state-university,Humanities,173
 new-mexico,new-mexico-state-university,Crime and Military,156
@@ -3341,7 +3341,7 @@ new-mexico,new-mexico-state-university,Engineering,109
 new-mexico,new-mexico-state-university,Nursing,106
 new-mexico,new-mexico-state-university,Marketing,92
 new-mexico,new-mexico-state-university,Psychology,92
-new-mexico,new-mexico-state-university,Biology,73
+new-mexico,new-mexico-state-university,Science,73
 new-mexico,new-mexico-state-university,Physical Therapy,68
 new-mexico,new-mexico-state-university,Agriculture and Environment,62
 new-mexico,new-mexico-junior-college,Humanities,295
@@ -3361,7 +3361,7 @@ new-mexico,eastern-new-mexico-university,Social Work,40
 new-mexico,eastern-new-mexico-university,Nursing,39
 new-mexico,eastern-new-mexico-university,Crime and Military,34
 new-mexico,eastern-new-mexico-university,Psychology,33
-new-mexico,eastern-new-mexico-university,Biology,29
+new-mexico,eastern-new-mexico-university,Science,29
 new-mexico,eastern-new-mexico-university,Education,26
 new-mexico,eastern-new-mexico-university,Management,22
 new-york,columbia-university,Economics,311
@@ -3374,7 +3374,7 @@ new-york,columbia-university,Anthropology,79
 new-york,columbia-university,Engineering,74
 new-york,columbia-university,Humanities,73
 new-york,columbia-university,Health Science,64
-new-york,cornell-university,Biology,493
+new-york,cornell-university,Science,493
 new-york,cornell-university,Computer Science,372
 new-york,cornell-university,Management,292
 new-york,cornell-university,Business,281
@@ -3412,8 +3412,8 @@ new-york,hamilton-college,Language and Writing,27
 new-york,hamilton-college,Law,23
 new-york,hamilton-college,Psychology,22
 new-york,hamilton-college,Language and Writing,21
-new-york,hamilton-college,Biology,20
-new-york,hamilton-college,Biology,19
+new-york,hamilton-college,Science,20
+new-york,hamilton-college,Science,19
 new-york,new-york-university,Humanities,569
 new-york,new-york-university,Economics,449
 new-york,new-york-university,Business,420
@@ -3431,8 +3431,8 @@ new-york,colgate-university,Computer Science,41
 new-york,colgate-university,Health Science,39
 new-york,colgate-university,Agriculture and Environment,36
 new-york,colgate-university,History and World Studies,36
-new-york,colgate-university,Biology,34
-new-york,colgate-university,Biology,33
+new-york,colgate-university,Science,34
+new-york,colgate-university,Science,33
 new-york,colgate-university,Humanities,33
 new-york,the-cooper-union-for-the-advancement-of-science-and-art,Arts,47
 new-york,the-cooper-union-for-the-advancement-of-science-and-art,Engineering,40
@@ -3442,7 +3442,7 @@ new-york,the-cooper-union-for-the-advancement-of-science-and-art,Engineering,17
 new-york,the-cooper-union-for-the-advancement-of-science-and-art,Architecture,15
 new-york,the-cooper-union-for-the-advancement-of-science-and-art,Engineering,8
 new-york,university-of-rochester,Nursing,216
-new-york,university-of-rochester,Biology,191
+new-york,university-of-rochester,Science,191
 new-york,university-of-rochester,Computer Science,133
 new-york,university-of-rochester,Economics,132
 new-york,university-of-rochester,Management,124
@@ -3454,7 +3454,7 @@ new-york,university-of-rochester,Engineering,62
 new-york,vassar-college,Psychology,56
 new-york,vassar-college,Economics,55
 new-york,vassar-college,Law,49
-new-york,vassar-college,Biology,48
+new-york,vassar-college,Science,48
 new-york,vassar-college,Math,36
 new-york,vassar-college,Humanities,35
 new-york,vassar-college,Language and Writing,33
@@ -3482,7 +3482,7 @@ new-york,rensselaer-polytechnic-institute,Trade Engineering,72
 new-york,rensselaer-polytechnic-institute,Architecture,61
 new-york,rensselaer-polytechnic-institute,Architecture,52
 new-york,yeshiva-university,Religion,524
-new-york,yeshiva-university,Biology,110
+new-york,yeshiva-university,Science,110
 new-york,yeshiva-university,Accounting,75
 new-york,yeshiva-university,Psychology,69
 new-york,yeshiva-university,Business,58
@@ -3494,7 +3494,7 @@ new-york,yeshiva-university,Math,16
 new-york,union-college---new-york,Economics,68
 new-york,union-college---new-york,Engineering,57
 new-york,union-college---new-york,Law,42
-new-york,union-college---new-york,Biology,39
+new-york,union-college---new-york,Science,39
 new-york,union-college---new-york,Psychology,38
 new-york,union-college---new-york,Humanities,30
 new-york,union-college---new-york,Health Science,29
@@ -3515,7 +3515,7 @@ new-york,st.-lawrence-university,Economics,97
 new-york,st.-lawrence-university,Business,95
 new-york,st.-lawrence-university,Psychology,85
 new-york,st.-lawrence-university,Law,55
-new-york,st.-lawrence-university,Biology,53
+new-york,st.-lawrence-university,Science,53
 new-york,st.-lawrence-university,Anthropology,41
 new-york,st.-lawrence-university,Language and Writing,40
 new-york,st.-lawrence-university,Communication,37
@@ -3556,7 +3556,7 @@ new-york,rochester-institute-of-technology,Engineering,78
 new-york,rochester-institute-of-technology,Computer Science,74
 new-york,hobart-and-william-smith-colleges,Economics,69
 new-york,hobart-and-william-smith-colleges,Communication,59
-new-york,hobart-and-william-smith-colleges,Biology,44
+new-york,hobart-and-william-smith-colleges,Science,44
 new-york,hobart-and-william-smith-colleges,Law,36
 new-york,hobart-and-william-smith-colleges,Psychology,33
 new-york,hobart-and-william-smith-colleges,Agriculture and Environment,31
@@ -3570,7 +3570,7 @@ new-york,st.-bonaventure-university,Marketing,35
 new-york,st.-bonaventure-university,Management,28
 new-york,st.-bonaventure-university,Arts,26
 new-york,st.-bonaventure-university,Business,25
-new-york,st.-bonaventure-university,Biology,24
+new-york,st.-bonaventure-university,Science,24
 new-york,st.-bonaventure-university,Education,22
 new-york,st.-bonaventure-university,Communication,19
 new-york,st.-bonaventure-university,Psychology,19
@@ -3588,7 +3588,7 @@ new-york,clarkson-university,Engineering,56
 new-york,clarkson-university,Engineering,54
 new-york,clarkson-university,Engineering,45
 new-york,clarkson-university,Management,42
-new-york,clarkson-university,Biology,34
+new-york,clarkson-university,Science,34
 new-york,clarkson-university,Computer Science,32
 new-york,clarkson-university,Engineering,25
 new-york,the-new-school,Arts,319
@@ -3627,7 +3627,7 @@ new-york,fashion-institute-of-technology,Marketing,596
 new-york,fashion-institute-of-technology,Arts,230
 new-york,fashion-institute-of-technology,Marketing,178
 new-york,fashion-institute-of-technology,Arts,164
-new-york,fashion-institute-of-technology,Physical Sciences,162
+new-york,fashion-institute-of-technology,Science,162
 new-york,fashion-institute-of-technology,Architecture,124
 new-york,fashion-institute-of-technology,Arts,75
 new-york,fashion-institute-of-technology,Arts,69
@@ -3689,7 +3689,7 @@ new-york,suny-new-paltz,Accounting,70
 north-carolina,duke-university,Computer Science,282
 north-carolina,duke-university,Economics,218
 north-carolina,duke-university,Law,176
-north-carolina,duke-university,Biology,170
+north-carolina,duke-university,Science,170
 north-carolina,duke-university,Nursing,146
 north-carolina,duke-university,Psychology,143
 north-carolina,duke-university,Engineering,119
@@ -3702,12 +3702,12 @@ north-carolina,wake-forest-university,Psychology,121
 north-carolina,wake-forest-university,Law,113
 north-carolina,wake-forest-university,Finance,108
 north-carolina,wake-forest-university,Business,104
-north-carolina,wake-forest-university,Biology,92
+north-carolina,wake-forest-university,Science,92
 north-carolina,wake-forest-university,Physical Therapy,62
 north-carolina,wake-forest-university,Computer Science,54
 north-carolina,wake-forest-university,Anthropology,50
 north-carolina,university-of-north-carolina-at-chapel-hill,Communication,577
-north-carolina,university-of-north-carolina-at-chapel-hill,Biology,563
+north-carolina,university-of-north-carolina-at-chapel-hill,Science,563
 north-carolina,university-of-north-carolina-at-chapel-hill,Psychology,441
 north-carolina,university-of-north-carolina-at-chapel-hill,Law,424
 north-carolina,university-of-north-carolina-at-chapel-hill,Economics,386
@@ -3718,7 +3718,7 @@ north-carolina,university-of-north-carolina-at-chapel-hill,Law,173
 north-carolina,university-of-north-carolina-at-chapel-hill,Nursing,172
 north-carolina,davidson-college,Law,80
 north-carolina,davidson-college,Economics,75
-north-carolina,davidson-college,Biology,57
+north-carolina,davidson-college,Science,57
 north-carolina,davidson-college,Language and Writing,45
 north-carolina,davidson-college,Psychology,38
 north-carolina,davidson-college,Humanities,30
@@ -3727,7 +3727,7 @@ north-carolina,davidson-college,Communication,23
 north-carolina,davidson-college,Math,23
 north-carolina,davidson-college,Anthropology,14
 north-carolina,north-carolina-state-university,Business,675
-north-carolina,north-carolina-state-university,Biology,305
+north-carolina,north-carolina-state-university,Science,305
 north-carolina,north-carolina-state-university,Engineering,292
 north-carolina,north-carolina-state-university,Computer Science,239
 north-carolina,north-carolina-state-university,Engineering,230
@@ -3741,7 +3741,7 @@ north-carolina,appalachian-state-university,Physical Therapy,190
 north-carolina,appalachian-state-university,Business,180
 north-carolina,appalachian-state-university,Nursing,177
 north-carolina,appalachian-state-university,Education,164
-north-carolina,appalachian-state-university,Biology,146
+north-carolina,appalachian-state-university,Science,146
 north-carolina,appalachian-state-university,Accounting,119
 north-carolina,appalachian-state-university,Marketing,118
 north-carolina,appalachian-state-university,Agriculture and Environment,112
@@ -3750,7 +3750,7 @@ north-carolina,university-of-north-carolina---wilmington,Nursing,789
 north-carolina,university-of-north-carolina---wilmington,Business,753
 north-carolina,university-of-north-carolina---wilmington,Psychology,239
 north-carolina,university-of-north-carolina---wilmington,Communication,202
-north-carolina,university-of-north-carolina---wilmington,Biology,172
+north-carolina,university-of-north-carolina---wilmington,Science,172
 north-carolina,university-of-north-carolina---wilmington,Education,151
 north-carolina,university-of-north-carolina---wilmington,Agriculture and Environment,118
 north-carolina,university-of-north-carolina---wilmington,Arts,102
@@ -3766,7 +3766,7 @@ north-carolina,university-of-north-carolina-at-charlotte,Computer Science,463
 north-carolina,university-of-north-carolina-at-charlotte,Communication,427
 north-carolina,university-of-north-carolina-at-charlotte,Finance,386
 north-carolina,university-of-north-carolina-at-charlotte,Psychology,377
-north-carolina,university-of-north-carolina-at-charlotte,Biology,227
+north-carolina,university-of-north-carolina-at-charlotte,Science,227
 north-carolina,university-of-north-carolina-at-charlotte,Nursing,218
 north-carolina,university-of-north-carolina-at-charlotte,Marketing,213
 north-carolina,university-of-north-carolina-at-charlotte,Engineering,211
@@ -3796,7 +3796,7 @@ north-carolina,university-of-north-carolina---greensboro,Business,401
 north-carolina,university-of-north-carolina---greensboro,Nursing,227
 north-carolina,university-of-north-carolina---greensboro,Communication,193
 north-carolina,university-of-north-carolina---greensboro,Psychology,187
-north-carolina,university-of-north-carolina---greensboro,Biology,172
+north-carolina,university-of-north-carolina---greensboro,Science,172
 north-carolina,university-of-north-carolina---greensboro,Psychology,166
 north-carolina,university-of-north-carolina---greensboro,Humanities,166
 north-carolina,university-of-north-carolina---greensboro,Physical Therapy,162
@@ -3810,7 +3810,7 @@ north-carolina,east-carolina-university,Business,263
 north-carolina,east-carolina-university,Psychology,217
 north-carolina,east-carolina-university,Trade Engineering,209
 north-carolina,east-carolina-university,Marketing,207
-north-carolina,east-carolina-university,Biology,199
+north-carolina,east-carolina-university,Science,199
 north-carolina,east-carolina-university,Education,197
 north-carolina,elon-university,Finance,199
 north-carolina,elon-university,Communication,155
@@ -3826,7 +3826,7 @@ north-carolina,queens-university-of-charlotte,Nursing,75
 north-carolina,queens-university-of-charlotte,Business,45
 north-carolina,queens-university-of-charlotte,Communication,25
 north-carolina,queens-university-of-charlotte,Psychology,21
-north-carolina,queens-university-of-charlotte,Biology,17
+north-carolina,queens-university-of-charlotte,Science,17
 north-carolina,queens-university-of-charlotte,Management,17
 north-carolina,queens-university-of-charlotte,Physical Therapy,16
 north-carolina,queens-university-of-charlotte,Health Science,15
@@ -3844,7 +3844,7 @@ north-carolina,brunswick-community-college,Trade Engineering,15
 north-carolina,brunswick-community-college,Trade Other,13
 north-carolina,university-of-north-carolina-asheville,Psychology,102
 north-carolina,university-of-north-carolina-asheville,Agriculture and Environment,72
-north-carolina,university-of-north-carolina-asheville,Biology,60
+north-carolina,university-of-north-carolina-asheville,Science,60
 north-carolina,university-of-north-carolina-asheville,Business,56
 north-carolina,university-of-north-carolina-asheville,Arts,51
 north-carolina,university-of-north-carolina-asheville,Education,51
@@ -3858,7 +3858,7 @@ north-dakota,university-of-north-dakota,Psychology,144
 north-dakota,university-of-north-dakota,Medical Applied,127
 north-dakota,university-of-north-dakota,Engineering,126
 north-dakota,university-of-north-dakota,Engineering,97
-north-dakota,university-of-north-dakota,Biology,89
+north-dakota,university-of-north-dakota,Science,89
 north-dakota,university-of-north-dakota,Communication,89
 north-dakota,university-of-north-dakota,Accounting,85
 north-dakota,university-of-north-dakota,Social Work,77
@@ -3876,7 +3876,7 @@ north-dakota,north-dakota-state-university,Nursing,216
 north-dakota,north-dakota-state-university,Psychology,163
 north-dakota,north-dakota-state-university,Engineering,158
 north-dakota,north-dakota-state-university,Business,108
-north-dakota,north-dakota-state-university,Biology,100
+north-dakota,north-dakota-state-university,Science,100
 north-dakota,north-dakota-state-university,Architecture,95
 north-dakota,north-dakota-state-university,Marketing,91
 north-dakota,north-dakota-state-university,Agriculture and Environment,83
@@ -3884,30 +3884,30 @@ north-dakota,north-dakota-state-university,Psychology,83
 north-dakota,north-dakota-state-university,Finance,80
 ohio,case-western-reserve-university,Computer Science,115
 ohio,case-western-reserve-university,Engineering,115
-ohio,case-western-reserve-university,Biology,82
+ohio,case-western-reserve-university,Science,82
 ohio,case-western-reserve-university,Engineering,79
 ohio,case-western-reserve-university,Engineering,61
 ohio,case-western-reserve-university,Nursing,60
 ohio,case-western-reserve-university,Psychology,57
 ohio,case-western-reserve-university,Engineering,54
 ohio,case-western-reserve-university,Accounting,51
-ohio,case-western-reserve-university,Biology,50
+ohio,case-western-reserve-university,Science,50
 ohio,kenyon-college,Language and Writing,57
 ohio,kenyon-college,Economics,51
 ohio,kenyon-college,Psychology,33
 ohio,kenyon-college,Law,29
-ohio,kenyon-college,Biology,23
+ohio,kenyon-college,Science,23
 ohio,kenyon-college,History and World Studies,23
 ohio,kenyon-college,Math,23
 ohio,kenyon-college,Arts,21
-ohio,kenyon-college,Biology,20
+ohio,kenyon-college,Science,20
 ohio,kenyon-college,Anthropology,19
 ohio,the-ohio-state-university,Finance,685
 ohio,the-ohio-state-university,Communication,492
 ohio,the-ohio-state-university,Psychology,490
 ohio,the-ohio-state-university,Marketing,479
 ohio,the-ohio-state-university,Accounting,448
-ohio,the-ohio-state-university,Biology,414
+ohio,the-ohio-state-university,Science,414
 ohio,the-ohio-state-university,Engineering,296
 ohio,the-ohio-state-university,Law,294
 ohio,the-ohio-state-university,Economics,293
@@ -3915,7 +3915,7 @@ ohio,the-ohio-state-university,Nursing,289
 ohio,denison-university,Economics,67
 ohio,denison-university,Communication,58
 ohio,denison-university,Psychology,49
-ohio,denison-university,Biology,42
+ohio,denison-university,Science,42
 ohio,denison-university,Business,34
 ohio,denison-university,Management,25
 ohio,denison-university,Computer Science,24
@@ -3926,7 +3926,7 @@ ohio,university-of-dayton,Engineering,224
 ohio,university-of-dayton,Marketing,189
 ohio,university-of-dayton,Finance,159
 ohio,university-of-dayton,Communication,127
-ohio,university-of-dayton,Biology,89
+ohio,university-of-dayton,Science,89
 ohio,university-of-dayton,Accounting,87
 ohio,university-of-dayton,Psychology,85
 ohio,university-of-dayton,Engineering,77
@@ -3935,7 +3935,7 @@ ohio,university-of-dayton,Education,59
 ohio,university-of-cincinnati,Nursing,484
 ohio,university-of-cincinnati,Marketing,442
 ohio,university-of-cincinnati,Finance,270
-ohio,university-of-cincinnati,Biology,268
+ohio,university-of-cincinnati,Science,268
 ohio,university-of-cincinnati,Communication,256
 ohio,university-of-cincinnati,Psychology,227
 ohio,university-of-cincinnati,Engineering,206
@@ -3949,23 +3949,23 @@ ohio,miami-university,Communication,183
 ohio,miami-university,Arts,179
 ohio,miami-university,Accounting,178
 ohio,miami-university,Law,170
-ohio,miami-university,Biology,167
+ohio,miami-university,Science,167
 ohio,miami-university,Health Science,167
 ohio,miami-university,Physical Therapy,161
-ohio,college-of-wooster,Biology,39
+ohio,college-of-wooster,Science,39
 ohio,college-of-wooster,History and World Studies,39
 ohio,college-of-wooster,Psychology,37
 ohio,college-of-wooster,Law,33
 ohio,college-of-wooster,Language and Writing,32
 ohio,college-of-wooster,Math,32
-ohio,college-of-wooster,Biology,28
-ohio,college-of-wooster,Physical Sciences,20
+ohio,college-of-wooster,Science,28
+ohio,college-of-wooster,Science,20
 ohio,college-of-wooster,Economics,20
 ohio,college-of-wooster,Health Science,20
 ohio,oberlin-college,Arts,93
 ohio,oberlin-college,History and World Studies,55
 ohio,oberlin-college,Law,50
-ohio,oberlin-college,Biology,48
+ohio,oberlin-college,Science,48
 ohio,oberlin-college,Language and Writing,46
 ohio,oberlin-college,Economics,44
 ohio,oberlin-college,Agriculture and Environment,43
@@ -3974,7 +3974,7 @@ ohio,oberlin-college,Communication,32
 ohio,oberlin-college,Arts,28
 ohio,john-carroll-university,Finance,78
 ohio,john-carroll-university,Marketing,69
-ohio,john-carroll-university,Biology,61
+ohio,john-carroll-university,Science,61
 ohio,john-carroll-university,Accounting,59
 ohio,john-carroll-university,Communication,57
 ohio,john-carroll-university,Psychology,55
@@ -3990,7 +3990,7 @@ ohio,ohio-northern-university,Management,18
 ohio,ohio-northern-university,Management,18
 ohio,ohio-northern-university,Nursing,18
 ohio,ohio-northern-university,Marketing,17
-ohio,ohio-northern-university,Biology,16
+ohio,ohio-northern-university,Science,16
 ohio,ohio-northern-university,Management,16
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,47
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,38
@@ -3998,7 +3998,7 @@ ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture an
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,15
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,15
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,14
-ohio,the-ohio-state-university---agricultural-technical-institute,Biology,12
+ohio,the-ohio-state-university---agricultural-technical-institute,Science,12
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,11
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,10
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,10
@@ -4015,7 +4015,7 @@ ohio,ohio-university,Communication,181
 ohio,cedarville-university,Nursing,95
 ohio,cedarville-university,Engineering,54
 ohio,cedarville-university,Engineering,28
-ohio,cedarville-university,Biology,27
+ohio,cedarville-university,Science,27
 ohio,cedarville-university,Religion,27
 ohio,cedarville-university,Social Work,26
 ohio,cedarville-university,Education,23
@@ -4027,7 +4027,7 @@ ohio,baldwin-wallace-university,Psychology,59
 ohio,baldwin-wallace-university,Accounting,51
 ohio,baldwin-wallace-university,Marketing,46
 ohio,baldwin-wallace-university,Nursing,45
-ohio,baldwin-wallace-university,Biology,41
+ohio,baldwin-wallace-university,Science,41
 ohio,baldwin-wallace-university,Finance,41
 ohio,baldwin-wallace-university,Management,34
 ohio,baldwin-wallace-university,Education,26
@@ -4037,15 +4037,15 @@ ohio,marietta-college,Business,10
 ohio,marietta-college,Marketing,10
 ohio,marietta-college,Economics,9
 ohio,marietta-college,Accounting,7
-ohio,marietta-college,Biology,7
+ohio,marietta-college,Science,7
 ohio,marietta-college,Education,7
 ohio,marietta-college,Psychology,7
-ohio,marietta-college,Biology,6
+ohio,marietta-college,Science,6
 ohio,marietta-college,Finance,6
 ohio,bowling-green-state-university,Education,228
 ohio,bowling-green-state-university,Education,198
 ohio,bowling-green-state-university,Psychology,130
-ohio,bowling-green-state-university,Biology,122
+ohio,bowling-green-state-university,Science,122
 ohio,bowling-green-state-university,Crime and Military,119
 ohio,bowling-green-state-university,Language and Writing,109
 ohio,bowling-green-state-university,Humanities,100
@@ -4058,13 +4058,13 @@ ohio,xavier-university,Humanities,92
 ohio,xavier-university,Finance,76
 ohio,xavier-university,Law,65
 ohio,xavier-university,Psychology,54
-ohio,xavier-university,Biology,48
+ohio,xavier-university,Science,48
 ohio,xavier-university,Accounting,42
 ohio,xavier-university,Health Science,36
 ohio,xavier-university,Communication,30
 ohio,otterbein-university,Nursing,49
 ohio,otterbein-university,Health Science,35
-ohio,otterbein-university,Biology,34
+ohio,otterbein-university,Science,34
 ohio,otterbein-university,Agriculture and Environment,33
 ohio,otterbein-university,Psychology,25
 ohio,otterbein-university,Communication,25
@@ -4079,7 +4079,7 @@ ohio,kent-state-university,Business,295
 ohio,kent-state-university,Communication,221
 ohio,kent-state-university,Marketing,220
 ohio,kent-state-university,Crime and Military,193
-ohio,kent-state-university,Biology,175
+ohio,kent-state-university,Science,175
 ohio,kent-state-university,Health Science,169
 ohio,kent-state-university,Finance,152
 ohio,university-of-mount-union,Marketing,44
@@ -4088,12 +4088,12 @@ ohio,university-of-mount-union,Physical Therapy,40
 ohio,university-of-mount-union,Nursing,30
 ohio,university-of-mount-union,Management,30
 ohio,university-of-mount-union,Psychology,26
-ohio,university-of-mount-union,Biology,25
+ohio,university-of-mount-union,Science,25
 ohio,university-of-mount-union,Education,20
 ohio,university-of-mount-union,Crime and Military,19
 ohio,university-of-mount-union,Accounting,18
 ohio,walsh-university,Nursing,77
-ohio,walsh-university,Biology,54
+ohio,walsh-university,Science,54
 ohio,walsh-university,Psychology,48
 ohio,walsh-university,Business,46
 ohio,walsh-university,Accounting,33
@@ -4112,7 +4112,7 @@ ohio,o-c-collins-career-center,Nursing,6
 ohio,o-c-collins-career-center,Crime and Military,6
 ohio,o-c-collins-career-center,Medical Applied,6
 ohio,o-c-collins-career-center,Trade Engineering,5
-ohio,wittenberg-university,Biology,39
+ohio,wittenberg-university,Science,39
 ohio,wittenberg-university,Marketing,28
 ohio,wittenberg-university,Business,25
 ohio,wittenberg-university,Communication,25
@@ -4125,7 +4125,7 @@ ohio,wittenberg-university,Management,19
 ohio,muskingum-university,Psychology,32
 ohio,muskingum-university,Business,28
 ohio,muskingum-university,Nursing,28
-ohio,muskingum-university,Biology,21
+ohio,muskingum-university,Science,21
 ohio,muskingum-university,Health Science,21
 ohio,muskingum-university,Crime and Military,16
 ohio,muskingum-university,History and World Studies,15
@@ -4133,7 +4133,7 @@ ohio,muskingum-university,Language and Writing,14
 ohio,muskingum-university,Education,12
 ohio,muskingum-university,Education,11
 ohio,heidelberg-university,Business,45
-ohio,heidelberg-university,Biology,23
+ohio,heidelberg-university,Science,23
 ohio,heidelberg-university,Management,22
 ohio,heidelberg-university,Psychology,20
 ohio,heidelberg-university,Communication,16
@@ -4145,7 +4145,7 @@ ohio,heidelberg-university,Law,8
 ohio,youngstown-state-university,Humanities,130
 ohio,youngstown-state-university,Nursing,115
 ohio,youngstown-state-university,Crime and Military,113
-ohio,youngstown-state-university,Biology,94
+ohio,youngstown-state-university,Science,94
 ohio,youngstown-state-university,Business,90
 ohio,youngstown-state-university,Social Work,90
 ohio,youngstown-state-university,Engineering,58
@@ -4161,7 +4161,7 @@ ohio,ohio-wesleyan-university,Anthropology,14
 ohio,ohio-wesleyan-university,Language and Writing,14
 ohio,ohio-wesleyan-university,Physical Therapy,13
 ohio,ohio-wesleyan-university,Health Science,13
-ohio,ohio-wesleyan-university,Biology,12
+ohio,ohio-wesleyan-university,Science,12
 oklahoma,the-university-of-tulsa,Trade Engineering,72
 oklahoma,the-university-of-tulsa,Engineering,60
 oklahoma,the-university-of-tulsa,Finance,54
@@ -4171,7 +4171,7 @@ oklahoma,the-university-of-tulsa,Accounting,34
 oklahoma,the-university-of-tulsa,Business,34
 oklahoma,the-university-of-tulsa,Psychology,34
 oklahoma,the-university-of-tulsa,Management,28
-oklahoma,the-university-of-tulsa,Biology,26
+oklahoma,the-university-of-tulsa,Science,26
 oklahoma,oklahoma-state-university,Business,425
 oklahoma,oklahoma-state-university,Marketing,304
 oklahoma,oklahoma-state-university,Engineering,258
@@ -4196,7 +4196,7 @@ oklahoma,oral-roberts-university,Psychology,45
 oklahoma,oral-roberts-university,Religion,41
 oklahoma,oral-roberts-university,Nursing,39
 oklahoma,oral-roberts-university,Business,37
-oklahoma,oral-roberts-university,Biology,29
+oklahoma,oral-roberts-university,Science,29
 oklahoma,oral-roberts-university,Communication,26
 oklahoma,oral-roberts-university,Religion,26
 oklahoma,oral-roberts-university,Engineering,24
@@ -4216,7 +4216,7 @@ oklahoma,northern-oklahoma-college,Humanities,168
 oklahoma,northern-oklahoma-college,Nursing,155
 oklahoma,northern-oklahoma-college,Management,150
 oklahoma,northern-oklahoma-college,Anthropology,83
-oklahoma,northern-oklahoma-college,Physical Sciences,33
+oklahoma,northern-oklahoma-college,Science,33
 oklahoma,northern-oklahoma-college,Education,32
 oklahoma,northern-oklahoma-college,Agriculture and Environment,31
 oklahoma,northern-oklahoma-college,Education,31
@@ -4266,24 +4266,24 @@ oklahoma,east-central-university,Accounting,72
 oklahoma,east-central-university,Nursing,72
 oklahoma,east-central-university,Education,60
 oklahoma,east-central-university,Business,56
-oklahoma,east-central-university,Biology,46
+oklahoma,east-central-university,Science,46
 oklahoma,east-central-university,Social Work,41
 oklahoma,east-central-university,Communication,35
 oklahoma,east-central-university,Communication,34
 oklahoma,east-central-university,Crime and Military,24
 oklahoma,east-central-university,Humanities,20
 oregon,reed-college,Economics,29
-oregon,reed-college,Biology,27
+oregon,reed-college,Science,27
 oregon,reed-college,History and World Studies,21
 oregon,reed-college,Psychology,21
 oregon,reed-college,Language and Writing,20
 oregon,reed-college,Humanities,18
-oregon,reed-college,Physical Sciences,17
+oregon,reed-college,Science,17
 oregon,reed-college,Law,17
 oregon,reed-college,Anthropology,15
 oregon,reed-college,Arts,15
 oregon,university-of-portland,Nursing,208
-oregon,university-of-portland,Biology,103
+oregon,university-of-portland,Science,103
 oregon,university-of-portland,Engineering,71
 oregon,university-of-portland,Psychology,54
 oregon,university-of-portland,Marketing,53
@@ -4310,21 +4310,21 @@ oregon,oregon-state-university,Physical Therapy,233
 oregon,oregon-state-university,Psychology,192
 oregon,oregon-state-university,Health Science,171
 oregon,oregon-state-university,Finance,167
-oregon,oregon-state-university,Biology,163
+oregon,oregon-state-university,Science,163
 oregon,oregon-state-university,Health Science,143
 oregon,willamette-university,Economics,62
-oregon,willamette-university,Biology,39
+oregon,willamette-university,Science,39
 oregon,willamette-university,Agriculture and Environment,33
 oregon,willamette-university,Law,31
 oregon,willamette-university,Psychology,27
-oregon,willamette-university,Physical Sciences,26
+oregon,willamette-university,Science,26
 oregon,willamette-university,Communication,26
 oregon,willamette-university,Language and Writing,26
 oregon,willamette-university,History and World Studies,20
 oregon,willamette-university,Anthropology,20
 oregon,pacific-university-oregon,Business,70
 oregon,pacific-university-oregon,Physical Therapy,48
-oregon,pacific-university-oregon,Biology,33
+oregon,pacific-university-oregon,Science,33
 oregon,pacific-university-oregon,Medical Applied,30
 oregon,pacific-university-oregon,Communication,24
 oregon,pacific-university-oregon,Education,22
@@ -4341,14 +4341,14 @@ oregon,oregon-institute-of-technology,Engineering,51
 oregon,oregon-institute-of-technology,Medical Applied,50
 oregon,oregon-institute-of-technology,Psychology,34
 oregon,oregon-institute-of-technology,Computer Science,31
-oregon,oregon-institute-of-technology,Biology,26
+oregon,oregon-institute-of-technology,Science,26
 pennsylvania,university-of-pennsylvania,Finance,406
 pennsylvania,university-of-pennsylvania,Management,198
 pennsylvania,university-of-pennsylvania,Humanities,192
 pennsylvania,university-of-pennsylvania,Nursing,187
 pennsylvania,university-of-pennsylvania,Economics,183
 pennsylvania,university-of-pennsylvania,Business,180
-pennsylvania,university-of-pennsylvania,Biology,167
+pennsylvania,university-of-pennsylvania,Science,167
 pennsylvania,university-of-pennsylvania,Law,152
 pennsylvania,university-of-pennsylvania,Communication,144
 pennsylvania,university-of-pennsylvania,Health Science,116
@@ -4364,18 +4364,18 @@ pennsylvania,carnegie-mellon-university,Engineering,56
 pennsylvania,carnegie-mellon-university,Arts,54
 pennsylvania,haverford-college,Law,40
 pennsylvania,haverford-college,Economics,35
-pennsylvania,haverford-college,Biology,29
-pennsylvania,haverford-college,Physical Sciences,29
+pennsylvania,haverford-college,Science,29
+pennsylvania,haverford-college,Science,29
 pennsylvania,haverford-college,Psychology,24
 pennsylvania,haverford-college,Communication,23
 pennsylvania,haverford-college,Language and Writing,22
 pennsylvania,haverford-college,Math,20
 pennsylvania,haverford-college,History and World Studies,15
-pennsylvania,haverford-college,Physical Sciences,13
+pennsylvania,haverford-college,Science,13
 pennsylvania,swarthmore-college,Economics,82
 pennsylvania,swarthmore-college,Math,54
 pennsylvania,swarthmore-college,Communication,49
-pennsylvania,swarthmore-college,Biology,47
+pennsylvania,swarthmore-college,Science,47
 pennsylvania,swarthmore-college,Law,42
 pennsylvania,swarthmore-college,Psychology,33
 pennsylvania,swarthmore-college,Engineering,31
@@ -4390,7 +4390,7 @@ pennsylvania,villanova-university,Accounting,134
 pennsylvania,villanova-university,Economics,124
 pennsylvania,villanova-university,Law,104
 pennsylvania,villanova-university,Psychology,101
-pennsylvania,villanova-university,Biology,87
+pennsylvania,villanova-university,Science,87
 pennsylvania,villanova-university,Engineering,78
 pennsylvania,lehigh-university,Finance,201
 pennsylvania,lehigh-university,Engineering,111
@@ -4399,14 +4399,14 @@ pennsylvania,lehigh-university,Accounting,71
 pennsylvania,lehigh-university,Marketing,67
 pennsylvania,lehigh-university,Engineering,60
 pennsylvania,lehigh-university,Economics,52
-pennsylvania,lehigh-university,Biology,48
+pennsylvania,lehigh-university,Science,48
 pennsylvania,lehigh-university,Engineering,44
 pennsylvania,lehigh-university,Engineering,42
 pennsylvania,lafayette-college,Economics,129
 pennsylvania,lafayette-college,Law,81
 pennsylvania,lafayette-college,Psychology,62
 pennsylvania,lafayette-college,Engineering,50
-pennsylvania,lafayette-college,Biology,47
+pennsylvania,lafayette-college,Science,47
 pennsylvania,lafayette-college,Language and Writing,38
 pennsylvania,lafayette-college,Engineering,31
 pennsylvania,lafayette-college,International Relations,30
@@ -4416,14 +4416,14 @@ pennsylvania,bucknell-university,Economics,123
 pennsylvania,bucknell-university,Accounting,79
 pennsylvania,bucknell-university,Psychology,75
 pennsylvania,bucknell-university,Law,69
-pennsylvania,bucknell-university,Biology,57
+pennsylvania,bucknell-university,Science,57
 pennsylvania,bucknell-university,Marketing,41
 pennsylvania,bucknell-university,Engineering,33
 pennsylvania,bucknell-university,Engineering,30
 pennsylvania,bucknell-university,Engineering,28
 pennsylvania,bucknell-university,Agriculture and Environment,26
 pennsylvania,penn-state,Communication,778
-pennsylvania,penn-state,Biology,549
+pennsylvania,penn-state,Science,549
 pennsylvania,penn-state,Economics,526
 pennsylvania,penn-state,Finance,473
 pennsylvania,penn-state,Accounting,394
@@ -4436,15 +4436,15 @@ pennsylvania,bryn-mawr-college,Psychology,43
 pennsylvania,bryn-mawr-college,Math,35
 pennsylvania,bryn-mawr-college,Language and Writing,32
 pennsylvania,bryn-mawr-college,Anthropology,29
-pennsylvania,bryn-mawr-college,Biology,21
+pennsylvania,bryn-mawr-college,Science,21
 pennsylvania,bryn-mawr-college,International Relations,21
 pennsylvania,bryn-mawr-college,Law,17
 pennsylvania,bryn-mawr-college,Arts,15
-pennsylvania,bryn-mawr-college,Physical Sciences,15
+pennsylvania,bryn-mawr-college,Science,15
 pennsylvania,bryn-mawr-college,History and World Studies,15
 pennsylvania,university-of-pittsburgh,Psychology,387
 pennsylvania,university-of-pittsburgh,Finance,249
-pennsylvania,university-of-pittsburgh,Biology,228
+pennsylvania,university-of-pittsburgh,Science,228
 pennsylvania,university-of-pittsburgh,Marketing,228
 pennsylvania,university-of-pittsburgh,Computer Science,217
 pennsylvania,university-of-pittsburgh,Nursing,215
@@ -4459,7 +4459,7 @@ pennsylvania,gettysburg-college,Physical Therapy,51
 pennsylvania,gettysburg-college,Psychology,47
 pennsylvania,gettysburg-college,History and World Studies,45
 pennsylvania,gettysburg-college,Language and Writing,44
-pennsylvania,gettysburg-college,Biology,28
+pennsylvania,gettysburg-college,Science,28
 pennsylvania,gettysburg-college,Agriculture and Environment,27
 pennsylvania,gettysburg-college,Humanities,25
 pennsylvania,dickinson-college,Business,83
@@ -4469,13 +4469,13 @@ pennsylvania,dickinson-college,International Relations,48
 pennsylvania,dickinson-college,Psychology,42
 pennsylvania,dickinson-college,Language and Writing,38
 pennsylvania,dickinson-college,Agriculture and Environment,33
-pennsylvania,dickinson-college,Biology,30
-pennsylvania,dickinson-college,Biology,28
+pennsylvania,dickinson-college,Science,30
+pennsylvania,dickinson-college,Science,28
 pennsylvania,dickinson-college,Education,27
 pennsylvania,temple-university,Psychology,334
 pennsylvania,temple-university,Finance,328
 pennsylvania,temple-university,Marketing,287
-pennsylvania,temple-university,Biology,230
+pennsylvania,temple-university,Science,230
 pennsylvania,temple-university,Physical Therapy,228
 pennsylvania,temple-university,Communication,228
 pennsylvania,temple-university,Accounting,201
@@ -4487,7 +4487,7 @@ pennsylvania,drexel-university,Accounting,257
 pennsylvania,drexel-university,Engineering,219
 pennsylvania,drexel-university,Management,186
 pennsylvania,drexel-university,Marketing,173
-pennsylvania,drexel-university,Biology,133
+pennsylvania,drexel-university,Science,133
 pennsylvania,drexel-university,Computer Science,118
 pennsylvania,drexel-university,Engineering,102
 pennsylvania,drexel-university,Engineering,94
@@ -4503,7 +4503,7 @@ pennsylvania,thomas-jefferson-university,Architecture,54
 pennsylvania,thomas-jefferson-university,Engineering,34
 pennsylvania,thomas-jefferson-university,Architecture,33
 pennsylvania,university-of-scranton,Nursing,82
-pennsylvania,university-of-scranton,Biology,69
+pennsylvania,university-of-scranton,Science,69
 pennsylvania,university-of-scranton,Accounting,62
 pennsylvania,university-of-scranton,Physical Therapy,56
 pennsylvania,university-of-scranton,Health Science,55
@@ -4513,7 +4513,7 @@ pennsylvania,university-of-scranton,Marketing,44
 pennsylvania,university-of-scranton,Humanities,39
 pennsylvania,university-of-scranton,Crime and Military,35
 pennsylvania,duquesne-university,Nursing,266
-pennsylvania,duquesne-university,Biology,91
+pennsylvania,duquesne-university,Science,91
 pennsylvania,duquesne-university,Marketing,85
 pennsylvania,duquesne-university,Management,67
 pennsylvania,duquesne-university,Accounting,64
@@ -4527,7 +4527,7 @@ pennsylvania,muhlenberg-college,Business,80
 pennsylvania,muhlenberg-college,Communication,77
 pennsylvania,muhlenberg-college,Psychology,60
 pennsylvania,muhlenberg-college,Finance,59
-pennsylvania,muhlenberg-college,Biology,43
+pennsylvania,muhlenberg-college,Science,43
 pennsylvania,muhlenberg-college,Health Science,35
 pennsylvania,muhlenberg-college,Language and Writing,28
 pennsylvania,muhlenberg-college,Arts,27
@@ -4535,15 +4535,15 @@ pennsylvania,muhlenberg-college,Law,23
 pennsylvania,university-of-the-sciences,Medical Applied,128
 pennsylvania,university-of-the-sciences,Health Science,63
 pennsylvania,university-of-the-sciences,Health Science,32
-pennsylvania,university-of-the-sciences,Biology,16
-pennsylvania,university-of-the-sciences,Physical Sciences,11
-pennsylvania,university-of-the-sciences,Physical Sciences,10
+pennsylvania,university-of-the-sciences,Science,16
+pennsylvania,university-of-the-sciences,Science,11
+pennsylvania,university-of-the-sciences,Science,10
 pennsylvania,university-of-the-sciences,Management,9
 pennsylvania,university-of-the-sciences,Medical Applied,8
-pennsylvania,university-of-the-sciences,Biology,7
-pennsylvania,university-of-the-sciences,Biology,3
+pennsylvania,university-of-the-sciences,Science,7
+pennsylvania,university-of-the-sciences,Science,3
 pennsylvania,allegheny-college,Psychology,60
-pennsylvania,allegheny-college,Biology,42
+pennsylvania,allegheny-college,Science,42
 pennsylvania,allegheny-college,Economics,42
 pennsylvania,allegheny-college,Agriculture and Environment,41
 pennsylvania,allegheny-college,Communication,31
@@ -4556,7 +4556,7 @@ pennsylvania,susquehanna-university,Communication,79
 pennsylvania,susquehanna-university,Finance,41
 pennsylvania,susquehanna-university,Language and Writing,39
 pennsylvania,susquehanna-university,Psychology,38
-pennsylvania,susquehanna-university,Biology,31
+pennsylvania,susquehanna-university,Science,31
 pennsylvania,susquehanna-university,Marketing,26
 pennsylvania,susquehanna-university,Education,25
 pennsylvania,susquehanna-university,Business,23
@@ -4565,25 +4565,25 @@ pennsylvania,susquehanna-university,Law,20
 pennsylvania,gannon-university,Health Science,97
 pennsylvania,gannon-university,Nursing,72
 pennsylvania,gannon-university,Physical Therapy,34
-pennsylvania,gannon-university,Biology,30
+pennsylvania,gannon-university,Science,30
 pennsylvania,gannon-university,Engineering,29
 pennsylvania,gannon-university,Crime and Military,19
 pennsylvania,gannon-university,Accounting,18
 pennsylvania,gannon-university,Engineering,17
 pennsylvania,gannon-university,Engineering,17
 pennsylvania,gannon-university,Marketing,17
-pennsylvania,juniata-college,Biology,43
+pennsylvania,juniata-college,Science,43
 pennsylvania,juniata-college,Agriculture and Environment,38
 pennsylvania,juniata-college,Communication,22
 pennsylvania,juniata-college,Psychology,22
 pennsylvania,juniata-college,Business,17
 pennsylvania,juniata-college,Social Work,16
-pennsylvania,juniata-college,Physical Sciences,11
-pennsylvania,juniata-college,Biology,10
+pennsylvania,juniata-college,Science,11
+pennsylvania,juniata-college,Science,10
 pennsylvania,juniata-college,Accounting,9
 pennsylvania,juniata-college,Agriculture and Environment,9
 pennsylvania,saint-vincent-college---pennsylvania,Marketing,33
-pennsylvania,saint-vincent-college---pennsylvania,Biology,31
+pennsylvania,saint-vincent-college---pennsylvania,Science,31
 pennsylvania,saint-vincent-college---pennsylvania,Crime and Military,29
 pennsylvania,saint-vincent-college---pennsylvania,Business,27
 pennsylvania,saint-vincent-college---pennsylvania,Communication,24
@@ -4592,20 +4592,20 @@ pennsylvania,saint-vincent-college---pennsylvania,Education,20
 pennsylvania,saint-vincent-college---pennsylvania,Communication,16
 pennsylvania,saint-vincent-college---pennsylvania,Math,16
 pennsylvania,saint-vincent-college---pennsylvania,History and World Studies,15
-pennsylvania,ursinus-college,Biology,51
+pennsylvania,ursinus-college,Science,51
 pennsylvania,ursinus-college,Economics,43
 pennsylvania,ursinus-college,Psychology,40
 pennsylvania,ursinus-college,Physical Therapy,38
 pennsylvania,ursinus-college,Communication,30
 pennsylvania,ursinus-college,Language and Writing,19
-pennsylvania,ursinus-college,Biology,17
+pennsylvania,ursinus-college,Science,17
 pennsylvania,ursinus-college,Health Science,17
 pennsylvania,ursinus-college,Math,16
 pennsylvania,ursinus-college,Computer Science,15
 pennsylvania,messiah-university,Engineering,50
 pennsylvania,messiah-university,Nursing,39
 pennsylvania,messiah-university,Business,38
-pennsylvania,messiah-university,Biology,32
+pennsylvania,messiah-university,Science,32
 pennsylvania,messiah-university,Psychology,29
 pennsylvania,messiah-university,Health Science,25
 pennsylvania,messiah-university,Social Work,24
@@ -4621,9 +4621,9 @@ pennsylvania,la-salle-university,Crime and Military,47
 pennsylvania,la-salle-university,Psychology,43
 pennsylvania,la-salle-university,Humanities,37
 pennsylvania,la-salle-university,Business,35
-pennsylvania,la-salle-university,Biology,32
+pennsylvania,la-salle-university,Science,32
 rhode-island,brown-university,Computer Science,185
-rhode-island,brown-university,Biology,183
+rhode-island,brown-university,Science,183
 rhode-island,brown-university,Economics,162
 rhode-island,brown-university,Math,146
 rhode-island,brown-university,Business,91
@@ -4640,12 +4640,12 @@ rhode-island,rhode-island-school-of-design,Arts,42
 rhode-island,rhode-island-school-of-design,Arts,41
 rhode-island,rhode-island-school-of-design,Architecture,30
 rhode-island,rhode-island-school-of-design,Arts,23
-rhode-island,rhode-island-school-of-design,Physical Sciences,22
+rhode-island,rhode-island-school-of-design,Science,22
 rhode-island,rhode-island-school-of-design,Arts,19
 south-carolina,clemson-university,Business,330
 south-carolina,clemson-university,Marketing,309
 south-carolina,clemson-university,Psychology,283
-south-carolina,clemson-university,Biology,280
+south-carolina,clemson-university,Science,280
 south-carolina,clemson-university,Engineering,245
 south-carolina,clemson-university,Engineering,226
 south-carolina,clemson-university,Nursing,163
@@ -4657,7 +4657,7 @@ south-carolina,furman-university,Communication,65
 south-carolina,furman-university,Law,60
 south-carolina,furman-university,Health Science,49
 south-carolina,furman-university,Psychology,40
-south-carolina,furman-university,Biology,37
+south-carolina,furman-university,Science,37
 south-carolina,furman-university,Religion,25
 south-carolina,furman-university,Economics,24
 south-carolina,furman-university,Accounting,22
@@ -4666,13 +4666,13 @@ south-carolina,university-of-south-carolina,Finance,557
 south-carolina,university-of-south-carolina,Marketing,457
 south-carolina,university-of-south-carolina,Business,346
 south-carolina,university-of-south-carolina,Health Science,317
-south-carolina,university-of-south-carolina,Biology,288
+south-carolina,university-of-south-carolina,Science,288
 south-carolina,university-of-south-carolina,Management,275
 south-carolina,university-of-south-carolina,Psychology,261
 south-carolina,university-of-south-carolina,Physical Therapy,233
 south-carolina,university-of-south-carolina,Nursing,223
 south-carolina,university-of-south-carolina,Crime and Military,204
-south-carolina,wofford-college,Biology,59
+south-carolina,wofford-college,Science,59
 south-carolina,wofford-college,Finance,49
 south-carolina,wofford-college,Language and Writing,37
 south-carolina,wofford-college,Psychology,35
@@ -4690,14 +4690,14 @@ south-carolina,citadel-military-college-of-south-carolina,Law,48
 south-carolina,citadel-military-college-of-south-carolina,Engineering,37
 south-carolina,citadel-military-college-of-south-carolina,Physical Therapy,33
 south-carolina,citadel-military-college-of-south-carolina,Language and Writing,25
-south-carolina,citadel-military-college-of-south-carolina,Biology,24
+south-carolina,citadel-military-college-of-south-carolina,Science,24
 south-carolina,citadel-military-college-of-south-carolina,Nursing,21
 south-carolina,bob-jones-university,Business,41
 south-carolina,bob-jones-university,Health Science,29
 south-carolina,bob-jones-university,Accounting,27
 south-carolina,bob-jones-university,Nursing,27
 south-carolina,bob-jones-university,Communication,24
-south-carolina,bob-jones-university,Biology,21
+south-carolina,bob-jones-university,Science,21
 south-carolina,bob-jones-university,Religion,21
 south-carolina,bob-jones-university,Education,20
 south-carolina,bob-jones-university,Engineering,19
@@ -4705,15 +4705,15 @@ south-carolina,bob-jones-university,Arts,19
 south-carolina,southern-wesleyan-university,Business,116
 south-carolina,southern-wesleyan-university,Social Work,41
 south-carolina,southern-wesleyan-university,Humanities,32
-south-carolina,southern-wesleyan-university,Biology,17
+south-carolina,southern-wesleyan-university,Science,17
 south-carolina,southern-wesleyan-university,Crime and Military,15
 south-carolina,southern-wesleyan-university,Religion,11
 south-carolina,southern-wesleyan-university,Physical Therapy,10
 south-carolina,southern-wesleyan-university,Social Work,9
 south-carolina,southern-wesleyan-university,Psychology,9
-south-carolina,southern-wesleyan-university,Physical Sciences,7
+south-carolina,southern-wesleyan-university,Science,7
 south-carolina,college-of-charleston,Business,230
-south-carolina,college-of-charleston,Biology,167
+south-carolina,college-of-charleston,Science,167
 south-carolina,college-of-charleston,Psychology,157
 south-carolina,college-of-charleston,Communication,151
 south-carolina,college-of-charleston,Education,137
@@ -4729,7 +4729,7 @@ south-carolina,university-of-south-carolina---lancaster,Crime and Military,9
 south-carolina,university-of-south-carolina---sumter,Humanities,133
 south-dakota,augustana-university,Nursing,62
 south-dakota,augustana-university,Business,48
-south-dakota,augustana-university,Biology,40
+south-dakota,augustana-university,Science,40
 south-dakota,augustana-university,Education,29
 south-dakota,augustana-university,Accounting,16
 south-dakota,augustana-university,Language and Writing,16
@@ -4758,20 +4758,20 @@ tennessee,vanderbilt-university,Engineering,77
 tennessee,vanderbilt-university,History and World Studies,70
 tennessee,vanderbilt-university,Language and Writing,67
 tennessee,rhodes-college,Business,90
-tennessee,rhodes-college,Biology,52
+tennessee,rhodes-college,Science,52
 tennessee,rhodes-college,Computer Science,40
 tennessee,rhodes-college,Law,35
 tennessee,rhodes-college,International Relations,34
 tennessee,rhodes-college,Health Science,29
 tennessee,rhodes-college,Psychology,29
-tennessee,rhodes-college,Physical Sciences,26
+tennessee,rhodes-college,Science,26
 tennessee,rhodes-college,Economics,26
 tennessee,rhodes-college,Language and Writing,26
 tennessee,union-university,Nursing,181
 tennessee,union-university,Business,95
 tennessee,union-university,Humanities,47
 tennessee,union-university,Social Work,35
-tennessee,union-university,Biology,13
+tennessee,union-university,Science,13
 tennessee,union-university,Marketing,13
 tennessee,union-university,Psychology,13
 tennessee,union-university,Arts,13
@@ -4781,7 +4781,7 @@ tennessee,sewanee---the-university-of-the-south,Economics,61
 tennessee,sewanee---the-university-of-the-south,Psychology,50
 tennessee,sewanee---the-university-of-the-south,Law,41
 tennessee,sewanee---the-university-of-the-south,Language and Writing,40
-tennessee,sewanee---the-university-of-the-south,Biology,33
+tennessee,sewanee---the-university-of-the-south,Science,33
 tennessee,sewanee---the-university-of-the-south,History and World Studies,30
 tennessee,sewanee---the-university-of-the-south,International Relations,26
 tennessee,sewanee---the-university-of-the-south,Agriculture and Environment,19
@@ -4793,12 +4793,12 @@ tennessee,university-of-tennessee,Nursing,227
 tennessee,university-of-tennessee,Marketing,210
 tennessee,university-of-tennessee,Physical Therapy,206
 tennessee,university-of-tennessee,Finance,201
-tennessee,university-of-tennessee,Biology,185
+tennessee,university-of-tennessee,Science,185
 tennessee,university-of-tennessee,Humanities,174
 tennessee,university-of-tennessee,Law,173
 tennessee,university-of-tennessee,Accounting,160
 tennessee,lipscomb-university,Psychology,61
-tennessee,lipscomb-university,Biology,55
+tennessee,lipscomb-university,Science,55
 tennessee,lipscomb-university,Nursing,53
 tennessee,lipscomb-university,Management,38
 tennessee,lipscomb-university,Business,37
@@ -4826,7 +4826,7 @@ tennessee,university-of-memphis,Business,122
 tennessee,university-of-memphis,Crime and Military,113
 tennessee,university-of-memphis,Marketing,93
 tennessee,university-of-memphis,Education,87
-tennessee,university-of-memphis,Biology,78
+tennessee,university-of-memphis,Science,78
 tennessee,tennessee-college-of-applied-technology---newbern,Nursing,65
 tennessee,tennessee-college-of-applied-technology---newbern,Trade Other,26
 tennessee,tennessee-college-of-applied-technology---newbern,Trade Engineering,20
@@ -4845,13 +4845,13 @@ tennessee,king-university---tennessee,Computer Science,33
 tennessee,king-university---tennessee,Crime and Military,26
 tennessee,king-university---tennessee,Social Work,20
 tennessee,king-university---tennessee,Humanities,16
-tennessee,king-university---tennessee,Biology,13
+tennessee,king-university---tennessee,Science,13
 tennessee,king-university---tennessee,Communication,13
 tennessee,trevecca-nazarene-university,Business,153
 tennessee,trevecca-nazarene-university,Management,33
 tennessee,trevecca-nazarene-university,Religion,32
 tennessee,trevecca-nazarene-university,Psychology,21
-tennessee,trevecca-nazarene-university,Biology,17
+tennessee,trevecca-nazarene-university,Science,17
 tennessee,trevecca-nazarene-university,Communication,16
 tennessee,trevecca-nazarene-university,Humanities,16
 tennessee,trevecca-nazarene-university,Social Work,16
@@ -4861,17 +4861,17 @@ tennessee,maryville-college,Accounting,28
 tennessee,maryville-college,Business,22
 tennessee,maryville-college,Psychology,16
 tennessee,maryville-college,Communication,14
-tennessee,maryville-college,Biology,13
+tennessee,maryville-college,Science,13
 tennessee,maryville-college,Physical Therapy,12
 tennessee,maryville-college,Psychology,11
 tennessee,maryville-college,Education,11
 tennessee,maryville-college,Psychology,10
-tennessee,maryville-college,Biology,8
+tennessee,maryville-college,Science,8
 tennessee,christian-brothers-university,Business,70
 tennessee,christian-brothers-university,Psychology,47
 tennessee,christian-brothers-university,Agriculture and Environment,27
 tennessee,christian-brothers-university,Engineering,20
-tennessee,christian-brothers-university,Biology,16
+tennessee,christian-brothers-university,Science,16
 tennessee,christian-brothers-university,Accounting,15
 tennessee,christian-brothers-university,Nursing,12
 tennessee,christian-brothers-university,Engineering,11
@@ -4891,14 +4891,14 @@ texas,rice-university,Communication,120
 texas,rice-university,Economics,94
 texas,rice-university,Engineering,67
 texas,rice-university,Psychology,64
-texas,rice-university,Biology,60
+texas,rice-university,Science,60
 texas,rice-university,Physical Therapy,57
 texas,rice-university,Engineering,53
 texas,rice-university,Psychology,51
 texas,rice-university,Management,45
 texas,rice-university,Engineering,44
 texas,university-of-texas---austin,Business,853
-texas,university-of-texas---austin,Biology,638
+texas,university-of-texas---austin,Science,638
 texas,university-of-texas---austin,Economics,532
 texas,university-of-texas---austin,Communication,491
 texas,university-of-texas---austin,Humanities,416
@@ -4906,12 +4906,12 @@ texas,university-of-texas---austin,Psychology,395
 texas,university-of-texas---austin,Law,366
 texas,university-of-texas---austin,Engineering,339
 texas,university-of-texas---austin,Finance,331
-texas,university-of-texas---austin,Biology,304
+texas,university-of-texas---austin,Science,304
 texas,southern-methodist-university,Finance,250
 texas,southern-methodist-university,Economics,185
 texas,southern-methodist-university,Accounting,98
 texas,southern-methodist-university,Math,93
-texas,southern-methodist-university,Biology,85
+texas,southern-methodist-university,Science,85
 texas,southern-methodist-university,Psychology,82
 texas,southern-methodist-university,Management,79
 texas,southern-methodist-university,Marketing,69
@@ -4920,7 +4920,7 @@ texas,southern-methodist-university,Communication,53
 texas,trinity-university,Engineering,44
 texas,trinity-university,Communication,39
 texas,trinity-university,Accounting,31
-texas,trinity-university,Biology,30
+texas,trinity-university,Science,30
 texas,trinity-university,Communication,30
 texas,trinity-university,Marketing,30
 texas,trinity-university,Management,27
@@ -4935,10 +4935,10 @@ texas,texas-christian-university,Economics,103
 texas,texas-christian-university,Accounting,98
 texas,texas-christian-university,Law,98
 texas,texas-christian-university,Psychology,96
-texas,texas-christian-university,Biology,91
+texas,texas-christian-university,Science,91
 texas,texas-christian-university,Marketing,89
 texas,baylor-university,Nursing,264
-texas,baylor-university,Biology,233
+texas,baylor-university,Science,233
 texas,baylor-university,Accounting,232
 texas,baylor-university,Marketing,191
 texas,baylor-university,Finance,153
@@ -4968,7 +4968,7 @@ texas,texas-tech-university,Psychology,233
 texas,texas-tech-university,Accounting,229
 texas,texas-tech-university,Finance,199
 texas,university-of-texas---dallas,Communication,384
-texas,university-of-texas---dallas,Biology,284
+texas,university-of-texas---dallas,Science,284
 texas,university-of-texas---dallas,Accounting,279
 texas,university-of-texas---dallas,Psychology,225
 texas,university-of-texas---dallas,Finance,223
@@ -4981,19 +4981,19 @@ texas,university-of-houston,Psychology,584
 texas,university-of-houston,Finance,408
 texas,university-of-houston,Health Science,358
 texas,university-of-houston,Accounting,308
-texas,university-of-houston,Biology,293
+texas,university-of-houston,Science,293
 texas,university-of-houston,Humanities,293
 texas,university-of-houston,Physical Therapy,271
 texas,university-of-houston,Management,265
 texas,university-of-houston,Marketing,247
 texas,university-of-houston,Communication,238
-texas,university-of-dallas,Biology,51
+texas,university-of-dallas,Science,51
 texas,university-of-dallas,Business,51
 texas,university-of-dallas,Language and Writing,44
 texas,university-of-dallas,Economics,33
 texas,university-of-dallas,Law,26
 texas,university-of-dallas,Psychology,17
-texas,university-of-dallas,Physical Sciences,15
+texas,university-of-dallas,Science,15
 texas,university-of-dallas,History and World Studies,14
 texas,university-of-dallas,Religion,12
 texas,university-of-dallas,Education,10
@@ -5010,7 +5010,7 @@ texas,texas-state-technical-college,Computer Science,102
 texas,southwestern-university,Business,53
 texas,southwestern-university,Communication,31
 texas,southwestern-university,Psychology,31
-texas,southwestern-university,Biology,26
+texas,southwestern-university,Science,26
 texas,southwestern-university,Law,20
 texas,southwestern-university,Physical Therapy,19
 texas,southwestern-university,Education,17
@@ -5019,7 +5019,7 @@ texas,southwestern-university,Anthropology,14
 texas,southwestern-university,Arts,13
 texas,university-of-north-texas,Humanities,1502
 texas,university-of-north-texas,Psychology,390
-texas,university-of-north-texas,Biology,374
+texas,university-of-north-texas,Science,374
 texas,university-of-north-texas,Communication,290
 texas,university-of-north-texas,Crime and Military,254
 texas,university-of-north-texas,Marketing,229
@@ -5028,7 +5028,7 @@ texas,university-of-north-texas,Language and Writing,193
 texas,university-of-north-texas,Communication,190
 texas,university-of-north-texas,Finance,179
 texas,austin-college,Business,34
-texas,austin-college,Biology,32
+texas,austin-college,Science,32
 texas,austin-college,Psychology,29
 texas,austin-college,Health Science,23
 texas,austin-college,Humanities,20
@@ -5056,7 +5056,7 @@ texas,abilene-christian-university,Physical Therapy,39
 texas,abilene-christian-university,Psychology,39
 texas,abilene-christian-university,Humanities,34
 texas,abilene-christian-university,Health Science,34
-texas,abilene-christian-university,Biology,31
+texas,abilene-christian-university,Science,31
 texas,northwest-vista-college,Humanities,2187
 texas,northwest-vista-college,Business,180
 texas,northwest-vista-college,Education,170
@@ -5064,7 +5064,7 @@ texas,northwest-vista-college,Computer Science,91
 texas,northwest-vista-college,Nursing,90
 texas,northwest-vista-college,Arts,47
 texas,northwest-vista-college,Psychology,44
-texas,northwest-vista-college,Biology,37
+texas,northwest-vista-college,Science,37
 texas,northwest-vista-college,Engineering,28
 texas,northwest-vista-college,Arts,26
 texas,university-of-texas---arlington,Nursing,3811
@@ -5072,7 +5072,7 @@ texas,university-of-texas---arlington,Humanities,533
 texas,university-of-texas---arlington,Business,424
 texas,university-of-texas---arlington,Finance,301
 texas,university-of-texas---arlington,Marketing,296
-texas,university-of-texas---arlington,Biology,294
+texas,university-of-texas---arlington,Science,294
 texas,university-of-texas---arlington,Communication,278
 texas,university-of-texas---arlington,Physical Therapy,230
 texas,university-of-texas---arlington,Social Work,206
@@ -5097,7 +5097,7 @@ texas,san-jacinto-college,Communication,268
 texas,san-jacinto-college,Education,245
 texas,san-jacinto-college,Engineering,217
 texas,san-jacinto-college,Trade Engineering,193
-texas,university-of-texas---rio-grande-valley,Biology,507
+texas,university-of-texas---rio-grande-valley,Science,507
 texas,university-of-texas---rio-grande-valley,Crime and Military,462
 texas,university-of-texas---rio-grande-valley,Psychology,358
 texas,university-of-texas---rio-grande-valley,Humanities,342
@@ -5113,7 +5113,7 @@ texas,university-of-texas---tyler,Engineering,208
 texas,university-of-texas---tyler,Psychology,103
 texas,university-of-texas---tyler,Business,102
 texas,university-of-texas---tyler,Physical Therapy,90
-texas,university-of-texas---tyler,Biology,55
+texas,university-of-texas---tyler,Science,55
 texas,university-of-texas---tyler,Finance,55
 texas,university-of-texas---tyler,Engineering,54
 texas,university-of-texas---tyler,Management,48
@@ -5140,7 +5140,7 @@ texas,sam-houston-state-university,Nursing,116
 texas,university-of-the-incarnate-word,Business,234
 texas,university-of-the-incarnate-word,Nursing,105
 texas,university-of-the-incarnate-word,Health Science,101
-texas,university-of-the-incarnate-word,Biology,99
+texas,university-of-the-incarnate-word,Science,99
 texas,university-of-the-incarnate-word,Psychology,85
 texas,university-of-the-incarnate-word,Accounting,68
 texas,university-of-the-incarnate-word,Management,50
@@ -5169,7 +5169,7 @@ texas,mclennan-community-college,Education,34
 texas,mclennan-community-college,Business,34
 texas,university-of-texas---san-antonio,Psychology,458
 texas,university-of-texas---san-antonio,Physical Therapy,372
-texas,university-of-texas---san-antonio,Biology,279
+texas,university-of-texas---san-antonio,Science,279
 texas,university-of-texas---san-antonio,Communication,248
 texas,university-of-texas---san-antonio,Humanities,248
 texas,university-of-texas---san-antonio,Accounting,240
@@ -5180,7 +5180,7 @@ texas,university-of-texas---san-antonio,Computer Science,199
 texas,dallas-baptist-university,Humanities,97
 texas,dallas-baptist-university,Business,88
 texas,dallas-baptist-university,Psychology,66
-texas,dallas-baptist-university,Biology,45
+texas,dallas-baptist-university,Science,45
 texas,dallas-baptist-university,Education,39
 texas,dallas-baptist-university,Finance,33
 texas,dallas-baptist-university,Communication,30
@@ -5202,7 +5202,7 @@ utah,university-of-utah,Communication,339
 utah,university-of-utah,Physical Therapy,211
 utah,university-of-utah,Business,209
 utah,university-of-utah,Economics,201
-utah,university-of-utah,Biology,196
+utah,university-of-utah,Science,196
 utah,university-of-utah,Nursing,194
 utah,university-of-utah,Computer Science,177
 utah,university-of-utah,Engineering,169
@@ -5236,9 +5236,9 @@ utah,westminster-college---utah,Psychology,25
 utah,westminster-college---utah,Marketing,23
 utah,westminster-college---utah,Health Science,21
 utah,westminster-college---utah,Agriculture and Environment,19
-utah,westminster-college---utah,Biology,18
+utah,westminster-college---utah,Science,18
 utah,southern-utah-university,Humanities,1200
-utah,southern-utah-university,Biology,78
+utah,southern-utah-university,Science,78
 utah,southern-utah-university,Accounting,75
 utah,southern-utah-university,Communication,73
 utah,southern-utah-university,Psychology,72
@@ -5262,16 +5262,16 @@ vermont,middlebury-college,Computer Science,55
 vermont,middlebury-college,Health Science,47
 vermont,middlebury-college,Law,47
 vermont,middlebury-college,Agriculture and Environment,41
-vermont,middlebury-college,Biology,35
+vermont,middlebury-college,Science,35
 vermont,middlebury-college,Language and Writing,33
 vermont,middlebury-college,International Relations,33
 vermont,middlebury-college,Psychology,29
-vermont,middlebury-college,Biology,23
+vermont,middlebury-college,Science,23
 vermont,university-of-vermont,Business,264
 vermont,university-of-vermont,Agriculture and Environment,198
 vermont,university-of-vermont,Psychology,133
 vermont,university-of-vermont,Economics,105
-vermont,university-of-vermont,Biology,99
+vermont,university-of-vermont,Science,99
 vermont,university-of-vermont,Nursing,96
 vermont,university-of-vermont,Computer Science,88
 vermont,university-of-vermont,Law,86
@@ -5282,7 +5282,7 @@ virginia,washington-and-lee-university,Business,70
 virginia,washington-and-lee-university,Law,54
 virginia,washington-and-lee-university,Accounting,42
 virginia,washington-and-lee-university,History and World Studies,33
-virginia,washington-and-lee-university,Biology,27
+virginia,washington-and-lee-university,Science,27
 virginia,washington-and-lee-university,Computer Science,20
 virginia,washington-and-lee-university,Math,20
 virginia,washington-and-lee-university,Psychology,15
@@ -5290,7 +5290,7 @@ virginia,washington-and-lee-university,Communication,14
 virginia,university-of-virginia,Humanities,1060
 virginia,university-of-virginia,Economics,485
 virginia,university-of-virginia,Management,348
-virginia,university-of-virginia,Biology,327
+virginia,university-of-virginia,Science,327
 virginia,university-of-virginia,International Relations,241
 virginia,university-of-virginia,Psychology,228
 virginia,university-of-virginia,History and World Studies,185
@@ -5301,11 +5301,11 @@ virginia,university-of-richmond,Business,225
 virginia,university-of-richmond,Anthropology,74
 virginia,university-of-richmond,Humanities,68
 virginia,university-of-richmond,Economics,61
-virginia,university-of-richmond,Biology,56
+virginia,university-of-richmond,Science,56
 virginia,university-of-richmond,Accounting,53
 virginia,university-of-richmond,Law,53
 virginia,university-of-richmond,Psychology,49
-virginia,university-of-richmond,Biology,30
+virginia,university-of-richmond,Science,30
 virginia,university-of-richmond,Communication,30
 virginia,virginia-tech,Engineering,384
 virginia,virginia-tech,Management,381
@@ -5314,13 +5314,13 @@ virginia,virginia-tech,Communication,304
 virginia,virginia-tech,Health Science,269
 virginia,virginia-tech,Psychology,247
 virginia,virginia-tech,Communication,227
-virginia,virginia-tech,Biology,218
+virginia,virginia-tech,Science,218
 virginia,virginia-tech,Architecture,217
 virginia,virginia-tech,Psychology,207
 virginia,virginia-military-institute,International Relations,55
 virginia,virginia-military-institute,Architecture,53
 virginia,virginia-military-institute,Economics,48
-virginia,virginia-military-institute,Biology,34
+virginia,virginia-military-institute,Science,34
 virginia,virginia-military-institute,Computer Science,27
 virginia,virginia-military-institute,History and World Studies,25
 virginia,virginia-military-institute,Psychology,25
@@ -5333,7 +5333,7 @@ virginia,james-madison-university,Humanities,334
 virginia,james-madison-university,Communication,237
 virginia,james-madison-university,Nursing,228
 virginia,james-madison-university,Psychology,228
-virginia,james-madison-university,Biology,173
+virginia,james-madison-university,Science,173
 virginia,james-madison-university,Finance,171
 virginia,james-madison-university,Marketing,168
 virginia,james-madison-university,Business,146
@@ -5348,7 +5348,7 @@ virginia,liberty-university,Education,276
 virginia,liberty-university,Education,272
 virginia,liberty-university,Engineering,220
 virginia,hollins-university,Language and Writing,25
-virginia,hollins-university,Biology,18
+virginia,hollins-university,Science,18
 virginia,hollins-university,Business,15
 virginia,hollins-university,Psychology,14
 virginia,hollins-university,Communication,8
@@ -5356,11 +5356,11 @@ virginia,hollins-university,Agriculture and Environment,8
 virginia,hollins-university,History and World Studies,8
 virginia,hollins-university,Arts,8
 virginia,hollins-university,Arts,6
-virginia,hollins-university,Physical Sciences,6
+virginia,hollins-university,Science,6
 virginia,virginia-commonwealth-university,Psychology,531
 virginia,virginia-commonwealth-university,Business,387
 virginia,virginia-commonwealth-university,Education,361
-virginia,virginia-commonwealth-university,Biology,350
+virginia,virginia-commonwealth-university,Science,350
 virginia,virginia-commonwealth-university,Communication,295
 virginia,virginia-commonwealth-university,Communication,248
 virginia,virginia-commonwealth-university,Crime and Military,234
@@ -5370,15 +5370,15 @@ virginia,virginia-commonwealth-university,Law,191
 virginia,hampden-sydney-college,Economics,56
 virginia,hampden-sydney-college,Economics,33
 virginia,hampden-sydney-college,History and World Studies,24
-virginia,hampden-sydney-college,Biology,23
+virginia,hampden-sydney-college,Science,23
 virginia,hampden-sydney-college,Law,20
 virginia,hampden-sydney-college,International Relations,12
 virginia,hampden-sydney-college,Language and Writing,10
 virginia,hampden-sydney-college,Psychology,10
-virginia,hampden-sydney-college,Biology,5
-virginia,hampden-sydney-college,Physical Sciences,5
+virginia,hampden-sydney-college,Science,5
+virginia,hampden-sydney-college,Science,5
 virginia,christopher-newport-university,Business,176
-virginia,christopher-newport-university,Biology,172
+virginia,christopher-newport-university,Science,172
 virginia,christopher-newport-university,Psychology,127
 virginia,christopher-newport-university,Communication,103
 virginia,christopher-newport-university,Law,80
@@ -5391,7 +5391,7 @@ virginia,george-mason-university,Crime and Military,358
 virginia,george-mason-university,Psychology,356
 virginia,george-mason-university,Computer Science,336
 virginia,george-mason-university,Humanities,329
-virginia,george-mason-university,Biology,310
+virginia,george-mason-university,Science,310
 virginia,george-mason-university,Management,273
 virginia,george-mason-university,Accounting,251
 virginia,george-mason-university,Communication,237
@@ -5401,7 +5401,7 @@ virginia,eastern-mennonite-university,Nursing,135
 virginia,eastern-mennonite-university,Humanities,33
 virginia,eastern-mennonite-university,Business,26
 virginia,eastern-mennonite-university,Anthropology,25
-virginia,eastern-mennonite-university,Biology,18
+virginia,eastern-mennonite-university,Science,18
 virginia,eastern-mennonite-university,Psychology,13
 virginia,eastern-mennonite-university,Social Work,12
 virginia,eastern-mennonite-university,Arts,11
@@ -5410,18 +5410,18 @@ virginia,eastern-mennonite-university,Arts,7
 washington,university-of-washington,Psychology,498
 washington,university-of-washington,Communication,479
 washington,university-of-washington,Law,378
-washington,university-of-washington,Biology,361
+washington,university-of-washington,Science,361
 washington,university-of-washington,Computer Science,360
 washington,university-of-washington,Economics,360
-washington,university-of-washington,Biology,280
+washington,university-of-washington,Science,280
 washington,university-of-washington,Finance,279
 washington,university-of-washington,Computer Science,265
 washington,university-of-washington,Computer Science,261
-washington,whitman-college,Biology,35
+washington,whitman-college,Science,35
 washington,whitman-college,Psychology,34
 washington,whitman-college,Law,27
 washington,whitman-college,Economics,24
-washington,whitman-college,Biology,19
+washington,whitman-college,Science,19
 washington,whitman-college,Anthropology,16
 washington,whitman-college,Arts,16
 washington,whitman-college,Language and Writing,15
@@ -5434,7 +5434,7 @@ washington,washington-state-university,Engineering,270
 washington,washington-state-university,Psychology,251
 washington,washington-state-university,Accounting,207
 washington,washington-state-university,Crime and Military,185
-washington,washington-state-university,Biology,180
+washington,washington-state-university,Science,180
 washington,washington-state-university,Management,175
 washington,washington-state-university,Finance,172
 washington,digipen-institute-of-technology,Arts,63
@@ -5448,7 +5448,7 @@ washington,gonzaga-university,Business,318
 washington,gonzaga-university,Psychology,107
 washington,gonzaga-university,Engineering,84
 washington,gonzaga-university,Accounting,82
-washington,gonzaga-university,Biology,82
+washington,gonzaga-university,Science,82
 washington,gonzaga-university,Nursing,79
 washington,gonzaga-university,Anthropology,56
 washington,gonzaga-university,Computer Science,51
@@ -5456,22 +5456,22 @@ washington,gonzaga-university,Physical Therapy,49
 washington,gonzaga-university,Architecture,45
 washington,whitworth-university,Agriculture and Environment,57
 washington,whitworth-university,Psychology,45
-washington,whitworth-university,Biology,38
+washington,whitworth-university,Science,38
 washington,whitworth-university,Education,33
 washington,whitworth-university,Business,27
 washington,whitworth-university,Language and Writing,27
 washington,whitworth-university,Math,26
 washington,whitworth-university,Anthropology,25
 washington,whitworth-university,Economics,23
-washington,whitworth-university,Physical Sciences,21
+washington,whitworth-university,Science,21
 washington,pacific-lutheran-university,Business,102
 washington,pacific-lutheran-university,Nursing,70
-washington,pacific-lutheran-university,Biology,64
+washington,pacific-lutheran-university,Science,64
 washington,pacific-lutheran-university,Physical Therapy,47
 washington,pacific-lutheran-university,Psychology,45
 washington,pacific-lutheran-university,Humanities,35
 washington,pacific-lutheran-university,Communication,29
-washington,pacific-lutheran-university,Physical Sciences,25
+washington,pacific-lutheran-university,Science,25
 washington,pacific-lutheran-university,Communication,24
 washington,pacific-lutheran-university,Arts,22
 washington,seattle-pacific-university,Nursing,68
@@ -5487,12 +5487,12 @@ washington,seattle-pacific-university,Law,21
 washington,university-of-puget-sound,Law,89
 washington,university-of-puget-sound,Business,68
 washington,university-of-puget-sound,Psychology,65
-washington,university-of-puget-sound,Biology,43
+washington,university-of-puget-sound,Science,43
 washington,university-of-puget-sound,Economics,27
 washington,university-of-puget-sound,Communication,23
 washington,university-of-puget-sound,Computer Science,22
 washington,university-of-puget-sound,Anthropology,20
-washington,university-of-puget-sound,Biology,19
+washington,university-of-puget-sound,Science,19
 washington,university-of-puget-sound,Language and Writing,19
 washington,seattle-university,Nursing,143
 washington,seattle-university,Finance,116
@@ -5502,7 +5502,7 @@ washington,seattle-university,Business,63
 washington,seattle-university,Accounting,53
 washington,seattle-university,Humanities,49
 washington,seattle-university,Computer Science,45
-washington,seattle-university,Biology,39
+washington,seattle-university,Science,39
 washington,seattle-university,Engineering,38
 west-virginia,west-virginia-university,Humanities,562
 west-virginia,west-virginia-university,Communication,226
@@ -5512,11 +5512,11 @@ west-virginia,west-virginia-university,Anthropology,180
 west-virginia,west-virginia-university,Education,174
 west-virginia,west-virginia-university,Business,160
 west-virginia,west-virginia-university,Psychology,156
-west-virginia,west-virginia-university,Biology,128
+west-virginia,west-virginia-university,Science,128
 west-virginia,west-virginia-university,Physical Therapy,126
 west-virginia,university-of-charleston,Business,259
 west-virginia,university-of-charleston,Nursing,69
-west-virginia,university-of-charleston,Biology,24
+west-virginia,university-of-charleston,Science,24
 west-virginia,university-of-charleston,Medical Applied,24
 west-virginia,university-of-charleston,Physical Therapy,23
 west-virginia,university-of-charleston,Accounting,14
@@ -5526,7 +5526,7 @@ west-virginia,university-of-charleston,Law,12
 west-virginia,university-of-charleston,Education,7
 west-virginia,west-virginia-university-institute-of-technology,Humanities,30
 west-virginia,west-virginia-university-institute-of-technology,Engineering,21
-west-virginia,west-virginia-university-institute-of-technology,Biology,17
+west-virginia,west-virginia-university-institute-of-technology,Science,17
 west-virginia,west-virginia-university-institute-of-technology,Architecture,12
 west-virginia,west-virginia-university-institute-of-technology,Engineering,9
 west-virginia,west-virginia-university-institute-of-technology,Crime and Military,9
@@ -5535,21 +5535,21 @@ west-virginia,west-virginia-university-institute-of-technology,Communication,8
 west-virginia,west-virginia-university-institute-of-technology,Engineering,7
 west-virginia,west-virginia-university-institute-of-technology,Accounting,6
 west-virginia,west-virginia-wesleyan-college,Physical Therapy,21
-west-virginia,west-virginia-wesleyan-college,Biology,16
-west-virginia,west-virginia-wesleyan-college,Physical Sciences,16
+west-virginia,west-virginia-wesleyan-college,Science,16
+west-virginia,west-virginia-wesleyan-college,Science,16
 west-virginia,west-virginia-wesleyan-college,Business,15
 west-virginia,west-virginia-wesleyan-college,Nursing,15
 west-virginia,west-virginia-wesleyan-college,Accounting,14
 west-virginia,west-virginia-wesleyan-college,Crime and Military,14
 west-virginia,west-virginia-wesleyan-college,Psychology,14
-west-virginia,west-virginia-wesleyan-college,Physical Sciences,13
+west-virginia,west-virginia-wesleyan-college,Science,13
 west-virginia,west-virginia-wesleyan-college,Marketing,12
 west-virginia,marshall-university,Humanities,224
 west-virginia,marshall-university,Nursing,215
 west-virginia,marshall-university,Psychology,120
 west-virginia,marshall-university,Health Science,102
 west-virginia,marshall-university,Business,97
-west-virginia,marshall-university,Biology,88
+west-virginia,marshall-university,Science,88
 west-virginia,marshall-university,Education,63
 west-virginia,marshall-university,Crime and Military,59
 west-virginia,marshall-university,Marketing,57
@@ -5560,7 +5560,7 @@ west-virginia,wheeling-university,Psychology,15
 west-virginia,wheeling-university,Education,12
 west-virginia,wheeling-university,Crime and Military,12
 west-virginia,wheeling-university,Education,12
-west-virginia,wheeling-university,Biology,10
+west-virginia,wheeling-university,Science,10
 west-virginia,wheeling-university,Education,9
 west-virginia,wheeling-university,Accounting,7
 west-virginia,wheeling-university,Communication,7
@@ -5568,7 +5568,7 @@ west-virginia,west-liberty-university,Medical Applied,76
 west-virginia,west-liberty-university,Business,57
 west-virginia,west-liberty-university,Humanities,48
 west-virginia,west-liberty-university,Nursing,35
-west-virginia,west-liberty-university,Biology,34
+west-virginia,west-liberty-university,Science,34
 west-virginia,west-liberty-university,Education,28
 west-virginia,west-liberty-university,Education,27
 west-virginia,west-liberty-university,Physical Therapy,26
@@ -5576,7 +5576,7 @@ west-virginia,west-liberty-university,Health Science,14
 west-virginia,west-liberty-university,Crime and Military,13
 wisconsin,university-of-wisconsin,Communication,590
 wisconsin,university-of-wisconsin,Economics,587
-wisconsin,university-of-wisconsin,Biology,482
+wisconsin,university-of-wisconsin,Science,482
 wisconsin,university-of-wisconsin,Psychology,464
 wisconsin,university-of-wisconsin,Agriculture and Environment,387
 wisconsin,university-of-wisconsin,Math,345
@@ -5595,7 +5595,7 @@ wisconsin,milwaukee-school-of-engineering,Architecture,23
 wisconsin,milwaukee-school-of-engineering,Business,18
 wisconsin,milwaukee-school-of-engineering,Engineering,18
 wisconsin,lawrence-university,Arts,44
-wisconsin,lawrence-university,Biology,37
+wisconsin,lawrence-university,Science,37
 wisconsin,lawrence-university,Economics,36
 wisconsin,lawrence-university,Psychology,33
 wisconsin,lawrence-university,Language and Writing,28
@@ -5603,7 +5603,7 @@ wisconsin,lawrence-university,Law,24
 wisconsin,lawrence-university,Math,18
 wisconsin,lawrence-university,Arts,16
 wisconsin,lawrence-university,Language and Writing,15
-wisconsin,lawrence-university,Biology,13
+wisconsin,lawrence-university,Science,13
 wisconsin,marquette-university,Health Science,161
 wisconsin,marquette-university,Nursing,135
 wisconsin,marquette-university,Finance,126
@@ -5614,7 +5614,7 @@ wisconsin,marquette-university,Law,76
 wisconsin,marquette-university,Communication,74
 wisconsin,marquette-university,Engineering,72
 wisconsin,marquette-university,Crime and Military,67
-wisconsin,st.-norbert-college,Biology,61
+wisconsin,st.-norbert-college,Science,61
 wisconsin,st.-norbert-college,Business,58
 wisconsin,st.-norbert-college,Communication,45
 wisconsin,st.-norbert-college,Language and Writing,43
@@ -5634,7 +5634,7 @@ wisconsin,fox-valley-technical-college,Trade Other,115
 wisconsin,fox-valley-technical-college,Trade Engineering,114
 wisconsin,fox-valley-technical-college,Accounting,110
 wisconsin,fox-valley-technical-college,Nursing,103
-wisconsin,university-of-wisconsin---la-crosse,Biology,241
+wisconsin,university-of-wisconsin---la-crosse,Science,241
 wisconsin,university-of-wisconsin---la-crosse,Psychology,198
 wisconsin,university-of-wisconsin---la-crosse,Physical Therapy,179
 wisconsin,university-of-wisconsin---la-crosse,Finance,152
@@ -5660,7 +5660,7 @@ wisconsin,beloit-college,Economics,26
 wisconsin,beloit-college,Education,23
 wisconsin,beloit-college,Humanities,21
 wisconsin,beloit-college,Law,21
-wisconsin,beloit-college,Physical Sciences,20
+wisconsin,beloit-college,Science,20
 wisconsin,beloit-college,Anthropology,18
 wisconsin,beloit-college,Language and Writing,17
 wisconsin,beloit-college,Agriculture and Environment,16

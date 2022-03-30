@@ -10,7 +10,7 @@ alabama,Nursing,1534
 alabama,Psychology,725
 alabama,Management,592
 alabama,Education,400
-alabama,Biology,248
+alabama,Science,259
 alabama,Communication,533
 alabama,Humanities,564
 alabama,Medical Applied,228
@@ -18,7 +18,6 @@ alabama,Arts,44
 alabama,History and World Studies,19
 alabama,Math,18
 alabama,Language and Writing,14
-alabama,Physical Sciences,11
 alabama,Religion,37
 alabama,Trade Other,183
 alabama,Trade Engineering,133
@@ -32,7 +31,7 @@ alaska,Education,20
 alaska,Anthropology,17
 alaska,Accounting,13
 arizona,Business,2816
-arizona,Biology,789
+arizona,Science,975
 arizona,Psychology,1360
 arizona,Finance,907
 arizona,Humanities,3039
@@ -51,7 +50,6 @@ arizona,Education,761
 arizona,Nursing,1480
 arizona,Physical Therapy,169
 arizona,Social Work,212
-arizona,Physical Sciences,186
 arizona,Trade Engineering,692
 arizona,Arts,1256
 arizona,Medical Applied,432
@@ -60,7 +58,7 @@ arizona,Agriculture and Environment,143
 arizona,Culinary,32
 arizona,Architecture,24
 arkansas,Psychology,394
-arkansas,Biology,446
+arkansas,Science,446
 arkansas,Economics,39
 arkansas,Language and Writing,33
 arkansas,Health Science,53
@@ -89,7 +87,7 @@ arkansas,Trade Other,26
 arkansas,Crime and Military,59
 california,Computer Science,4150
 california,Engineering,1885
-california,Biology,6429
+california,Science,6504
 california,Economics,6058
 california,Psychology,13232
 california,Humanities,10882
@@ -101,7 +99,6 @@ california,Accounting,978
 california,Math,1822
 california,Health Science,2773
 california,Language and Writing,1060
-california,Physical Sciences,75
 california,Anthropology,6080
 california,History and World Studies,349
 california,Agriculture and Environment,2609
@@ -123,10 +120,9 @@ california,Trade Engineering,483
 colorado,Engineering,1208
 colorado,Trade Engineering,778
 colorado,Computer Science,514
-colorado,Physical Sciences,80
+colorado,Science,911
 colorado,Architecture,143
 colorado,Economics,727
-colorado,Biology,831
 colorado,Agriculture and Environment,233
 colorado,Anthropology,90
 colorado,Humanities,559
@@ -150,7 +146,7 @@ colorado,Religion,107
 connecticut,Economics,864
 connecticut,Law,560
 connecticut,History and World Studies,283
-connecticut,Biology,525
+connecticut,Science,532
 connecticut,Humanities,335
 connecticut,Communication,642
 connecticut,Psychology,1132
@@ -167,7 +163,6 @@ connecticut,Health Science,469
 connecticut,Agriculture and Environment,21
 connecticut,Computer Science,23
 connecticut,Social Work,26
-connecticut,Physical Sciences,7
 connecticut,Education,5
 delaware,Finance,317
 delaware,Humanities,276
@@ -178,13 +173,13 @@ delaware,Physical Therapy,173
 delaware,Education,160
 delaware,Psychology,179
 delaware,Engineering,159
-delaware,Biology,145
+delaware,Science,145
 delaware,Business,57
 delaware,Accounting,30
 delaware,Crime and Military,17
 delaware,Management,17
 delaware,Law,8
-florida,Biology,3292
+florida,Science,3310
 florida,Psychology,6051
 florida,Law,991
 florida,Business,4749
@@ -205,7 +200,6 @@ florida,Education,736
 florida,Accounting,513
 florida,Computer Science,378
 florida,Trade Other,338
-florida,Physical Sciences,18
 florida,Arts,189
 florida,Agriculture and Environment,280
 florida,Trade Engineering,781
@@ -219,11 +213,10 @@ georgia,Engineering,2227
 georgia,Business,1732
 georgia,Architecture,129
 georgia,Nursing,1605
-georgia,Biology,1479
+georgia,Science,1585
 georgia,Economics,241
 georgia,Health Science,326
 georgia,Psychology,1585
-georgia,Physical Sciences,106
 georgia,Law,404
 georgia,Education,429
 georgia,Humanities,625
@@ -253,7 +246,7 @@ hawaii,Psychology,184
 hawaii,Physical Therapy,144
 hawaii,Communication,136
 hawaii,Finance,136
-hawaii,Biology,127
+hawaii,Science,127
 hawaii,Nursing,122
 hawaii,Marketing,116
 hawaii,Engineering,115
@@ -268,7 +261,7 @@ idaho,Finance,62
 idaho,Anthropology,64
 idaho,Physical Therapy,53
 idaho,Accounting,192
-idaho,Biology,150
+idaho,Science,150
 idaho,Health Science,223
 idaho,History and World Studies,9
 idaho,Arts,25
@@ -285,7 +278,7 @@ illinois,Psychology,2203
 illinois,Communication,1515
 illinois,Law,584
 illinois,Health Science,460
-illinois,Biology,1802
+illinois,Science,1814
 illinois,Arts,274
 illinois,Engineering,1225
 illinois,Math,586
@@ -302,7 +295,6 @@ illinois,Management,572
 illinois,Marketing,834
 illinois,Business,897
 illinois,Nursing,2020
-illinois,Physical Sciences,12
 illinois,Anthropology,107
 illinois,Agriculture and Environment,1324
 illinois,Architecture,554
@@ -328,12 +320,11 @@ indiana,Trade Engineering,195
 indiana,Architecture,58
 indiana,Social Work,796
 indiana,Physical Therapy,503
-indiana,Biology,587
+indiana,Science,630
 indiana,Humanities,242
 indiana,Language and Writing,120
 indiana,History and World Studies,32
 indiana,Religion,16
-indiana,Physical Sciences,43
 indiana,Marketing,148
 indiana,Education,84
 indiana,Nursing,178
@@ -342,14 +333,13 @@ indiana,International Relations,10
 indiana,Agriculture and Environment,8
 indiana,Anthropology,13
 iowa,Computer Science,367
-iowa,Biology,469
+iowa,Science,513
 iowa,Law,68
 iowa,Psychology,767
 iowa,Math,35
 iowa,Economics,242
 iowa,History and World Studies,43
 iowa,Language and Writing,241
-iowa,Physical Sciences,44
 iowa,Engineering,473
 iowa,Marketing,718
 iowa,Agriculture and Environment,516
@@ -381,7 +371,7 @@ kansas,Physical Therapy,150
 kansas,Psychology,492
 kansas,Communication,590
 kansas,Nursing,1455
-kansas,Biology,286
+kansas,Science,286
 kansas,Accounting,273
 kansas,Humanities,1865
 kansas,Management,67
@@ -396,7 +386,7 @@ kentucky,Marketing,522
 kentucky,Business,573
 kentucky,Nursing,833
 kentucky,Psychology,715
-kentucky,Biology,504
+kentucky,Science,521
 kentucky,Communication,795
 kentucky,Finance,215
 kentucky,Engineering,304
@@ -409,7 +399,6 @@ kentucky,Math,37
 kentucky,Anthropology,34
 kentucky,Law,21
 kentucky,History and World Studies,28
-kentucky,Physical Sciences,17
 kentucky,Trade Engineering,60
 kentucky,Agriculture and Environment,262
 kentucky,Physical Therapy,70
@@ -430,7 +419,7 @@ louisiana,Economics,117
 louisiana,Law,147
 louisiana,Communication,461
 louisiana,Language and Writing,87
-louisiana,Biology,864
+louisiana,Science,902
 louisiana,Engineering,372
 louisiana,Humanities,1137
 louisiana,Computer Science,193
@@ -444,7 +433,6 @@ louisiana,Crime and Military,179
 louisiana,Agriculture and Environment,17
 louisiana,Medical Applied,191
 louisiana,Trade Engineering,1151
-louisiana,Physical Sciences,38
 louisiana,Anthropology,7
 louisiana,Culinary,96
 louisiana,Social Work,45
@@ -454,7 +442,7 @@ maine,Math,114
 maine,History and World Studies,103
 maine,Computer Science,64
 maine,Agriculture and Environment,169
-maine,Biology,108
+maine,Science,108
 maine,Health Science,27
 maine,Psychology,109
 maine,International Relations,36
@@ -466,7 +454,7 @@ maine,Trade Engineering,25
 maine,Business,23
 maine,Humanities,4
 maryland,Health Science,720
-maryland,Biology,1064
+maryland,Science,1064
 maryland,Economics,604
 maryland,Engineering,524
 maryland,Math,92
@@ -492,7 +480,7 @@ maryland,Marketing,92
 massachusetts,Computer Science,1496
 massachusetts,Engineering,1840
 massachusetts,Math,667
-massachusetts,Physical Sciences,173
+massachusetts,Science,1088
 massachusetts,Economics,2078
 massachusetts,Law,1103
 massachusetts,History and World Studies,423
@@ -500,7 +488,6 @@ massachusetts,Anthropology,246
 massachusetts,Health Science,592
 massachusetts,Psychology,1255
 massachusetts,Language and Writing,560
-massachusetts,Biology,915
 massachusetts,International Relations,477
 massachusetts,Communication,1295
 massachusetts,Arts,26
@@ -517,7 +504,7 @@ michigan,Economics,867
 michigan,Psychology,2329
 michigan,Engineering,2140
 michigan,Law,319
-michigan,Biology,1204
+michigan,Science,1248
 michigan,International Relations,195
 michigan,Marketing,1729
 michigan,Management,1001
@@ -533,7 +520,6 @@ michigan,Social Work,414
 michigan,Education,446
 michigan,Religion,54
 michigan,Health Science,840
-michigan,Physical Sciences,44
 michigan,History and World Studies,16
 michigan,Crime and Military,255
 michigan,Anthropology,175
@@ -542,10 +528,9 @@ michigan,Arts,183
 michigan,Math,14
 minnesota,International Relations,118
 minnesota,Computer Science,538
-minnesota,Biology,728
+minnesota,Science,853
 minnesota,Psychology,896
 minnesota,Math,421
-minnesota,Physical Sciences,125
 minnesota,Economics,616
 minnesota,Language and Writing,109
 minnesota,Agriculture and Environment,161
@@ -567,7 +552,7 @@ mississippi,Physical Therapy,590
 mississippi,Business,821
 mississippi,Engineering,278
 mississippi,Communication,189
-mississippi,Biology,338
+mississippi,Science,338
 mississippi,Psychology,638
 mississippi,Education,592
 mississippi,Marketing,483
@@ -584,7 +569,7 @@ mississippi,Law,7
 mississippi,Architecture,71
 missouri,Computer Science,307
 missouri,Finance,412
-missouri,Biology,1112
+missouri,Science,1241
 missouri,Psychology,1319
 missouri,Anthropology,135
 missouri,Economics,195
@@ -603,7 +588,6 @@ missouri,Social Work,102
 missouri,Education,555
 missouri,Agriculture and Environment,142
 missouri,Language and Writing,113
-missouri,Physical Sciences,129
 missouri,Crime and Military,197
 missouri,Management,72
 missouri,Trade Engineering,314
@@ -619,7 +603,7 @@ montana,Humanities,115
 montana,Education,132
 montana,Architecture,106
 montana,Computer Science,87
-montana,Biology,135
+montana,Science,135
 montana,Trade Engineering,65
 montana,Health Science,52
 montana,Accounting,18
@@ -627,7 +611,7 @@ montana,Psychology,16
 montana,Finance,15
 nebraska,Nursing,267
 nebraska,Finance,391
-nebraska,Biology,428
+nebraska,Science,428
 nebraska,Marketing,340
 nebraska,Psychology,479
 nebraska,Management,144
@@ -646,7 +630,7 @@ nebraska,Crime and Military,209
 nevada,Health Science,456
 nevada,Psychology,783
 nevada,Business,544
-nevada,Biology,469
+nevada,Science,469
 nevada,Marketing,187
 nevada,Engineering,168
 nevada,Crime and Military,471
@@ -668,7 +652,7 @@ new-hampshire,Engineering,221
 new-hampshire,Computer Science,87
 new-hampshire,Math,76
 new-hampshire,Psychology,281
-new-hampshire,Biology,74
+new-hampshire,Science,74
 new-hampshire,History and World Studies,54
 new-hampshire,Health Science,292
 new-hampshire,Anthropology,44
@@ -689,7 +673,7 @@ new-jersey,Economics,514
 new-jersey,Law,249
 new-jersey,Engineering,986
 new-jersey,History and World Studies,122
-new-jersey,Biology,1849
+new-jersey,Science,1849
 new-jersey,Business,2750
 new-jersey,Architecture,261
 new-jersey,Math,95
@@ -716,9 +700,8 @@ new-mexico,Humanities,987
 new-mexico,Engineering,250
 new-mexico,Trade Engineering,60
 new-mexico,Computer Science,25
-new-mexico,Physical Sciences,14
+new-mexico,Science,126
 new-mexico,Architecture,11
-new-mexico,Biology,112
 new-mexico,Math,10
 new-mexico,Crime and Military,227
 new-mexico,Business,230
@@ -743,7 +726,7 @@ new-york,Anthropology,693
 new-york,Engineering,2725
 new-york,Humanities,1188
 new-york,Health Science,502
-new-york,Biology,1142
+new-york,Science,1304
 new-york,Management,859
 new-york,Business,2438
 new-york,Agriculture and Environment,617
@@ -761,11 +744,10 @@ new-york,Finance,1417
 new-york,Marketing,2812
 new-york,Education,111
 new-york,Social Work,210
-new-york,Physical Sciences,162
 north-carolina,Computer Science,1542
 north-carolina,Economics,831
 north-carolina,Law,1352
-north-carolina,Biology,2180
+north-carolina,Science,2180
 north-carolina,Nursing,2245
 north-carolina,Psychology,2626
 north-carolina,Engineering,1182
@@ -795,7 +777,7 @@ north-dakota,Nursing,417
 north-dakota,Psychology,390
 north-dakota,Medical Applied,127
 north-dakota,Engineering,381
-north-dakota,Biology,189
+north-dakota,Science,189
 north-dakota,Communication,89
 north-dakota,Accounting,85
 north-dakota,Social Work,77
@@ -807,7 +789,7 @@ north-dakota,Marketing,91
 north-dakota,Finance,80
 ohio,Computer Science,139
 ohio,Engineering,1316
-ohio,Biology,2087
+ohio,Science,2107
 ohio,Nursing,4665
 ohio,Psychology,2449
 ohio,Accounting,1332
@@ -829,7 +811,6 @@ ohio,Health Science,537
 ohio,Crime and Military,694
 ohio,Medical Applied,217
 ohio,Physical Therapy,284
-ohio,Physical Sciences,20
 ohio,Architecture,24
 ohio,Humanities,852
 ohio,Trade Engineering,324
@@ -843,7 +824,7 @@ oklahoma,Accounting,541
 oklahoma,Business,798
 oklahoma,Psychology,709
 oklahoma,Management,256
-oklahoma,Biology,101
+oklahoma,Science,134
 oklahoma,Marketing,496
 oklahoma,Humanities,1232
 oklahoma,Agriculture and Environment,610
@@ -854,19 +835,17 @@ oklahoma,Religion,87
 oklahoma,Nursing,806
 oklahoma,Arts,116
 oklahoma,Health Science,308
-oklahoma,Physical Sciences,33
 oklahoma,Education,123
 oklahoma,Crime and Military,166
 oklahoma,Trade Other,53
 oklahoma,Culinary,36
 oklahoma,Social Work,62
 oregon,Economics,489
-oregon,Biology,391
+oregon,Science,434
 oregon,History and World Studies,41
 oregon,Psychology,938
 oregon,Language and Writing,85
 oregon,Humanities,18
-oregon,Physical Sciences,43
 oregon,Law,246
 oregon,Anthropology,575
 oregon,Arts,15
@@ -890,7 +869,7 @@ pennsylvania,Humanities,497
 pennsylvania,Nursing,2188
 pennsylvania,Economics,1657
 pennsylvania,Business,1131
-pennsylvania,Biology,2277
+pennsylvania,Science,2366
 pennsylvania,Law,680
 pennsylvania,Communication,2076
 pennsylvania,Health Science,659
@@ -898,7 +877,6 @@ pennsylvania,Computer Science,1178
 pennsylvania,Engineering,2157
 pennsylvania,Math,336
 pennsylvania,Arts,199
-pennsylvania,Physical Sciences,89
 pennsylvania,Psychology,1863
 pennsylvania,Language and Writing,496
 pennsylvania,History and World Studies,114
@@ -914,7 +892,7 @@ pennsylvania,Medical Applied,215
 pennsylvania,Architecture,87
 pennsylvania,Social Work,40
 rhode-island,Computer Science,271
-rhode-island,Biology,183
+rhode-island,Science,205
 rhode-island,Economics,162
 rhode-island,Math,146
 rhode-island,Business,91
@@ -925,11 +903,10 @@ rhode-island,Law,72
 rhode-island,International Relations,61
 rhode-island,Arts,266
 rhode-island,Architecture,85
-rhode-island,Physical Sciences,22
 south-carolina,Business,1330
 south-carolina,Marketing,849
 south-carolina,Psychology,785
-south-carolina,Biology,893
+south-carolina,Science,900
 south-carolina,Engineering,590
 south-carolina,Nursing,448
 south-carolina,Communication,397
@@ -951,10 +928,9 @@ south-carolina,Education,157
 south-carolina,Arts,19
 south-carolina,Social Work,50
 south-carolina,Humanities,254
-south-carolina,Physical Sciences,7
 south-dakota,Nursing,155
 south-dakota,Business,48
-south-dakota,Biology,40
+south-dakota,Science,40
 south-dakota,Education,29
 south-dakota,Accounting,16
 south-dakota,Language and Writing,29
@@ -977,10 +953,9 @@ tennessee,Engineering,119
 tennessee,History and World Studies,107
 tennessee,Language and Writing,172
 tennessee,Business,787
-tennessee,Biology,483
+tennessee,Science,509
 tennessee,International Relations,60
 tennessee,Psychology,771
-tennessee,Physical Sciences,26
 tennessee,Nursing,1024
 tennessee,Social Work,71
 tennessee,Marketing,349
@@ -1001,7 +976,7 @@ texas,Communication,3814
 texas,Economics,988
 texas,Engineering,2221
 texas,Psychology,4115
-texas,Biology,3848
+texas,Science,3863
 texas,Physical Therapy,2637
 texas,Management,701
 texas,Business,5346
@@ -1020,7 +995,6 @@ texas,Culinary,235
 texas,Computer Science,936
 texas,Arts,294
 texas,Health Science,797
-texas,Physical Sciences,15
 texas,History and World Studies,155
 texas,Religion,42
 texas,Trade Engineering,2539
@@ -1040,7 +1014,7 @@ utah,Culinary,173
 utah,Engineering,341
 utah,Communication,654
 utah,Business,426
-utah,Biology,292
+utah,Science,292
 utah,Nursing,1564
 utah,Trade Engineering,386
 utah,Trade Other,225
@@ -1056,7 +1030,7 @@ vermont,Computer Science,143
 vermont,Health Science,47
 vermont,Law,133
 vermont,Agriculture and Environment,239
-vermont,Biology,157
+vermont,Science,157
 vermont,Language and Writing,33
 vermont,International Relations,33
 vermont,Psychology,162
@@ -1069,7 +1043,7 @@ virginia,Business,2967
 virginia,Law,398
 virginia,Accounting,622
 virginia,History and World Studies,317
-virginia,Biology,1761
+virginia,Science,1772
 virginia,Computer Science,439
 virginia,Math,142
 virginia,Psychology,3723
@@ -1090,12 +1064,11 @@ virginia,Crime and Military,1211
 virginia,Education,909
 virginia,Agriculture and Environment,8
 virginia,Arts,32
-virginia,Physical Sciences,11
 virginia,Social Work,12
 washington,Psychology,1629
 washington,Communication,604
 washington,Law,515
-washington,Biology,1160
+washington,Science,1206
 washington,Computer Science,1118
 washington,Economics,434
 washington,Finance,567
@@ -1113,7 +1086,6 @@ washington,Physical Therapy,96
 washington,Architecture,45
 washington,Education,89
 washington,Math,26
-washington,Physical Sciences,46
 washington,Humanities,84
 washington,Health Science,29
 washington,Marketing,69
@@ -1125,19 +1097,18 @@ west-virginia,Anthropology,180
 west-virginia,Education,332
 west-virginia,Business,616
 west-virginia,Psychology,327
-west-virginia,Biology,317
+west-virginia,Science,346
 west-virginia,Physical Therapy,196
 west-virginia,Medical Applied,100
 west-virginia,Accounting,93
 west-virginia,Law,12
 west-virginia,Architecture,12
 west-virginia,Crime and Military,107
-west-virginia,Physical Sciences,29
 west-virginia,Marketing,69
 west-virginia,Health Science,116
 wisconsin,Communication,1085
 wisconsin,Economics,676
-wisconsin,Biology,834
+wisconsin,Science,854
 wisconsin,Psychology,868
 wisconsin,Agriculture and Environment,403
 wisconsin,Math,384
@@ -1162,7 +1133,6 @@ wisconsin,Physical Therapy,253
 wisconsin,Management,42
 wisconsin,Anthropology,52
 wisconsin,Humanities,21
-wisconsin,Physical Sciences,20
 wyoming,Nursing,133
 wyoming,Psychology,122
 wyoming,Education,108

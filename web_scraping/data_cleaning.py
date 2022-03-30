@@ -6,26 +6,24 @@ import csv
 
 def files_to_df():
     """
-    This function combines all .csv files from the current folder in to one.
-
+    This function combines all csv files from the current folder into one csv.
     """
     all_filenames = sorted([i for i in glob.glob("*.{}".format("csv"))])
-    print(all_filenames)
     combined_data = pd.concat([pd.read_csv(f) for f in all_filenames])
     combined_data.to_csv("combined_data.csv", index=False, encoding="utf-8-sig")
 
 def get_key(value_to_find, dict):
     """
-    This function looks for a specific value in a dicionary and returns all of
-    its key.
+    This function finds the key corresponding to a specific value in a
+    dicionary.
 
     Args:
-    value_to_find: A string that is being searched in the dictionary.
-    dict: A dictionary that contains one or more keys and values.
+        value_to_find: A string that is being searched for in the dictionary.
+        dict: A dictionary that contains one or more keys and values.
 
-    Return:
-    key: A string that is the key corresponding to the input value.
-
+    Returns:
+    A string representing the key in the dictionary that has the input as one
+    of it's values.
     """
     for key, value in dict.items():
         if value_to_find == value:
@@ -37,15 +35,21 @@ def find_broader_major(major_entered):
     This function finds the condensed major name of the input major based on
     the major category created.
 
-    Arg:
-    major_entered: A string that is the name of a specific major.
+    The dictionary containing all majors and what broader name they correspond
+    to was created through manual sorting. It contains all majors in the current
+    raw_data folder.
 
-    Return:
-    A string that is the condensed name version of the input major.
+    Args:
+        major_entered: A string representing the name of a specific major for
+        which the broader category is to be found.
+
+    Returns:
+    A string representing the condensed category of the input major.
 
     """
     # Dictionary that maps majors to broader categories
-    # This was hand sorted from the results of the unique majors
+    # This was hand sorted for data in the current raw_data folder
+
     broader_major_dict = {
         'Engineering': ['Bioengineering and Biomedical Engineering', \
         'Biotechnology', 'Environmental Engineering', 'Chemical Engineering', \
@@ -65,14 +69,13 @@ def find_broader_major(major_entered):
         'Network, Database, and System Administration', \
         'Computer and Information Systems Security', \
         'Computer Engineering Technician', 'Systems Science and Theory'], 
-        'Physical Sciences': ['Physics', 'Engineering Physics', \
-        'Physical Sciences', 'Chemistry', 'Apparel and Textile Science', \
-        'Pharmacology and Toxicology'], 
+        'Science': ['Physical Sciences', 'Physics', 'Engineering Physics', \
+        'Chemistry', 'Apparel and Textile Science', \
+        'Pharmacology and Toxicology', 'Bioinformatics', 'Cellular Biology', \
+        'Biology', 'Biochemistry and Molecular Biology', \
+        'Ecology and Evolutionary Biology', 'Microbiology'], 
         'Math': ['Mathematics', 'Computational and Applied Mathematics', \
         'Statistics'], 
-        'Biology': ['Bioinformatics', 'Cellular Biology', 'Biology',\
-        'Biochemistry and Molecular Biology', \
-        'Ecology and Evolutionary Biology', 'Microbiology'], 
         'Psychology': ['Psychology', 'Physiological Psychology', \
         'Research and Experimental Psychology', 'Counseling Psychology', \
         'Psychiatric and Mental Health Services', \
@@ -334,9 +337,9 @@ df = pd.read_csv("combined_data.csv")
 # manually sort
 os.chdir('..')
 os.chdir('cleaned_data')
-#os.remove('broader_major_combined_data.csv')
-#os.remove('broader_major_summed_data.csv')
-#os.remove('broader_major_whole_country.csv')
+os.remove('broader_major_combined_data.csv')
+os.remove('broader_major_summed_data.csv')
+os.remove('broader_major_whole_country.csv')
 os.chdir('..')
 os.rmdir('cleaned_data')
 os.makedirs('cleaned_data')

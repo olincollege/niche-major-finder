@@ -19,6 +19,8 @@ import time
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup as BS
+import os
+
 def get_html_for_url(url):
     """
     This function takes in the url of a webpage that we acquire data from and
@@ -33,6 +35,10 @@ def get_html_for_url(url):
     page_text = BS(page.text, "html.parser")
     return page_text
 
+# Create folder for data scraped
+os.mkdir('raw_data')
+os.chdir('raw_data')
+
 # Agent for scraping header
 agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/53"
 +"7.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
@@ -42,7 +48,7 @@ states_list = ["alabama"]
 # With a single run of this file, the data we get before being blocked by the
 # webpage are all in the state of alabama. Therefore, to test if this file works
 # please use "alabama" as the only element in the list, in case it takes too
-# long or lead to an error.
+# long or leads to an error.
 
 # states_list = ["alabama", "alaska", "arizona", "arkansas", "california", \
 # "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", \
@@ -59,7 +65,7 @@ for state in states_list:
 
     # Find text from the college listings for each state
     html = get_html_for_url("https://www.niche.com/"
-    +f"colleges/search/all-colleges/s/{state}/")
+    + f"colleges/search/all-colleges/s/{state}/")
 
     # Get the total number of colleges in the state from the text
     number_of_colleges = html.select('.search-result-counter')[0].get_text()
@@ -68,7 +74,9 @@ for state in states_list:
     # Find the number of colleges in the top 10% for each state
     top_ten_percent_of_colleges = math.ceil(0.1 * number_of_colleges)
 
-    # Loop through all colleges on first page while total < 10% college number
+    # Loop through all colleges while total < 10% of the total number of 
+    # colleges in the state
+
     colleges = html.find_all(attrs={'class':"search-result"})
     TOTAL_COLLEGES_YET = 0
     INDEX_ON_PAGE = 0
