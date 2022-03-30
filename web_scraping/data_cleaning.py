@@ -2,6 +2,7 @@ from dataclasses import replace
 import pandas as pd
 import os
 import glob
+import csv
 
 def files_to_df():
     """
@@ -85,7 +86,7 @@ def find_broader_major(major_entered):
         "English": ['English', 'Literature', 'Creative Writing', 'Playwriting and Screenwriting', 'Rhetoric and Composition', 'Professional and Technical Writing'],
         "Religion": ['Religious Studies', 'Religious Vocations', 'Biblical Studies', 'Theological and Ministerial Studies', 'Religious Education', 'Missionary Studies', 'Divinity, Ministry, and Pre-Theology', 'Pastoral Counseling and Specialized Ministries'], 
         "Foreign Languages": ['Spanish Language and Literature', 'Foreign Languages and Literatures', 'French Language and Literature', 'Linguistics, Interpretation, and Translation', 'Teaching English as a Second Language']}
-
+    
     for this_major_list in broader_major_dict.values():
         if major_entered in this_major_list:
             return get_key(this_major_list, broader_major_dict)
@@ -145,9 +146,12 @@ df = pd.read_csv("combined_data.csv")
 
 # unique_majors = df['Major'].unique() --> to find majors for categories - manually sort
 os.chdir('..')
-os.makedirs('cleaned_data')
+#os.makedirs('cleaned_data')
 os.chdir('cleaned_data')
 
+print(find_broader_major("Social Sciences"))
+
+"""
 broader_df = replace_major_with_broader_major(df)
 broader_df.to_csv("broader_major_combined_data.csv", index=False, encoding="utf-8-sig")
 
@@ -159,3 +163,4 @@ country_summed = sum_common_broad_major_for_country(broader_df)
 country_summed_df = pd.DataFrame.from_dict(country_summed, orient='columns')
 country_summed_df.columns=["Major", "Students"]
 country_summed_df.to_csv("broader_major_whole_country.csv", index=False, encoding="utf-8-sig")
+"""
