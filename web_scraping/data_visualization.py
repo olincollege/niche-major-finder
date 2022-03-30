@@ -1,10 +1,12 @@
 import matplotlib as mpl
 mpl.use('TkAgg')
 import matplotlib.pyplot as plt
-import geopandas
+#import geopandas
 import pandas as pd
+import os
 
 # Plot Major Ratios in a Bar Graph
+os.chdir('cleaned_data')
 data_set = pd.read_csv('broader_major_whole_country.csv', names = ["Major", "Students"])
 major = data_set["Major"]
 students = data_set["Students"]
