@@ -19,7 +19,6 @@ import time
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup as BS
-import os
 
 def get_html_for_url(url):
     """
@@ -35,30 +34,49 @@ def get_html_for_url(url):
     page_text = BS(page.text, "html.parser")
     return page_text
 
-# Create folder for data scraped
-os.mkdir('raw_data')
-os.chdir('raw_data')
+def filter_majors(major, curr_data):
+    """
+    """
+    if major.select(".popular-entity-descriptor"):
+        major_name = major.select('.popular-entity__name')\
+            [0].get_text()
+        major_students = major.select('.popular-entity-descriptor')\
+            [0].get_text()
+        major_students = int(major_students[:major_students.find(' ')\
+            ].replace(',', ''))
+        curr_data.append([state, college_name, major_name, major_students])
+    return curr_data
+
+def find_college_name(college):
+    """
+    """
+    college_name = college["aria-label"]
+    college_name = college_name.lower()
+    college_name = college_name.replace(" ", "-")
+    return college_name
+
 
 # Agent for scraping header
 agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/53"
 +"7.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
 
 # Find top 10% of colleges for each state in the state list
-states_list = ["alabama"]
+
 # With a single run of this file, the data we get before being blocked by the
 # webpage are all in the state of alabama. Therefore, to test if this file works
 # please use "alabama" as the only element in the list, in case it takes too
 # long or leads to an error.
 
-# states_list = ["alabama", "alaska", "arizona", "arkansas", "california", \
-# "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", \
-# "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",\
-#  "maine", "maryland", "massachusetts", "michigan", "minnesota", \
-# "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire",\
-#  "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", \
-# "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island",\
-#  "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont",\
-#  "virginia", "washington", "west-virginia", "wisconsin", "wyoming"]
+states_list = ["alabama", "alaska", "arizona", "arkansas", "california", \
+    "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", \
+    "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",\
+    "maine", "maryland", "massachusetts", "michigan", "minnesota", \
+    "mississippi", "missouri", "montana", "nebraska", "nevada", \
+    "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", \
+    "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", \
+    "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", \
+    "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", \
+    "wyoming"]
 
 for state in states_list:
     data = []
@@ -87,30 +105,19 @@ for state in states_list:
         time.sleep(20)
 
         college = colleges[INDEX_ON_PAGE]
-
-        # Find name of college
-        college_name = college["aria-label"]
-        college_name = college_name.lower()
-        college_name = college_name.replace(" ", "-")
+        college_name = find_college_name(college)        
 
         # Access each college website
         college_html = get_html_for_url\
             (f"https://www.niche.com/colleges/{college_name}/")
+        print(college_html)
 
         # Loop through information for each major on the website and add to data
         top_majors = college_html.select("div.popular-entity")
 
+        # Filter out results that aren't actually majors
         for major in top_majors:
-
-            # Filter out results that aren't actually majors
-            if major.select(".popular-entity-descriptor"):
-                major_name = major.select('.popular-entity__name')\
-                    [0].get_text()
-                major_students = major.select('.popular-entity-descriptor')\
-                    [0].get_text()
-                major_students = int(major_students[:major_students.find(' ')\
-                    ].replace(',', ''))
-                data.append([state, college_name, major_name, major_students])
+            data = filter_majors(major, data)
 
         # Move to next college
         INDEX_ON_PAGE += 1
