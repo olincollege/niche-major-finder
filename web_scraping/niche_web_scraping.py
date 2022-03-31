@@ -36,6 +36,7 @@ def get_html_for_url(url, agent):
 
 def filter_majors(major, curr_data, state, college_name):
     """
+    
     """
     if major.select(".popular-entity-descriptor"):
         major_name = major.select('.popular-entity__name')\
