@@ -10,37 +10,37 @@ from data_cleaning import (
     find_broader_major
 )
 
-TESTING_DICT = {'Computer Science': ['Computer Science',\
-    'Computer Software Engineering', 'Information Technology', \
-    'Computer Programming', 'Data Processing', \
-    'Computer and Information Sciences', 'Human Computer Interaction', \
-    'Computer Systems Networking and Telecommunications', \
-    'Network, Database, and System Administration', \
-    'Computer and Information Systems Security', \
-    'Computer Engineering Technician', 'Systems Science and Theory'],
-    'Science': ['Physical Sciences', 'Physics', 'Engineering Physics', \
-    'Chemistry', 'Apparel and Textile Science', \
-    'Pharmacology and Toxicology', 'Bioinformatics', 'Cellular Biology', \
-    'Biology', 'Biochemistry and Molecular Biology', \
-    'Ecology and Evolutionary Biology', 'Microbiology'],
-    'Math': ['Mathematics', 'Computational and Applied Mathematics', \
-    'Statistics'],
-    'Psychology': ['Psychology', 'Physiological Psychology', \
-    'Research and Experimental Psychology', 'Counseling Psychology', \
-    'Psychiatric and Mental Health Services', \
-    'Developmental and Child Psychology', 'Social Psychology', \
-    'Human Development', 'Mental and Social Health Services',\
-    'Community Health Services and Counseling',\
-    'Marriage and Family Therapy and Counseling', 'Cognitive Science'],
-    'Agriculture and Environment': ['Agricultural Engineering', \
-    'Agricultural Mechanics and Machinery', \
-    'Sustainability Studies', 'Environmental Science', \
-    'Wildlife and Fisheries Management', \
-    'Natural Resources Conservation and Management', \
-    'Zoology and Entomology', 'Marine Science', \
-    'Atmospheric Sciences and Meteorology', 'Geology and Earth Science', \
-    'Geography', 'Marine Biology and Oceanography', 'Natural Sciences', \
-    'Landscaping and Groundskeeping']}
+TESTING_DICT = {"Computer Science": ["Computer Science",\
+    "Computer Software Engineering", "Information Technology", \
+    "Computer Programming", "Data Processing", \
+    "Computer and Information Sciences", "Human Computer Interaction", \
+    "Computer Systems Networking and Telecommunications", \
+    "Network, Database, and System Administration", \
+    "Computer and Information Systems Security", \
+    "Computer Engineering Technician", "Systems Science and Theory"],
+    "Science": ["Physical Sciences", "Physics", "Engineering Physics", \
+    "Chemistry", "Apparel and Textile Science", \
+    "Pharmacology and Toxicology", "Bioinformatics", "Cellular Biology", \
+    "Biology", "Biochemistry and Molecular Biology", \
+    "Ecology and Evolutionary Biology", "Microbiology"],
+    "Math": ["Mathematics", "Computational and Applied Mathematics", \
+    "Statistics"],
+    "Psychology": ["Psychology", "Physiological Psychology", \
+    "Research and Experimental Psychology", "Counseling Psychology", \
+    "Psychiatric and Mental Health Services", \
+    "Developmental and Child Psychology", "Social Psychology", \
+    "Human Development", "Mental and Social Health Services",\
+    "Community Health Services and Counseling",\
+    "Marriage and Family Therapy and Counseling", "Cognitive Science"],
+    "Agriculture and Environment": ["Agricultural Engineering", \
+    "Agricultural Mechanics and Machinery", \
+    "Sustainability Studies", "Environmental Science", \
+    "Wildlife and Fisheries Management", \
+    "Natural Resources Conservation and Management", \
+    "Zoology and Entomology", "Marine Science", \
+    "Atmospheric Sciences and Meteorology", "Geology and Earth Science", \
+    "Geography", "Marine Biology and Oceanography", "Natural Sciences", \
+    "Landscaping and Groundskeeping"]}
 
 #os.chdir("testing/raw_data")
 #data_cleaning.files_to_df()
@@ -50,15 +50,15 @@ TESTING_DICT = {'Computer Science': ['Computer Science',\
 # Define sets of test cases
 get_key_cases = [
     # Check that value in the dictionary returns the right category
-    (['Agricultural Engineering', \
-    'Agricultural Mechanics and Machinery', \
-    'Sustainability Studies', 'Environmental Science', \
-    'Wildlife and Fisheries Management', \
-    'Natural Resources Conservation and Management', \
-    'Zoology and Entomology', 'Marine Science', \
-    'Atmospheric Sciences and Meteorology', 'Geology and Earth Science', \
-    'Geography', 'Marine Biology and Oceanography', 'Natural Sciences', \
-    'Landscaping and Groundskeeping'],\
+    (["Agricultural Engineering", \
+    "Agricultural Mechanics and Machinery", \
+    "Sustainability Studies", "Environmental Science", \
+    "Wildlife and Fisheries Management", \
+    "Natural Resources Conservation and Management", \
+    "Zoology and Entomology", "Marine Science", \
+    "Atmospheric Sciences and Meteorology", "Geology and Earth Science", \
+    "Geography", "Marine Biology and Oceanography", "Natural Sciences", \
+    "Landscaping and Groundskeeping"],\
     TESTING_DICT, "Agriculture and Environment"),
     # Check that value not in dictionary returns None
     ("Assignment", TESTING_DICT, None),
@@ -82,7 +82,7 @@ find_broader_major_cases = [
 sum_broad_major_per_state_cases = [
     # Check that a certain state has been summed correctly
     ("hawaii", "Humanities", 240),
-    ("idaho", "Engineering", 182)
+    ("idaho", "Engineering", 182),
 ]
 
 sum_broad_major_per_state_no_repeats_cases = [
@@ -99,29 +99,61 @@ sum_broad_major_country_cases = [
 ]
 
 # Define standard testing functions to check functions' outputs given certain
-# inputs defined above.
+# inputs defined above. This also includes functions that don't take any inputs.
 
 def test_files_to_df_first_row():
     """
     Check that the concatenation of files for all files in raw_data has worked
     by checking the first row of the csv. Need to navigate into folder.
     """
-    os.chdir('raw_data')
-    dataframe = pd.read_csv('combined_data.csv', header=[0])
+    os.chdir("raw_data")
+    dataframe = pd.read_csv("combined_data.csv", header=[0])
     assert (dataframe.iloc[0].values.tolist() == \
-        ['alabama','auburn-university', \
-        'Biomedical Sciences and Molecular Medicine', 305])
+        ["alabama","auburn-university", \
+        "Biomedical Sciences and Molecular Medicine", 305])
 
 def test_files_to_df_last_row():
     """
     Check that the concatenation of files for all files in raw_data has worked
     by checking the first row of the csv. Need to navigate into folder.
     """
-    dataframe = pd.read_csv('combined_data.csv', header=[0])
+    dataframe = pd.read_csv("combined_data.csv", header=[0])
     assert (dataframe.iloc[-1].values.tolist() == \
-        ['wyoming','university-of-wyoming','Business', 63])
+        ["wyoming","university-of-wyoming","Business", 63])
 
-@pytest.mark.parametrize("value_entered, dict, key_name", get_key_cases)
+def test_files_to_df_check_states():
+    """
+    Check that all states were added to the new csv.
+    """
+    dataframe = pd.read_csv("combined_data.csv", header=[0])
+    all_states_present = dataframe["State"].unique() == ["alabama", "alaska", "arizona", \
+        "arkansas", "california", "colorado", "connecticut", "delaware", \
+        "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa",\
+        "kansas", "kentucky", "louisiana", "maine", "maryland", \
+        "massachusetts", "michigan", "minnesota", "mississippi", "missouri", \
+        "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", \
+        "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", \
+        "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina",\
+        "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", \
+        "washington", "west-virginia", "wisconsin", "wyoming"]
+    assert all_states_present.all() == True
+
+def test_files_to_df_invalid():
+    """
+    Check that the csv created by running this function doesn't contain any
+    empty values.
+    """
+    dataframe = pd.read_csv("combined_data.csv", header=[0])
+    check_students = (dataframe["Students"].isnull().values.any() == False)
+    check_states = (dataframe["State"].isnull().values.any() == False)
+    check_majors = (dataframe["Major"].isnull().values.any() == False)
+    check_colleges = (dataframe["College"].isnull().values.any() == False)
+
+    assert check_students == check_states == check_majors == \
+        check_colleges == True
+
+
+@pytest.mark.parametrize("value_entered, dictionary, key_name", get_key_cases)
 def test_get_key(value_entered, dictionary, key_name):
     """
     Check that get_key returns the key that corresponds to the input value.
@@ -154,26 +186,26 @@ def test_replace_major_with_broader_major():
     Check that the csv created by running this function contains replaced
     major names.
     """
-    os.chdir('..')
-    os.chdir('cleaned_data')
+    os.chdir("..")
+    os.chdir("cleaned_data")
 
-    dataframe = pd.read_csv('broader_major_combined_data.csv', header=[0])
-    assert dataframe.iloc[0][2] == 'Health Science'
+    dataframe = pd.read_csv("broader_major_combined_data.csv", header=[0])
+    assert dataframe.iloc[0][2] == "Health Science"
 
 def test_replace_major_with_broader_major_invalid():
     """
     Check that the csv created by running this function doesn't contain any
     specific major names.
     """
-    dataframe = pd.read_csv('broader_major_combined_data.csv', header=[0])
-    assert ("Mechanical Engineering" in dataframe["Major"].values) is False
+    dataframe = pd.read_csv("broader_major_combined_data.csv", header=[0])
+    assert ("Mechanical Engineering" in dataframe["Major"].values) == False
 
 def test_replace_major_with_broader_major_non_empty():
     """
     Check that there are no rows with empty strings for major names
     """
-    dataframe = pd.read_csv('broader_major_combined_data.csv', header=[0])
-    assert dataframe["Major"].isnull().values.any() is False
+    dataframe = pd.read_csv("broader_major_combined_data.csv", header=[0])
+    assert dataframe["Major"].isnull().values.any() == False
 
 @pytest.mark.parametrize("state_name, major_name, total_students", \
     sum_broad_major_per_state_cases)
@@ -190,7 +222,7 @@ def test_sum_broad_major_per_state(state_name, major_name, total_students):
         total_students: An integer represeting the expected result for the total
             number of students in the state majoring in the entered major
     """
-    all_df = pd.read_csv('broader_major_summed_data.csv', header=[0])
+    all_df = pd.read_csv("broader_major_summed_data.csv", header=[0])
     df_this_state = all_df[(all_df == state_name).any(axis=1)]
 
     df_this_state_this_major = df_this_state.loc\
@@ -207,7 +239,7 @@ def test_sum_broad_major_per_state_no_repeats(state_name):
     Args:
         state_name: A string representing the name of the state to be checked
     """
-    all_data = pd.read_csv('broader_major_summed_data.csv', header=[0])
+    all_data = pd.read_csv("broader_major_summed_data.csv", header=[0])
     df_this_state = all_data[(all_data == state_name).any(axis=1)]
 
     total_values = len(df_this_state)
@@ -220,15 +252,15 @@ def test_sum_broad_major_all_state_non_empty():
     Check that there are no rows with empty strings for total students for any
     state.
     """
-    dataframe = pd.read_csv('broader_major_summed_data.csv', header=[0])
-    assert dataframe["Students"].isnull().values.any() is False
+    dataframe = pd.read_csv("broader_major_summed_data.csv", header=[0])
+    assert dataframe["Students"].isnull().values.any() == False
 
 def test_sum_broad_major_all_state_length():
     """
     Check that there are no repeats for any state by checking the length of
     the csv and ensuring that it matches what is expected.
     """
-    dataframe = pd.read_csv('broader_major_summed_data.csv', header=[0])
+    dataframe = pd.read_csv("broader_major_summed_data.csv", header=[0])
     assert len(dataframe) == 1144
 
 @pytest.mark.parametrize("major_name, total_students", \
@@ -244,7 +276,7 @@ def test_sum_broad_major_country(major_name, total_students):
         total_students: An integer representing the total number of students
             expected for the major given across the country
     """
-    dataframe = pd.read_csv('broader_major_whole_country.csv',\
+    dataframe = pd.read_csv("broader_major_whole_country.csv",\
          header=[0])
     df_this_major = dataframe[(dataframe == major_name).any(axis=1)]
 
@@ -255,14 +287,14 @@ def test_sum_broad_major_country_non_empty():
     Check that there are no rows with empty strings for total students for any
     major.
     """
-    dataframe = pd.read_csv('broader_major_whole_country.csv', header=[0])
-    assert dataframe["Students"].isnull().values.any() is False
+    dataframe = pd.read_csv("broader_major_whole_country.csv", header=[0])
+    assert dataframe["Students"].isnull().values.any() == False
 
 def test_sum_broad_major_country_no_repeat():
     """
     Check that there are no repeats for any major.
     """
-    dataframe = pd.read_csv('broader_major_whole_country.csv', header=[0])
+    dataframe = pd.read_csv("broader_major_whole_country.csv", header=[0])
     total_values = len(dataframe)
     unique_values = len(dataframe["Major"].unique())
     assert total_values == unique_values
@@ -271,15 +303,15 @@ def test_check_csvs():
     """
     Check that the last for each csv created is right.
     """
-    df_one = pd.read_csv('broader_major_combined_data.csv', header=[0])
+    df_one = pd.read_csv("broader_major_combined_data.csv", header=[0])
     check_one = (df_one.iloc[-1].values.tolist() == \
-        ['wyoming','university-of-wyoming', 'Business', 63])
+        ["wyoming","university-of-wyoming", "Business", 63])
 
-    df_two = pd.read_csv('broader_major_summed_data.csv', header=[0])
+    df_two = pd.read_csv("broader_major_summed_data.csv", header=[0])
     check_two = (df_two.iloc[-1].values.tolist() == \
-        ['wyoming', 'Business', 63])
+        ["wyoming", "Business", 63])
 
-    df_three = pd.read_csv('broader_major_whole_country.csv', header=[0])
+    df_three = pd.read_csv("broader_major_whole_country.csv", header=[0])
     check_three = (df_three.iloc[-1].values.tolist() == \
-        ['Architecture', 3581])
+        ["Architecture", 3581])
     assert check_one == check_two == check_three == True

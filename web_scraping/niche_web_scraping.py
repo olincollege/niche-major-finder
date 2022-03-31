@@ -20,7 +20,7 @@ def get_html_for_url(url, agent):
 
     Args:
         url: A string representing the website url to acquire data for.
-        agent: A dictionary mapping the key 'User-Agent' to the agent to be
+        agent: A dictionary mapping the key "User-Agent" to the agent to be
             used by requests for scraping.
 
     Returns:
@@ -55,16 +55,16 @@ def filter_majors(major, curr_data, state, college_name):
     A list of nested lists that contains the state name, college name, major
     name, and total students in that major for the colleges.
 
-        Example: [['Hawaii', 'University of Hawaii', 'Science', 200],
-                  ['Hawaii', 'University of Hawaii', 'Math', 250]]
+        Example: [["Hawaii", "University of Hawaii", "Science", 200],
+                  ["Hawaii", "University of Hawaii", "Math", 250]]
     """
     if major.select(".popular-entity-descriptor"):
-        major_name = major.select('.popular-entity__name')\
+        major_name = major.select(".popular-entity__name")\
             [0].get_text()
-        major_students = major.select('.popular-entity-descriptor')\
+        major_students = major.select(".popular-entity-descriptor")\
             [0].get_text()
-        major_students = int(major_students[:major_students.find(' ')\
-            ].replace(',', ''))
+        major_students = int(major_students[:major_students.find(" ")\
+            ].replace(",", ""))
         curr_data.append([state, college_name, major_name, major_students])
 
     return curr_data
@@ -137,8 +137,8 @@ def run_scraping():
         + f"colleges/search/all-colleges/s/{state}/", agent)
 
         # Get the total number of colleges in the state from the text
-        number_of_colleges = html.select('.search-result-counter')[0].get_text()
-        number_of_colleges = int(number_of_colleges[:-8].replace(',', ''))
+        number_of_colleges = html.select(".search-result-counter")[0].get_text()
+        number_of_colleges = int(number_of_colleges[:-8].replace(",", ""))
 
         # Find the number of colleges in the top 10% for each state
         top_ten_percent_of_colleges = math.ceil(0.1 * number_of_colleges)
@@ -146,7 +146,7 @@ def run_scraping():
         # Loop through all colleges while total < 10% of the total number of
         # colleges in the state
 
-        colleges = html.find_all(attrs={'class':"search-result"})
+        colleges = html.find_all(attrs={"class":"search-result"})
         total_colleges_yet = 0
         index_on_page = 0
         current_page_number = 1
@@ -156,7 +156,7 @@ def run_scraping():
             time.sleep(20)
 
             college = colleges[index_on_page]
-            college_name = find_college_name(college)
+            college_name = find_college_name(college)  
 
             # Access each college website
             college_html = get_html_for_url\
@@ -176,7 +176,7 @@ def run_scraping():
                 html = get_html_for_url("https://www.niche.com/"
                     + f"colleges/search/all-colleges/s/{state}/?page=" +
                     f"{current_page_number}", agent)
-                colleges = html.find_all(attrs={'class':"search-result"})
+                colleges = html.find_all(attrs={"class":"search-result"})
 
                 # Reset page index on next page
                 index_on_page = 0
@@ -184,5 +184,5 @@ def run_scraping():
             total_colleges_yet += 1
 
             # Create csv for each state's data
-            pd.DataFrame(data, columns=["State", "College", \
+            dataframe = pd.DataFrame(data, columns=["State", "College", \
                 "Major", "Students"]).to_csv(f"{state}Data.csv", index=False)

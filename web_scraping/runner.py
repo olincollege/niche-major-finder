@@ -13,18 +13,18 @@ import data_cleaning as dc
 
 # Remove previous attempts
 os.chdir("raw_data")
-os.remove('combined_data.csv')
+os.remove("combined_data.csv")
 
 # Combine data files for all states in folder and read to Pandas DataFrame
 dc.files_to_df()
 df = pd.read_csv("combined_data.csv")
 
 # Remove previous attempts
-os.chdir('..')
-os.chdir('cleaned_data')
-os.remove('broader_major_combined_data.csv')
-os.remove('broader_major_summed_data.csv')
-os.remove('broader_major_whole_country.csv')
+os.chdir("..")
+os.chdir("cleaned_data")
+os.remove("broader_major_combined_data.csv")
+os.remove("broader_major_summed_data.csv")
+os.remove("broader_major_whole_country.csv")
 
 # Create cleaned csv files
 dc.create_csvs(df)

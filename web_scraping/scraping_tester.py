@@ -11,12 +11,12 @@ import niche_web_scraping as nws
 
 # Used to ensure actual data isn't altered while testing the driver. Remove
 # this if trying to copy our process.
-os.mkdir('testing')
-os.chdir('testing')
+os.mkdir("testing")
+os.chdir("testing")
 
 # Create folder for scraped data
-os.mkdir('raw_data')
-os.chdir('raw_data')
+os.mkdir("raw_data")
+os.chdir("raw_data")
 
 # Scrape data for top 10% of colleges in each state in the list
 nws.run_scraping()
