@@ -6,16 +6,16 @@ import os
 
 # Read CSV data into Pandas Dataframes
 os.chdir('cleaned_data')
-broader_major_summed_data_df = pd.read_csv("broader_major_summed_data.csv")
+broader_major_summed_data_df = pd.read_csv("broader_major_summed_data.csv", header = 0)
 #print(broader_major_summed_data_df)
-broader_major_whole_country_df = pd.read_csv('broader_major_whole_country.csv', names = ["Major", "Students"])
+broader_major_whole_country_df = pd.read_csv('broader_major_whole_country.csv', names = ["Major", "Students"], header = 0)
 
 # Input # of students per major data into lists
 major = broader_major_whole_country_df["Major"]
 students = broader_major_whole_country_df["Students"]
 
-majors_list = list(major[1:])
-students_list = list(students[1:])
+majors_list = list(major[:])
+students_list = list(students[:])
 
 for i in range(0, len(students_list)):
     students_list[i] = int(students_list[i])
@@ -30,13 +30,13 @@ def plot_number_of_students_per_major_USA():
 
 # Create a List of All State Names
 states_list = list(broader_major_summed_data_df['State'].unique())
-####print(states_list)
 
 # Order Majors by Popularity in the USA
+broader_major_whole_country_df['Students'] = broader_major_whole_country_df['Students'].astype(int)
 broader_major_whole_country_df.sort_values(by=['Students'], inplace=True, ascending=False)
-####print(broader_major_whole_country_df)
+#print(broader_major_whole_country_df)
 
-majors_by_descending_popularity = list(broader_major_whole_country_df["Major"])[1:]
+majors_by_descending_popularity = list(broader_major_whole_country_df["Major"])[:]
 #print(majors_by_descending_popularity)
 
 # Create lists of the number of students enrolled in a major per state (create for all majors)
@@ -100,28 +100,28 @@ def plot_major_ratios_in_stacked_bar_graph():
     y8 = np.array(students_in_a_major_per_state_all_majors[7])
     y9 = np.array(students_in_a_major_per_state_all_majors[8])
     y10 = np.array(students_in_a_major_per_state_all_majors[9])
-    y11 = np.array(students_in_a_major_per_state_all_majors[10])
-    y12 = np.array(students_in_a_major_per_state_all_majors[11])
-    y13 = np.array(students_in_a_major_per_state_all_majors[12])
-    y14 = np.array(students_in_a_major_per_state_all_majors[13])
-    y15 = np.array(students_in_a_major_per_state_all_majors[14])
-    y16 = np.array(students_in_a_major_per_state_all_majors[15])
-    y17 = np.array(students_in_a_major_per_state_all_majors[16])
-    y18 = np.array(students_in_a_major_per_state_all_majors[17])
-    y19 = np.array(students_in_a_major_per_state_all_majors[18])
-    y20 = np.array(students_in_a_major_per_state_all_majors[19])
-    y21 = np.array(students_in_a_major_per_state_all_majors[20])
-    y22 = np.array(students_in_a_major_per_state_all_majors[21])
-    y23 = np.array(students_in_a_major_per_state_all_majors[22])
-    y24 = np.array(students_in_a_major_per_state_all_majors[23])
-    y25 = np.array(students_in_a_major_per_state_all_majors[24])
-    y26 = np.array(students_in_a_major_per_state_all_majors[25])
-    y27 = np.array(students_in_a_major_per_state_all_majors[26])
-    y28 = np.array(students_in_a_major_per_state_all_majors[27])
-    y29 = np.array(students_in_a_major_per_state_all_majors[28])
-    y30 = np.array(students_in_a_major_per_state_all_majors[29])
-    y31 = np.array(students_in_a_major_per_state_all_majors[30])
-    y32 = np.array(students_in_a_major_per_state_all_majors[31])
+    #y11 = np.array(students_in_a_major_per_state_all_majors[10])
+    #y12 = np.array(students_in_a_major_per_state_all_majors[11])
+    #y13 = np.array(students_in_a_major_per_state_all_majors[12])
+    #y14 = np.array(students_in_a_major_per_state_all_majors[13])
+    #y15 = np.array(students_in_a_major_per_state_all_majors[14])
+    #y16 = np.array(students_in_a_major_per_state_all_majors[15])
+    #y17 = np.array(students_in_a_major_per_state_all_majors[16])
+    #y18 = np.array(students_in_a_major_per_state_all_majors[17])
+    #y19 = np.array(students_in_a_major_per_state_all_majors[18])
+    #y20 = np.array(students_in_a_major_per_state_all_majors[19])
+    #y21 = np.array(students_in_a_major_per_state_all_majors[20])
+    #22 = np.array(students_in_a_major_per_state_all_majors[21])
+    #y23 = np.array(students_in_a_major_per_state_all_majors[22])
+    #y24 = np.array(students_in_a_major_per_state_all_majors[23])
+    #y25 = np.array(students_in_a_major_per_state_all_majors[24])
+    #y26 = np.array(students_in_a_major_per_state_all_majors[25])
+    #y27 = np.array(students_in_a_major_per_state_all_majors[26])
+    #y28 = np.array(students_in_a_major_per_state_all_majors[27])
+    #y29 = np.array(students_in_a_major_per_state_all_majors[28])
+    #y30 = np.array(students_in_a_major_per_state_all_majors[29])
+    #y31 = np.array(students_in_a_major_per_state_all_majors[30])
+    #y32 = np.array(students_in_a_major_per_state_all_majors[31])
 
     # plot bars in stack manner
     plt.barh(states_list, y1, color='r')
@@ -133,43 +133,46 @@ def plot_major_ratios_in_stacked_bar_graph():
     plt.barh(states_list, y7, left=y1+y2+y3+y4+y5+y6)
     plt.barh(states_list, y8, left=y1+y2+y3+y4+y5+y6+y7)
     plt.barh(states_list, y9, left=y1+y2+y3+y4+y5+y6+y7+y8)
-    plt.barh(states_list, y11, left=y1+y2+y3+y4+y5+y6+y7+y8+y9)
-    plt.barh(states_list, y12, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10)
-    plt.barh(states_list, y13, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11)
-    plt.barh(states_list, y14, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12)
-    plt.barh(states_list, y15, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13)
-    plt.barh(states_list, y16, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14)
-    plt.barh(states_list, y17, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15)
-    plt.barh(states_list, y18, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16)
-    plt.barh(states_list, y19, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17)
-    plt.barh(states_list, y20, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18)
-    plt.barh(states_list, y21, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19)
-    plt.barh(states_list, y22, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20)
-    plt.barh(states_list, y23, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21)
-    plt.barh(states_list, y24, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22)
-    plt.barh(states_list, y25, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23)
-    plt.barh(states_list, y26, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24)
-    plt.barh(states_list, y27, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25)
-    plt.barh(states_list, y28, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26)
-    plt.barh(states_list, y29, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27)
-    plt.barh(states_list, y30, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27+y28)
-    plt.barh(states_list, y31, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27+y28+y29)
-    plt.barh(states_list, y32, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27+y28+y29+y30)
+    plt.barh(states_list, y10, left=y1+y2+y3+y4+y5+y6+y7+y8+y9)
+    #plt.barh(states_list, y11, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10)
+    #plt.barh(states_list, y12, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11)
+    #plt.barh(states_list, y13, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12)
+    #plt.barh(states_list, y14, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13)
+    #plt.barh(states_list, y15, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14)
+    #plt.barh(states_list, y16, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15)
+    #plt.barh(states_list, y17, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16)
+    #plt.barh(states_list, y18, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17)
+    #plt.barh(states_list, y19, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18)
+    #plt.barh(states_list, y20, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19)
+    #plt.barh(states_list, y21, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20)
+    #plt.barh(states_list, y22, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21)
+    #plt.barh(states_list, y23, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22)
+    #plt.barh(states_list, y24, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23)
+    #plt.barh(states_list, y25, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24)
+    #plt.barh(states_list, y26, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25)
+    #plt.barh(states_list, y27, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26)
+    #plt.barh(states_list, y28, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27)
+    #plt.barh(states_list, y29, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27+y28)
+    #plt.barh(states_list, y30, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27+y28+y29)
+    #plt.barh(states_list, y31, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27+y28+y29+y30)
+    #plt.barh(states_list, y32, left=y1+y2+y3+y4+y5+y6+y7+y8+y9+y10+y11+y12+y13+y14+y15+y16+y17+y18+y19+y20+y21+y22+y23+y24+y25+y26+y27+y28+y29+y30+y31)
 
 
 
 
     plt.xlabel("Number of Students Enrolled")
     plt.ylabel("State")
-    plt.legend([majors_by_descending_popularity[0], majors_by_descending_popularity[1], majors_by_descending_popularity[2], majors_by_descending_popularity[3], majors_by_descending_popularity[4], majors_by_descending_popularity[5], majors_by_descending_popularity[6], majors_by_descending_popularity[7], majors_by_descending_popularity[8], majors_by_descending_popularity[9], majors_by_descending_popularity[10], majors_by_descending_popularity[11], majors_by_descending_popularity[12], majors_by_descending_popularity[13], majors_by_descending_popularity[14], majors_by_descending_popularity[15], majors_by_descending_popularity[16], majors_by_descending_popularity[17], majors_by_descending_popularity[18], majors_by_descending_popularity[19], majors_by_descending_popularity[20], majors_by_descending_popularity[21], majors_by_descending_popularity[22], majors_by_descending_popularity[23], majors_by_descending_popularity[24], majors_by_descending_popularity[25], majors_by_descending_popularity[26], majors_by_descending_popularity[27], majors_by_descending_popularity[28], majors_by_descending_popularity[29], majors_by_descending_popularity[30], majors_by_descending_popularity[31]])
-    plt.title("Distribution of College Majors by State")
+    plt.legend([majors_by_descending_popularity[0], majors_by_descending_popularity[1], majors_by_descending_popularity[2], majors_by_descending_popularity[3], majors_by_descending_popularity[4], majors_by_descending_popularity[5], majors_by_descending_popularity[6], majors_by_descending_popularity[7], majors_by_descending_popularity[8], majors_by_descending_popularity[9], majors_by_descending_popularity[10]])
+    #plt.legend([majors_by_descending_popularity[0], majors_by_descending_popularity[1], majors_by_descending_popularity[2], majors_by_descending_popularity[3], majors_by_descending_popularity[4], majors_by_descending_popularity[5], majors_by_descending_popularity[6], majors_by_descending_popularity[7], majors_by_descending_popularity[8], majors_by_descending_popularity[9], majors_by_descending_popularity[10], majors_by_descending_popularity[11], majors_by_descending_popularity[12], majors_by_descending_popularity[13], majors_by_descending_popularity[14], majors_by_descending_popularity[15], majors_by_descending_popularity[16], majors_by_descending_popularity[17], majors_by_descending_popularity[18], majors_by_descending_popularity[19], majors_by_descending_popularity[20], majors_by_descending_popularity[21], majors_by_descending_popularity[22], majors_by_descending_popularity[23], majors_by_descending_popularity[24], majors_by_descending_popularity[25], majors_by_descending_popularity[26], majors_by_descending_popularity[27], majors_by_descending_popularity[28], majors_by_descending_popularity[29], majors_by_descending_popularity[30], majors_by_descending_popularity[31]])
+    plt.title("Distribution of the Top 10 College Majors in the Country by State")
     plt.show()
 
 #plot_major_ratios_in_stacked_bar_graph()
 
 def plot_major_distribution_in_USA_pie_chart():
-    y = np.array(students_list)
-    plt.pie(y, labels = majors_list, rotatelabels = True)
+    y = np.array(broader_major_whole_country_df["Students"])
+    broader_major_whole_country_df["Students"].to_list()
+    plt.pie(y, labels = broader_major_whole_country_df["Major"].to_list(), rotatelabels = True)
     #plt.legend()
     plt.show() 
 
@@ -178,8 +181,27 @@ def plot_major_distribution_in_USA_pie_chart():
 ##################
 
 states = geopandas.read_file('usa-states-census-2014.shp')
+business_majors_by_state = []
 
-business_majors_by_state = broader_major_summed_data_df.loc[broader_major_summed_data_df['Major'] == "Business", 'Students'].to_list()
+y_current = []
+
+states_list = list(broader_major_summed_data_df['State'].unique())
+current_major_states_list = list(broader_major_summed_data_df.loc[broader_major_summed_data_df['Major'] == major, 'State'])
+
+
+i = 0
+
+while i < len(states_list):
+    if current_major_states_list.count(states_list[i]) == 0:
+        states_list[i] = 0
+        i+=1
+    else:
+        i+=1
+
+for current_state in states_list:
+    
+    business_majors_by_state.append(int(broader_major_summed_data_df.loc[(broader_major_summed_data_df['Major'] == "Business") & (broader_major_summed_data_df['State'] == current_state), 'Students']))
+
 print(len(business_majors_by_state))
 
 #states = states.assign(Business_Majors=business_majors_by_state)
