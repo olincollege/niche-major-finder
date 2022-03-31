@@ -37,7 +37,7 @@ broader_major_whole_country_df.sort_values(by=['Students'], inplace=True, ascend
 ####print(broader_major_whole_country_df)
 
 majors_by_descending_popularity = list(broader_major_whole_country_df["Major"])[1:]
-####print(majors_by_descending_popularity)
+#print(majors_by_descending_popularity)
 
 # Create lists of the number of students enrolled in a major per state (create for all majors)
 
@@ -165,38 +165,35 @@ def plot_major_ratios_in_stacked_bar_graph():
     plt.title("Distribution of College Majors by State")
     plt.show()
 
-plot_major_ratios_in_stacked_bar_graph()
+#plot_major_ratios_in_stacked_bar_graph()
 
+def plot_major_distribution_in_USA_pie_chart():
+    y = np.array(students_list)
+    plt.pie(y, labels = majors_list, rotatelabels = True)
+    #plt.legend()
+    plt.show() 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#plot_major_distribution_in_USA_pie_chart()
 
 ##################
 
-#states = geopandas.read_file('broader_major_summed_data.csv')
-#type(states)
+states = geopandas.read_file('usa-states-census-2014.shp')
 
-#states.head()
+business_majors_by_state = broader_major_summed_data_df.loc[broader_major_summed_data_df['Major'] == "Business", 'Students'].to_list()
+print(len(business_majors_by_state))
 
-#states.crs
+#states = states.assign(Business_Majors=business_majors_by_state)
 
-#states = states.to_crs("EPSG:3395")
+states.sort_values("NAME", axis = 0, ascending = True, inplace = True, na_position ='last')
 
-#states.plot()
+states = states.drop(labels=[50,1,52, 56, 57, 49, 54, 53, 55], axis=0)
+
+
+print(states)
+
+states.crs = "EPSG:3395"
+print(states.crs)
+
+states.plot()
+
+plt.show()
