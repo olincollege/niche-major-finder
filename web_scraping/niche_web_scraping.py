@@ -1,18 +1,7 @@
 """
-This file scraps data from niche.com to get college majors distribution for
-each of the top 10% of colleges in every US state.
-
-This file takes in the url of niche.com and go through the pages for every state
-in the US. It finds the major distribution data on the page for each of the
-top 10% ranked colleges. For each major in each college, the data is stored in
-a csv file with four columns for state, college name, major name, and the number
-of students who graduated with that major in 2022.
-
-Each .csv file contains data for all or part of the top 10% colleges in one
-state. Even with the usage of google cache and agent, this file still can't get
-data for all colleges in every state in one run. Therefore, multiple csv files
-are created with each run of this file.
-
+This file contains the functions needed to scrap data from Niche.com to get
+the college majors distribution for each of the top 10% of colleges in every
+state.
 """
 import math
 import time
