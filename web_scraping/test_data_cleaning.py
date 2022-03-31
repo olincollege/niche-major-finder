@@ -2,7 +2,11 @@
 Test functions in data_cleaning are working properly.
 """
 from collections import Counter
+from matplotlib import testing
+import data_cleaning
 import pytest
+import pandas as pd
+import os
 
 from data_cleaning import (
     get_key,
@@ -49,6 +53,11 @@ TESTING_DICT = {'Computer Science': ['Computer Science',\
     'Geography', 'Marine Biology and Oceanography', 'Natural Sciences', \
     'Landscaping and Groundskeeping']}
 
+os.chdir("testing/raw_data")
+data_cleaning.files_to_df()
+Hawaii_and_idaho = pd.read_csv("combined_data.csv")
+
+
 # Define sets of test cases
 get_key = [
     # Check for key in the dictionary
@@ -91,4 +100,16 @@ def test_find_broader_major(value, testing_dict):
     """
     assert find_broader_major(value) == testing_dict
 
+replace_major_with_broader_major = [
+    (Hawaii_and_idaho,
+
+]
+
+@pytest.mark.parametrize("value, testing_dict", find_broader_major)
+def test_replace_major_with_broader_major(value, testing_dict):
+
+
+
+
+sum_broad_major_per_state 
 
