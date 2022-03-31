@@ -76,8 +76,8 @@ def run_scraping():
     """
     """
     # Agent for scraping header
-    agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi
-    "t/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
+    agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi"
+    + "t/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
 
     # When running this file for all states, we would get timeout errors from
     # requests. The data in raw_data was gathered by running the file multiple
