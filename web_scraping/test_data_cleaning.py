@@ -38,13 +38,8 @@ TESTING_DICT = {'Computer Science': ['Computer Science',\
     'Human Development', 'Mental and Social Health Services',\
     'Community Health Services and Counseling',\
     'Marriage and Family Therapy and Counseling', 'Cognitive Science'], 
-    'Agriculture and Environment': ['Agricultural Business',\
-    'Animal Sciences and Husbandry', 'Horticulture', 'Agriculture', \
-    'Veterinary Technician and Assistant', 'Equine Studies', \
-    'Plant Science', 'Agricultural Production Operations',\
-    'Crop and Soil Sciences', 'Agricultural Teacher Education', \
-    'Agricultural and Food Products Processing', \
-    'Agricultural Engineering', 'Agricultural Mechanics and Machinery', \
+    'Agriculture and Environment': ['Agricultural Engineering', \
+    'Agricultural Mechanics and Machinery', \
     'Sustainability Studies', 'Environmental Science', \
     'Wildlife and Fisheries Management', \
     'Natural Resources Conservation and Management', \
@@ -59,17 +54,25 @@ TESTING_DICT = {'Computer Science': ['Computer Science',\
 
 
 # Define sets of test cases
-get_key = [
+get_key_cases = [
     # Check that value in the dictionary returns the right category
-    ("Marine Science", "Agriculture and Environment"),
-    ("Apparel and Textile Science", "Science"),
+    (['Agricultural Engineering', \
+    'Agricultural Mechanics and Machinery', \
+    'Sustainability Studies', 'Environmental Science', \
+    'Wildlife and Fisheries Management', \
+    'Natural Resources Conservation and Management', \
+    'Zoology and Entomology', 'Marine Science', \
+    'Atmospheric Sciences and Meteorology', 'Geology and Earth Science', \
+    'Geography', 'Marine Biology and Oceanography', 'Natural Sciences', \
+    'Landscaping and Groundskeeping'],\
+    TESTING_DICT, "Agriculture and Environment"),
     # Check that value not in dictionary returns None
-    ("Assignment", None),
+    ("Assignment", TESTING_DICT, None),
     # Check that empty string returns None
-    ("", None)
+    ("", TESTING_DICT, None)
 ]
 
-find_broader_major = [ 
+find_broader_major_cases = [ 
     # Check that a specific major in broader_dict returns the correct broader
     # major
     ("Marine Science", "Agriculture and Environment"),
@@ -91,8 +94,8 @@ replace_major_with_broader_major = [
 
 # Define standard testing functions to check functions' outputs given certain
 # inputs defined above.
-@pytest.mark.parametrize("value, testing_dict", get_key)
-def test_get_key(value, testing_dict):
+@pytest.mark.parametrize("value_entered, dict, key_name", get_key_cases)
+def test_get_key(value_entered, dict, key_name):
     """
     Check that get_key returns the key that corresponds to the input value.
 
@@ -101,10 +104,10 @@ def test_get_key(value, testing_dict):
         testing_dict: A string representing the key that correspond to the input
                       value.
     """
-    assert get_key(value) == testing_dict
+    assert get_key(value_entered, dict) == key_name
 
-@pytest.mark.parametrize("value, testing_dict", find_broader_major)
-def test_find_broader_major(value, testing_dict):
+@pytest.mark.parametrize("specific_major, broader_major", find_broader_major_cases)
+def test_find_broader_major(specific_major, broader_major):
     """
     Check that get_key returns the key which is the condensed major name when
     the input is a specific major name.
@@ -114,7 +117,7 @@ def test_find_broader_major(value, testing_dict):
         testing_dict: A string representing the condensed major name.
         
     """
-    assert find_broader_major(value) == testing_dict
+    assert find_broader_major(specific_major) == broader_major
 
 """
 @pytest.mark.parametrize("value, testing_dict", find_broader_major)

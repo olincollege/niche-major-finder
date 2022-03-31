@@ -16,12 +16,14 @@ def get_key(value_to_find, dict):
     dicionary.
 
     Args:
-        value_to_find: A string that is being searched for in the dictionary.
+        value_to_find: A value that is being searched for in the dictionary.
+            For this application, this value is a list of majors that correspond
+            to the broader major name
         dict: A dictionary that contains one or more keys and values.
 
     Returns:
-    A string representing the key in the dictionary that has the input as one
-    of it's values.
+    A string representing the key in the dictionary that has the input as its
+    value.
     """
     for key, value in dict.items():
         if value_to_find == value:
