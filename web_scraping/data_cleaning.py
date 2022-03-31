@@ -1,8 +1,6 @@
 from dataclasses import replace
 import pandas as pd
-import os
 import glob
-import csv
 
 def files_to_df():
     """
@@ -45,7 +43,6 @@ def find_broader_major(major_entered):
 
     Returns:
     A string representing the condensed category of the input major.
-
     """
     # Dictionary that maps majors to broader categories
     # This was hand sorted for data in the current raw_data folder
@@ -248,7 +245,6 @@ def replace_major_with_broader_major(df):
     index = 0
 
     # Replace specific major with broader major for all values in df
-
     while index < len(df):
         df['Major'][index] = find_broader_major(df['Major'][index])
         index += 1
@@ -275,7 +271,6 @@ def sum_broad_major_per_state(df, state_name):
 
         Example:
         [['alabama', 'science', 54], ['alabama', 'math', 32]]
-
     """
     # Create df with data from state entered
     this_state_df = df.loc[df['State'] == state_name]
@@ -310,7 +305,6 @@ def sum_broad_major_all_states(df):
 
         Example:
         [['alabama', 'science', 54], ['alaska', 'math', 23]]
-
     """
     # Find all states in df
     all_states = df["State"].unique()
@@ -336,7 +330,6 @@ def sum_broad_major_country(df):
     Returns:
     A list containing nested lists with the name of majors and the total number
     of student in the DataFrame enrolled in the major.
-
     """
     # Find all majors in df
     all_majors = df["Major"].unique()
@@ -352,6 +345,20 @@ def sum_broad_major_country(df):
     
 def create_csvs(df):
     """
+    This function creates three csvs for further visualization.
+
+    1. Contains all data from `combined_data.csv`, replaces major names with
+       broader categories. Done by calling replace_major_with_broader_major
+
+    2. Sums students in each state with certain major. Done by calling 
+       sum_broad_major_all_states
+
+    3. Sums students across America with certain major. Done by calling
+       sum_broad_major_country
+    
+    Args:
+        df: A Pandas DataFrame that contains columns with state names, major
+            names, and the number of student in the state enrolled in the major.
     """
     # Create csv with broader majors in place of specific majors
     broader_df = replace_major_with_broader_major(df)
