@@ -353,16 +353,19 @@ def sum_broad_major_country(df):
 def create_csvs(df):
     """
     """
+    # Create csv with broader majors in place of specific majors
     broader_df = replace_major_with_broader_major(df)
     broader_df.to_csv("broader_major_combined_data.csv", index=False, \
         encoding="utf-8-sig")
-        
+
+    # Create csv with total students in same major summed for each state
     broader_summed = sum_broad_major_all_states(broader_df)
     broader_summed_df = pd.DataFrame(broader_summed, columns=['State', 'Major',\
         'Students'])
     broader_summed_df.to_csv("broader_major_summed_data.csv", index=False,\
         encoding="utf-8-sig")
     
+    # Create csv with total students in same major across all states summed
     country_summed = sum_broad_major_country(broader_df)
     country_summed_df = pd.DataFrame.from_dict(country_summed, orient='columns')
     country_summed_df.columns=["Major", "Students"]
