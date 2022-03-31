@@ -1,12 +1,13 @@
-"""
-Test functions in data_cleaning are working properly.
-"""
 from collections import Counter
 from matplotlib import testing
 import data_cleaning
 import pytest
 import pandas as pd
 import os
+
+"""
+Test functions in data_cleaning.py are working properly.
+"""
 
 from data_cleaning import (
     get_key,

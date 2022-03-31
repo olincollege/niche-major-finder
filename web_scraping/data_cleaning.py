@@ -2,6 +2,12 @@ from dataclasses import replace
 import pandas as pd
 import glob
 
+"""
+This file contains the functions needed to clean the data collected through web
+scraping. In order to run these functions, first it is necessary to navigate
+to the directory containing the raw data to be cleaned. 
+"""
+
 def files_to_df():
     """
     This function combines all csv files from the current folder into one csv.
@@ -37,7 +43,8 @@ def find_broader_major(major_entered):
 
     The dictionary containing all majors and what broader name they correspond
     to was created through manual sorting. It contains all majors in the current
-    raw_data folder.
+    raw_data folder. However, if further data is pulled from outside of
+    raw_data, the dictionary might need to be changed manually.
 
     Args:
         major_entered: A string representing the name of a specific major for

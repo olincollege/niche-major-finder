@@ -1,13 +1,14 @@
-"""
-This file contains the functions needed to scrap data from Niche.com to get
-the college majors distribution for each of the top 10% of colleges in every
-state.
-"""
 import math
 import time
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup as BS
+
+"""
+This file contains the functions needed to scrap data from Niche.com to get
+the college majors distribution for each of the top 10% of colleges in every
+state.
+"""
 
 def get_html_for_url(url, agent):
     """
