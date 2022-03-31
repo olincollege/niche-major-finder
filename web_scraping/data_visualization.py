@@ -289,7 +289,7 @@ print(engineering_majors_by_state)
 engineering_majors_by_state_percent = [i / j for i, j in zip(engineering_majors_by_state, all_students_per_state)]
 
 print(engineering_majors_by_state_percent)
-
+    
 states = states.assign(Engineering_Majors=engineering_majors_by_state_percent)
 
 print(states)
