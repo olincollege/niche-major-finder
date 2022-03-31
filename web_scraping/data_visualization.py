@@ -180,42 +180,125 @@ def plot_major_distribution_in_USA_pie_chart():
 
 ##################
 
+def total_students_per_state():
+    df = pd.read_csv('broader_major_summed_data.csv', header=[0])
+    all_states = list(df['State'].unique())
+    all_states.remove("alaska")
+    all_states.remove("hawaii")
+    
+    all_states_students = []
+    for state in all_states:
+        df_this_state = df.loc[df["State"] == state]
+        print(df_this_state)
+        summed = df_this_state['Students'].sum()
+        print(summed)
+        all_states_students.append(summed)
+    print(all_states_students)
+
+    return all_states_students
+
+all_students_per_state = total_students_per_state()
+print("all students per state")
+print(all_students_per_state)
+
 states = geopandas.read_file('usa-states-census-2014.shp')
 business_majors_by_state = []
 
-y_current = []
-
-states_list = list(broader_major_summed_data_df['State'].unique())
-current_major_states_list = list(broader_major_summed_data_df.loc[broader_major_summed_data_df['Major'] == major, 'State'])
+current_major_states_list = list(broader_major_summed_data_df.loc[broader_major_summed_data_df['Major'] == 'Business', 'State'])
 
 
 i = 0
 
-while i < len(states_list):
-    if current_major_states_list.count(states_list[i]) == 0:
-        states_list[i] = 0
+rm_states_list = states_list
+
+rm_states_list.remove("alaska")
+rm_states_list.remove("hawaii")
+
+while i < len(rm_states_list):
+    if current_major_states_list.count(rm_states_list[i]) == 0:
+        rm_states_list[i] = 0
         i+=1
     else:
         i+=1
 
-for current_state in states_list:
-    
-    business_majors_by_state.append(int(broader_major_summed_data_df.loc[(broader_major_summed_data_df['Major'] == "Business") & (broader_major_summed_data_df['State'] == current_state), 'Students']))
 
-print(len(business_majors_by_state))
 
-#states = states.assign(Business_Majors=business_majors_by_state)
+for current_state in rm_states_list:
+    if current_state != 0:
+        business_majors_by_state.append(int(broader_major_summed_data_df.loc[(broader_major_summed_data_df['Major'] == "Business") & (broader_major_summed_data_df['State'] == current_state), 'Students']))
+    else:
+            business_majors_by_state.append(0)
+
+print("business majors")
+print(business_majors_by_state)
+
+business_majors_by_state_percent = [i / j for i, j in zip(business_majors_by_state, all_students_per_state)]
+
+print(business_majors_by_state_percent)
 
 states.sort_values("NAME", axis = 0, ascending = True, inplace = True, na_position ='last')
 
-states = states.drop(labels=[50,1,52, 56, 57, 49, 54, 53, 55], axis=0)
+states = states.drop(labels=[50, 1, 52, 56, 57, 49, 54, 53, 55, 51], axis=0)
 
+states = states.assign(Business_Majors=business_majors_by_state_percent)
 
 print(states)
 
 states.crs = "EPSG:3395"
-print(states.crs)
+#print(states.crs)
 
-states.plot()
+fig, ax = plt.subplots(1, 1)
+
+states.plot(column='Business_Majors', ax=ax, legend=True)
+
+plt.show()
+
+
+
+
+
+
+
+#### Engineering ####
+
+engineering_majors_by_state = []
+
+current_major_states_list = list(broader_major_summed_data_df.loc[broader_major_summed_data_df['Major'] == 'Engineering', 'State'])
+
+
+i = 0
+
+while i < len(rm_states_list):
+    if current_major_states_list.count(rm_states_list[i]) == 0:
+        rm_states_list[i] = 0
+        i+=1
+    else:
+        i+=1
+
+
+
+for current_state in rm_states_list:
+    if current_state != 0:
+        engineering_majors_by_state.append(int(broader_major_summed_data_df.loc[(broader_major_summed_data_df['Major'] == "Engineering") & (broader_major_summed_data_df['State'] == current_state), 'Students']))
+    else:
+            engineering_majors_by_state.append(0)
+
+print("engineering majors")
+print(engineering_majors_by_state)
+
+engineering_majors_by_state_percent = [i / j for i, j in zip(engineering_majors_by_state, all_students_per_state)]
+
+print(engineering_majors_by_state_percent)
+
+states = states.assign(Engineering_Majors=engineering_majors_by_state_percent)
+
+print(states)
+
+states.crs = "EPSG:3395"
+#print(states.crs)
+
+fig, ax = plt.subplots(1, 1)
+
+states.plot(column='Engineering_Majors', ax=ax, legend=True)
 
 plt.show()
