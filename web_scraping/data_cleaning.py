@@ -350,37 +350,21 @@ def sum_broad_major_country(df):
     
     return country_summed
     
-##RUNNER##
-
-os.chdir("raw_data")
-os.remove('combined_data.csv')
-files_to_df() # --> to create combined_data.csv
-df = pd.read_csv("combined_data.csv")
-
-# unique_majors = df['Major'].unique() --> to find majors for categories - 
-# manually sort
-os.chdir('..')
-os.chdir('cleaned_data')
-os.remove('broader_major_combined_data.csv')
-os.remove('broader_major_summed_data.csv')
-os.remove('broader_major_whole_country.csv')
-os.chdir('..')
-os.rmdir('cleaned_data')
-os.makedirs('cleaned_data')
-os.chdir('cleaned_data')
-
-broader_df = replace_major_with_broader_major(df)
-broader_df.to_csv("broader_major_combined_data.csv", index=False, \
-    encoding="utf-8-sig")
-
-broader_summed = sum_broad_major_all_states(broader_df)
-broader_summed_df = pd.DataFrame(broader_summed, columns=['State', 'Major', \
-    'Students'])
-broader_summed_df.to_csv("broader_major_summed_data.csv", index=False,\
-     encoding="utf-8-sig")
-
-country_summed = sum_broad_major_country(broader_df)
-country_summed_df = pd.DataFrame.from_dict(country_summed, orient='columns')
-country_summed_df.columns=["Major", "Students"]
-country_summed_df.to_csv("broader_major_whole_country.csv", index=False, \
-    encoding="utf-8-sig")
+def create_csvs(df):
+    """
+    """
+    broader_df = replace_major_with_broader_major(df)
+    broader_df.to_csv("broader_major_combined_data.csv", index=False, \
+        encoding="utf-8-sig")
+        
+    broader_summed = sum_broad_major_all_states(broader_df)
+    broader_summed_df = pd.DataFrame(broader_summed, columns=['State', 'Major',\
+        'Students'])
+    broader_summed_df.to_csv("broader_major_summed_data.csv", index=False,\
+        encoding="utf-8-sig")
+    
+    country_summed = sum_broad_major_country(broader_df)
+    country_summed_df = pd.DataFrame.from_dict(country_summed, orient='columns')
+    country_summed_df.columns=["Major", "Students"]
+    country_summed_df.to_csv("broader_major_whole_country.csv", index=False, \
+        encoding="utf-8-sig")
