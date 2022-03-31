@@ -49,8 +49,8 @@ def filter_majors(major, curr_data, state, college_name):
         college_name: A string that represents the college.
 
     Return:
-        curr_data: A list of list that contains state, college name, major name,
-        and student in that major for different colleges.
+        curr_data: A list of lists that contains state, college name, major
+        name, and student in that major for different colleges.
     """
     if major.select(".popular-entity-descriptor"):
         major_name = major.select('.popular-entity__name')\
@@ -65,6 +65,15 @@ def filter_majors(major, curr_data, state, college_name):
 
 def find_college_name(college):
     """
+    This function finds the college name and modify the name to be in lowercase,
+    and all spaces are replaced by "-"
+
+    Arg: 
+        college: A string that contains the name of the college.
+    
+    Return:
+        college_name: A string that represents the college name after it is
+        being extracted and modified.
     """
     college_name = college["aria-label"]
     college_name = college_name.lower()
@@ -74,6 +83,15 @@ def find_college_name(college):
 
 def run_scraping():
     """
+    This function goes through the niche website, scraps and stores data of
+    state, college, major, number of students in that major in a csv file.
+
+    This function opens niche webpage for each state in the list and loops
+    through the top 10% of colleges in each state. In the webpage for each
+    college, this function looks for all majors listed and the number of
+    students that graduated with those majors. It then records this data in
+    lists and stores them into a csv file.
+
     """
     # Agent for scraping header
     agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi"
