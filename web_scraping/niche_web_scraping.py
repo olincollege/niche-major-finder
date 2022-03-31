@@ -36,6 +36,21 @@ def get_html_for_url(url, agent):
 
 def filter_majors(major, curr_data, state, college_name):
     """
+    This function filters out entries that are not the top 10% colleges, and
+    focuses on the entries that are colleges and go through them to get the
+
+    Args:
+        major: A CSS element that is taken from the list return by the
+        select function of beautiful soup function, representing the majors
+        in a college.
+        curr_data: A list that add state, college name, major name, and student
+        in that major for each college.
+        state: A string that represents the state of the college.
+        college_name: A string that represents the college.
+
+    Return:
+        curr_data: A list of list that contains state, college name, major name,
+        and student in that major for different colleges.
     """
     if major.select(".popular-entity-descriptor"):
         major_name = major.select('.popular-entity__name')\
@@ -61,8 +76,8 @@ def run_scraping():
     """
     """
     # Agent for scraping header
-    agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/53"
-    +"7.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
+    agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi
+    "t/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
 
     # When running this file for all states, we would get timeout errors from
     # requests. The data in raw_data was gathered by running the file multiple
