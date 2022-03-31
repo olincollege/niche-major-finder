@@ -55,8 +55,8 @@ def filter_majors(major, curr_data, state, college_name):
     A list of nested lists that contains the state name, college name, major
     name, and total students in that major for the colleges.
 
-        Example: [['Hawaii', 'University of Hawaii', 'Science', '200'], 
-                  ['Hawaii', 'University of Hawaii', 'Math', '250']]
+        Example: [['Hawaii', 'University of Hawaii', 'Science', 200], 
+                  ['Hawaii', 'University of Hawaii', 'Math', 250]]
     """
     if major.select(".popular-entity-descriptor"):
         major_name = major.select('.popular-entity__name')\
