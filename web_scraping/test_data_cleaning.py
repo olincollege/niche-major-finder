@@ -1,4 +1,5 @@
 """
+Test functions in data_cleaning are working properly.
 """
 from collections import Counter
 import pytest
@@ -11,7 +12,7 @@ from data_cleaning import (
     sum_broad_major_country,
 )
 
-testing_dict = {'Computer Science': ['Computer Science',\
+TESTING_DICT = {'Computer Science': ['Computer Science',\
     'Computer Software Engineering', 'Information Technology', \
     'Computer Programming', 'Data Processing', \
     'Computer and Information Sciences', 'Human Computer Interaction', \
@@ -51,9 +52,43 @@ testing_dict = {'Computer Science': ['Computer Science',\
 # Define sets of test cases
 get_key = [
     # Check for key in the dictionary
-    (, testing_dict), 
+    ("Marine Science", "Agriculture and Environment"),
+    ("Apparel and Textile Science", "Science")
+
 ]
 
 # Define standard testing functions to check functions' outputs given certain
 # inputs defined above.
-@pytest.mark.parametrize("value,testing_dict", get_key)
+@pytest.mark.parametrize("value, testing_dict", get_key)
+def test_get_key(value, testing_dict):
+    """
+    Check that get_key returns the key that corresponds to the input value.
+
+    Args:
+        value: A string that is one of the value in a dictionary
+        testing_dict: A string representing the key that correspond to the input
+                      value.
+    """
+    assert get_key(value) == testing_dict
+
+find_broader_major = [ 
+    # Check for condensed name in the major_dictionary
+    ("Marine Science", "Agriculture and Environment"),
+    ("Apparel and Textile Science", "Science")
+
+]
+
+@pytest.mark.parametrize("value, testing_dict", find_broader_major)
+def test_find_broader_major(value, testing_dict):
+    """
+    Check that get_key returns the key which is the condensed major name when
+    the input is a specific major name.
+
+    Args:
+        value: A string representing the specific major name.
+        testing_dict: A string representing the condensed major name.
+        
+    """
+    assert find_broader_major(value) == testing_dict
+
+
