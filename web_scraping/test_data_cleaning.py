@@ -190,11 +190,11 @@ def test_sum_broad_major_per_state(state_name, major_name, total_students):
         total_students: An integer represeting the expected result for the total
             number of students in the state majoring in the entered major
     """
-    dataframe = pd.read_csv('broader_major_summed_data.csv', header=[0])
-    df_this_state = dataframe.loc[dataframe["State"] == state_name]
+    all_df = pd.read_csv('broader_major_summed_data.csv', header=[0])
+    df_this_state = all_df[(all_df == state_name).any(axis=1)]
 
     df_this_state_this_major = df_this_state.loc\
-        [dataframe["Major"] == major_name]
+        [df_this_state["Major"] == major_name]
     assert df_this_state_this_major.iloc[0][2] == total_students
 
 @pytest.mark.parametrize("state_name", \
@@ -207,8 +207,8 @@ def test_sum_broad_major_per_state_no_repeats(state_name):
     Args:
         state_name: A string representing the name of the state to be checked
     """
-    dataframe = pd.read_csv('broader_major_summed_data.csv', header=[0])
-    df_this_state = dataframe.loc[dataframe["State"] == state_name]
+    all_data = pd.read_csv('broader_major_summed_data.csv', header=[0])
+    df_this_state = all_data[(all_data == state_name).any(axis=1)]
 
     total_values = len(df_this_state)
     unique_values = len(df_this_state["Major"].unique())
@@ -245,8 +245,9 @@ def test_sum_broad_major_country(major_name, total_students):
             expected for the major given across the country
     """
     dataframe = pd.read_csv('broader_major_whole_country.csv',\
-         header=[0]) #pylint: disable=E1136  # pylint/issues/3139
-    df_this_major = dataframe.loc[dataframe["Major"] == major_name]
+         header=[0])
+    df_this_major = dataframe[(dataframe == major_name).any(axis=1)]
+
     assert df_this_major.iloc[0][1] == total_students
 
 def test_sum_broad_major_country_non_empty():
