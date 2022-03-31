@@ -22,13 +22,20 @@ from bs4 import BeautifulSoup as BS
 
 def get_html_for_url(url, agent):
     """
-    This function takes in the url of a webpage that we acquire data from and
+    This function takes in the url of a webpage and an agent to use and
     returns a variable that stores all the text displayed on this webpage.
+
+    Running this function will require importing the requests and BeautifulSoup
+    libraries.
+
     Args:
-        url: The website url that we are acquiring data from.
+        url: A string representing the website url to acquire data for.
+        agent: A dictionary mapping the key 'User-Agent' to the agent to be
+            used by requests for scraping.
 
     Returns:
-        All the text displayed on the webpage with the input url.
+    A string representing all the text displayed on the webpag of the url
+    stripped of HTML tags.
     """
     page = requests.get(url, headers=agent, timeout=7)
     page_text = BS(page.text, "html.parser")
@@ -36,21 +43,30 @@ def get_html_for_url(url, agent):
 
 def filter_majors(major, curr_data, state, college_name):
     """
-    This function filters out entries that are not the top 10% colleges, and
-    focuses on the entries that are colleges and go through them to get the
+    This function filters out entries that are not part of the list of majors
+    and obtains data on them.
+
+    The data collected is the name of the major and the total students
+    studying it.
 
     Args:
         major: A CSS element that is taken from the list return by the
-        select function of beautiful soup function, representing the majors
-        in a college.
-        curr_data: A list that add state, college name, major name, and student
-        in that major for each college.
-        state: A string that represents the state of the college.
-        college_name: A string that represents the college.
+            select function of beautiful soup function, representing the majors
+            in a college.
+        curr_data: A list containing nested lists with strings representing the
+            name of the state, college, major, and total number of students in
+            the major.
+        state: A string representing the state of the college for which the
+            majors are being filtered and data is being collected.
+        college_name: A string representing the name of the college for which 
+            the majors are being filtered and data is being collected.
 
     Return:
-        curr_data: A list of lists that contains state, college name, major
-        name, and student in that major for different colleges.
+    A list of nested lists that contains the state name, college name, major
+    name, and total students in that major for the colleges.
+
+        Example: [['Hawaii', 'University of Hawaii', 'Science', '200'], 
+                  ['Hawaii', 'University of Hawaii', 'Math', '250']]
     """
     if major.select(".popular-entity-descriptor"):
         major_name = major.select('.popular-entity__name')\
@@ -65,33 +81,40 @@ def filter_majors(major, curr_data, state, college_name):
 
 def find_college_name(college):
     """
-    This function finds the college name and modify the name to be in lowercase,
-    and all spaces are replaced by "-"
+    This function finds the college name from the input and modifies the name
+    to be in lowercase and all spaces are replaced by "-".
 
-    Arg: 
-        college: A string that contains the name of the college.
+    Args: 
+        college: A string that contains the HTML information for the college.
     
-    Return:
-        college_name: A string that represents the college name after it is
-        being extracted and modified.
+    Returns:
+    A string that represents the cleaned name of the college
     """
     college_name = college["aria-label"]
     college_name = college_name.lower()
     college_name = college_name.replace(" ", "-")
     return college_name
 
-
 def run_scraping():
     """
-    This function goes through the niche website, scraps and stores data of
-    state, college, major, number of students in that major in a csv file.
+    This function goes through the Niche website, scraps and stores data about
+    state, college, major, and number of students in that major into a csv file.
 
-    This function opens niche webpage for each state in the list and loops
-    through the top 10% of colleges in each state. In the webpage for each
-    college, this function looks for all majors listed and the number of
-    students that graduated with those majors. It then records this data in
-    lists and stores them into a csv file.
+    This function opens the Niche webpage for each state using the requests
+    library in the list and accesses the information for the top 10% of
+    colleges in each state. For the pages of each college, this function
+    requests the HTML information and finds all the majors listed and the
+    number of students in those majors. It saves this data into lists for each
+    state and converts the data to a csv file.
 
+    When running this function, it is necessary to be cautious of limitations
+    of requests. After a certain number of requests to Niche.com, usually around
+    10-15, the access is blocked. Solutions to this include using a VPN or
+    different device.
+
+    For this project, the commented state_list was used to gather the data that
+    is stored in raw_data. However, for testing purposes, a list containing just
+    Hawaii and Idaho is provided. 
     """
     # Agent for scraping header
     agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi"
