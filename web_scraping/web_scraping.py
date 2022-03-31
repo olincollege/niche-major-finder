@@ -347,6 +347,8 @@ def total_students_per_state():
 
     all_states_students = []
     for state in all_states:
+        if state == "hawaii" or state == "alaska":
+            pass
         df_this_state = df.loc(df["State"] == state)
         summed = df_this_state['Students'].sum()
         all_states_students.append(summed)
