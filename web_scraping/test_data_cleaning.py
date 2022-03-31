@@ -53,18 +53,41 @@ TESTING_DICT = {'Computer Science': ['Computer Science',\
     'Geography', 'Marine Biology and Oceanography', 'Natural Sciences', \
     'Landscaping and Groundskeeping']}
 
-os.chdir("testing/raw_data")
-data_cleaning.files_to_df()
-Hawaii_and_idaho = pd.read_csv("combined_data.csv")
+#os.chdir("testing/raw_data")
+#data_cleaning.files_to_df()
+#hawaii_and_idaho = pd.read_csv("combined_data.csv")
 
 
 # Define sets of test cases
 get_key = [
-    # Check for key in the dictionary
+    # Check that value in the dictionary returns the right category
     ("Marine Science", "Agriculture and Environment"),
-    ("Apparel and Textile Science", "Science")
+    ("Apparel and Textile Science", "Science"),
+    # Check that value not in dictionary returns None
+    ("Assignment", None),
+    # Check that empty string returns None
+    ("", None)
+]
+
+find_broader_major = [ 
+    # Check that a specific major in broader_dict returns the correct broader
+    # major
+    ("Marine Science", "Agriculture and Environment"),
+    ("Apparel and Textile Science", "Science"),
+    # Check that a broader major entered returns None
+    ("Humanities", None),
+    # Check that a string not in the dictionary as a value or key returns None
+    ("aer", None),
+    # Check that an empty string returns None
+    ("", None)
+]
+
+"""
+replace_major_with_broader_major = [
+    (hawaii_and_idaho,)
 
 ]
+"""
 
 # Define standard testing functions to check functions' outputs given certain
 # inputs defined above.
@@ -80,13 +103,6 @@ def test_get_key(value, testing_dict):
     """
     assert get_key(value) == testing_dict
 
-find_broader_major = [ 
-    # Check for condensed name in the major_dictionary
-    ("Marine Science", "Agriculture and Environment"),
-    ("Apparel and Textile Science", "Science")
-
-]
-
 @pytest.mark.parametrize("value, testing_dict", find_broader_major)
 def test_find_broader_major(value, testing_dict):
     """
@@ -100,16 +116,11 @@ def test_find_broader_major(value, testing_dict):
     """
     assert find_broader_major(value) == testing_dict
 
-replace_major_with_broader_major = [
-    (Hawaii_and_idaho,
-
-]
-
+"""
 @pytest.mark.parametrize("value, testing_dict", find_broader_major)
-def test_replace_major_with_broader_major(value, testing_dict):
+    def test_replace_major_with_broader_major(value, testing_dict):
 
 
+"""
 
-
-sum_broad_major_per_state 
 
