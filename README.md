@@ -38,20 +38,20 @@ In order to run the full list of states and obtain all the data, comment line 13
 ### **Cleaning Data:**
 All functions needed to clean the data files are included in the file *data_cleaning.py*. 
 
-Option 1. To clean the data just collected, navigate back to the *web_scraping* folder by running `cd ..` twice. Here, open *data_cleaning.py* and uncomment line 475. This will navigate to the *testing* directory. Then, comment lines 476 and 477, which remove previously created files. Uncomment line 485 to create a folder called *cleaned_data* in the *testing* directory and comment lines 487 - 489, which also remove previous files. Now, running *data_cleaning.py* in the terminal will create a folder called *cleaned_data* within the *testing* directory that contains all the cleaned files.
+Option 1. To clean the data just collected, navigate back to the *web_scraping* folder by running `cd ..` twice. Here, open *data_cleaning.py* and uncomment line 475. This will navigate to the *testing* directory. Then, comment line 477, which remove previously created files. Uncomment line 485 to create a folder called *cleaned_data* in the *testing* directory and comment lines 487 - 489, which also remove previous files. Now, running *data_cleaning.py* in the terminal will create a folder called *cleaned_data* within the *testing* directory that contains all the cleaned files.
 
 Option 2. To clean the complete set of data, navigate back to the web_scraping folder by running `cd ..` twice. Here, run *data_cleaning.py*. This will delete the cleaned csvs in *cleaned_data* that currently exist and replace them with the recleaned versions of the files in *raw_data*. 
 
 ### **Visualizing Data:**
 All functions needed to visualize the data files are included in the file *data_visualization.py*.
 
-*Disclaimer: To plot with geopandas, 3 files needed to be directly downloaded from the following link: https://github.com/joncutrer/geopandas-tutorial/tree/master/data. They are usa-states-census-2014.dbf, usa-states-census-2014.shp, and usa-states-census-2014.shx. These are necessary to create the map of the US that we use to visualize our data. Below are the steps to download it.*
+*Disclaimer: To plot with geopandas, values for all states need to be added, which is not possible when using the self-generated data that is present in the testing file. For this reason, only the first 3 graphs will be seen if plotting with the shorter data. However, using the full raw_data as explained in option 2 will generate all of the plots.*
 
 #### **Setting Up:**
 1. Open the GitHub link listed above
 2. From here, download the 3 files listed above and move them to the *testing* folder. Inside this folder, move them to the *cleaned_data* folder.
 
 #### **Visualizing:**
-Option 1. To visualize the cleaned data for the shorter set that was scraped just now, navigate back to the *web_scraping* directory. Open the file called *data_visualization.py* and uncomment line 15 to navigate to the *testing* folder. Comment out lines 64, 65, 219, and 220. Then run the file.
+Option 1. To visualize the cleaned data for the shorter set that was scraped just now, navigate back to the *web_scraping* directory. Open the file called *data_visualization.py* and uncomment line 15 to navigate to the *testing* folder. Comment out lines 64, 65, 219, 220, 319, and 320. Finally, add `"""` to lines 202 and 315 to comment out the functions that create the US-map graphs, because they cannot be made with data from simply 2 states, as explained above. Then run the file.
 
 Option 2. To visualize our complete set of data, simply navigate back to the *web_scraping* directory and run *data_visualization.py*.
