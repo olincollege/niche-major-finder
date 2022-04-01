@@ -3,6 +3,7 @@ This file contains the functions needed to clean the data collected through web
 scraping. In order to run these functions, first it is necessary to navigate
 to the directory containing the raw data to be cleaned.
 """
+import os
 import glob
 import pandas as pd
 
@@ -80,8 +81,8 @@ def find_broader_major(major_entered):
                              "Computer Programming", "Data Processing",
                              "Computer and Information Sciences",
                              "Human Computer Interaction",
-                             "Computer Systems Networking and \
-                             Telecommunications",
+                             "Computer Systems Networking and " +
+                             "Telecommunications",
                              "Network, Database, and System Administration",
                              "Computer and Information Systems Security",
                              "Computer Engineering Technician",
@@ -113,15 +114,15 @@ def find_broader_major(major_entered):
                                         "Agricultural Production Operations",
                                         "Crop and Soil Sciences",
                                         "Agricultural Teacher Education",
-                                        "Agricultural and Food Products\
-                                         Processing",
+                                        "Agricultural and Food Products" +
+                                        " Processing",
                                         "Agricultural Engineering",
                                         "Agricultural Mechanics and Machinery",
                                         "Sustainability Studies",
                                         "Environmental Science",
                                         "Wildlife and Fisheries Management",
-                                        "Natural Resources Conservation and\
-                                        Management",
+                                        "Natural Resources Conservation and " +
+                                        "Management",
                                         "Zoology and Entomology",
                                         "Marine Science",
                                         "Atmospheric Sciences and Meteorology",
@@ -228,8 +229,8 @@ def find_broader_major(major_entered):
                 "Political Science and Government", "Public Policy Analysis"],
         "Crime and Military": ["Police and Criminal Science",
                                "Cyber/Computer Forensics and Counterterrorism",
-                               "Criminal Justice and Law Enforcement\
-                               Administration",
+                               "Criminal Justice and Law Enforcement " +
+                               "Administration",
                                "Criminal Justice and Safety Studies",
                                "Criminology",
                                "Criminal Justice and Corrections",
@@ -469,3 +470,23 @@ def create_csvs(dataframe):
     country_summed_df.columns = ["Major", "Students"]
     country_summed_df.to_csv("broader_major_whole_country.csv", index=False,
                              encoding="utf-8-sig")
+
+# Remove previous attempts
+# os.chdir("testing")
+os.chdir("raw_data")
+os.remove("combined_data.csv")
+
+# Combine data files for all states in folder and read to Pandas DataFrame
+files_to_df()
+df = pd.read_csv("combined_data.csv")
+
+# Remove previous attempts
+os.chdir("..")
+# os.mkdir("cleaned_data")
+os.chdir("cleaned_data")
+os.remove("broader_major_combined_data.csv")
+os.remove("broader_major_summed_data.csv")
+os.remove("broader_major_whole_country.csv")
+
+# Create cleaned csv files
+create_csvs(df)
