@@ -1,13 +1,3 @@
-import data_cleaning as dc
-import data_visualization as dv
-
-import pandas as pd
-import os
-import geopandas
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-
 """
 This file runs all cleaning and visualization processes for the data gathered
 through web scraping. In order to run this on the full raw_data folder, the
@@ -16,32 +6,34 @@ to be cleaned and visualized.
 """
 
 import os
-import pandas as pd
 
 import data_cleaning as dc
-#import data_visualization as dv
+import data_visualization as dv
+import pandas as pd
+
 
 # Remove previous attempts
-os.chdir("raw_data")
-os.remove("combined_data.csv")
+os.system("cd raw_data")
+os.system("rm combined_data.csv")
 
 # Combine data files for all states in folder and read to Pandas DataFrame
 dc.files_to_df()
 df = pd.read_csv("combined_data.csv")
 
 # Remove previous attempts
-os.chdir("..")
-os.chdir("cleaned_data")
-os.remove("broader_major_combined_data.csv")
-os.remove("broader_major_summed_data.csv")
-os.remove("broader_major_whole_country.csv")
+os.system("cd ..")
+os.system("cd cleaned_data")
+os.system("rm broader_major_combined_data.csv")
+os.system("rm broader_major_summed_data.csv")
+os.system("rm broader_major_whole_country.csv")
 
 # Create cleaned csv files
 dc.create_csvs(df)
 
 
 # Read CSV data into Pandas Dataframes
-os.chdir('cleaned_data')
+os.system("cd cleaned_data")
+
 BROADER_MAJOR_SUMMED_DATA_DF = pd.read_csv("broader_major_summed_data.csv", \
     header=0)
 BROADER_MAJOR_WHOLE_COUNTRY_DF = pd.read_csv( \
