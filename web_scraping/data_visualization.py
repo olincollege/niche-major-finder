@@ -12,6 +12,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read CSV data into Pandas Dataframes
+# os.chdir("testing")
 os.chdir('cleaned_data')
 BROADER_MAJOR_SUMMED_DATA_DF = pd.read_csv("broader_major_summed_data.csv",
                                            header=0)

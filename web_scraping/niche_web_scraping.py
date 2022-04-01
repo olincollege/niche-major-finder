@@ -130,7 +130,7 @@ def run_scraping():
     # "utah", "vermont", "virginia", "washington", "west-virginia", \
     # "wisconsin", "wyoming"]
 
-    states_list = ["hawaii", "idaho"]
+    states_list = ["south-dakota", "idaho"]
 
     for state in states_list:
         data = []
