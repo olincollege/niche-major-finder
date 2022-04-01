@@ -16,26 +16,32 @@ from data_visualization import (
     
 )
 
+# Define sets of test cases
+
 total_students_per_state_cases  = [
 
 
 ]
 
-students_in_a_major_per_state_cases
+students_in_a_major_per_state_cases = [
 
+]
 
+# Define standard testing functions to check functions' outputs given certain
+# inputs defined above.
 
 @pytest.mark.parametrize("specific_major, broader_major", \
                                                 total_students_per_state_cases)
 def test_total_students_per_state():
     """
-    Check that function total_students_per_state correctly coverts a datafram
+    Check that function total_students_per_state correctly converts a dataframe
     file to a list.
     """
     os.chdir("raw_data")
     dataframe = pd.read_csv("combined_data.csv", header=[0])
-    assert (dataframe[1529:1568].loc["Student"] ==
-            [3266])
+    two_states = dataframe[(dataframe == "hawaii" or \
+        dataframe == "alaska").any(axis=1)]
+    assert (total_students_per_state(two_states) == [])
 
 
 @pytest.mark.parametrize("specific_major, broader_major", \

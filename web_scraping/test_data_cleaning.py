@@ -42,11 +42,6 @@ TESTING_DICT = {"Computer Science": ["Computer Science",\
     "Geography", "Marine Biology and Oceanography", "Natural Sciences", \
     "Landscaping and Groundskeeping"]}
 
-# os.chdir("testing/raw_data")
-# data_cleaning.files_to_df()
-#hawaii_and_idaho = pd.read_csv("combined_data.csv")
-
-
 # Define sets of test cases
 get_key_cases = [
     # Check that value in the dictionary returns the right category
