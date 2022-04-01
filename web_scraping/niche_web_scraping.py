@@ -137,7 +137,8 @@ def run_scraping():
 
         # Find text from the college listings for each state
         html = get_html_for_url("https://www.niche.com/"
-                                + f"colleges/search/all-colleges/s/{state}/", agent)
+                                + "colleges/search/"+
+                                f"all-colleges/s/{state}/", agent)
 
         # Get the total number of colleges in the state from the text
         number_of_colleges = html.select(
@@ -178,7 +179,8 @@ def run_scraping():
             if index_on_page == 25:
                 current_page_number += 1
                 html = get_html_for_url("https://www.niche.com/"
-                                        + f"colleges/search/all-colleges/s/{state}/?page=" +
+                                        + "colleges/search/all-c"+
+                                        f"olleges/s/{state}/?page=" +
                                         f"{current_page_number}", agent)
                 colleges = html.find_all(attrs={"class": "search-result"})
 
@@ -188,5 +190,5 @@ def run_scraping():
             total_colleges_yet += 1
 
             # Create csv for each state's data
-            dataframe = pd.DataFrame(data, columns=["State", "College",
-                                                    "Major", "Students"]).to_csv(f"{state}Data.csv", index=False)
+            pd.DataFrame(data, columns=["State", "College",
+            "Major", "Students"]).to_csv(f"{state}Data.csv", index=False)
