@@ -129,8 +129,8 @@ def plot_number_of_students_per_major_usa():
     """
 
     plt.barh(MAJORS_LIST, STUDENTS_LIST, align="center", alpha=.5)
-    plt.title('Number of Students Enrolled in Different Majors Offered by" + \
-        "the top 10% of Colleges in Each State')
+    plt.title("Number of Students Enrolled in Different Majors Offered by" + \
+        "the top 10% of Colleges in Each State")
     plt.xlabel('College Major')
     plt.ylabel('Number of Students Enrolled')
     plt.savefig("number_of_students_per_major_usa.png")
