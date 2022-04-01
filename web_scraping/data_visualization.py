@@ -312,3 +312,9 @@ def generate_engineering_density_map(BROADER_MAJOR_SUMMED_DATA_DF, RM_STATES_LIS
     STATES.plot(column='Engineering_Majors', ax=AX, legend=True)
     plt.show()
     plt.savefig("engineering_density_map.png")
+
+plot_number_of_students_per_major_usa()
+plot_major_ratios_in_stacked_bar_graph()
+plot_major_distribution_in_usa_pie_chart()
+generate_business_density_map(BROADER_MAJOR_SUMMED_DATA_DF, RM_STATES_LIST, STATES)
+generate_engineering_density_map(BROADER_MAJOR_SUMMED_DATA_DF, RM_STATES_LIST, STATES)
