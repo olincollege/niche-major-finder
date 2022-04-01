@@ -81,8 +81,8 @@ def find_broader_major(major_entered):
                              "Computer Programming", "Data Processing",
                              "Computer and Information Sciences",
                              "Human Computer Interaction",
-                             "Computer Systems Networking and \
-                             Telecommunications",
+                             "Computer Systems Networking and " +
+                             "Telecommunications",
                              "Network, Database, and System Administration",
                              "Computer and Information Systems Security",
                              "Computer Engineering Technician",
@@ -114,15 +114,15 @@ def find_broader_major(major_entered):
                                         "Agricultural Production Operations",
                                         "Crop and Soil Sciences",
                                         "Agricultural Teacher Education",
-                                        "Agricultural and Food Products\
-                                         Processing",
+                                        "Agricultural and Food Products" +
+                                        " Processing",
                                         "Agricultural Engineering",
                                         "Agricultural Mechanics and Machinery",
                                         "Sustainability Studies",
                                         "Environmental Science",
                                         "Wildlife and Fisheries Management",
-                                        "Natural Resources Conservation and\
-                                        Management",
+                                        "Natural Resources Conservation and " +
+                                        "Management",
                                         "Zoology and Entomology",
                                         "Marine Science",
                                         "Atmospheric Sciences and Meteorology",
@@ -229,8 +229,8 @@ def find_broader_major(major_entered):
                 "Political Science and Government", "Public Policy Analysis"],
         "Crime and Military": ["Police and Criminal Science",
                                "Cyber/Computer Forensics and Counterterrorism",
-                               "Criminal Justice and Law Enforcement\
-                               Administration",
+                               "Criminal Justice and Law Enforcement " +
+                               "Administration",
                                "Criminal Justice and Safety Studies",
                                "Criminology",
                                "Criminal Justice and Corrections",
