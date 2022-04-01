@@ -3,6 +3,7 @@ This file contains the functions needed to clean the data collected through web
 scraping. In order to run these functions, first it is necessary to navigate
 to the directory containing the raw data to be cleaned.
 """
+import os
 import glob
 import pandas as pd
 
@@ -469,3 +470,23 @@ def create_csvs(dataframe):
     country_summed_df.columns = ["Major", "Students"]
     country_summed_df.to_csv("broader_major_whole_country.csv", index=False,
                              encoding="utf-8-sig")
+
+# Remove previous attempts
+# os.chdir("testing")
+os.chdir("raw_data")
+os.remove("combined_data.csv")
+
+# Combine data files for all states in folder and read to Pandas DataFrame
+files_to_df()
+df = pd.read_csv("combined_data.csv")
+
+# Remove previous attempts
+os.chdir("..")
+# os.mkdir("cleaned_data")
+os.chdir("cleaned_data")
+os.remove("broader_major_combined_data.csv")
+os.remove("broader_major_summed_data.csv")
+os.remove("broader_major_whole_country.csv")
+
+# Create cleaned csv files
+create_csvs(df)

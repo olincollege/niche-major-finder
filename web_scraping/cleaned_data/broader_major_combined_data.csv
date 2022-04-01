@@ -119,7 +119,7 @@ arizona,embry-riddle-aeronautical-university---prescott,Trade Other,15
 arizona,embry-riddle-aeronautical-university---prescott,Engineering,12
 arizona,embry-riddle-aeronautical-university---prescott,Trade Other,8
 arizona,embry-riddle-aeronautical-university---prescott,Engineering,8
-arizona,arizona-state-university---downtown-phoenix-campus,Crime and Military,293
+arizona,arizona-state-university---downtown-phoenix-campus,,293
 arizona,arizona-state-university---downtown-phoenix-campus,Education,273
 arizona,arizona-state-university---downtown-phoenix-campus,Nursing,238
 arizona,arizona-state-university---downtown-phoenix-campus,Communication,232
@@ -138,7 +138,7 @@ arizona,arizona-state-university---west-campus,Social Work,45
 arizona,arizona-state-university---west-campus,Business,41
 arizona,arizona-state-university---west-campus,Science,33
 arizona,arizona-state-university---west-campus,Humanities,33
-arizona,arizona-state-university---west-campus,Crime and Military,32
+arizona,arizona-state-university---west-campus,,32
 arizona,northern-arizona-university,Humanities,652
 arizona,northern-arizona-university,Nursing,558
 arizona,northern-arizona-university,Education,356
@@ -584,7 +584,7 @@ california,california-baptist-university,Nursing,157
 california,california-baptist-university,Psychology,156
 california,california-baptist-university,Physical Therapy,109
 california,california-baptist-university,Humanities,91
-california,california-baptist-university,Crime and Military,63
+california,california-baptist-university,,63
 california,california-baptist-university,Education,56
 california,california-baptist-university,Accounting,49
 california,california-baptist-university,Anthropology,47
@@ -785,7 +785,7 @@ california,west-valley-college,Trade Other,42
 california,west-valley-college,Law,41
 california,west-valley-college,Anthropology,40
 california,west-valley-college,Economics,39
-california,west-valley-college,Agriculture and Environment,29
+california,west-valley-college,,29
 california,orange-coast-college,Humanities,2228
 california,orange-coast-college,Business,418
 california,orange-coast-college,Psychology,167
@@ -905,7 +905,7 @@ colorado,university-of-colorado-denver,Communication,150
 colorado,university-of-colorado-denver,Health Science,96
 colorado,university-of-colorado-denver,Architecture,89
 colorado,university-of-colorado-denver,Arts,88
-colorado,university-of-colorado-denver,Crime and Military,83
+colorado,university-of-colorado-denver,,83
 colorado,regis-university,Nursing,310
 colorado,regis-university,Business,131
 colorado,regis-university,Humanities,114
@@ -924,7 +924,7 @@ colorado,aims-community-college,Medical Applied,166
 colorado,aims-community-college,Health Science,71
 colorado,aims-community-college,Crime and Military,69
 colorado,aims-community-college,Trade Engineering,68
-colorado,aims-community-college,Crime and Military,58
+colorado,aims-community-college,,58
 colorado,aims-community-college,Nursing,47
 colorado,colorado-christian-university,Business,135
 colorado,colorado-christian-university,Psychology,133
@@ -1226,7 +1226,7 @@ florida,stetson-university,Accounting,33
 florida,stetson-university,Communication,31
 florida,stetson-university,Science,28
 florida,stetson-university,Arts,22
-florida,florida-panhandle-technical-college,Crime and Military,36
+florida,florida-panhandle-technical-college,,36
 florida,florida-panhandle-technical-college,Nursing,36
 florida,florida-panhandle-technical-college,Nursing,28
 florida,florida-panhandle-technical-college,Crime and Military,23
@@ -1304,7 +1304,7 @@ florida,embry-riddle-aeronautical-university---worldwide,Medical Applied,2
 florida,everglades-university,Health Science,165
 florida,everglades-university,Management,86
 florida,everglades-university,Engineering,57
-florida,everglades-university,Agriculture and Environment,19
+florida,everglades-university,,19
 florida,everglades-university,Business,12
 florida,everglades-university,Architecture,4
 florida,everglades-university,Crime and Military,3
@@ -1320,9 +1320,9 @@ florida,lorenzo-walker-institute-of-technology,Nursing,25
 florida,lorenzo-walker-institute-of-technology,Agriculture and Environment,23
 florida,lorenzo-walker-institute-of-technology,Trade Engineering,23
 florida,lorenzo-walker-institute-of-technology,Arts,21
-florida,lorenzo-walker-institute-of-technology,Computer Science,19
+florida,lorenzo-walker-institute-of-technology,,19
 florida,withlacoochee-technical-college---adult-education,Crime and Military,39
-florida,withlacoochee-technical-college---adult-education,Crime and Military,34
+florida,withlacoochee-technical-college---adult-education,,34
 florida,withlacoochee-technical-college---adult-education,Trade Engineering,29
 florida,withlacoochee-technical-college---adult-education,Trade Engineering,23
 florida,withlacoochee-technical-college---adult-education,Trade Other,21
@@ -1565,7 +1565,7 @@ idaho,boise-state-university,Medical Applied,171
 idaho,boise-state-university,Psychology,149
 idaho,boise-state-university,Science,132
 idaho,boise-state-university,Accounting,128
-idaho,boise-state-university,Crime and Military,123
+idaho,boise-state-university,,123
 illinois,northwestern-university,Economics,369
 illinois,northwestern-university,Psychology,194
 illinois,northwestern-university,Communication,178
@@ -1732,7 +1732,7 @@ illinois,trinity-christian-college,Education,20
 illinois,trinity-christian-college,Business,15
 illinois,trinity-christian-college,Social Work,15
 illinois,trinity-christian-college,Science,14
-illinois,trinity-christian-college,Crime and Military,12
+illinois,trinity-christian-college,,12
 illinois,trinity-christian-college,Accounting,11
 illinois,trinity-christian-college,Marketing,10
 illinois,north-park-university,Nursing,93
@@ -1775,7 +1775,7 @@ illinois,lake-land-college,Trade Engineering,122
 illinois,lake-land-college,Business,115
 illinois,lake-land-college,Nursing,81
 illinois,lake-land-college,Nursing,81
-illinois,western-illinois-university,Crime and Military,341
+illinois,western-illinois-university,,341
 illinois,western-illinois-university,Humanities,178
 illinois,western-illinois-university,Agriculture and Environment,109
 illinois,western-illinois-university,Psychology,73
@@ -2081,7 +2081,7 @@ kansas,johnson-county-community-college,Trade Other,147
 kansas,johnson-county-community-college,Medical Applied,126
 kansas,johnson-county-community-college,Nursing,50
 kansas,johnson-county-community-college,Nursing,45
-kansas,johnson-county-community-college,Crime and Military,42
+kansas,johnson-county-community-college,,42
 kansas,johnson-county-community-college,Architecture,41
 kansas,johnson-county-community-college,Arts,39
 kansas,johnson-county-community-college,Business,37
@@ -2118,7 +2118,7 @@ kentucky,university-of-kentucky,Education,173
 kentucky,university-of-louisville,Nursing,254
 kentucky,university-of-louisville,Communication,227
 kentucky,university-of-louisville,Psychology,190
-kentucky,university-of-louisville,Crime and Military,166
+kentucky,university-of-louisville,,166
 kentucky,university-of-louisville,Education,163
 kentucky,university-of-louisville,Marketing,160
 kentucky,university-of-louisville,Management,129
@@ -2770,7 +2770,7 @@ minnesota,university-of-minnesota-crookston,Management,30
 minnesota,university-of-minnesota-crookston,Humanities,29
 minnesota,university-of-minnesota-crookston,Communication,23
 minnesota,university-of-minnesota-crookston,Finance,19
-minnesota,university-of-minnesota-crookston,Agriculture and Environment,18
+minnesota,university-of-minnesota-crookston,,18
 minnesota,university-of-minnesota-crookston,Agriculture and Environment,17
 minnesota,university-of-minnesota-crookston,Agriculture and Environment,17
 minnesota,concordia-college,Business,66
@@ -2841,7 +2841,7 @@ mississippi,mississippi-college,Health Science,37
 mississippi,mississippi-college,Education,36
 mississippi,mississippi-college,Communication,30
 mississippi,mississippi-college,Accounting,27
-mississippi,mississippi-college,Crime and Military,24
+mississippi,mississippi-college,,24
 mississippi,mississippi-college,Science,19
 mississippi,university-of-southern-mississippi,Business,193
 mississippi,university-of-southern-mississippi,Nursing,190
@@ -2939,7 +2939,7 @@ missouri,state-technical-college-of-missouri,Trade Engineering,47
 missouri,state-technical-college-of-missouri,Trade Engineering,39
 missouri,state-technical-college-of-missouri,Management,39
 missouri,state-technical-college-of-missouri,Trade Engineering,35
-missouri,state-technical-college-of-missouri,Computer Science,32
+missouri,state-technical-college-of-missouri,,32
 missouri,state-technical-college-of-missouri,Trade Engineering,28
 missouri,state-technical-college-of-missouri,Trade Engineering,27
 missouri,state-technical-college-of-missouri,Physical Therapy,23
@@ -3161,7 +3161,7 @@ new-hampshire,white-mountains-community-college,Trade Other,17
 new-hampshire,white-mountains-community-college,Trade Engineering,13
 new-hampshire,white-mountains-community-college,Agriculture and Environment,13
 new-hampshire,white-mountains-community-college,Education,9
-new-hampshire,white-mountains-community-college,Crime and Military,8
+new-hampshire,white-mountains-community-college,,8
 new-hampshire,white-mountains-community-college,Trade Engineering,6
 new-hampshire,university-of-new-hampshire-at-manchester,Business,33
 new-hampshire,university-of-new-hampshire-at-manchester,Science,20
@@ -3611,7 +3611,7 @@ new-york,cuny-lehman-college,Social Work,128
 new-york,cuny-lehman-college,Health Science,116
 new-york,cuny-lehman-college,Language and Writing,85
 new-york,cuny-lehman-college,Computer Science,83
-new-york,cuny-john-jay-college-of-criminal-justice,Crime and Military,1405
+new-york,cuny-john-jay-college-of-criminal-justice,,1405
 new-york,cuny-john-jay-college-of-criminal-justice,Psychology,446
 new-york,cuny-john-jay-college-of-criminal-justice,Crime and Military,255
 new-york,cuny-john-jay-college-of-criminal-justice,Law,183
@@ -3658,7 +3658,7 @@ new-york,marist-college,Marketing,95
 new-york,marist-college,Computer Science,62
 new-york,marist-college,Law,55
 new-york,marist-college,Accounting,54
-new-york,marist-college,Crime and Military,54
+new-york,marist-college,,54
 new-york,marist-college,Humanities,43
 new-york,marist-college,Computer Science,40
 new-york,suny-maritime-college,Agriculture and Environment,160
@@ -3800,7 +3800,7 @@ north-carolina,university-of-north-carolina---greensboro,Science,172
 north-carolina,university-of-north-carolina---greensboro,Psychology,166
 north-carolina,university-of-north-carolina---greensboro,Humanities,166
 north-carolina,university-of-north-carolina---greensboro,Physical Therapy,162
-north-carolina,university-of-north-carolina---greensboro,Computer Science,156
+north-carolina,university-of-north-carolina---greensboro,,156
 north-carolina,university-of-north-carolina---greensboro,Anthropology,144
 north-carolina,east-carolina-university,Nursing,336
 north-carolina,east-carolina-university,Education,318
@@ -3997,11 +3997,11 @@ ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture an
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,32
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,15
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,15
-ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,14
+ohio,the-ohio-state-university---agricultural-technical-institute,,14
 ohio,the-ohio-state-university---agricultural-technical-institute,Science,12
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,11
 ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,10
-ohio,the-ohio-state-university---agricultural-technical-institute,Agriculture and Environment,10
+ohio,the-ohio-state-university---agricultural-technical-institute,,10
 ohio,ohio-university,Nursing,2468
 ohio,ohio-university,Humanities,530
 ohio,ohio-university,Business,485
@@ -4220,7 +4220,7 @@ oklahoma,northern-oklahoma-college,Science,33
 oklahoma,northern-oklahoma-college,Education,32
 oklahoma,northern-oklahoma-college,Agriculture and Environment,31
 oklahoma,northern-oklahoma-college,Education,31
-oklahoma,northern-oklahoma-college,Crime and Military,28
+oklahoma,northern-oklahoma-college,,28
 oklahoma,northern-oklahoma-college,Trade Other,22
 oklahoma,metro-technology-centers,Trade Engineering,97
 oklahoma,metro-technology-centers,Nursing,57
@@ -4236,7 +4236,7 @@ oklahoma,indian-capital-technology-center---muskogee,Trade Engineering,187
 oklahoma,indian-capital-technology-center---muskogee,Health Science,165
 oklahoma,indian-capital-technology-center---muskogee,Trade Engineering,118
 oklahoma,indian-capital-technology-center---muskogee,Nursing,118
-oklahoma,indian-capital-technology-center---muskogee,Computer Science,84
+oklahoma,indian-capital-technology-center---muskogee,,84
 oklahoma,indian-capital-technology-center---muskogee,Trade Engineering,83
 oklahoma,indian-capital-technology-center---muskogee,Trade Engineering,70
 oklahoma,indian-capital-technology-center---muskogee,Management,60
@@ -4270,7 +4270,7 @@ oklahoma,east-central-university,Science,46
 oklahoma,east-central-university,Social Work,41
 oklahoma,east-central-university,Communication,35
 oklahoma,east-central-university,Communication,34
-oklahoma,east-central-university,Crime and Military,24
+oklahoma,east-central-university,,24
 oklahoma,east-central-university,Humanities,20
 oregon,reed-college,Economics,29
 oregon,reed-college,Science,27
@@ -4581,7 +4581,7 @@ pennsylvania,juniata-college,Social Work,16
 pennsylvania,juniata-college,Science,11
 pennsylvania,juniata-college,Science,10
 pennsylvania,juniata-college,Accounting,9
-pennsylvania,juniata-college,Agriculture and Environment,9
+pennsylvania,juniata-college,,9
 pennsylvania,saint-vincent-college---pennsylvania,Marketing,33
 pennsylvania,saint-vincent-college---pennsylvania,Science,31
 pennsylvania,saint-vincent-college---pennsylvania,Crime and Military,29
@@ -4671,7 +4671,7 @@ south-carolina,university-of-south-carolina,Management,275
 south-carolina,university-of-south-carolina,Psychology,261
 south-carolina,university-of-south-carolina,Physical Therapy,233
 south-carolina,university-of-south-carolina,Nursing,223
-south-carolina,university-of-south-carolina,Crime and Military,204
+south-carolina,university-of-south-carolina,,204
 south-carolina,wofford-college,Science,59
 south-carolina,wofford-college,Finance,49
 south-carolina,wofford-college,Language and Writing,37
@@ -4683,7 +4683,7 @@ south-carolina,wofford-college,Economics,25
 south-carolina,wofford-college,International Relations,19
 south-carolina,wofford-college,Agriculture and Environment,17
 south-carolina,citadel-military-college-of-south-carolina,Business,163
-south-carolina,citadel-military-college-of-south-carolina,Crime and Military,64
+south-carolina,citadel-military-college-of-south-carolina,,64
 south-carolina,citadel-military-college-of-south-carolina,Engineering,63
 south-carolina,citadel-military-college-of-south-carolina,Architecture,55
 south-carolina,citadel-military-college-of-south-carolina,Law,48
@@ -4725,7 +4725,7 @@ south-carolina,college-of-charleston,Finance,72
 south-carolina,university-of-south-carolina---lancaster,Humanities,89
 south-carolina,university-of-south-carolina---lancaster,Business,25
 south-carolina,university-of-south-carolina---lancaster,Nursing,14
-south-carolina,university-of-south-carolina---lancaster,Crime and Military,9
+south-carolina,university-of-south-carolina---lancaster,,9
 south-carolina,university-of-south-carolina---sumter,Humanities,133
 south-dakota,augustana-university,Nursing,62
 south-dakota,augustana-university,Business,48
@@ -4784,7 +4784,7 @@ tennessee,sewanee---the-university-of-the-south,Language and Writing,40
 tennessee,sewanee---the-university-of-the-south,Science,33
 tennessee,sewanee---the-university-of-the-south,History and World Studies,30
 tennessee,sewanee---the-university-of-the-south,International Relations,26
-tennessee,sewanee---the-university-of-the-south,Agriculture and Environment,19
+tennessee,sewanee---the-university-of-the-south,,19
 tennessee,sewanee---the-university-of-the-south,Agriculture and Environment,16
 tennessee,sewanee---the-university-of-the-south,Arts,11
 tennessee,university-of-tennessee,Management,402
@@ -4823,7 +4823,7 @@ tennessee,university-of-memphis,Physical Therapy,280
 tennessee,university-of-memphis,Psychology,171
 tennessee,university-of-memphis,Accounting,138
 tennessee,university-of-memphis,Business,122
-tennessee,university-of-memphis,Crime and Military,113
+tennessee,university-of-memphis,,113
 tennessee,university-of-memphis,Marketing,93
 tennessee,university-of-memphis,Education,87
 tennessee,university-of-memphis,Science,78
@@ -5060,7 +5060,7 @@ texas,abilene-christian-university,Science,31
 texas,northwest-vista-college,Humanities,2187
 texas,northwest-vista-college,Business,180
 texas,northwest-vista-college,Education,170
-texas,northwest-vista-college,Computer Science,91
+texas,northwest-vista-college,,91
 texas,northwest-vista-college,Nursing,90
 texas,northwest-vista-college,Arts,47
 texas,northwest-vista-college,Psychology,44
@@ -5098,7 +5098,7 @@ texas,san-jacinto-college,Education,245
 texas,san-jacinto-college,Engineering,217
 texas,san-jacinto-college,Trade Engineering,193
 texas,university-of-texas---rio-grande-valley,Science,507
-texas,university-of-texas---rio-grande-valley,Crime and Military,462
+texas,university-of-texas---rio-grande-valley,,462
 texas,university-of-texas---rio-grande-valley,Psychology,358
 texas,university-of-texas---rio-grande-valley,Humanities,342
 texas,university-of-texas---rio-grande-valley,Physical Therapy,225
@@ -5363,7 +5363,7 @@ virginia,virginia-commonwealth-university,Education,361
 virginia,virginia-commonwealth-university,Science,350
 virginia,virginia-commonwealth-university,Communication,295
 virginia,virginia-commonwealth-university,Communication,248
-virginia,virginia-commonwealth-university,Crime and Military,234
+virginia,virginia-commonwealth-university,,234
 virginia,virginia-commonwealth-university,Nursing,230
 virginia,virginia-commonwealth-university,Humanities,211
 virginia,virginia-commonwealth-university,Law,191
