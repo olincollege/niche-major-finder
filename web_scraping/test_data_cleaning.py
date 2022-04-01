@@ -102,8 +102,7 @@ def test_files_to_df_first_row():
     Check that the concatenation of files for all files in raw_data has worked
     by checking the first row of the csv. Need to navigate into folder.
     """
-    os.chdir("raw_data")
-    dataframe = pd.read_csv("combined_data.csv", header=[0])
+    dataframe = pd.read_csv("raw_data/combined_data.csv", header=[0])
     assert (dataframe.iloc[0].values.tolist() ==
             ["alabama", "auburn-university",
              "Biomedical Sciences and Molecular Medicine", 305])
@@ -114,7 +113,7 @@ def test_files_to_df_last_row():
     Check that the concatenation of files for all files in raw_data has worked
     by checking the first row of the csv. Need to navigate into folder.
     """
-    dataframe = pd.read_csv("combined_data.csv", header=[0])
+    dataframe = pd.read_csv("raw_data/combined_data.csv", header=[0])
     assert (dataframe.iloc[-1].values.tolist() ==
             ["wyoming", "university-of-wyoming", "Business", 63])
 
@@ -123,7 +122,7 @@ def test_files_to_df_check_states():
     """
     Check that all states were added to the new csv.
     """
-    dataframe = pd.read_csv("combined_data.csv", header=[0])
+    dataframe = pd.read_csv("raw_data/combined_data.csv", header=[0])
     all_states_present = dataframe["State"].unique() == ["alabama",
     "alaska", "arizona",
     "arkansas", "california", "colorado", "connecticut", "delaware",
@@ -143,7 +142,7 @@ def test_files_to_df_invalid():
     Check that the csv created by running this function doesn't contain any
     empty values.
     """
-    dataframe = pd.read_csv("combined_data.csv", header=[0])
+    dataframe = pd.read_csv("raw_data/combined_data.csv", header=[0])
     check_students = (dataframe["Students"].isnull().values.any() == False)
     check_states = (dataframe["State"].isnull().values.any() == False)
     check_majors = (dataframe["Major"].isnull().values.any() == False)
@@ -188,10 +187,7 @@ def test_replace_major_with_broader_major():
     Check that the csv created by running this function contains replaced
     major names.
     """
-    os.chdir("..")
-    os.chdir("cleaned_data")
-
-    dataframe = pd.read_csv("broader_major_combined_data.csv", header=[0])
+    dataframe = pd.read_csv("cleaned_data/broader_major_combined_data.csv", header=[0])
     assert dataframe.iloc[0][2] == "Health Science"
 
 
@@ -200,7 +196,7 @@ def test_replace_major_with_broader_major_invalid():
     Check that the csv created by running this function doesn't contain any
     specific major names.
     """
-    dataframe = pd.read_csv("broader_major_combined_data.csv", header=[0])
+    dataframe = pd.read_csv("cleaned_data/broader_major_combined_data.csv", header=[0])
     assert ("Mechanical Engineering" in dataframe["Major"].values) == False
 
 
@@ -208,7 +204,7 @@ def test_replace_major_with_broader_major_non_empty():
     """
     Check that there are no rows with empty strings for major names
     """
-    dataframe = pd.read_csv("broader_major_combined_data.csv", header=[0])
+    dataframe = pd.read_csv("cleaned_data/broader_major_combined_data.csv", header=[0])
     assert dataframe["Major"].isnull().values.any() == False
 
 
@@ -227,7 +223,7 @@ def test_sum_broad_major_per_state(state_name, major_name, total_students):
         total_students: An integer represeting the expected result for the total
             number of students in the state majoring in the entered major
     """
-    all_df = pd.read_csv("broader_major_summed_data.csv", header=[0])
+    all_df = pd.read_csv("cleaned_data/broader_major_summed_data.csv", header=[0])
     df_this_state = all_df[(all_df == state_name).any(axis=1)]
 
     df_this_state_this_major = df_this_state.loc[df_this_state["Major"] == \
@@ -245,7 +241,7 @@ def test_sum_broad_major_per_state_no_repeats(state_name):
     Args:
         state_name: A string representing the name of the state to be checked
     """
-    all_data = pd.read_csv("broader_major_summed_data.csv", header=[0])
+    all_data = pd.read_csv("cleaned_data/broader_major_summed_data.csv", header=[0])
     df_this_state = all_data[(all_data == state_name).any(axis=1)]
 
     total_values = len(df_this_state)
@@ -259,7 +255,7 @@ def test_sum_broad_major_all_state_non_empty():
     Check that there are no rows with empty strings for total students for any
     state.
     """
-    dataframe = pd.read_csv("broader_major_summed_data.csv", header=[0])
+    dataframe = pd.read_csv("cleaned_data/broader_major_summed_data.csv", header=[0])
     assert dataframe["Students"].isnull().values.any() == False
 
 
@@ -268,7 +264,7 @@ def test_sum_broad_major_all_state_length():
     Check that there are no repeats for any state by checking the length of
     the csv and ensuring that it matches what is expected.
     """
-    dataframe = pd.read_csv("broader_major_summed_data.csv", header=[0])
+    dataframe = pd.read_csv("cleaned_data/broader_major_summed_data.csv", header=[0])
     assert len(dataframe) == 1144
 
 
@@ -285,7 +281,7 @@ def test_sum_broad_major_country(major_name, total_students):
         total_students: An integer representing the total number of students
             expected for the major given across the country
     """
-    dataframe = pd.read_csv("broader_major_whole_country.csv",
+    dataframe = pd.read_csv("cleaned_data/broader_major_whole_country.csv",
                             header=[0])
     df_this_major = dataframe[(dataframe == major_name).any(axis=1)]
 
@@ -297,7 +293,7 @@ def test_sum_broad_major_country_non_empty():
     Check that there are no rows with empty strings for total students for any
     major.
     """
-    dataframe = pd.read_csv("broader_major_whole_country.csv", header=[0])
+    dataframe = pd.read_csv("cleaned_data/broader_major_whole_country.csv", header=[0])
     assert dataframe["Students"].isnull().values.any() == False
 
 
@@ -305,7 +301,7 @@ def test_sum_broad_major_country_no_repeat():
     """
     Check that there are no repeats for any major.
     """
-    dataframe = pd.read_csv("broader_major_whole_country.csv", header=[0])
+    dataframe = pd.read_csv("cleaned_data/broader_major_whole_country.csv", header=[0])
     total_values = len(dataframe)
     unique_values = len(dataframe["Major"].unique())
     assert total_values == unique_values
@@ -315,15 +311,15 @@ def test_check_csvs():
     """
     Check that the last for each csv created is right.
     """
-    df_one = pd.read_csv("broader_major_combined_data.csv", header=[0])
+    df_one = pd.read_csv("cleaned_data/broader_major_combined_data.csv", header=[0])
     check_one = (df_one.iloc[-1].values.tolist() ==
                  ["wyoming", "university-of-wyoming", "Business", 63])
 
-    df_two = pd.read_csv("broader_major_summed_data.csv", header=[0])
+    df_two = pd.read_csv("cleaned_data/broader_major_summed_data.csv", header=[0])
     check_two = (df_two.iloc[-1].values.tolist() ==
                  ["wyoming", "Business", 63])
 
-    df_three = pd.read_csv("broader_major_whole_country.csv", header=[0])
+    df_three = pd.read_csv("cleaned_data/broader_major_whole_country.csv", header=[0])
     check_three = (df_three.iloc[-1].values.tolist() ==
                    ["Architecture", 3581])
     assert check_one == check_two == check_three == True
