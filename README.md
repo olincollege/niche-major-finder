@@ -52,6 +52,6 @@ All functions needed to visualize the data files are included in the file *data_
 2. From here, download the 3 files listed above and move them to the *testing* folder. Inside this folder, move them to the *cleaned_data* folder.
 
 #### **Visualizing:**
-Option 1. To visualize the cleaned data for the shorter set that was scraped just now, navigate back to the *web_scraping* directory. Open the file called *data_visualization.py* and uncomment line 15 to navigate to the *testing* folder. Comment out lines 64, 65, 219, 220, 338, and 339. Finally, add `"""` to lines 202 and 333 to comment out the functions that create the US-map graphs, because they cannot be made with data from simply 2 states, as explained above. Then run the file.
+Option 1. To visualize the cleaned data for the shorter set that was scraped just now, navigate back to the *web_scraping* directory. Open the file called *data_visualization.py* and uncomment line 15 to navigate to the *testing* folder. Comment out lines 64, 65, 219, 220, 338, and 339. Finally, add `"""` to lines 202 and 333 to comment out the functions that create the US-map graphs, because they cannot be made with data from simply 2 states, as explained above. Navigate back out to *niche_major_finder* and run `python web_scraping\data_visualization.py`.
 
-Option 2. To visualize our complete set of data, simply navigate back to the *web_scraping* directory and run *data_visualization.py*.
+Option 2. To visualize our complete set of data, simply navigate back to the *niche_major_finder* directory and run `python web_scraping\data_visualization.py`.
