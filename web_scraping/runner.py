@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import data_cleaning as dc
 import data_visualization as dv
 
@@ -9,8 +8,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-=======
->>>>>>> 1ff905b12ff0caf15ca25d0cf4b6aef09bccd5d8
 """
 This file runs all cleaning and visualization processes for the data gathered
 through web scraping. In order to run this on the full raw_data folder, the
@@ -42,7 +39,6 @@ os.remove("broader_major_whole_country.csv")
 # Create cleaned csv files
 dc.create_csvs(df)
 
-<<<<<<< HEAD
 
 # Read CSV data into Pandas Dataframes
 os.chdir('cleaned_data')
@@ -111,6 +107,3 @@ dv.plot_major_ratios_in_stacked_bar_graph()
 dv.plot_major_distribution_in_usa_pie_chart()
 dv.generate_business_density_map(BROADER_MAJOR_SUMMED_DATA_DF, RM_STATES_LIST, STATES)
 dv.generate_engineering_density_map(BROADER_MAJOR_SUMMED_DATA_DF, RM_STATES_LIST, STATES)
-=======
-#
->>>>>>> 1ff905b12ff0caf15ca25d0cf4b6aef09bccd5d8
