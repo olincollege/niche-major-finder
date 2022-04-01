@@ -37,8 +37,8 @@ while STUDENT_LIST_INDEX < len(STUDENTS_LIST):
 STATES_LIST = list(BROADER_MAJOR_SUMMED_DATA_DF['State'].unique())
 
 # Order Majors by Popularity in the USA
-BROADER_MAJOR_WHOLE_COUNTRY_DF['Students'] = BROADER_MAJOR_WHOLE_COUNTRY_DF['Students'].astype(
-    int)
+BROADER_MAJOR_WHOLE_COUNTRY_DF['Students'] = \
+    BROADER_MAJOR_WHOLE_COUNTRY_DF['Students'].astype(int)
 BROADER_MAJOR_WHOLE_COUNTRY_DF.sort_values(by=['Students'], inplace=True,
                                            ascending=False)
 

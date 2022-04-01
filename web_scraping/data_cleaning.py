@@ -484,9 +484,9 @@ df = pd.read_csv("combined_data.csv")
 os.chdir("..")
 # os.mkdir("cleaned_data")
 os.chdir("cleaned_data")
-os.remove("broader_major_combined_data.csv")
-os.remove("broader_major_summed_data.csv")
-os.remove("broader_major_whole_country.csv")
+#os.remove("broader_major_combined_data.csv")
+#os.remove("broader_major_summed_data.csv")
+#os.remove("broader_major_whole_country.csv")
 
 # Create cleaned csv files
 create_csvs(df)
