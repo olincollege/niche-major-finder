@@ -1,14 +1,15 @@
+"""
+This file contains the functions needed to scrap data from Niche.com to get
+the college majors distribution for each of the top 10% of colleges in every
+state.
+"""
+
 import math
 import time
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup as BS
 
-"""
-This file contains the functions needed to scrap data from Niche.com to get
-the college majors distribution for each of the top 10% of colleges in every
-state.
-"""
 
 def get_html_for_url(url, agent):
     """
@@ -20,7 +21,7 @@ def get_html_for_url(url, agent):
 
     Args:
         url: A string representing the website url to acquire data for.
-        agent: A dictionary mapping the key 'User-Agent' to the agent to be
+        agent: A dictionary mapping the key "User-Agent" to the agent to be
             used by requests for scraping.
 
     Returns:
@@ -30,6 +31,7 @@ def get_html_for_url(url, agent):
     page = requests.get(url, headers=agent, timeout=7)
     page_text = BS(page.text, "html.parser")
     return page_text
+
 
 def filter_majors(major, curr_data, state, college_name):
     """
@@ -48,35 +50,35 @@ def filter_majors(major, curr_data, state, college_name):
             the major.
         state: A string representing the state of the college for which the
             majors are being filtered and data is being collected.
-        college_name: A string representing the name of the college for which 
+        college_name: A string representing the name of the college for which
             the majors are being filtered and data is being collected.
 
     Return:
     A list of nested lists that contains the state name, college name, major
     name, and total students in that major for the colleges.
 
-        Example: [['Hawaii', 'University of Hawaii', 'Science', 200], 
-                  ['Hawaii', 'University of Hawaii', 'Math', 250]]
+        Example: [["Hawaii", "University of Hawaii", "Science", 200],
+                  ["Hawaii", "University of Hawaii", "Math", 250]]
     """
     if major.select(".popular-entity-descriptor"):
-        major_name = major.select('.popular-entity__name')\
-            [0].get_text()
-        major_students = major.select('.popular-entity-descriptor')\
-            [0].get_text()
-        major_students = int(major_students[:major_students.find(' ')\
-            ].replace(',', ''))
+        major_name = major.select(".popular-entity__name")[0].get_text()
+        major_students = major.select(
+            ".popular-entity-descriptor")[0].get_text()
+        major_students = int(major_students[:major_students.find(" ")
+                                            ].replace(",", ""))
         curr_data.append([state, college_name, major_name, major_students])
 
     return curr_data
+
 
 def find_college_name(college):
     """
     This function finds the college name from the input and modifies the name
     to be in lowercase and all spaces are replaced by "-".
 
-    Args: 
+    Args:
         college: A string that contains the HTML information for the college.
-    
+
     Returns:
     A string that represents the cleaned name of the college
     """
@@ -84,6 +86,7 @@ def find_college_name(college):
     college_name = college_name.lower()
     college_name = college_name.replace(" ", "-")
     return college_name
+
 
 def run_scraping():
     """
@@ -104,11 +107,11 @@ def run_scraping():
 
     For this project, the commented state_list was used to gather the data that
     is stored in raw_data. However, for testing purposes, a list containing just
-    Hawaii and Idaho is provided. 
+    Hawaii and Idaho is provided.
     """
     # Agent for scraping header
-    agent = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi"
-    + "t/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
+    agent = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi"
+             + "t/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
 
     # When running this file for all states, we would get timeout errors from
     # requests. The data in raw_data was gathered by running the file multiple
@@ -134,19 +137,21 @@ def run_scraping():
 
         # Find text from the college listings for each state
         html = get_html_for_url("https://www.niche.com/"
-        + f"colleges/search/all-colleges/s/{state}/", agent)
+                                + "colleges/search/"+
+                                f"all-colleges/s/{state}/", agent)
 
         # Get the total number of colleges in the state from the text
-        number_of_colleges = html.select('.search-result-counter')[0].get_text()
-        number_of_colleges = int(number_of_colleges[:-8].replace(',', ''))
+        number_of_colleges = html.select(
+            ".search-result-counter")[0].get_text()
+        number_of_colleges = int(number_of_colleges[:-8].replace(",", ""))
 
         # Find the number of colleges in the top 10% for each state
         top_ten_percent_of_colleges = math.ceil(0.1 * number_of_colleges)
 
-        # Loop through all colleges while total < 10% of the total number of 
+        # Loop through all colleges while total < 10% of the total number of
         # colleges in the state
 
-        colleges = html.find_all(attrs={'class':"search-result"})
+        colleges = html.find_all(attrs={"class": "search-result"})
         total_colleges_yet = 0
         index_on_page = 0
         current_page_number = 1
@@ -156,17 +161,15 @@ def run_scraping():
             time.sleep(20)
 
             college = colleges[index_on_page]
-            college_name = find_college_name(college)        
+            college_name = find_college_name(college)
 
             # Access each college website
-            college_html = get_html_for_url\
-                (f"https://www.niche.com/colleges/{college_name}/", agent)
+            college_html = get_html_for_url(
+                f"https://www.niche.com/colleges/{college_name}/", agent)
 
-            # Loop through information for each major on the website and add to data
-            top_majors = college_html.select("div.popular-entity")
-
-            # Filter out results that aren't actually majors
-            for major in top_majors:
+            # Loop through information for each major on the website and add to
+            # data. Filter out results that aren't actually majors
+            for major in college_html.select("div.popular-entity"):
                 data = filter_majors(major, data, state, college_name)
 
             # Move to next college
@@ -176,9 +179,10 @@ def run_scraping():
             if index_on_page == 25:
                 current_page_number += 1
                 html = get_html_for_url("https://www.niche.com/"
-                    + f"colleges/search/all-colleges/s/{state}/?page=" +
-                    f"{current_page_number}", agent)
-                colleges = html.find_all(attrs={'class':"search-result"})
+                                        + "colleges/search/all-c"+
+                                        f"olleges/s/{state}/?page=" +
+                                        f"{current_page_number}", agent)
+                colleges = html.find_all(attrs={"class": "search-result"})
 
                 # Reset page index on next page
                 index_on_page = 0
@@ -186,6 +190,5 @@ def run_scraping():
             total_colleges_yet += 1
 
             # Create csv for each state's data
-            df = pd.DataFrame(data, columns=["State", "College", "Major", \
-                "Students"])
-            df.to_csv(f"{state}Data.csv", index=False)
+            pd.DataFrame(data, columns=["State", "College",
+            "Major", "Students"]).to_csv(f"{state}Data.csv", index=False)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import data_cleaning as dc
 import data_visualization as dv
 
@@ -8,31 +9,40 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+=======
+>>>>>>> 1ff905b12ff0caf15ca25d0cf4b6aef09bccd5d8
 """
 This file runs all cleaning and visualization processes for the data gathered
 through web scraping. In order to run this on the full raw_data folder, the
 file can be run as it is. Else, navigate to the folder containing the data
-to be cleaned and visualized. 
+to be cleaned and visualized.
 """
+
+import os
+import pandas as pd
+
+import data_cleaning as dc
+#import data_visualization as dv
 
 # Remove previous attempts
 os.chdir("raw_data")
-os.remove('combined_data.csv')
+os.remove("combined_data.csv")
 
 # Combine data files for all states in folder and read to Pandas DataFrame
 dc.files_to_df()
 df = pd.read_csv("combined_data.csv")
- 
+
 # Remove previous attempts
-os.chdir('..')
-os.chdir('cleaned_data')
-os.remove('broader_major_combined_data.csv')
-os.remove('broader_major_summed_data.csv')
-os.remove('broader_major_whole_country.csv')
+os.chdir("..")
+os.chdir("cleaned_data")
+os.remove("broader_major_combined_data.csv")
+os.remove("broader_major_summed_data.csv")
+os.remove("broader_major_whole_country.csv")
 
 # Create cleaned csv files
 dc.create_csvs(df)
 
+<<<<<<< HEAD
 
 # Read CSV data into Pandas Dataframes
 os.chdir('cleaned_data')
@@ -101,3 +111,6 @@ dv.plot_major_ratios_in_stacked_bar_graph()
 dv.plot_major_distribution_in_usa_pie_chart()
 dv.generate_business_density_map(BROADER_MAJOR_SUMMED_DATA_DF, RM_STATES_LIST, STATES)
 dv.generate_engineering_density_map(BROADER_MAJOR_SUMMED_DATA_DF, RM_STATES_LIST, STATES)
+=======
+#
+>>>>>>> 1ff905b12ff0caf15ca25d0cf4b6aef09bccd5d8
