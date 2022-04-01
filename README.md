@@ -38,9 +38,9 @@ In order to run the full list of states and obtain all the data, comment line 13
 ### **Cleaning Data:**
 All functions needed to clean the data files are included in the file *data_cleaning.py*. 
 
-Option 1. To clean the data just collected, navigate back to the *web_scraping* folder by running `cd ..` twice. Here, open *data_cleaning.py* and uncomment line 475. This will navigate to the *testing* directory. Then, comment line 477, which remove previously created files. Uncomment line 485 to create a folder called *cleaned_data* in the *testing* directory and comment lines 487 - 489, which also remove previous files. Now, running *data_cleaning.py* in the terminal will create a folder called *cleaned_data* within the *testing* directory that contains all the cleaned files.
+Option 1. To clean the data just collected, navigate back to the *web_scraping* folder by running `cd ..` twice. Here, open *data_cleaning.py* and uncomment line 475. This will navigate to the *testing* directory. Then, comment line 477, which remove previously created files. Uncomment line 485 to create a folder called *cleaned_data* in the *testing* directory and comment lines 487 - 489, which also remove previous files. Uncomment lines 473 to 493. Now, running *data_cleaning.py* in the terminal will create a folder called *cleaned_data* within the *testing* directory that contains all the cleaned files.
 
-Option 2. To clean the complete set of data, navigate back to the web_scraping folder by running `cd ..` twice. Here, run *data_cleaning.py*. This will delete the cleaned csvs in *cleaned_data* that currently exist and replace them with the recleaned versions of the files in *raw_data*. 
+Option 2. To clean the complete set of data, navigate back to the web_scraping folder by running `cd ..` twice. Here, run *data_cleaning.py*. This will delete the cleaned csvs in *cleaned_data* that currently exist and replace them with the recleaned versions of the files in *raw_data*. Uncomment lines 473 to 493. 
 
 ### **Visualizing Data:**
 All functions needed to visualize the data files are included in the file *data_visualization.py*.

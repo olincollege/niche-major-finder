@@ -470,7 +470,7 @@ def create_csvs(dataframe):
     country_summed_df.columns = ["Major", "Students"]
     country_summed_df.to_csv("broader_major_whole_country.csv", index=False,
                              encoding="utf-8-sig")
-
+"""
 # Remove previous attempts
 # os.chdir("testing")
 os.chdir("raw_data")
@@ -484,9 +484,10 @@ df = pd.read_csv("combined_data.csv")
 os.chdir("..")
 # os.mkdir("cleaned_data")
 os.chdir("cleaned_data")
-os.remove("broader_major_combined_data.csv")
-os.remove("broader_major_summed_data.csv")
-os.remove("broader_major_whole_country.csv")
+#os.remove("broader_major_combined_data.csv")
+#os.remove("broader_major_summed_data.csv")
+#os.remove("broader_major_whole_country.csv")
 
 # Create cleaned csv files
 create_csvs(df)
+"""
