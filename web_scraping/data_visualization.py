@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 # Read CSV data into Pandas Dataframes
 # os.chdir("testing")
-os.chdir('cleaned_data')
+os.chdir('web_scraping/cleaned_data')
 BROADER_MAJOR_SUMMED_DATA_DF = pd.read_csv("broader_major_summed_data.csv",
                                            header=0)
 BROADER_MAJOR_WHOLE_COUNTRY_DF = pd.read_csv(
